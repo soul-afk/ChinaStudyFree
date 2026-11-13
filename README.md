@@ -4,6 +4,12 @@
 
 把开源公益项目 [ChinaStudyFree](https://github.com/caiyanqi/ChinaStudyFree)（免费、公益的小学 AI 学习平台）改造为 **四端统一** 的版本，并扩展支持 **初中 / 高中 / 大学** 学段。
 
+> **当前形态（2026-11-13 精简）**：仓库已收敛为「小学数学 · 简约网页版」。
+> - 唯一产品端：`apps/primary-math`（人教版数学 1–6 年级，12 册 / 482 节课 / 4,028 道题，纯静态网页），启动 `cd apps/primary-math && node serve.mjs`
+> - 已移除：桌面端（Tauri）、安卓/iOS（Capacitor）、`apps/lite`、`apps/server`（在线 AI 后端）、Docker 与相应打包脚本
+> - 保留 `apps/web` 作为教材数据源（`apps/primary-math/build-data.mjs` 从这里抽取数据）
+> - 下文为改造初期的多端方案记录，其中的端与脚本已不存在，仅作历史参考。
+
 - 单一 Web 源码（Next.js 静态导出）作为所有端的基础
 - 桌面端 = **Tauri** 封装（内嵌 Node AI 服务）
 - 安卓 / iOS = **Capacitor** 封装（同一套 Web）

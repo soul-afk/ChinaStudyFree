@@ -1,0 +1,12 @@
+{
+  "name": "china-study-primary-math",
+  "version": "0.1.0",
+  "private": true,
+  "description": "小学数学（人教版一至六年级）· 简约网页版",
+  "type": "module",
+  "scripts": {
+    "data": "node build-data.mjs",
+    "dev": "node build-data.mjs && node serve.mjs",
+    "start": "node serve.mjs"
+  }
+}

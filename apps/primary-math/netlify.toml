@@ -1,0 +1,9 @@
+# Netlify 部署配置（站点根目录：apps/primary-math）
+# 连接 Git 仓库时：Base directory = apps/primary-math，Build command 可留空
+[build]
+  publish = "public"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "no-cache"

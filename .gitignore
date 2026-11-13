@@ -55,3 +55,7 @@ apps/native-android/keystore/
 # 系统
 .DS_Store
 Thumbs.db
+
+# 小学数学 网页版构建产物
+apps/primary-math/dist/
+apps/primary-math/*.zip
