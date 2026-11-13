@@ -134,6 +134,11 @@ function slimKnowledge(k) {
 }
 
 function main() {
+  if (!fs.existsSync(path.join(SRC_DATA, "index.json"))) {
+    console.warn("⚠️  未找到 apps/web/public/data，跳过数据重建，沿用 public/data 现有内容。");
+    return;
+  }
+
   const index = JSON.parse(fs.readFileSync(path.join(SRC_DATA, "index.json"), "utf8"));
   const metaById = new Map(index.books.map(b => [b.id, b]));
 

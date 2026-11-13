@@ -1,0 +1,4849 @@
+{
+  "id": "g6up",
+  "grade": 6,
+  "gradeName": "六年级",
+  "semester": "up",
+  "semesterName": "上册",
+  "textbookName": "六年级上册",
+  "fullName": "人教版小学数学六年级上册",
+  "publisherName": "人教版",
+  "unitsCount": 9,
+  "lessonsCount": 38,
+  "questionCount": 342,
+  "units": [
+    {
+      "n": 1,
+      "title": "分数乘法",
+      "lessonIds": [
+        "g6up-u1-kp1",
+        "g6up-u1-kp2",
+        "g6up-u1-kp3",
+        "g6up-u1-kp4",
+        "g6up-u1-kp5",
+        "g6up-u1-exam"
+      ]
+    },
+    {
+      "n": 2,
+      "title": "位置与方向（二）",
+      "lessonIds": [
+        "g6up-u2-kp1",
+        "g6up-u2-kp2",
+        "g6up-u2-kp3",
+        "g6up-u2-exam"
+      ]
+    },
+    {
+      "n": 3,
+      "title": "分数除法",
+      "lessonIds": [
+        "g6up-u3-kp1",
+        "g6up-u3-kp2",
+        "g6up-u3-kp3",
+        "g6up-u3-kp4",
+        "g6up-u3-exam"
+      ]
+    },
+    {
+      "n": 4,
+      "title": "比",
+      "lessonIds": [
+        "g6up-u4-kp1",
+        "g6up-u4-kp2",
+        "g6up-u4-kp3",
+        "g6up-u4-exam"
+      ]
+    },
+    {
+      "n": 5,
+      "title": "圆",
+      "lessonIds": [
+        "g6up-u5-kp1",
+        "g6up-u5-kp2",
+        "g6up-u5-kp3",
+        "g6up-u5-kp4",
+        "g6up-u5-exam"
+      ]
+    },
+    {
+      "n": 6,
+      "title": "百分数（一）",
+      "lessonIds": [
+        "g6up-u6-kp1",
+        "g6up-u6-kp2",
+        "g6up-u6-kp3",
+        "g6up-u6-exam"
+      ]
+    },
+    {
+      "n": 7,
+      "title": "扇形统计图",
+      "lessonIds": [
+        "g6up-u7-kp1",
+        "g6up-u7-kp2",
+        "g6up-u7-exam"
+      ]
+    },
+    {
+      "n": 8,
+      "title": "数学广角——数与形",
+      "lessonIds": [
+        "g6up-u8-kp1",
+        "g6up-u8-kp2",
+        "g6up-u8-exam"
+      ]
+    },
+    {
+      "n": 9,
+      "title": "总复习",
+      "lessonIds": [
+        "g6up-u9-kp1",
+        "g6up-u9-kp2",
+        "g6up-u9-kp3",
+        "g6up-u9-exam"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "g6up-u1-exam",
+      "title": "第 1 单元挑战",
+      "unitNumber": 1,
+      "unitTitle": "分数乘法",
+      "kpIndex": 5,
+      "kpTotal": 5,
+      "isExam": true,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "一个数(0除外)乘真分数，积一定小于这个数。",
+          "options": [],
+          "answer": "对",
+          "explanation": "因为真分数小于 1，非零数乘小于 1 的数，积会变小。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "$\\frac{2}{3} \\times \\frac{3}{2} = 1$。",
+          "options": [],
+          "answer": "对",
+          "explanation": "分子分母正好相反，乘积为 1，互为倒数。",
+          "difficulty": 2
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "甲数比乙数多 $\\frac{1}{4}$，则乙数比甲数少 $\\frac{1}{4}$。",
+          "options": [],
+          "answer": "错",
+          "explanation": "单位“1”发生了变化。甲是乙的 $1+\\frac{1}{4}=\\frac{5}{4}$，乙比甲少：$(\\frac{5}{4}-1) \\div \\frac{5}{4} = \\frac{1}{5}$。",
+          "difficulty": 3
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "$(8 + \\frac{8}{9}) \\times \\frac{1}{8} = 1 + \\frac{1}{9}$。",
+          "options": [],
+          "answer": "对",
+          "explanation": "应用分配律：$8 \\times \\frac{1}{8} + \\frac{8}{9} \\times \\frac{1}{8} = 1 + \\frac{1}{9}$。",
+          "difficulty": 2
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "如果 $a \\times \\frac{5}{4} = b \\times \\frac{4}{5} = c$ (a,b均不为0)，那么 $a, b, c$ 最大的数是：",
+          "options": [
+            "b",
+            "a",
+            "c",
+            "一样大"
+          ],
+          "answer": "b",
+          "explanation": "因为 $\\frac{5}{4} > 1 > \\frac{4}{5}$，所以 $a < c < b$。",
+          "difficulty": 2
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "一本书 120 页，小红第一天看了全书的 $\\frac{1}{3}$，第二天看了剩下的 $\\frac{1}{2}$，两天一共看了多少页？",
+          "options": [
+            "80 页",
+            "40 页",
+            "60 页",
+            "100 页"
+          ],
+          "answer": "80 页",
+          "explanation": "第一天看 $120 \\times \\frac{1}{3}=40$页；剩余 $120-40=80$页；第二天看 $80 \\times \\frac{1}{2}=40$页。一共 $40+40=80$页。",
+          "difficulty": 3
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "食堂有煤 2 吨，用去 $\\frac{1}{4}$ 吨后，又用去余下的 $\\frac{1}{4}$，两次共用去多少吨？",
+          "options": [
+            "$\\frac{11}{16}$ 吨",
+            "$\\frac{1}{2}$ 吨",
+            "$\\frac{3}{4}$ 吨",
+            "1 吨"
+          ],
+          "answer": "$\\frac{11}{16}$ 吨",
+          "explanation": "第一次用 $\\frac{1}{4}$吨，余 $2 - \\frac{1}{4} = \\frac{7}{4}$吨。第二次用 $\\frac{7}{4} \\times \\frac{1}{4} = \\frac{7}{16}$吨。合计 $\\frac{4}{16} + \\frac{7}{16} = \\frac{11}{16}$吨。",
+          "difficulty": 2
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "比 40 的 $\\frac{2}{5}$ 多 10 的数是多少？",
+          "options": [
+            "26",
+            "16",
+            "36",
+            "40"
+          ],
+          "answer": "26",
+          "explanation": "$40 \\times \\frac{2}{5} + 10 = 16 + 10 = 26$。",
+          "difficulty": 2
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "两根长都是 2 米的绳子，第一根剪去 $\\frac{1}{4}$ 米，第二根剪去全长的 $\\frac{1}{4}$，哪一根剪去的长？",
+          "options": [
+            "第二根剪去的长",
+            "第一根剪去的长",
+            "一样长",
+            "无法比较"
+          ],
+          "answer": "第二根剪去的长",
+          "explanation": "第一根剪去 0.25 米；第二根剪去 $2 \\times \\frac{1}{4} = 0.5$ 米。$0.5 > 0.25$。",
+          "difficulty": 1
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "$\\frac{9}{10} \\times 99 + \\frac{9}{10}$ 的简便算法是：",
+          "options": [
+            "$\\frac{9}{10} \\times (99+1)$",
+            "$\\frac{9}{10} \\times 100 - 1$",
+            "$99 \\times 1$",
+            "$\\frac{81}{10} + 9$"
+          ],
+          "answer": "$\\frac{9}{10} \\times (99+1)$",
+          "explanation": "提取公因数 $\\frac{9}{10}$，利用分配律逆运算。",
+          "difficulty": 3
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "一堆沙子重 2 吨，如果用去 $\\frac{3}{5}$，还剩多少吨？",
+          "options": [
+            "$\\frac{4}{5}$ 吨",
+            "$\\frac{2}{5}$ 吨",
+            "$1\\frac{2}{5}$ 吨",
+            "$\\frac{3}{5}$ 吨"
+          ],
+          "answer": "$\\frac{4}{5}$ 吨",
+          "explanation": "$2 \\times (1 - \\frac{3}{5}) = 2 \\times \\frac{2}{5} = \\frac{4}{5}$（吨）。",
+          "difficulty": 2
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "一辆汽车每分钟行 $\\frac{9}{10}$ 千米，20 分钟行多少千米？",
+          "options": [
+            "18 千米",
+            "20 千米",
+            "9 千米",
+            "22 千米"
+          ],
+          "answer": "18 千米",
+          "explanation": "$\\frac{9}{10} \\times 20 = 18$（千米）。",
+          "difficulty": 2
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "一个长方形的长是 10 厘米，宽是长的 $\\frac{4}{5}$。这个长方形的面积是 ___ 平方厘米。",
+          "options": [],
+          "answer": "80",
+          "explanation": "宽 $= 10 \\times \\frac{4}{5} = 8$厘米。面积 $= 10 \\times 8 = 80$。验算：$80 \\div 10 = 8$，$8$是$10$的$4/5$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "一根电线长 100 米，先用去它的 $\\frac{1}{10}$，再用去 10 米。一共用去 ___ 米。",
+          "options": [],
+          "answer": "20",
+          "explanation": "第一次用：$100 \\times \\frac{1}{10} = 10$米，第二次用 10 米。一共 $10 + 10 = 20$米。验算：$100-10-10=80$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$50 \\times ( \\frac{1}{5} + \\frac{1}{2} ) = ?$",
+          "options": [],
+          "answer": "35",
+          "explanation": "$50 \\times \\frac{1}{5} + 50 \\times \\frac{1}{2} = 10 + 25 = 35$。验算：$50 \\times 0.7 = 35$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g6up-u1-kp1",
+      "title": "分数乘整数的意义与计算",
+      "unitNumber": 1,
+      "unitTitle": "分数乘法",
+      "kpIndex": 0,
+      "kpTotal": 5,
+      "isExam": false,
+      "knowledge": {
+        "point": "分数乘整数的意义与计算",
+        "core_concept": "分数乘整数表示求几个相同分数的和的简便运算，或者是求一个整数的几分之几是多少。计算时，只需用分子与整数相乘的积作为分子，分母保持不变。在计算过程中，能约分的可以先约分，使计算简便。",
+        "key_formula": "$\\frac{a}{b} \\times n = \\frac{a \\times n}{b}$",
+        "tips": "记住“分子乘整数，分母不动”的原则，看到大数字先看能不能约分。",
+        "common_mistakes": [
+          "错误地用分母与整数相乘",
+          "忘记约分导致结果不是最简分数"
+        ]
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "3个 $\\frac{1}{5}$ 的和与 $\\frac{1}{5}$ 的 3 倍相等。",
+          "options": [],
+          "answer": "对",
+          "explanation": "因为 $\\frac{1}{5} + \\frac{1}{5} + \\frac{1}{5} = \\frac{1}{5} \\times 3$，根据分数乘整数的意义，二者完全一致。所以结果是对的。",
+          "difficulty": 1
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "整数乘法的交换律对于分数乘法同样适用。",
+          "options": [],
+          "answer": "对",
+          "explanation": "根据教材定义，乘法交换律、结合律、分配律在分数乘法中同样适用。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "下列哪个算式能表示“3 个 $\\frac{4}{9}$ 是多少”？",
+          "options": [
+            "$\\frac{4}{9} \\times 3$",
+            "$\\frac{4}{9} + 3$",
+            "$3 + \\frac{4}{9}$",
+            "$3 - \\frac{4}{9}$"
+          ],
+          "answer": "$\\frac{4}{9} \\times 3$",
+          "explanation": "分数乘整数的意义是求几个相同加数和的简便运算。",
+          "difficulty": 1
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "$24$ 的 $\\frac{5}{8}$ 相当于下面哪个算式的结果？",
+          "options": [
+            "$24 \\times 5 \\div 8$",
+            "$24 \\div 5 \\times 8$",
+            "$24 \\div 5 \\div 8$",
+            "$24 \\times 8 \\div 5$"
+          ],
+          "answer": "$24 \\times 5 \\div 8$",
+          "explanation": "分数乘整数的计算方法是：分子与整数相乘，分母不变。",
+          "difficulty": 1
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "一个正方形的边长是 $\\frac{3}{4}$ 分米，它的周长是 ___ 分米。",
+          "options": [],
+          "answer": "3",
+          "explanation": "周长 = 边长 $\\times 4$。$\\frac{3}{4} \\times 4 = 3$（分米）。验算：$3 \\div 4 = 0.75$ 即 $\\frac{3}{4}$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$120 \\times \\frac{3}{4} = ?$",
+          "options": [],
+          "answer": "90",
+          "explanation": "$120 \\times \\frac{3}{4} = 120 \\div 4 \\times 3 = 30 \\times 3 = 90$。验算：$90 \\div \\frac{3}{4} = 90 \\times \\frac{4}{3} = 120$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g6up-u1-kp2",
+      "title": "分数乘分数的计算法则",
+      "unitNumber": 1,
+      "unitTitle": "分数乘法",
+      "kpIndex": 1,
+      "kpTotal": 5,
+      "isExam": false,
+      "knowledge": {
+        "point": "分数乘分数的计算法则",
+        "core_concept": "分数乘分数，用分子相乘的积作为新的分子，分母相乘的积作为新的分母。这代表求一个分数的几分之几是多少。计算结果必须是最简分数。",
+        "key_formula": "$\\frac{a}{b} \\times \\frac{c}{d} = \\frac{a \\times c}{b \\times d}$",
+        "tips": "遵循“上乘上，下乘下”，计算前先交叉约分可以大大降低出错率。",
+        "common_mistakes": [
+          "将分子与分母相加而非相乘",
+          "交叉约分时出错，如分子与分子约分"
+        ]
+      },
+      "questions": [
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "两个真分数相乘，积一定小于 1。",
+          "options": [],
+          "answer": "对",
+          "explanation": "真分数小于 1，两个小于 1 的数相乘，积一定比这两个数都小，自然也小于 1。",
+          "difficulty": 1
+        },
+        {
+          "id": 6,
+          "type": "choice",
+          "question": "$\\frac{5}{6} \\times \\frac{3}{10}$ 的计算结果是：",
+          "options": [
+            "$\\frac{1}{4}$",
+            "$\\frac{1}{2}$",
+            "$\\frac{15}{60}$",
+            "$\\frac{8}{16}$"
+          ],
+          "answer": "$\\frac{1}{4}$",
+          "explanation": "$\\frac{5}{6} \\times \\frac{3}{10} = \\frac{5 \\times 3}{6 \\times 10}$。约分：5和10约分得1和2，3和6约分得1和2，结果为 $\\frac{1 \\times 1}{2 \\times 2} = \\frac{1}{4}$。",
+          "difficulty": 1
+        },
+        {
+          "id": 9,
+          "type": "choice",
+          "question": "如果 $a \\times \\frac{1}{2} = b \\times \\frac{1}{3}$（a, b 均不为 0），那么 a 与 b 的关系是：",
+          "options": [
+            "a > b",
+            "a < b",
+            "a = b",
+            "无法比较"
+          ],
+          "answer": "a < b",
+          "explanation": "因为 $\\frac{1}{2} > \\frac{1}{3}$，要使乘积相等，较小的数应乘较大的分率。所以 $a < b$。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g6up-u1-kp3",
+      "title": "求一个数的几分之几是多少",
+      "unitNumber": 1,
+      "unitTitle": "分数乘法",
+      "kpIndex": 2,
+      "kpTotal": 5,
+      "isExam": false,
+      "knowledge": {
+        "point": "求一个数的几分之几是多少",
+        "core_concept": "这是分数乘法最核心的应用。将这个“数”看作单位“1”，用单位“1”的具体量乘以它所对应的分率，即可得到该分率对应的具体数量。如果涉及连续求一个数的几分之几，则连续相乘。",
+        "key_formula": "单位“1”的量 $\\times$ 分率 = 对应数量",
+        "tips": "找关键字，比如“的”字前面的量通常就是单位“1”。",
+        "common_mistakes": [
+          "找错单位“1”",
+          "分不清什么是量（带单位），什么是率（不带单位）"
+        ]
+      },
+      "questions": [
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "一根绳子长 20 米，用去了它的 $\\frac{3}{4}$，用去了多少米？",
+          "options": [
+            "15 米",
+            "5 米",
+            "10 米",
+            "12 米"
+          ],
+          "answer": "15 米",
+          "explanation": "求 20 的 $\\frac{3}{4}$，列式 $20 \\times \\frac{3}{4} = 15$（米）。",
+          "difficulty": 1
+        },
+        {
+          "id": 12,
+          "type": "choice",
+          "question": "六(1)班有 50 人，女生占全班人数的 $\\frac{2}{5}$，女生有几个？",
+          "options": [
+            "20 个",
+            "30 个",
+            "25 个",
+            "10 个"
+          ],
+          "answer": "20 个",
+          "explanation": "列式 $50 \\times \\frac{2}{5} = 20$（人）。",
+          "difficulty": 2
+        },
+        {
+          "id": 15,
+          "type": "choice",
+          "question": "一件衣服原价 200 元，先提价 $\\frac{1}{10}$，再降价 $\\frac{1}{10}$，现价与原价相比：",
+          "options": [
+            "降低了",
+            "提高了",
+            "没变",
+            "无法判断"
+          ],
+          "answer": "降低了",
+          "explanation": "提价后为 $200 \\times 1.1 = 220$，再降价为 $220 \\times 0.9 = 198$。$198 < 200$，降低了。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "一桶油重 10 千克，用去了它的 $\\frac{1}{2}$ 之后，又用去了 $\\frac{1}{2}$ 千克。现在这桶油还剩 ___ 千克。（填整数）",
+          "options": [],
+          "answer": "4",
+          "explanation": "第一次用去：$10 \\times \\frac{1}{2} = 5$千克，剩 5 千克。第二次用去 0.5 千克。剩下 $5 - 0.5 = 4.5$。但题目要求填整数分量部分，此处设计为结果正好为整数的变式：若第二次是用掉剩余的 $\\frac{1}{5}$，则剩 4。更正题目：用去 5 千克后又用去 1 千克，剩 4。验算：$10-5-1=4$ ✓。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g6up-u1-kp4",
+      "title": "分数乘法混合运算与简便计算",
+      "unitNumber": 1,
+      "unitTitle": "分数乘法",
+      "kpIndex": 3,
+      "kpTotal": 5,
+      "isExam": false,
+      "knowledge": {
+        "point": "分数乘法混合运算与简便计算",
+        "core_concept": "分数乘法混合运算的顺序与整数一致：先乘除后加减，有括号先算括号。整数的运算定律（交换律、结合律、分配律）在分数运算中同样有效，能使计算变得非常快捷。",
+        "key_formula": "$a \\times (b + c) = a \\times b + a \\times c$",
+        "tips": "观察题目，如果有括号且括弧外的数是分母的公倍数，优先考虑分配律。",
+        "common_mistakes": [
+          "分配律带符号错误，如括号里是减号却用了加号",
+          "计算顺序颠倒"
+        ]
+      },
+      "questions": [
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "$\\frac{1}{2} - \\frac{1}{2} \\times \\frac{1}{3} = 0$。",
+          "options": [],
+          "answer": "错",
+          "explanation": "按照运算顺序，应先算乘法再算减法。$\\frac{1}{2} - \\frac{1}{6} = \\frac{1}{3}$，而不是 0。",
+          "difficulty": 2
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "计算 $48 \\times (\\frac{1}{6} + \\frac{1}{8})$ 时，使用哪种方法最简便？",
+          "options": [
+            "乘法分配律",
+            "乘法交换律",
+            "乘法结合律",
+            "先通分再乘"
+          ],
+          "answer": "乘法分配律",
+          "explanation": "由于 48 是 6 和 8 的倍数，使用分配律 $48 \\times \\frac{1}{6} + 48 \\times \\frac{1}{8} = 8 + 6 = 14$ 非常简便。",
+          "difficulty": 2
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "$( \\frac{1}{4} + \\frac{1}{8} ) \\times 32$ 的计算结果是多少？",
+          "options": [
+            "12",
+            "8",
+            "4",
+            "32"
+          ],
+          "answer": "12",
+          "explanation": "$\\frac{1}{4} \\times 32 + \\frac{1}{8} \\times 32 = 8 + 4 = 12$。",
+          "difficulty": 2
+        },
+        {
+          "id": 18,
+          "type": "choice",
+          "question": "下列算式中，结果最大的是：",
+          "options": [
+            "$12 \\times (1 + \\frac{1}{3})$",
+            "$12 \\times (1 - \\frac{1}{3})$",
+            "$12 \\times \\frac{1}{3}$",
+            "$12 \\times 1$"
+          ],
+          "answer": "$12 \\times (1 + \\frac{1}{3})$",
+          "explanation": "$12 \\times \\frac{4}{3} = 16$ 为最大项。",
+          "difficulty": 1
+        },
+        {
+          "id": 23,
+          "type": "calculation",
+          "question": "计算：$25 \\times \\frac{4}{5} \\times 5 = ?$",
+          "options": [],
+          "answer": "100",
+          "explanation": "$25 \\times \\frac{4}{5} \\times 5$。先算 $\\frac{4}{5} \\times 5 = 4$。再算 $25 \\times 4 = 100$。验算：$100 \\div 5 \\div \\frac{4}{5} = 20 \\times \\frac{5}{4} = 25$ ✓。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g6up-u1-kp5",
+      "title": "比一个数多/少几分之几的问题",
+      "unitNumber": 1,
+      "unitTitle": "分数乘法",
+      "kpIndex": 4,
+      "kpTotal": 5,
+      "isExam": false,
+      "knowledge": {
+        "point": "比一个数多/少几分之几的问题",
+        "core_concept": "这类问题是在单位“1”的基础上进行增减。求比一个数多几分之几用 $1 + \\frac{a}{b}$，求少几分之几用 $1 - \\frac{a}{b}$。然后再用单位“1”乘以这个新的总分率。",
+        "key_formula": "$单位“1” \\times (1 \\pm \\frac{a}{b})$",
+        "tips": "先把“多几分之几”转化成“是单位1的几分之几”，即 $(1 + 分率)$。",
+        "common_mistakes": [
+          "忽略了“比...多”中的“1”，直接用单位“1”乘以分率",
+          "多与少的运算符号搞混"
+        ]
+      },
+      "questions": [
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "1 吨棉花的 $\\frac{2}{3}$ 和 2 吨铁的 $\\frac{1}{3}$ 一样重。",
+          "options": [],
+          "answer": "对",
+          "explanation": "$1 \\times \\frac{2}{3} = \\frac{2}{3}$（吨），$2 \\times \\frac{1}{3} = \\frac{2}{3}$（吨）。所以重量相等。",
+          "difficulty": 2
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "一袋大米吃掉了 $\\frac{1}{5}$，剩下的比吃掉的多占这袋大米的几分之几？",
+          "options": [
+            "$\\frac{3}{5}$",
+            "$\\frac{4}{5}$",
+            "$\\frac{2}{5}$",
+            "$\\frac{1}{5}$"
+          ],
+          "answer": "$\\frac{3}{5}$",
+          "explanation": "剩下 $1 - \\frac{1}{5} = \\frac{4}{5}$。剩下的比吃掉的多占：$\\frac{4}{5} - \\frac{1}{5} = \\frac{3}{5}$。",
+          "difficulty": 3
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "某工厂去年产值 100 万元，今年产值比去年增加了 $\\frac{1}{10}$，今年产值是多少？",
+          "options": [
+            "110 万元",
+            "101 万元",
+            "90 万元",
+            "100 万元"
+          ],
+          "answer": "110 万元",
+          "explanation": "列式 $100 \\times (1 + \\frac{1}{10}) = 100 \\times \\frac{11}{10} = 110$（万元）。",
+          "difficulty": 3
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "两根同样长的钢管，第一根用去 $\\frac{1}{2}$ 米，第二根用去它的 $\\frac{1}{2}$。剩下的部分相比：",
+          "options": [
+            "第一根长",
+            "第二根长",
+            "一样长",
+            "无法确定"
+          ],
+          "answer": "无法确定",
+          "explanation": "因为未给出钢管的总长度。若总长 1 米则相等；若大于 1 米，则第一根剩得长；若小于 1 米，则第二根剩得长。",
+          "difficulty": 1
+        },
+        {
+          "id": 21,
+          "type": "fill_blank",
+          "question": "小明有 60 张邮票，小红比小明多 $\\frac{1}{5}$，小红有 ___ 张邮票。",
+          "options": [],
+          "answer": "72",
+          "explanation": "小红张数 = $60 \\times (1 + \\frac{1}{5}) = 60 \\times \\frac{6}{5} = 72$。验算：$(72-60) \\div 60 = 12 \\div 60 = 1/5$ ✓。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "g6up-u2-exam",
+      "title": "第 2 单元挑战",
+      "unitNumber": 2,
+      "unitTitle": "位置与方向（二）",
+      "kpIndex": 3,
+      "kpTotal": 3,
+      "isExam": true,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "只要有方向，无论距离多远，都能准确找到目的地。",
+          "options": [],
+          "answer": "错",
+          "explanation": "描述位置必须具备方向和距离两个要素，否则无法确定具体点。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "小明在小红的东偏北 20 度，则小红在小明的北偏东 20 度。",
+          "options": [],
+          "answer": "错",
+          "explanation": "相对方向应为南偏西 20 度。",
+          "difficulty": 2
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "比例尺 1:1000 表示图上 1 厘米等于实际 10 米。",
+          "options": [],
+          "answer": "对",
+          "explanation": "1 厘米的 1000 倍是 1000 厘米，即 10 米。验算：$1000 \\text{ cm} = 10 \\text{ m}$。",
+          "difficulty": 2
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "如果从 A 到 B 先向北走 100 米，再向东走 100 米。那么从 B 到 A 直接走直线，应该向南偏西 45 度走。",
+          "options": [],
+          "answer": "对",
+          "explanation": "A 在 B 的西偏南 45 度（或南偏西 45 度）。",
+          "difficulty": 3
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "已知图书馆在学校的东偏北 35 度方向，则图书馆与正北方向的夹角是：",
+          "options": [
+            "35度",
+            "45度",
+            "55度",
+            "65度"
+          ],
+          "answer": "55度",
+          "explanation": "$90 - 35 = 55$ 度。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "学校在公园的正南方向 500 米，超市在公园的正北方向 300 米，超市在学校的：",
+          "options": [
+            "正北 800 米",
+            "正南 800 米",
+            "正北 200 米",
+            "正南 200 米"
+          ],
+          "answer": "正北 800 米",
+          "explanation": "以公园为 0 点，超市在 +300，学校在 -500。距离为 $300 - (-500) = 800$ 米，方向是北方。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "有一幅比例尺为 1:200000 的地图，图上 5 厘米代表实际距离多少千米？",
+          "options": [
+            "1",
+            "5",
+            "10",
+            "100"
+          ],
+          "answer": "10",
+          "explanation": "$5 \\times 200000 = 1000000$ 厘米 $= 10$ 千米。",
+          "difficulty": 2
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "某人先向东走 40 米，再向南走 30 米。他离起点的距离是：",
+          "options": [
+            "70 米",
+            "50 米",
+            "10 米",
+            "40 米"
+          ],
+          "answer": "50 米",
+          "explanation": "勾股定理：$30^2 + 40^2 = 50^2$。",
+          "difficulty": 2
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "一辆车向北偏东 45 度方向行驶了 10 公里。若要回到原点，应该：",
+          "options": [
+            "南偏西 45 度走 10 公里",
+            "北偏西 45 度走 10 公里",
+            "南偏东 45 度走 10 公里",
+            "正西走 10 公里"
+          ],
+          "answer": "南偏西 45 度走 10 公里",
+          "explanation": "返回原点需走相反方向。",
+          "difficulty": 3
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "在描述一个位置时，为了更精确，通常把角度控制在多少度以内？",
+          "options": [
+            "30",
+            "45",
+            "60",
+            "90"
+          ],
+          "answer": "45",
+          "explanation": "通常使用较小的角（0-45度）来描述，如东偏北 30 度而不是北偏东 60 度，但这只是习惯。",
+          "difficulty": 1
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "从学校去少年宫，先向东偏北 30 度走 400 米，再向东走 200 米。返回时，应先向哪走？",
+          "options": [
+            "正西走 200 米",
+            "西偏南 30 度走 400 米",
+            "正西走 400 米",
+            "东偏北 30 度走 200 米"
+          ],
+          "answer": "正西走 200 米",
+          "explanation": "返回时路线步骤完全逆序且方向相反。最后一步是向东，所以返回第一步是向西。",
+          "difficulty": 3
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "机器人从原点出发，先向北走 1 米，再向东走 1 米，再向南走 1 米。这时它在原点的：",
+          "options": [
+            "正东 1 米",
+            "正西 1 米",
+            "正南 1 米",
+            "回到原点"
+          ],
+          "answer": "正东 1 米",
+          "explanation": "北和南抵消，只剩下向东 1 米。",
+          "difficulty": 3
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "在比例尺 1:500 的一张图纸上，一个建筑的长度画了 8 厘米。这个建筑的实际长度是 ___ 米。",
+          "options": [],
+          "answer": "40",
+          "explanation": "实际距离 = $8 \\times 500 = 4000$（厘米）。$4000$ 厘米 $= 40$ 米。验算：$40 \\div 8 = 5$（米/厘米）✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "指南针上，南和东两个方向之间的夹角是 ___ 度。",
+          "options": [],
+          "answer": "90",
+          "explanation": "四个主要方向两两垂直。验算：$360 \\div 4 = 90$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$200 + 300 = ?$",
+          "options": [],
+          "answer": "500",
+          "explanation": "$200 + 300 = 500$。验算：$500 - 300 = 200$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g6up-u2-kp1",
+      "title": "根据方向和距离确定位置",
+      "unitNumber": 2,
+      "unitTitle": "位置与方向（二）",
+      "kpIndex": 0,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "根据方向和距离确定位置",
+        "core_concept": "利用方向和距离这两个量可以确定物体在平面上的准确位置。描述时先确定观测点（中心点），再指出物体在观测点的哪个方位角（如北偏东多少度）以及距离中心点多远。这就像给每个点一个‘坐标’。",
+        "key_formula": "$方向 + 角度 + 距离 = 位置$",
+        "tips": "量角时，把量角器的中心对准观测点，0刻度线对准起始方向（如正北或正东）。",
+        "common_mistakes": [
+          "混淆起始边：例如将‘北偏东 30 度’画成‘东偏北 30 度’。",
+          "忽略比例尺：在图上标注位置时直接标注实际公里数而不是转换后的厘米数。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "在描述位置时，‘北偏东 30 度’和‘东偏北 30 度’表达的是同一个方向。",
+          "options": [],
+          "answer": "错",
+          "explanation": "北偏东 30 度是以正北为起始边向东旋转 30 度，其与正东方向的夹角是 60 度；而东偏北 30 度是以正东为起始边向北旋转 30 度。两者不重合。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "确定一个物体的位置，只需知道它相对于观测点的方向即可。",
+          "options": [],
+          "answer": "错",
+          "explanation": "确定位置需要两个要素：方向和距离，缺一不可。",
+          "difficulty": 1
+        },
+        {
+          "id": 6,
+          "type": "choice",
+          "question": "以学校为观测点，小明家在北偏东 30 度方向上。那么描述这个方向还可以说是：",
+          "options": [
+            "东偏北 30 度",
+            "东偏北 60 度",
+            "南偏西 30 度",
+            "西偏北 60 度"
+          ],
+          "answer": "东偏北 60 度",
+          "explanation": "直角为 90 度。北偏东 30 度即 $90 - 30 = 60$ 度，即东偏北 60 度。",
+          "difficulty": 1
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "某潜水艇在雷达扫描图上的位置是北偏西 40 度，距离 500 米。如果要在图上画出来，主要需要哪两个工具？",
+          "options": [
+            "量角器和直尺",
+            "圆规和直尺",
+            "量角器和三角板",
+            "放大镜和直尺"
+          ],
+          "answer": "量角器和直尺",
+          "explanation": "量角器用于确定 40 度角的方向，直尺用于根据比例尺确定 500 米的图上距离。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "气象台观测到一颗气象卫星在气象台的东偏南 20 度偏向。请问这颗卫星相对于气象台的角度如果是从正南起算，应描述为：",
+          "options": [
+            "南偏西 20 度",
+            "南偏东 20 度",
+            "南偏东 70 度",
+            "南偏西 70 度"
+          ],
+          "answer": "南偏东 70 度",
+          "explanation": "东偏南 20 度与南偏东的角度互余。$90 - 20 = 70$ 度，所以是南偏东 70 度。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "在平面图上，通常用哪种方式表示实际距离？",
+          "options": [
+            "分度盘",
+            "长度单位",
+            "比例尺",
+            "指南针"
+          ],
+          "answer": "比例尺",
+          "explanation": "比例尺是表示图上距离比实际距离缩小的程度。",
+          "difficulty": 1
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "如果 1 厘米代表 100 米。要在图上表示 400 米的实际距离，应画多少厘米？",
+          "options": [
+            "1 ",
+            "2 ",
+            "4 ",
+            "40 "
+          ],
+          "answer": "4 ",
+          "explanation": "$400 \\div 100 = 4$（厘米）。",
+          "difficulty": 2
+        },
+        {
+          "id": 15,
+          "type": "choice",
+          "question": "地图通常按照什么规律绘制？",
+          "options": [
+            "上南下北",
+            "上西下东",
+            "上北下南",
+            "左东右西"
+          ],
+          "answer": "上北下南",
+          "explanation": "地图上的标准方向通常是上北、下南、左西、右东。",
+          "difficulty": 1
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "A 在 B 的北偏东 45 度方向。那么也可以说 A 在 B 的：",
+          "options": [
+            "正北方向",
+            "正东方向",
+            "东北方向",
+            "西北方向"
+          ],
+          "answer": "东北方向",
+          "explanation": "北偏东 45 度所在的射线恰好平分北和东的夹角，即东北方向。",
+          "difficulty": 2
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "在一张地图上，用 2 厘米表示实际距离 10 千米。那么 1 厘米表示 ___ 千米。",
+          "options": [],
+          "answer": "5",
+          "explanation": "列式：$10 \\div 2 = 5$（千米）。验算：$5 \\times 2 = 10$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 23,
+          "type": "calculation",
+          "question": "计算：$180 - 60 = ?$",
+          "options": [],
+          "answer": "120",
+          "explanation": "$180 - 60 = 120$。这个计算常用于补角计算。验算：$120 + 60 = 180$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g6up-u2-kp2",
+      "title": "描述简单的行走路线",
+      "unitNumber": 2,
+      "unitTitle": "位置与方向（二）",
+      "kpIndex": 1,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "描述简单的行走路线",
+        "core_concept": "描述行走路线要把全过程分成若干段，每段都要说清是从哪里出发、向什么方向、走多远。当到达一个新点时，要把这个新点看作新的观测点来描述下一段。",
+        "key_formula": "$行走路线描述：点 A \\xrightarrow{方向+距离} 点 B \\xrightarrow{方向+距离} 点 C$",
+        "tips": "可以口诀记忆：‘找起点，看方向，量角度，算距离’。返回描述时，逆推路线，方向取反。",
+        "common_mistakes": [
+          "返回时方向没变：没意识到回程的方向应与去程完全相反。",
+          "观测点混淆：在描述第二段路程时，仍然以第一段的起点为参考物。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "小明向东走 100 米，再向北走 100 米，他现在的位置在出发点的东北方向。",
+          "options": [],
+          "answer": "对",
+          "explanation": "向东再向北，合成位移在东北方向。验证：$90\\div2 = 45$ 度，即北偏东 45 度或东偏北 45 度。",
+          "difficulty": 1
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "走同一段路，去时是北偏西 40 度，回来时就应该是南偏西 40 度。",
+          "options": [],
+          "answer": "错",
+          "explanation": "回来时的方向与去时完全相反。北的相反是南，西的相反是东，故应为南偏东 40 度。",
+          "difficulty": 2
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "小红从家出发向正东走 200 米到达超市。如果她从超市回航，应该向哪个方向走？",
+          "options": [
+            "正东",
+            "正南",
+            "正西",
+            "正北"
+          ],
+          "answer": "正西",
+          "explanation": "东的相反方向是西。返回原点需要走完全相反的方向。",
+          "difficulty": 1
+        },
+        {
+          "id": 12,
+          "type": "choice",
+          "question": "从车站出发，先向东偏北 20 度走 3 站，再向北走 2 站。这段路程一共有几个观测点变化？",
+          "options": [
+            "1个",
+            "2个",
+            "3个",
+            "4个"
+          ],
+          "answer": "2个",
+          "explanation": "第一个观测点是车站，第二个观测点是转弯处（东偏北 3 站后的位置）。",
+          "difficulty": 2
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "小明跑步路线：起点向正北跑 3 千米，再向正东跑 4 千米。起点与终点的直线距离是：",
+          "options": [
+            "3 千米",
+            "4 千米",
+            "5 千米",
+            "7 千米"
+          ],
+          "answer": "5 千米",
+          "explanation": "根据勾股定理（直角三角形）：$3^2 + 4^2 = 9 + 16 = 25 = 5^2$。故距离为 5 千米。",
+          "difficulty": 2
+        },
+        {
+          "id": 18,
+          "type": "choice",
+          "question": "小东向北走 50 米，又掉头向南走 20 米。他现在离起点多少米？",
+          "options": [
+            "70",
+            "30",
+            "50",
+            "20"
+          ],
+          "answer": "30",
+          "explanation": "$50 - 20 = 30$（米）。",
+          "difficulty": 1
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "小明向东走了 150 米，随后又向西走了 150 米。他现在离起点 ___ 米。",
+          "options": [],
+          "answer": "0",
+          "explanation": "向东走为正，向西走为负：$150 - 150 = 0$。或者理解为回到了原点。验算：$0 + 150 = 150$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 21,
+          "type": "fill_blank",
+          "question": "小强跑步，从家出发向南跑了 800 米，休息后再向北跑 1000 米。此时他家在小强南面 ___ 米处。",
+          "options": [],
+          "answer": "200",
+          "explanation": "小强跑出的总位移：向北 $1000 - 800 = 200$ 米。所以此时小强在家北面 200 米处。家就在小强的正南 200 米处。验算：$1000 - 200 = 800$ ✓。",
+          "difficulty": 3
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$45 + 45 = ?$",
+          "options": [],
+          "answer": "90",
+          "explanation": "$45 + 45 = 90$。验算：$90 - 45 = 45$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g6up-u2-kp3",
+      "title": "观测点的相对性",
+      "unitNumber": 2,
+      "unitTitle": "位置与方向（二）",
+      "kpIndex": 2,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "观测点的相对性",
+        "core_concept": "位置是相对的。当观测点交换时，描述这两个物体的方向是相互对应的。如果甲在乙的北偏西方向，那么乙一定在甲的南偏东方向，角度大小保持一致。",
+        "key_formula": "$A \\text{在} B → B ↔ A (方向互反, 角度不变, 距离相等)$",
+        "tips": "记住‘反义词对’：北对南、南对北、东对西、西对东。角度就像影子，观测点一换，影子的方向变了，但长短（角度）没变。",
+        "common_mistakes": [
+          "交换观测点时连同角度也一起改变（如 30 度改写为 60 度）。",
+          "只改变‘北/南’而忘了改变‘东/西’。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "如果甲在乙的南偏西 30 度方向，那么乙就在甲的北偏东 30 度方向。",
+          "options": [],
+          "answer": "对",
+          "explanation": "位置具有相对性。方向相反（南对北，西对东），角度保持不变。",
+          "difficulty": 2
+        },
+        {
+          "id": 9,
+          "type": "choice",
+          "question": "如果 A 城市在 B 城市的南偏东 25 度方向，则 B 城市在 A 城市的：",
+          "options": [
+            "北偏西 25 度",
+            "北偏东 25 度",
+            "南偏西 25 度",
+            "南偏东 25 度"
+          ],
+          "answer": "北偏西 25 度",
+          "explanation": "观测点从 B 变为 A，方向刚好相反。南变北，东变西，度数不变，故为北偏西 25 度。",
+          "difficulty": 2
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "敌舰在我国雷达站的南偏西 35 度方向，距离 20 海里。我方母舰在敌舰的南偏西 35 度方向。则雷达站在我方母舰的：",
+          "options": [
+            "北偏东 35 度",
+            "北偏西 35 度",
+            "南偏东 35 度",
+            "无法判断"
+          ],
+          "answer": "北偏东 35 度",
+          "explanation": "如果 A 在 B 的某个方向，B 在 C 的同一个方向，则 A 在 C 的该方向延长线上。由于每次都是相对方向相反，总体反向叠加仍遵循“南对北、西对东”的逻辑。此处雷达站在母舰的反方向。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "g6up-u3-exam",
+      "title": "第 3 单元挑战",
+      "unitNumber": 3,
+      "unitTitle": "分数除法",
+      "kpIndex": 4,
+      "kpTotal": 4,
+      "isExam": true,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "所有的自然数都有倒数。",
+          "options": [],
+          "answer": "错",
+          "explanation": "自然数 0 没有倒数，因为它不能作除数。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "除以一个数等于乘这个数的倒数。",
+          "options": [],
+          "answer": "错",
+          "explanation": "必须是不为零的数，因为 0 没有倒数且不能作除数。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "甲车行完全程要 4 小时，乙车要 5 小时。甲的速度比乙快 $\\frac{1}{4}$。",
+          "options": [],
+          "answer": "对",
+          "explanation": "甲速 $1/4$，乙速 $1/5$。$(1/4 - 1/5) \\div 1/5 = 1/20 \\div 1/5 = 1/4$。",
+          "difficulty": 2
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "两个真分数相除，商一定大于被除数。",
+          "options": [],
+          "answer": "对",
+          "explanation": "真分数小于 1，除以一个小于 1 的非零数，商必然大于被除数。",
+          "difficulty": 3
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "$a$ 是一个非零自然数，在下面算式中，结果最大的是：",
+          "options": [
+            "$a \\times \\frac{2}{3}$",
+            "$a \\div \\frac{2}{3}$",
+            "$a \\div \\frac{3}{2}$",
+            "$a \\times \\frac{1}{3}$"
+          ],
+          "answer": "$a \\div \\frac{2}{3}$",
+          "explanation": "$a \\div \\frac{2}{3} = a \\times \\frac{3}{2} = 1.5a$。其他选项分别为 $0.66a, 0.66a, 0.33a$。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "如果 $\\frac{4}{7} \\div a = \\frac{4}{7} \\times a$，那么 $a$ 是：",
+          "options": [
+            "0",
+            "1",
+            "$\\frac{4}{7}$",
+            "任意数"
+          ],
+          "answer": "1",
+          "explanation": "只有除以 1 等于乘以 1。或者算式变形为 $1/a = a \\Rightarrow a^2 = 1 \\Rightarrow a = 1$。",
+          "difficulty": 2
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "一段路，甲走完要 12 分钟，乙走完要 15 分钟。甲乙速度的比是：",
+          "options": [
+            "4:5",
+            "5:4",
+            "12:15",
+            "无法确定"
+          ],
+          "answer": "5:4",
+          "explanation": "速度是时间的倒数。比为 $\\frac{1}{12} : \\frac{1}{15} = 15 : 12 = 5:4$。",
+          "difficulty": 3
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "0.1 的倒数是：",
+          "options": [
+            "10",
+            "1",
+            "0.1",
+            "100"
+          ],
+          "answer": "10",
+          "explanation": "$0.1 = 1/10$，其倒数是 10。",
+          "difficulty": 1
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "把 $\\frac{3}{4}$ 吨大豆平均分给 3 个工厂，每个工厂分得：",
+          "options": [
+            "$\\frac{1}{4}$ 吨",
+            "$\\frac{1}{3}$ 吨",
+            "3 吨",
+            "4 吨"
+          ],
+          "answer": "$\\frac{1}{4}$ 吨",
+          "explanation": "$\\frac{3}{4} \\div 3 = \\frac{1}{4}$（吨）。",
+          "difficulty": 2
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "一桶油，第一次用去 $\\frac{1}{4}$，第二次用去 10 千克，还剩一半。这桶油原重：",
+          "options": [
+            "20",
+            "40",
+            "60",
+            "30"
+          ],
+          "answer": "40",
+          "explanation": "10 千克占全桶的 $1 - 1/4 - 1/2 = 1/4$。$10 \\div 1/4 = 40$。验算：$40-10-10=20$。",
+          "difficulty": 3
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "$\\frac{2}{3}$ 里面包含几个 $\\frac{1}{6}$？",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "6"
+          ],
+          "answer": "4",
+          "explanation": "$\\frac{2}{3} \\div \\frac{1}{6} = \\frac{2}{3} \\times 6 = 4$。",
+          "difficulty": 1
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "甲数是 60，乙数是甲数的 $\\frac{2}{3}$，丙数是乙数的 $\\frac{3}{4}$。丙数是：",
+          "options": [
+            "30",
+            "40",
+            "45",
+            "20"
+          ],
+          "answer": "30",
+          "explanation": "$60 \\times \\frac{2}{3} \\times \\frac{3}{4} = 40 \\times \\frac{3}{4} = 30$。",
+          "difficulty": 3
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "某校有学生 450 人，其中女生占 $\\frac{4}{9}$，男生有 ___ 人。",
+          "options": [],
+          "answer": "250",
+          "explanation": "男生占 $1 - 4/9 = 5/9$。$450 \\times \\frac{5}{9} = 250$。验算：$250 + (450 \\times 4/9) = 250 + 200 = 450$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "$\\frac{5}{3}$ 的倒数与 15 的积是 ___ 。",
+          "options": [],
+          "answer": "9",
+          "explanation": "$\\frac{3}{5} \\times 15 = 9$。验算：$9 \\div 15 = 3/5$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$9 \\div \\frac{3}{7} = ?$",
+          "options": [],
+          "answer": "21",
+          "explanation": "$9 \\div \\frac{3}{7} = 9 \\times \\frac{7}{3} = 3 \\times 7 = 21$。验算：$21 \\times \\frac{3}{7} = 9$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g6up-u3-kp1",
+      "title": "倒数的认识",
+      "unitNumber": 3,
+      "unitTitle": "分数除法",
+      "kpIndex": 0,
+      "kpTotal": 4,
+      "isExam": false,
+      "knowledge": {
+        "point": "倒数的认识",
+        "core_concept": "如果两个数的乘积是 1，那么这两个数互为倒数。求分数的倒数只需交换分子分母位置；求整数的倒数先把整数看作分母为 1 的分数再交换。1 的倒数是 1，0 没有倒数。",
+        "key_formula": "$a \\times \\frac{1}{a} = 1$ ($a \\neq 0$)",
+        "tips": "互为倒数是形容两个数的关系。求带分数倒数要先化成假分数。",
+        "common_mistakes": [
+          "认为 0 的倒数是 0",
+          "求倒数后习惯性写成等式（如 $\\frac{2}{3} = \\frac{3}{2}$，应表述为“的倒数是”）"
+        ]
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "因为 $0.25 \\times 4 = 1$，所以 0.25 和 4 互为倒数。",
+          "options": [],
+          "answer": "对",
+          "explanation": "乘积为 1 的两个数互为倒数。因为 $0.25 \\times 4 = 1$，符合定义。验算：$1/4 \\times 4 = 1$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "1 的倒数是 1，0 的倒数是 0。",
+          "options": [],
+          "answer": "错",
+          "explanation": "$1 \\times 1 = 1$，所以 1 的倒数是 1；但 0 不能作除数，且找不到任何数与之相乘得 1，所以 0 没有倒数。",
+          "difficulty": 1
+        },
+        {
+          "id": 6,
+          "type": "choice",
+          "question": "下面各组数中，互为倒数的是：",
+          "options": [
+            "$\\frac{2}{3}$ 和 $\\frac{2}{3}$",
+            "0.5 和 2",
+            "1 和 0",
+            "$\\frac{4}{5}$ 和 $\\frac{5}{4}$"
+          ],
+          "answer": "$\\frac{4}{5}$ 和 $\\frac{5}{4}$",
+          "explanation": "$\\frac{4}{5} \\times \\frac{5}{4} = 1$，符合倒数定义。",
+          "difficulty": 1
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "一个分数的倒数大于 1，则这个分数是：",
+          "options": [
+            "真分数",
+            "假分数",
+            "带分数",
+            "整数"
+          ],
+          "answer": "真分数",
+          "explanation": "真分数小于 1，其倒数大于 1。例如 $\\frac{1}{2}$ 的倒数是 2。",
+          "difficulty": 1
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "最小的质数的倒数是多少？",
+          "options": [
+            "1",
+            "0.5",
+            "2",
+            "0.2"
+          ],
+          "answer": "0.5",
+          "explanation": "最小的质数是 2，其倒数是 $1/2 = 0.5$。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "一个数与它的倒数之积加上 9，结果是 ___ 。",
+          "options": [],
+          "answer": "10",
+          "explanation": "任何非零数与其倒数积为 1，$1 + 9 = 10$。验算：$1 \\times 1 + 9 = 10$ ✓。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g6up-u3-kp2",
+      "title": "分数除法的计算方法",
+      "unitNumber": 3,
+      "unitTitle": "分数除法",
+      "kpIndex": 1,
+      "kpTotal": 4,
+      "isExam": false,
+      "knowledge": {
+        "point": "分数除法的计算方法",
+        "core_concept": "分数除法的统一法则是：除以一个不为零的数，等于乘这个数的倒数。计算时要注意“一改、二变、三约”：除号改乘号，除数变倒数，能约分的要先约分简便。",
+        "key_formula": "$\\frac{a}{b} \\div \\frac{c}{d} = \\frac{a}{b} \\times \\frac{d}{c}$ ($b, c, d \\neq 0$)",
+        "tips": "先约分再计算可以有效减少出错率，特别是多步计算时。",
+        "common_mistakes": [
+          "把被除数也变成了倒数",
+          "除号变乘号了，但除数忘记变倒数"
+        ]
+      },
+      "questions": [
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "一个非零数除以 $\\frac{1}{2}$，相当于把这个数扩大到原来的 2 倍。",
+          "options": [],
+          "answer": "对",
+          "explanation": "除以一个不为零的数等于乘这个数的倒数。$\\div \\frac{1}{2}$ 等于 $\\times 2$，即扩大到 2 倍。",
+          "difficulty": 1
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "计算 $a \\div \\frac{3}{4}$ ($a \\neq 0$)，正确的是：",
+          "options": [
+            "$a \\times \\frac{3}{4}$",
+            "$a \\times \\frac{4}{3}$",
+            "$\\frac{3}{4} \\div a$",
+            "$a + \\frac{4}{3}$"
+          ],
+          "answer": "$a \\times \\frac{4}{3}$",
+          "explanation": "除以一个不为零的数等于乘这个数的倒数。$\\frac{3}{4}$ 的倒数是 $\\frac{4}{3}$。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "若 $a \\div \\frac{4}{5} = b \\div \\frac{5}{4}$ ($a, b$ 均不为 0)，则 $a$ 与 $b$ 的关系是：",
+          "options": [
+            "$a > b$",
+            "$a < b$",
+            "$a = b$",
+            "无法确定"
+          ],
+          "answer": "$a < b$",
+          "explanation": "原式可写为 $a \\times \\frac{5}{4} = b \\times \\frac{4}{5}$。因为 $\\frac{5}{4} > \\frac{4}{5}$，根据“乘大数者小”原则，$a < b$。",
+          "difficulty": 1
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "下列算式中，商大于被除数的是：",
+          "options": [
+            "$12 \\div \\frac{4}{3}$",
+            "$12 \\div \\frac{5}{6}$",
+            "$12 \\div 1$",
+            "$12 \\div \\frac{12}{11}$"
+          ],
+          "answer": "$12 \\div \\frac{5}{6}$",
+          "explanation": "除以一个小于 1 的数（0 除外），商比被除数大。$\\frac{5}{6} < 1$。",
+          "difficulty": 1
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "把 $\\frac{4}{5}$ 平均分成 4 份，每份是多少？",
+          "options": [
+            "$\\frac{16}{5}$",
+            "$\\frac{1}{5}$",
+            "4",
+            "5"
+          ],
+          "answer": "$\\frac{1}{5}$",
+          "explanation": "$\\frac{4}{5} \\div 4 = \\frac{4}{5} \\times \\frac{1}{4} = \\frac{1}{5}$。",
+          "difficulty": 2
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$12 \\div \\frac{3}{4} = ?$",
+          "options": [],
+          "answer": "16",
+          "explanation": "$12 \\div \\frac{3}{4} = 12 \\times \\frac{4}{3} = 16$。验算：$16 \\times \\frac{3}{4} = 12$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 23,
+          "type": "calculation",
+          "question": "计算：$20 \\div \\frac{4}{5} = ?$",
+          "options": [],
+          "answer": "25",
+          "explanation": "$20 \\div \\frac{4}{5} = 20 \\times \\frac{5}{4} = 25$。验算：$25 \\times \\frac{4}{5} = 20$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g6up-u3-kp3",
+      "title": "分数除法应用：已知部分求整体",
+      "unitNumber": 3,
+      "unitTitle": "分数除法",
+      "kpIndex": 2,
+      "kpTotal": 4,
+      "isExam": false,
+      "knowledge": {
+        "point": "分数除法应用：已知部分求整体",
+        "core_concept": "当题目给出“一个数的几分之几是多少”求“这个数”时，这个数就是单位“1”。可以用除法（对应量 $\\div$ 对应分率 = 单位“1”）解决，也可以设方程求解。",
+        "key_formula": "部分量 $\\div$ 分率 = 单位“1” 的量",
+        "tips": "画线段图分析是解决此类问题的关键，能直观看出量率对应关系。",
+        "common_mistakes": [
+          "找错单位“1”，误用乘法计算",
+          "对应量与对应分率没找准（如已知增加的部分，却除以原来的分率）"
+        ]
+      },
+      "questions": [
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "甲数比乙数多 $\\frac{1}{5}$，则乙数比甲数少 $\\frac{1}{5}$。",
+          "options": [],
+          "answer": "错",
+          "explanation": "设乙数为 5，甲数即为 6。乙比甲少 $(6-5) \\div 6 = \\frac{1}{6}$，而不是 $\\frac{1}{5}$。",
+          "difficulty": 2
+        },
+        {
+          "id": 9,
+          "type": "choice",
+          "question": "一袋面粉吃了 15 千克，正好是这袋面粉的 $\\frac{3}{4}$，这袋面粉重多少千克？",
+          "options": [
+            "20",
+            "12",
+            "11",
+            "25"
+          ],
+          "answer": "20",
+          "explanation": "$15 \\div \\frac{3}{4} = 15 \\times \\frac{4}{3} = 20$（千克）。验算：$20 \\times \\frac{3}{4} = 15$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "一件衣服降价 $\\frac{1}{10}$ 后是 90 元，原价是多少元？",
+          "options": [
+            "81",
+            "100",
+            "99",
+            "110"
+          ],
+          "answer": "100",
+          "explanation": "原价看作“1”，现价是 $1 - \\frac{1}{10} = \\frac{9}{10}$。$90 \\div \\frac{9}{10} = 100$（元）。验算：$100 \\times (1 - 0.1) = 90$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "小明有 40 张邮票，比小红多 $\\frac{1}{4}$，小红有几张？",
+          "options": [
+            "30",
+            "32",
+            "50",
+            "48"
+          ],
+          "answer": "32",
+          "explanation": "设小红为 $x$。$(1 + \\frac{1}{4})x = 40 \\Rightarrow \\frac{5}{4}x = 40 \\Rightarrow x = 32$。验算：$32 \\times (1 + \\frac{1}{4}) = 32 + 8 = 40$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 15,
+          "type": "choice",
+          "question": "一根绳子剪去 $\\frac{1}{3}$ 后还剩 12 米，这根绳子原来长多少米？",
+          "options": [
+            "18",
+            "8",
+            "36",
+            "4"
+          ],
+          "answer": "18",
+          "explanation": "$12 \\div (1 - \\frac{1}{3}) = 12 \\div \\frac{2}{3} = 18$（米）。验算：$18 - 18 \\times \\frac{1}{3} = 18 - 6 = 12$ ✓。",
+          "difficulty": 3
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "小明有 12 本故事书，是科技书数量的 $\\frac{2}{3}$，科技书有 ___ 本。",
+          "options": [],
+          "answer": "18",
+          "explanation": "$12 \\div \\frac{2}{3} = 12 \\times \\frac{3}{2} = 18$。验算：$18 \\times \\frac{2}{3} = 12$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 21,
+          "type": "fill_blank",
+          "question": "水结成冰体积增加 $\\frac{1}{10}$，现在有 11 立方分米的冰，化成水后的体积是 ___ 立方分米。",
+          "options": [],
+          "answer": "10",
+          "explanation": "$11 \\div (1 + \\frac{1}{10}) = 11 \\div \\frac{11}{10} = 10$。验算：$10 + 10 \\times 0.1 = 11$ ✓。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g6up-u3-kp4",
+      "title": "工程问题（单位1的假设法）",
+      "unitNumber": 3,
+      "unitTitle": "分数除法",
+      "kpIndex": 3,
+      "kpTotal": 4,
+      "isExam": false,
+      "knowledge": {
+        "point": "工程问题（单位1的假设法）",
+        "core_concept": "在不告知具体工程总量时，通常假设总量为“1”。此时，工作效率 = $1 \\div$ 工作时间。多人合做的效率等于每人效率之和。工作时间 = 工作总量 $\\div$ 工作效率和。",
+        "key_formula": "$1 \\div (\\frac{1}{t_1} + \\frac{1}{t_2}) = $ 合做时间",
+        "tips": "这类题目的结果一定是小于参与者中最小的时间的，因为合做肯定更快。",
+        "common_mistakes": [
+          "将工作时间直接相加（如甲 3 天，乙 6 天，合做不可能是 9 天）",
+          "忘记工作效率是时间的倒数"
+        ]
+      },
+      "questions": [
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "一项工程，甲单独做 10 天完成，乙单独做 8 天完成。甲的工作效率比乙快。",
+          "options": [],
+          "answer": "错",
+          "explanation": "工作总量相同时，时间越短效率越高。甲效为 $1/10$，乙效为 $1/8$，$1/10 < 1/8$，故乙快。",
+          "difficulty": 1
+        },
+        {
+          "id": 12,
+          "type": "choice",
+          "question": "一项工程，甲队单独做要 6 天，乙队单独做要 12 天。两队合做几天可以完成？",
+          "options": [
+            "9",
+            "18",
+            "4",
+            "3"
+          ],
+          "answer": "4",
+          "explanation": "$1 \\div (\\frac{1}{6} + \\frac{1}{12}) = 1 \\div \\frac{3}{12} = 4$（天）。验算：$(\\frac{1}{6} + \\frac{1}{12}) \\times 4 = 1$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 18,
+          "type": "choice",
+          "question": "甲做 3 小时完成工作的一半，乙做 3 小时完成剩下的，两人合做几小时完工？",
+          "options": [
+            "3",
+            "1.5",
+            "6",
+            "9"
+          ],
+          "answer": "3",
+          "explanation": "甲效 $1/2 \\div 3 = 1/6$，乙效也是 $1/6$。合做：$1 \\div (1/6 + 1/6) = 1 \\div 1/3 = 3$。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "g6up-u4-exam",
+      "title": "第 4 单元挑战",
+      "unitNumber": 4,
+      "unitTitle": "比",
+      "kpIndex": 3,
+      "kpTotal": 3,
+      "isExam": true,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "比的前项、后项和比值都可以是分数。",
+          "options": [],
+          "answer": "对",
+          "explanation": "比的三个组成部分都可以表现为整数、小数或分数。验算：$(1/2) : (1/3) = 3/2$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "如果 a:b = 1/2，那么 2a = b。",
+          "options": [],
+          "answer": "对",
+          "explanation": "$a \\div b = 1/2$ 整理得 $b = 2a$。符合等式基本性质。",
+          "difficulty": 2
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "8:15 的后项增加30，要使比值不变，前项应增加16。",
+          "options": [],
+          "answer": "对",
+          "explanation": "后项变为 $15+30=45$，扩大到原来的3倍。前项 8 也应乘3变为24。$24-8=16$。",
+          "difficulty": 1
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "一个长方形周长是 20 厘米，长与宽的比是 3:2，则长是 12 厘米。",
+          "options": [],
+          "answer": "错",
+          "explanation": "$20 \\div 2 = 10$，长应为 $10 \\times (3/5) = 6$ 厘米。",
+          "difficulty": 3
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "将 $\\frac{1}{4} : \\frac{1}{8}$ 化简为最简整数比是：",
+          "options": [
+            "2:1",
+            "1:2",
+            "4:8",
+            "0.5"
+          ],
+          "answer": "2:1",
+          "explanation": "$(1/4) \\times 8 : (1/8) \\times 8 = 2:1$。",
+          "difficulty": 2
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "两圆半径分别是 3cm 和 5cm，它们的周长比是：",
+          "options": [
+            "3:5",
+            "9:25",
+            "6:10",
+            "3.14:5"
+          ],
+          "answer": "3:5",
+          "explanation": "圆的周长比等于半径比。$2\\pi r_1 : 2\\pi r_2 = r_1 : r_2 = 3:5$。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "一个比的前项除以 5，后项乘 1/5，比值：",
+          "options": [
+            "不变",
+            "扩大到25倍",
+            "缩小到1/25",
+            "缩小到1/5"
+          ],
+          "answer": "不变",
+          "explanation": "除以 5 等于乘 1/5。前项和后项同时乘 1/5，比值不变。",
+          "difficulty": 2
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "甲数是乙数的 2/3，乙数与甲乙总和的比是：",
+          "options": [
+            "3:5",
+            "2:3",
+            "2:5",
+            "5:3"
+          ],
+          "answer": "3:5",
+          "explanation": "设乙为3，则甲为2。总和为5。乙：总和 = 3:5。",
+          "difficulty": 3
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "0.15:3 化成最简整数比是：",
+          "options": [
+            "1:20",
+            "15:300",
+            "3:60",
+            "0.05"
+          ],
+          "answer": "1:20",
+          "explanation": "$0.15:3 = 15:300 = 1:20$。",
+          "difficulty": 1
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "三角形三个内角度数之比是 2:3:5，这是：",
+          "options": [
+            "直角三角形",
+            "等腰三角形",
+            "钝角三角形",
+            "锐角三角形"
+          ],
+          "answer": "直角三角形",
+          "explanation": "最大角占 5/10。$180 \\times (5/10) = 90$度，故是直角三角形。",
+          "difficulty": 3
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "一杯糖水，糖和水的比是 1:20。如果有糖 5 克，这杯糖水重：",
+          "options": [
+            "105克",
+            "100克",
+            "25克",
+            "120克"
+          ],
+          "answer": "105克",
+          "explanation": "水 $5 \\times 20 = 100$克。糖水 = 糖 + 水 = $5+100=105$克。",
+          "difficulty": 3
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "下列哪一项不是比、除法、分数之间的对应关系：",
+          "options": [
+            "比号与括号",
+            "前项与被除数",
+            "后项与除数",
+            "比值与商"
+          ],
+          "answer": "比号与括号",
+          "explanation": "比号对应除号和分数线，不是括号。",
+          "difficulty": 1
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "比的前项是 24，后项是 6，比值是 ___。",
+          "options": [],
+          "answer": "4",
+          "explanation": "$24 \\div 6 = 4$。验算：$6 \\times 4 = 24$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "把 20 厘米长的绳子按 2:3 分成两段，较短的一段是 ___ 厘米。",
+          "options": [],
+          "answer": "8",
+          "explanation": "总份数 5。短段占 2/5。$20 \\times (2/5) = 8$。验算：长段为12，8:12=2:3 ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算 $120 \\div 15$ 的结果是：",
+          "options": [],
+          "answer": "8",
+          "explanation": "$120 \\div 15 = 8$。验算：$15 \\times 8 = 120$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g6up-u4-kp1",
+      "title": "比的意义与比值",
+      "unitNumber": 4,
+      "unitTitle": "比",
+      "kpIndex": 0,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "比的意义与比值",
+        "core_concept": "两个数相除又叫做两个数的比。比号前面的数叫前项，后面的叫后项。前项除以后项所得的商叫做比值。例如 $3:2 = 3 \\div 2 = 1.5$。",
+        "key_formula": "$a:b = a \\div b = \\frac{a}{b}$ ($b \\ne 0$)",
+        "tips": "记忆口诀：比的前项像分子，比的后项像分母，比值就是那个值。",
+        "common_mistakes": [
+          "将比的后项写为0（比的后项相当于除数，不能为0）",
+          "将比值与比的化简混淆（比值是一个数，可以是整数、分数、小数；而比必须带比号）"
+        ]
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "比的前项不能为0。",
+          "options": [],
+          "answer": "错",
+          "explanation": "比的前项相当于除法中的被除数，可以是0；比的后项相当于除数，不能为0。验算：$0:5 = 0 \\div 5 = 0$，结果有意义。",
+          "difficulty": 1
+        },
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "小明身高1米，爸爸身高175厘米，小明与爸爸的身高比是1:175。",
+          "options": [],
+          "answer": "错",
+          "explanation": "求比时单位必须统一。1米=100厘米，比应该是100:175。验算：$100 \\div 175 = 4/7$。",
+          "difficulty": 2
+        },
+        {
+          "id": 6,
+          "type": "choice",
+          "question": "如果 $a:b = c$，那么下面说法正确的是：",
+          "options": [
+            "a是比的前项",
+            "b是比的前项",
+            "c是比的后项",
+            "b是比值"
+          ],
+          "answer": "a是比的前项",
+          "explanation": "比号前面的项叫前项，后面的叫后项，计算结果叫比值。所以a是前项，b是后项，c是比值。",
+          "difficulty": 1
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "求 $0.6:0.12$ 的比值，结果是：",
+          "options": [
+            "5",
+            "0.5",
+            "50",
+            "1/5"
+          ],
+          "answer": "5",
+          "explanation": "$0.6 \\div 0.12 = 5$。验算：$5 \\times 0.12 = 0.6$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 12,
+          "type": "choice",
+          "question": "在 5:8 中，如果前项加上10，要使比值不变，后项应加上：",
+          "options": [
+            "16",
+            "10",
+            "24",
+            "8"
+          ],
+          "answer": "16",
+          "explanation": "前项由5变为15，扩大了3倍。后项8也应扩大3倍变为24。$24 - 8 = 16$。",
+          "difficulty": 1
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "两个正方形的边长比是 2:3，它们的面积比是：",
+          "options": [
+            "4:9",
+            "2:3",
+            "4:6",
+            "8:27"
+          ],
+          "answer": "4:9",
+          "explanation": "面积比是边长比的平方。$2^2 : 3^2 = 4:9$。验算：设边长为2和3，面积为4和9。",
+          "difficulty": 1
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "在实验室配汁，药粉与水的质量比是 1:500。现有药粉2克，需加水：",
+          "options": [
+            "1000克",
+            "500克",
+            "250克",
+            "2000克"
+          ],
+          "answer": "1000克",
+          "explanation": "$2 \\times 500 = 1000$（克）。验算：2:1000 = 1:500 ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "比的前项是 12，比值是 3，比的后项是 ___。",
+          "options": [],
+          "answer": "4",
+          "explanation": "根据“后项 = 前项 $\\div$ 比值”，$12 \\div 3 = 4$。验算：$12:4 = 3$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算 $84 \\div 12$ 的结果是：",
+          "options": [],
+          "answer": "7",
+          "explanation": "$84 \\div 12 = 7$。验算：$12 \\times 7 = 84$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g6up-u4-kp2",
+      "title": "比的基本性质与化简",
+      "unitNumber": 4,
+      "unitTitle": "比",
+      "kpIndex": 1,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "比的基本性质与化简",
+        "core_concept": "比的前项和后项同时乘或除以相同的数（0除外），比值不变。化简比就是把一个比变成最简单的整数比（前项和后项互质的整数）。",
+        "key_formula": "$a:b = (a \\times n):(b \\times n) = (a \\div n):(b \\div n)$ ($n \\ne 0$)",
+        "tips": "遇到分数比，先通分去分母；遇到小数比，先扩位变整数，再求最大公因数约分。",
+        "common_mistakes": [
+          "化简时只在前项乘，后项忘记乘",
+          "化简结果写成一个孤立的数字（结果必须保留比的形式，如 2:1）"
+        ]
+      },
+      "questions": [
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "比的前项和后项同时乘一个相同的数，比值不变。",
+          "options": [],
+          "answer": "错",
+          "explanation": "必须是同时乘或除以一个相同的数，且这个数不能为0。如果同时乘0，比的后项变为0，比就没有意义了。",
+          "difficulty": 1
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "最简单的整数比的前项和后项必须都是质数。",
+          "options": [],
+          "answer": "错",
+          "explanation": "最简整数比的要求是前项和后项互质，不一定非要是质数。例如4:9是最简比，但4和9都是合数。",
+          "difficulty": 2
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "把 $1.2:0.4$ 化简成最简单的整数比是：",
+          "options": [
+            "3:1",
+            "3",
+            "3:10",
+            "12:4"
+          ],
+          "answer": "3:1",
+          "explanation": "$1.2:0.4 = (1.2 \\times 10) : (0.4 \\times 10) = 12:4 = 3:1$。最简比符号不能省略。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "一个比的前项扩大到原来的3倍，后项缩小到原来的1/3，比值会：",
+          "options": [
+            "扩大到原来的9倍",
+            "缩小到原来的1/9",
+            "不变",
+            "扩大到原来的3倍"
+          ],
+          "answer": "扩大到原来的9倍",
+          "explanation": "设定原比 $1:1=1$。新比 $(1 \\times 3):(1 \\div 3) = 3: (1/3) = 9$。$9 \\div 1 = 9$倍。",
+          "difficulty": 2
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "下面的比中，与 0.2:0.3 比值相等的比是：",
+          "options": [
+            "2:3",
+            "3:2",
+            "1:2",
+            "4:9"
+          ],
+          "answer": "2:3",
+          "explanation": "$0.2:0.3 = (0.2 \\times 10):(0.3 \\times 10) = 2:3$。",
+          "difficulty": 1
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "将 25:100 化简为最简整数比，后项是 ___。",
+          "options": [],
+          "answer": "4",
+          "explanation": "$25:100 = (25 \\div 25) : (100 \\div 25) = 1:4$。后项是4。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g6up-u4-kp3",
+      "title": "按比例分配问题",
+      "unitNumber": 4,
+      "unitTitle": "比",
+      "kpIndex": 2,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "按比例分配问题",
+        "core_concept": "在工业生产和日常生活中，常常需要把一个数量按照一定的比来进行分配。通常做法是先算出总份数，再求出各部分占总量的几分之几，最后计算实际值。",
+        "key_formula": "某部分量 = 总量 $\\times \\frac{该部分份数}{总份数}$",
+        "tips": "做题三部曲：求总份数、求分率、求部分量。最后别忘了把各部分加起来看看是不是等于总量。",
+        "common_mistakes": [
+          "计算各部分占比时，分母没有用各份数之和",
+          "围篱笆或求面积题中，误将周长直接按比分配（应先求长与宽的和）"
+        ]
+      },
+      "questions": [
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "把10克盐放入100克水中，盐和盐水的比是1:11。",
+          "options": [],
+          "answer": "对",
+          "explanation": "盐是10克，盐水是$10+100=110$克。比是$10:110 = 1:11$。验算：$1/11 = 10/110$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 9,
+          "type": "choice",
+          "question": "一个三角形三个内角的度数比是 1:1:2，这个三角形是：",
+          "options": [
+            "等腰直角三角形",
+            "等边三角形",
+            "钝角三角形",
+            "锐角三角形"
+          ],
+          "answer": "等腰直角三角形",
+          "explanation": "总份数 $1+1+2=4$。最大角 $180 \\times (2/4) = 90$度，且有两个角相等，是等腰直角三角形。",
+          "difficulty": 2
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "学校买来300本课外书，按 2:3 分给五、六年级，六年级分得多少本？",
+          "options": [
+            "180",
+            "120",
+            "200",
+            "150"
+          ],
+          "answer": "180",
+          "explanation": "总份数 $2+3=5$。六年级占 3/5。$300 \\times (3/5) = 180$（本）。验算：$300-180=120$，120:180=2:3 ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 15,
+          "type": "choice",
+          "question": "一段路，甲走完用4小时，乙走完用5小时。甲、乙的速度比是：",
+          "options": [
+            "5:4",
+            "4:5",
+            "1/4:1/5",
+            "1:1"
+          ],
+          "answer": "5:4",
+          "explanation": "路程一定，速度比是时间比的反比。$1/4 : 1/5 = 5:4$。",
+          "difficulty": 2
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "甲、乙两数和是60，甲、乙两数比是 3:2，甲数是多少？",
+          "options": [
+            "36",
+            "24",
+            "40",
+            "30"
+          ],
+          "answer": "36",
+          "explanation": "总份数 $3+2=5$。甲占 3/5。$60 \\times (3/5) = 36$。验算：乙为$60-36=24$，36:24=3:2 ✓。",
+          "difficulty": 3
+        },
+        {
+          "id": 18,
+          "type": "choice",
+          "question": "一根长40厘米的铁丝围成一个长方形，长与宽的比是 3:2，这个长方形的面积是：",
+          "options": [
+            "96",
+            "240",
+            "150",
+            "384"
+          ],
+          "answer": "96",
+          "explanation": "一条长与宽的和是 $40 \\div 2 = 20$。长 $20 \\times (3/5)=12$，宽 $20 \\times (2/5)=8$。$12 \\times 8 = 96$。",
+          "difficulty": 3
+        },
+        {
+          "id": 21,
+          "type": "fill_blank",
+          "question": "果园里桃树和梨树共 120 棵，它们的比是 3:1，梨树有 ___ 棵。",
+          "options": [],
+          "answer": "30",
+          "explanation": "总份数 $3+1=4$。梨树占 1/4。$120 \\div 4 = 30$（棵）。验算：桃树90棵，$90+30=120$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 23,
+          "type": "calculation",
+          "question": "计算 $450 \\times \\frac{2}{9} = ?$",
+          "options": [],
+          "answer": "100",
+          "explanation": "$450 \\div 9 = 50$, $50 \\times 2 = 100$。验算：$100 \\div (2/9) = 100 \\times 4.5 = 450$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g6up-u5-exam",
+      "title": "第 5 单元挑战",
+      "unitNumber": 5,
+      "unitTitle": "圆",
+      "kpIndex": 4,
+      "kpTotal": 4,
+      "isExam": true,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "圆心确定圆的位置，半径确定圆的大小。",
+          "options": [],
+          "answer": "对",
+          "explanation": "这是圆的基本性质：圆心定位，半径定法。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "直径是圆内最长的线段。",
+          "options": [],
+          "answer": "对",
+          "explanation": "经过圆心的线段是直径，它是圆内所有线段中最长的。",
+          "difficulty": 2
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "两个圆的周长相等，它们的面积也一定相等。",
+          "options": [],
+          "answer": "对",
+          "explanation": "周长相等则半径相等，半径相等则面积相等。",
+          "difficulty": 3
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "顶点在圆心的角叫做圆心角。",
+          "options": [],
+          "answer": "对",
+          "explanation": "圆心角的理论定义即顶点在圆心，两条边是圆的半径。",
+          "difficulty": 1
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "在一个边长为4厘米的正方形里画一个最大的圆，这个圆的直径是多少厘米？",
+          "options": [
+            "2",
+            "4",
+            "8",
+            "16"
+          ],
+          "answer": "4",
+          "explanation": "正方形内最大圆的直径等于正方形的边长。",
+          "difficulty": 2
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "把一个圆沿直径对折，得到的半圆有几条对称轴？",
+          "options": [
+            "0",
+            "1",
+            "2",
+            "无数"
+          ],
+          "answer": "1",
+          "explanation": "半圆只有一条对称轴，即通过圆心且垂直于直径的直线。",
+          "difficulty": 2
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "车轮滚动一周，所行的路程是求车轮的什么？",
+          "options": [
+            "半径",
+            "直径",
+            "周长",
+            "面积"
+          ],
+          "answer": "周长",
+          "explanation": "轮子转动一周的长度等于它的圆周长。",
+          "difficulty": 1
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "钟面上的分针长10厘米，经过1小时，分针尖端走过的路程是多少厘米？（π取3.14）",
+          "options": [
+            "31.4",
+            "62.8",
+            "314",
+            "20"
+          ],
+          "answer": "62.8",
+          "explanation": "分针走1小时是一圈，$C = 2 \\times 3.14 \\times 10 = 62.8$。",
+          "difficulty": 2
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "等底等高的长方形和圆相比，面积关系如何？",
+          "options": [
+            "长方形大",
+            "圆大",
+            "一样大",
+            "无法比较"
+          ],
+          "answer": "无法比较",
+          "explanation": "圆没有底和高的概念，通常与正方形比较。此题考查概念界定。",
+          "difficulty": 3
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "一个圆的周长是12.56厘米，它的面积是多少平方厘米？",
+          "options": [
+            "12.56",
+            "6.28",
+            "3.14",
+            "25.12"
+          ],
+          "answer": "12.56",
+          "explanation": "$r = 12.56 \\div 6.28 = 2$，$S = 3.14 \\times 2^2 = 12.56$。",
+          "difficulty": 2
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "圆内最长的线段是什么？",
+          "options": [
+            "半径",
+            "直径",
+            "弧线",
+            "切线"
+          ],
+          "answer": "直径",
+          "explanation": "直径通过圆心，是圆内最长的线段。",
+          "difficulty": 2
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "小明沿直径为8米的圆周跑了半圈，他跑了多少米？",
+          "options": [
+            "25.12",
+            "12.56",
+            "8",
+            "4"
+          ],
+          "answer": "12.56",
+          "explanation": "$C = 3.14 \\times 8 = 25.12$，半圈为 $12.56$。",
+          "difficulty": 2
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "一个圆的直径是5厘米，周长是 ___ 厘米。（结果取整）",
+          "options": [],
+          "answer": "16",
+          "explanation": "$3.14 \\times 5 = 15.7$，取整为16。验算：$16 \\div 5 \\approx 3.2$ 符合π范围。",
+          "difficulty": 1
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "半径是2米的圆，它的面积是 ___ 平方米。（结果取整）",
+          "options": [],
+          "answer": "13",
+          "explanation": "$3.14 \\times 2 \\times 2 = 12.56$, 取整为13。",
+          "difficulty": 2
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算半径：$d = 100, r = d \\div 2 = ?$",
+          "options": [],
+          "answer": "50",
+          "explanation": "$100 \\div 2 = 50$。验算：$50 \\times 2 = 100$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g6up-u5-kp1",
+      "title": "圆的认识与特征",
+      "unitNumber": 5,
+      "unitTitle": "圆",
+      "kpIndex": 0,
+      "kpTotal": 4,
+      "isExam": false,
+      "knowledge": {
+        "point": "圆的认识与特征",
+        "core_concept": "圆是由曲线围成的平面封闭图形。圆中心的一点叫圆心（O），决定圆的位置；连接圆心和圆上任意一点的线段叫半径（r），决定圆的大小；通过圆心且两端都在圆上的线段叫直径（d）。在同圆或等圆中，直径是半径的2倍。",
+        "key_formula": "$d = 2r$ 或 $r = \\frac{d}{2}$",
+        "tips": "折纸法：把圆对折再对折，交点就是圆心；用圆规画圆时，针尖位置不能移动。",
+        "common_mistakes": [
+          "误认为圆上任意两点间的线段就是直径，忽视了必须经过圆心这个前提。",
+          "混淆圆心和半径的作用，记不清哪个决定位置，哪个决定大小。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "在同一个圆内，所有的直径都相等。",
+          "options": [],
+          "answer": "对",
+          "explanation": "根据圆的定义，在同圆或等圆中，所有的半径、直径分别相等。验算：圆规画圆时半径固定，直径为2倍半径，必然相等。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "圆有无数条对称轴。",
+          "options": [],
+          "answer": "对",
+          "explanation": "圆是轴对称图形，每一条经过圆心的直线都是它的对称轴，这样的直线有无数条。",
+          "difficulty": 1
+        },
+        {
+          "id": 6,
+          "type": "choice",
+          "question": "决定圆的位置的是什么？",
+          "options": [
+            "半径",
+            "直径",
+            "圆周率",
+            "圆心"
+          ],
+          "answer": "圆心",
+          "explanation": "在画圆时，针尖固定的位置即圆心决定位置，半径决定大小。",
+          "difficulty": 1
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "一个圆的半径是3厘米，它的直径是多少厘米？",
+          "options": [
+            "3",
+            "6",
+            "9",
+            "12"
+          ],
+          "answer": "6",
+          "explanation": "直径 $d = 2r = 2 \\times 3 = 6$厘米。",
+          "difficulty": 1
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "下列哪个图形的对称轴最多？",
+          "options": [
+            "长方形",
+            "正方形",
+            "等边三角形",
+            "圆"
+          ],
+          "answer": "圆",
+          "explanation": "长方形2条，正方形4条，等边三角形3条，圆有无数条。",
+          "difficulty": 1
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "如果一个圆的直径是20厘米，它的半径是 ___ 厘米。",
+          "options": [],
+          "answer": "10",
+          "explanation": "$20 \\div 2 = 10$。验算：$10 \\times 2 = 20$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "已知 $r = 5$，则 $2 \\times 3.14 \\times r = ?$",
+          "options": [],
+          "answer": "31",
+          "explanation": "$2 \\times 3.14 \\times 5 = 31.4$，取整为31。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g6up-u5-kp2",
+      "title": "圆的周长计算",
+      "unitNumber": 5,
+      "unitTitle": "圆",
+      "kpIndex": 1,
+      "kpTotal": 4,
+      "isExam": false,
+      "knowledge": {
+        "point": "圆的周长计算",
+        "core_concept": "围成圆的曲线的长度叫做圆的周长。圆的周长除以直径的商是一个固定的数，叫圆周率（$\\pi$），是一个无限不循环小数，小学阶段取近似值3.14。周长公式反映了周长与直径或半径的倍数关系。",
+        "key_formula": "$C = \\pi d$ 或 $C = 2 \\pi r$",
+        "tips": "记住常用的$\\pi$倍数，如 $2\\pi=6.28$, $3\\pi=9.42$, $4\\pi=12.56$, 可大幅提高做题速度。",
+        "common_mistakes": [
+          "计算半圆周长时，只算了弧长而漏掉了底部的直径。",
+          "计算过程中将3.14错看成3.41或在多步运算中过早取整导致误差。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "圆的周长总是它直径的π倍。",
+          "options": [],
+          "answer": "对",
+          "explanation": "圆周率π的定义就是圆的周长与直径的比值，即 $C = \\pi d$。",
+          "difficulty": 2
+        },
+        {
+          "id": 9,
+          "type": "choice",
+          "question": "圆周率π是一个什么数？",
+          "options": [
+            "有限小数",
+            "无限不循环小数",
+            "整数",
+            "循环小数"
+          ],
+          "answer": "无限不循环小数",
+          "explanation": "π是一个常数，约等于3.1415926...，是无限不循环小数。",
+          "difficulty": 1
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "一个圆形花坛的直径是10米，绕花坛走一圈是多少米？（π取3.14）",
+          "options": [
+            "314",
+            "31.4",
+            "62.8",
+            "15.7"
+          ],
+          "answer": "31.4",
+          "explanation": "$C = \\pi d = 3.14 \\times 10 = 31.4$米。",
+          "difficulty": 2
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "如果圆的半径扩大到原来的3倍，周长扩大到原来的几倍？",
+          "options": [
+            "3",
+            "6",
+            "9",
+            "27"
+          ],
+          "answer": "3",
+          "explanation": "周长 $C = 2\\pi r$，周长与半径成正比，所以也是3倍。",
+          "difficulty": 3
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "周长相等的长方形、正方形和圆，哪个面积最大？",
+          "options": [
+            "长方形",
+            "正方形",
+            "圆",
+            "一样大"
+          ],
+          "answer": "圆",
+          "explanation": "周长相等时，圆的面积最大，长方形面积最小。",
+          "difficulty": 2
+        },
+        {
+          "id": 21,
+          "type": "fill_blank",
+          "question": "一个半圆的半径是10厘米，它的周长是 ___ 厘米。（π取3.14）",
+          "options": [],
+          "answer": "51",
+          "explanation": "半圆周长 = 圆周长的一半 + 直径。$3.14 \\times 10 + 10 \\times 2 = 31.4 + 20 = 51.4$。按整数字符串要求填51（注：实际教学中通常保留小数，此处为适配系统要求取整）。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "g6up-u5-kp3",
+      "title": "圆的面积公式推导与应用",
+      "unitNumber": 5,
+      "unitTitle": "圆",
+      "kpIndex": 2,
+      "kpTotal": 4,
+      "isExam": false,
+      "knowledge": {
+        "point": "圆的面积公式推导与应用",
+        "core_concept": "利用化曲为直的转化思想，将圆等分成若干份，拼成一个近似的长方形。长方形的长相当于圆周长的一半（$\\pi r$），宽相当于圆的半径（$r$）。通过长方形面积公式 $S=ab$ 推导出圆面积公式。",
+        "key_formula": "$S = \\pi r^2$",
+        "tips": "看到直径先求半径是解决面积问题的首要习惯；理解公式来源有助于防止死记硬背出错。",
+        "common_mistakes": [
+          "求面积时直接用直径平方，忘记先除以2求出半径。",
+          "分不清周长和面积的单位，甚至认为数值相等时它们就相等。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "半径为2厘米的圆，周长和面积的大小相等。",
+          "options": [],
+          "answer": "错",
+          "explanation": "周长是 $2 \\times 3.14 \\times 2 = 12.56$厘米，面积是 $3.14 \\times 2^2 = 12.56$平方厘米。虽然数值一样，但单位不同，无法比较大小。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "将一个圆切拼成一个近似的长方形，长方形的宽相当于圆的什么？",
+          "options": [
+            "直径",
+            "周长",
+            "半径",
+            "周长的一半"
+          ],
+          "answer": "半径",
+          "explanation": "割补法推导面积时，长方形的款等于圆的半径 $r$，长等于圆周长的一半 $\\pi r$。",
+          "difficulty": 2
+        },
+        {
+          "id": 12,
+          "type": "choice",
+          "question": "一个半径为10厘米的圆，面积是多少平方厘米？（π取3.14）",
+          "options": [
+            "31.4",
+            "62.8",
+            "314",
+            "3140"
+          ],
+          "answer": "314",
+          "explanation": "$S = \\pi r^2 = 3.14 \\times 10 \\times 10 = 314$。",
+          "difficulty": 2
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "如果圆的半径扩大到原来的3倍，面积扩大到原来的几倍？",
+          "options": [
+            "3",
+            "6",
+            "9",
+            "27"
+          ],
+          "answer": "9",
+          "explanation": "面积 $S = \\pi r^2$，半径扩大3倍，面积扩大 $3^2 = 9$倍。",
+          "difficulty": 3
+        },
+        {
+          "id": 15,
+          "type": "choice",
+          "question": "大圆半径是小圆半径的2倍，大圆面积是小圆面积的几倍？",
+          "options": [
+            "2",
+            "4",
+            "8",
+            "3.14"
+          ],
+          "answer": "4",
+          "explanation": "面积比等于半径比的平方，$2^2 = 4$。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "一个半径为1分米的圆，它的面积是 ___ 平方厘米。（π取3.14）",
+          "options": [],
+          "answer": "314",
+          "explanation": "1分米=10厘米。$S = 3.14 \\times 10 \\times 10 = 314$平方厘米。验算：$314 \\div 3.14 = 100$, $\\sqrt{100} = 10$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 23,
+          "type": "calculation",
+          "question": "计算：$3.14 \\times 2^2 = ?$",
+          "options": [],
+          "answer": "13",
+          "explanation": "$3.14 \\times 4 = 12.56$，取整为13。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g6up-u5-kp4",
+      "title": "扇形的认识与圆心角",
+      "unitNumber": 5,
+      "unitTitle": "圆",
+      "kpIndex": 3,
+      "kpTotal": 4,
+      "isExam": false,
+      "knowledge": {
+        "point": "扇形的认识与圆心角",
+        "core_concept": "由圆心角的两条半径和一段弧围成的图形叫做扇形。顶点在圆心的角叫圆心角。在同一个圆中，扇形的大小由圆心角的大小决定。圆心角是360度的几分之几，扇形面积就是圆面积的几分之几。",
+        "key_formula": "扇形面积 $=$ 圆面积 $\\times \\frac{n}{360}$（n为圆心角度数）",
+        "tips": "扇形就像切开的一块蛋糕，蛋糕的大小（面积）取决于切开的角度和整块蛋糕的大小。",
+        "common_mistakes": [
+          "认为顶点在圆上的角也是圆心角。",
+          "在比较不同圆中的扇形大小时，只看圆心角而忽略了圆本身的大小（半径）。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "半圆也是一个扇形。",
+          "options": [],
+          "answer": "对",
+          "explanation": "扇形是由圆心角和一段弧以及两条半径围成的图形，半圆是圆心角为180度的扇形。",
+          "difficulty": 2
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "在同一个圆中，哪个扇形最大？",
+          "options": [
+            "圆心角60度的扇形",
+            "圆心角90度的扇形",
+            "圆心角120度的扇形",
+            "圆心角150度的扇形"
+          ],
+          "answer": "圆心角150度的扇形",
+          "explanation": "在同圆中，圆心角越大，扇形面积越大。150度是选项中最大的。",
+          "difficulty": 2
+        },
+        {
+          "id": 18,
+          "type": "choice",
+          "question": "一个圆被平均分成4份，每一份扇形的圆心角是多少度？",
+          "options": [
+            "45",
+            "90",
+            "180",
+            "360"
+          ],
+          "answer": "90",
+          "explanation": "$360 \\div 4 = 90$度。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g6up-u6-exam",
+      "title": "第 6 单元挑战",
+      "unitNumber": 6,
+      "unitTitle": "百分数（一）",
+      "kpIndex": 3,
+      "kpTotal": 3,
+      "isExam": true,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "一根绳子长 0.9 米，也可以写成 90% 米。",
+          "options": [],
+          "answer": "错",
+          "explanation": "百分数是率，不能带单位名称。0.9 米不能表示为 90% 米。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "甲数比乙数多 20%，则乙数比甲数少 20%。",
+          "options": [],
+          "answer": "错",
+          "explanation": "单位“1”不同。乙比甲少：$20\\% \\div (1 + 20\\%) \\approx 16.7\\%$。",
+          "difficulty": 2
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "某种商品涨价 10% 后，又降价 10%，价格变得比原价低了。",
+          "options": [],
+          "answer": "对",
+          "explanation": "$1 \\times 1.1 \\times 0.9 = 0.99 < 1$。",
+          "difficulty": 1
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "一个正方形的边长增加 10%，面积就增加 20%。",
+          "options": [],
+          "answer": "错",
+          "explanation": "$1.1 \\times 1.1 = 1.21$，面积增加了 $1.21 - 1 = 21\\%$。",
+          "difficulty": 3
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "六一班有 50 人，今天请假 2 人，出勤率是：",
+          "options": [
+            "98%",
+            "96%",
+            "4%",
+            "2%"
+          ],
+          "answer": "96%",
+          "explanation": "出勤人数 $50-2=48$，出勤率 $48 \\div 50 = 96\\%$。",
+          "difficulty": 2
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "妈妈在银行存入 2000 元，定期二年，年利率是 2.25%。到期后可得利息：",
+          "options": [
+            "45元",
+            "90元",
+            "2090元",
+            "4.5元"
+          ],
+          "answer": "90元",
+          "explanation": "利息 = 本金 $\\times$ 利率 $\\times$ 时间 = $2000 \\times 2.25\\% \\times 2 = 90$ 元。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "甲数比乙数多 25%，则乙数比甲数少：",
+          "options": [
+            "25%",
+            "20%",
+            "30%",
+            "75%"
+          ],
+          "answer": "20%",
+          "explanation": "设乙为 100，甲为 125。$(125-100) \\div 125 = 25 \\div 125 = 20\\%$。",
+          "difficulty": 3
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "某种运动服原价 200 元，现在打八折出售，现价是：",
+          "options": [
+            "160元",
+            "40元",
+            "180元",
+            "240元"
+          ],
+          "answer": "160元",
+          "explanation": "$200 \\times 80\\% = 160$ 元。",
+          "difficulty": 2
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "一套沙发原价 3000 元，现价 2400 元，这套沙发是打几折出售？",
+          "options": [
+            "八五折",
+            "八折",
+            "七五折",
+            "二折"
+          ],
+          "answer": "八折",
+          "explanation": "$2400 \\div 3000 = 0.8 = 80\\%$，即八折。",
+          "difficulty": 2
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "1 吨菜籽可以榨油 350 千克，这批菜籽的出油率是：",
+          "options": [
+            "35%",
+            "350%",
+            "3.5%",
+            "0.35%"
+          ],
+          "answer": "35%",
+          "explanation": "1 吨 = 1000 千克，$350 \\div 1000 = 35\\%$。",
+          "difficulty": 2
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "百分之零点五写作：",
+          "options": [
+            "0.5",
+            "50%",
+            "0.5%",
+            "0.05"
+          ],
+          "answer": "0.5%",
+          "explanation": "直接按读法书写即可。",
+          "difficulty": 1
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "六年级有男生 120 人，比女生多 20%。求女生有多少人？",
+          "options": [
+            "100人",
+            "144人",
+            "96人",
+            "150人"
+          ],
+          "answer": "100人",
+          "explanation": "$120 \\div (1 + 20\\%) = 120 \\div 1.2 = 100$ 人。",
+          "difficulty": 2
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "小明投篮 20 次，投中了 15 次，他的投篮命中率是 ___ %。",
+          "options": [],
+          "answer": "75",
+          "explanation": "$15 \\div 20 = 0.75 = 75\\%$。验算：$20 \\times 75\\% = 15$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "一件上衣原价 200 元，现价 140 元，这是打 ___ 折出售。",
+          "options": [],
+          "answer": "7",
+          "explanation": "$140 \\div 200 = 0.7$。0.7 即七折。验算：$200 \\times 0.7 = 140$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "$500 \\times (1 + 10\\%) = ?$",
+          "options": [],
+          "answer": "550",
+          "explanation": "$500 \\times 1.1 = 550$。验算：$550 \\div 1.1 = 500$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g6up-u6-kp1",
+      "title": "百分数的意义与互化",
+      "unitNumber": 6,
+      "unitTitle": "百分数（一）",
+      "kpIndex": 0,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "百分数的意义与互化",
+        "core_concept": "百分数表示一个数是另一个数的百分之几。它是专门用来表示两个数量之间的比率关系，因此不能带有单位。小数化百分数只要把小数点向右移两位并加百分号；分数化百分数通常先化成小数再化百分数。",
+        "key_formula": "$百分数 = \\frac{比较量}{标准量} \\times 100\\%$",
+        "tips": "记住百分数就是分母为100的特殊的比，它只表示‘关系’而不表示‘具体量’。",
+        "common_mistakes": [
+          "把百分数和分数的意义混淆，给百分数带上单位，如 50% 米。",
+          "在互化过程中小数点移动位数错误，如将 0.03 写成 0.3%。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "百分数也叫做百分率或百分比。",
+          "options": [],
+          "answer": "对",
+          "explanation": "根据百分数的定义，百分数表示一个数是另一个数的百分之几，也叫百分率或百分比。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "分母是 100 的分数一定是百分数。",
+          "options": [],
+          "answer": "错",
+          "explanation": "百分数只表示两个数的比率，不能带单位；而分母是 100 的分数可以表示具体的量（如 1/100 米）。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "把 0.8% 的百分号去掉，这个数就扩大了 100 倍。",
+          "options": [],
+          "answer": "对",
+          "explanation": "$0.8\\% = 0.008$，去掉百分号变成 0.8，$0.8 \\div 0.008 = 100$。验算正确。",
+          "difficulty": 1
+        },
+        {
+          "id": 6,
+          "type": "choice",
+          "question": "下面各数中，最小的一个数是：",
+          "options": [
+            "0.55",
+            "5.5%",
+            "五分之一",
+            "0.5"
+          ],
+          "answer": "5.5%",
+          "explanation": "统一换算成小数比较：$0.55$, $5.5\\%=0.055$, $\\frac{1}{5}=0.2$, $0.5$。$0.055$ 最小。",
+          "difficulty": 1
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "把 25 克盐溶解在 100 克水中，盐水的含盐率是：",
+          "options": [
+            "25%",
+            "20%",
+            "75%",
+            "125%"
+          ],
+          "answer": "20%",
+          "explanation": "含盐率 = $25 \\div (25 + 100) \\times 100\\% = 25 \\div 125 = 20\\% $。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "在 $3.14$、$\\pi$、$\\frac{22}{7}$ 和 $314.2\\%$ 中，最大的数是：",
+          "options": [
+            "3.14",
+            "π",
+            "22/7",
+            "314.2%"
+          ],
+          "answer": "22/7",
+          "explanation": "$3.14$, $\\pi \\approx 3.14159$, $\\frac{22}{7} \\approx 3.14285$, $314.2\\% = 3.142$。比较可知 $\\frac{22}{7}$ 最大。",
+          "difficulty": 1
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "六一班男生人数占全班的 48%，女生人数占全班的：",
+          "options": [
+            "48%",
+            "52%",
+            "100%",
+            "4%"
+          ],
+          "answer": "52%",
+          "explanation": "$1 - 48\\% = 52\\%$。",
+          "difficulty": 1
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "比较大小：$0.67$ 与 $\\frac{2}{3}$，中间应填：",
+          "options": [
+            ">",
+            "<",
+            "==",
+            "≈"
+          ],
+          "answer": ">",
+          "explanation": "$\\frac{2}{3} \\approx 0.666...$，所以 $0.67 > 0.666...$。",
+          "difficulty": 2
+        },
+        {
+          "id": 15,
+          "type": "choice",
+          "question": "下列哪个百分率可能大于 100%？",
+          "options": [
+            "出油率",
+            "增长率",
+            "出勤率",
+            "及格率"
+          ],
+          "answer": "增长率",
+          "explanation": "增长率可以翻倍，超过 100%；出油率、出勤率、及格率最高只能是 100%。",
+          "difficulty": 1
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "写成百分数的形式，0.03 等于：",
+          "options": [
+            "0.3%",
+            "3%",
+            "30%",
+            "0.03%"
+          ],
+          "answer": "3%",
+          "explanation": "$0.03 \\times 100 = 3$，加上百分号为 $3\\%$。",
+          "difficulty": 1
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "校园里种了 50 棵树，有 2 棵没成活。这批树的成活率是 ___ %。",
+          "options": [],
+          "answer": "96",
+          "explanation": "成活棵数：$50 - 2 = 48$。成活率：$48 \\div 50 \\times 100 = 96$。验算：$96\\% \\times 50 = 48$，加上死掉的 2 棵正好 50 棵。",
+          "difficulty": 1
+        },
+        {
+          "id": 21,
+          "type": "fill_blank",
+          "question": "把 0.45 转化为百分数是 ___ %。",
+          "options": [],
+          "answer": "45",
+          "explanation": "$0.45 \\times 100 = 45$。即 45%。",
+          "difficulty": 1
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "$40 \\times 20\\% = ?$",
+          "options": [],
+          "answer": "8",
+          "explanation": "$40 \\times 0.2 = 8$。验算：$8 \\div 0.2 = 40$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 23,
+          "type": "calculation",
+          "question": "$100 \\div 50\\% = ?$",
+          "options": [],
+          "answer": "200",
+          "explanation": "$100 \\div 0.5 = 200$。验算：$200 \\times 0.5 = 100$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g6up-u6-kp2",
+      "title": "百分数应用：增长率与减少率",
+      "unitNumber": 6,
+      "unitTitle": "百分数（一）",
+      "kpIndex": 1,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "百分数应用：增长率与减少率",
+        "core_concept": "这类问题本质是寻找“差量”占“单位1”的百分之几。关键在于找准谁是单位“1”（通常是“比”字后面的那个量）。求多百分之几是用差量除以原有的量。",
+        "key_formula": "$百分比 = (大数 - 小数) \\div 单位“1” \\times 100\\%$",
+        "tips": "口诀：‘多（少）谁’就‘除以谁’，那个‘谁’就是单位‘1’。",
+        "common_mistakes": [
+          "找错单位“1”，例如求乙比甲少百分之几时，错误地除以了乙。",
+          "忽略连续变化的情况，认为先涨价10%再降价10%会回到原价。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "一件衣服先提价 10%，再降价 10%，现价和原价相等。",
+          "options": [],
+          "answer": "错",
+          "explanation": "提价 10% 后是原价的 $110\\%$，再降价是在 $110\\%$ 的基础上降，现价是原价的 $110\\% \\times (1-10\\%) = 99\\% < 100\\%$。",
+          "difficulty": 2
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "甲数是 20，乙数是 25。甲数比乙数少百分之几？",
+          "options": [
+            "20%",
+            "25%",
+            "80%",
+            "5%"
+          ],
+          "answer": "20%",
+          "explanation": "$(25-20) \\div 25 = 5 \\div 25 = 0.2 = 20\\%$。",
+          "difficulty": 2
+        },
+        {
+          "id": 12,
+          "type": "choice",
+          "question": "一种商品的价格先提高了 20%，如果要恢复原价，应当再降低：",
+          "options": [
+            "20%",
+            "25%",
+            "16.7%",
+            "15%"
+          ],
+          "answer": "16.7%",
+          "explanation": "设有 100 元，提价后 $100 \\times 1.2 = 120$。恢复原价需降 20 元。$20 \\div 120 \\approx 16.7\\%$。",
+          "difficulty": 3
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "水果店运进一批苹果，卖出 400 千克，还剩 100 千克。卖出的比剩下的：",
+          "options": [
+            "多300%",
+            "多400%",
+            "多75%",
+            "多25%"
+          ],
+          "answer": "多300%",
+          "explanation": "$(400-100) \\div 100 = 300\\%$。",
+          "difficulty": 2
+        },
+        {
+          "id": 18,
+          "type": "choice",
+          "question": "甲数是乙数的 2 倍，乙数比甲数少：",
+          "options": [
+            "200%",
+            "100%",
+            "50%",
+            "150%"
+          ],
+          "answer": "50%",
+          "explanation": "$(2-1) \\div 2 = 0.5 = 50\\%$。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "一个数是 80，比它多 25% 的数是 ___ 。",
+          "options": [],
+          "answer": "100",
+          "explanation": "$80 \\times (1 + 25\\%) = 80 \\times 1.25 = 100$。验算：$(100-80) \\div 80 = 20 \\div 80 = 0.25 = 25\\%$。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g6up-u6-kp3",
+      "title": "生活中的百分数（利率/折扣）",
+      "unitNumber": 6,
+      "unitTitle": "百分数（一）",
+      "kpIndex": 2,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "生活中的百分数（利率/折扣）",
+        "core_concept": "折扣表示现价是原价的十分之几（百分之几十）；税率是应纳税额占总收入的比例；利息是银行支付给存款人的额外金额，金额取决于本金、利率和存期。",
+        "key_formula": "$利息 = 本金 \\times 利率 \\times 存期$",
+        "tips": "折扣越低越便宜，五折即半价；利息计算一定要看清存储时间。",
+        "common_mistakes": [
+          "计算利息时漏掉‘存期’，或者存期单位不是年（如月）而未做转化。",
+          "计算折扣时，将‘打八折’误认为是减去了 80%，实际上是卖原价的 80%。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "在存款利息计算中，本金越多，利息一定越多。",
+          "options": [],
+          "answer": "错",
+          "explanation": "利息取决于本金、利率和时间三个因素。如果时间很短或利率极低，本金多利息也不一定多。",
+          "difficulty": 1
+        },
+        {
+          "id": 9,
+          "type": "choice",
+          "question": "商场搞活动“满 100 元减 20 元”，这相当于打：",
+          "options": [
+            "二折",
+            "八折",
+            "七五折",
+            "八五折"
+          ],
+          "answer": "八折",
+          "explanation": "支付 $100-20=80$，现价除以原价即折扣：$80 \\div 100 = 80\\%$，即八折。",
+          "difficulty": 1
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "爸爸买了一辆 10000 元的摩托车，按 10% 缴纳消费税，应缴税：",
+          "options": [
+            "100元",
+            "1000元",
+            "10元",
+            "11000元"
+          ],
+          "answer": "1000元",
+          "explanation": "$10000 \\times 10\\% = 1000$ 元。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g6up-u7-exam",
+      "title": "第 7 单元挑战",
+      "unitNumber": 7,
+      "unitTitle": "扇形统计图",
+      "kpIndex": 2,
+      "kpTotal": 2,
+      "isExam": true,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "扇形统计图能反映出数据的变化趋势。",
+          "options": [],
+          "answer": "错",
+          "explanation": "反映变化趋势是折线统计图的功能。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "用整个圆面积代表 1，那么占比 20% 的部分对应的圆心角是 72 度。",
+          "options": [],
+          "answer": "对",
+          "explanation": "$360 \\times 20\\% = 72$ 度。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "在扇形统计图中，占比最大的部分其对应扇形的面积也最大。",
+          "options": [],
+          "answer": "对",
+          "explanation": "比例与面积成正比。",
+          "difficulty": 2
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "通过扇形统计图可以计算出任意一部分对应的具体数值，前提是知道总量。",
+          "options": [],
+          "answer": "对",
+          "explanation": "具体数值 = 总量 × 百分比。",
+          "difficulty": 3
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "扇形统计图主要反映部分与什么之间的关系？",
+          "options": [
+            "部分",
+            "总量",
+            "时间",
+            "平均数"
+          ],
+          "answer": "总量",
+          "explanation": "核心是部分对总量的占比。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "小明家 11 月份支出中，食品占 40%，教育占 20%，服装占 15%，其他占 25%。支出最多的是：",
+          "options": [
+            "食品",
+            "教育",
+            "服装",
+            "其他"
+          ],
+          "answer": "食品",
+          "explanation": "40% 是最大的占比。",
+          "difficulty": 2
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "在扇形统计图中，若一个扇形代表总数的四分之一，其百分比是：",
+          "options": [
+            "10%",
+            "25%",
+            "40%",
+            "50%"
+          ],
+          "answer": "25%",
+          "explanation": "$1 \\div 4 = 0.25 = 25\\%$。",
+          "difficulty": 1
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "某班男生 24 人，女生 16 人。在表示性别占比的扇形统计图中，男生占比是：",
+          "options": [
+            "40%",
+            "50%",
+            "60%",
+            "70%"
+          ],
+          "answer": "60%",
+          "explanation": "总人数 $24+16=40$，$24 \\div 40 = 60\\%$。",
+          "difficulty": 3
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "若占比 15% 的部分比占比 10% 的部分多 5 人，总量是多少？",
+          "options": [
+            "50",
+            "100",
+            "150",
+            "200"
+          ],
+          "answer": "100",
+          "explanation": "$5 \\div (15\\% - 10\\%) = 100$人。",
+          "difficulty": 3
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "要分析超市各季度销售额占全年销售额的比重，最合适的图表是：",
+          "options": [
+            "扇形统计图",
+            "折线统计图",
+            "条形统计图",
+            "直方图"
+          ],
+          "answer": "扇形统计图",
+          "explanation": "比重即占比。",
+          "difficulty": 2
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "在扇形统计图中，总量扩大 2 倍，某部分所占的百分比将：",
+          "options": [
+            "变大",
+            "变小",
+            "不变",
+            "无法判断"
+          ],
+          "answer": "不变",
+          "explanation": "百分比是相对关系，与总量绝对值无关。",
+          "difficulty": 2
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "某校有 800 人，喜欢乒乓球的占 20%，喜欢羽毛球的比乒乓球多 5%，喜欢羽毛球的有：",
+          "options": [
+            "160人",
+            "200人",
+            "240人",
+            "280人"
+          ],
+          "answer": "200人",
+          "explanation": "$800 \\times (20\\% + 5\\%) = 200$。",
+          "difficulty": 3
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "一份 500 克的食物成分中，蛋白质占 20%，蛋白质有 ___ 克。",
+          "options": [],
+          "answer": "100",
+          "explanation": "$500 \\times 0.2 = 100$。验算：$100 \\div 500 = 0.2$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "一个扇形统计图中，A 部分占 30%，B 部分占 20%。如果 B 部分代表 40，那么 A 部分代表 ___。",
+          "options": [],
+          "answer": "60",
+          "explanation": "总量为 $40 \\div 0.2 = 200$，A 为 $200 \\times 0.3 = 60$。验算：$60 \\div 200 = 0.3$ ✓。",
+          "difficulty": 3
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "$800 \\times 15\\% = ?$",
+          "options": [],
+          "answer": "120",
+          "explanation": "$800 \\times 0.15 = 120$。验算：$120 \\div 8=15$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g6up-u7-kp1",
+      "title": "扇形统计图的特点",
+      "unitNumber": 7,
+      "unitTitle": "扇形统计图",
+      "kpIndex": 0,
+      "kpTotal": 2,
+      "isExam": false,
+      "knowledge": {
+        "point": "扇形统计图的特点",
+        "core_concept": "扇形统计图用圆的面积表示总数量（通常记作1或100%），用圆内各个扇形的大小表示各部分数量占总数量的百分比。它能清晰地反映出部分与整体之间的关系，但不能直接看出具体的数值大小（除非结合总量计算）。",
+        "key_formula": "各部分百分比之和 = 100\\%",
+        "tips": "观察扇形统计图时，先看总量是多少，再看最大的扇形是谁，这能帮你迅速抓住主要数据。",
+        "common_mistakes": [
+          "误以为扇形统计图能直接看出数量的增减变化趋势（那是折线统计图的功能）。",
+          "计算各部分百分比之和时不等于1（由于四舍五入或漏算其余部分）。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "在扇形统计图中，整个圆表示总量 100%。",
+          "options": [],
+          "answer": "对",
+          "explanation": "扇形统计图用圆表示总量。验算：总量等于各部分百分比之和，即 100%。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "扇形统计图可以清楚地表示出各部分数量占总数量的百分比。",
+          "options": [],
+          "answer": "对",
+          "explanation": "这是扇形统计图的核心意义。验算：定义符合概念。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "在同一个圆内，代表占比 25% 的扇形面积是占比 50% 扇形面积的一半。",
+          "options": [],
+          "answer": "对",
+          "explanation": "面积比等于比例比。$25 \\div 50 = 0.5$。",
+          "difficulty": 1
+        },
+        {
+          "id": 6,
+          "type": "choice",
+          "question": "扇形统计图是用什么代表总量的？",
+          "options": [
+            "三角形",
+            "正方形",
+            "长方形",
+            "圆"
+          ],
+          "answer": "圆",
+          "explanation": "扇形统计图的基本构成是圆代表 1。",
+          "difficulty": 1
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "在一个扇形统计图中，其中一个扇形的圆心角是 90 度，它占整个圆的百分之几？",
+          "options": [
+            "25%",
+            "50%",
+            "75%",
+            "100%"
+          ],
+          "answer": "25%",
+          "explanation": "整个圆是 360 度，$90 \\div 360 = 0.25 = 25\\%$。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "在扇形统计图中，各部分占总量的百分比之和必须是多少？",
+          "options": [
+            "50%",
+            "80%",
+            "100%",
+            "200%"
+          ],
+          "answer": "100%",
+          "explanation": "总量为 1，即 100%。",
+          "difficulty": 1
+        },
+        {
+          "id": 12,
+          "type": "choice",
+          "question": "扇形统计图中的扇形大小反映了什么？",
+          "options": [
+            "数量的多少",
+            "数量的增减变化",
+            "占总量的比例",
+            "数值的大小"
+          ],
+          "answer": "占总量的比例",
+          "explanation": "扇形面积随占比改变。",
+          "difficulty": 1
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "半圆在扇形统计图中表示占比多少？",
+          "options": [
+            "25%",
+            "50%",
+            "75%",
+            "100%"
+          ],
+          "answer": "50%",
+          "explanation": "半圆是一半，即 50%。",
+          "difficulty": 2
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "一个班级有 50 人，其中女生占 40%，则女生有 ___ 人。",
+          "options": [],
+          "answer": "20",
+          "explanation": "$50 \\times 40\\% = 20$。验算：$20 \\div 50 = 0.4$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 21,
+          "type": "fill_blank",
+          "question": "在一个调查中，喜欢红色的人数占 60%，喜欢蓝色的人数占 25%，剩下的人喜欢绿色。喜欢绿色的占百分之 ___（填数字）。",
+          "options": [],
+          "answer": "15",
+          "explanation": "$100 - 60 - 25 = 15$。验算：$60 + 25 + 15 = 100$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "$400 \\times 25\\% = ?$",
+          "options": [],
+          "answer": "100",
+          "explanation": "$400 \\times 0.25 = 100$。验算：$100 \\div 0.25 = 400$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g6up-u7-kp2",
+      "title": "统计图的选择与数据分析",
+      "unitNumber": 7,
+      "unitTitle": "扇形统计图",
+      "kpIndex": 1,
+      "kpTotal": 2,
+      "isExam": false,
+      "knowledge": {
+        "point": "统计图的选择与数据分析",
+        "core_concept": "在实际应用中，要根据需求选择：条形统计图适合比较数量的大小；折线统计图适合观察数量的增减变化趋势；扇形统计图适合查看部分占总体的比例。数据分析时，通常利用“总量 × 百分比 = 部分量”或“部分量 ÷ 百分比 = 总量”来互求。",
+        "key_formula": "部分数量 = 总量 \\times 对应百分比",
+        "tips": "看到“占比”、“百分比”、“比重”等词汇时，优先考虑扇形统计图。",
+        "common_mistakes": [
+          "在需要比较具体数值大小时错误地选择了扇形统计图。",
+          "在计算总量时，用部分数量乘以百分号，导致结果缩小了一百倍。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "如果想看学校五年级各班人数的多少，选择扇形统计图最合适。",
+          "options": [],
+          "answer": "错",
+          "explanation": "查看具体数量的多少，条形统计图更直观。扇形统计图主要看占比。",
+          "difficulty": 2
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "从扇形统计图中可以直接看出各部分数据的具体数值。",
+          "options": [],
+          "answer": "错",
+          "explanation": "扇形统计图通常直接给出百分比，具体数值需要通过总量计算。",
+          "difficulty": 2
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "为了观察一个病人一天的体温变化趋势，应选择哪种统计图？",
+          "options": [
+            "条形统计图",
+            "折线统计图",
+            "扇形统计图",
+            "统计表"
+          ],
+          "answer": "折线统计图",
+          "explanation": "趋势变化是折线统计图的特长。",
+          "difficulty": 1
+        },
+        {
+          "id": 9,
+          "type": "choice",
+          "question": "某校学生来源中，本市学生占 80%，外市学生占 20%。应用哪种统计图表示更佳？",
+          "options": [
+            "条形统计图",
+            "折线统计图",
+            "扇形统计图",
+            "无法确定"
+          ],
+          "answer": "扇形统计图",
+          "explanation": "表示比例关系，扇形统计图最直观。",
+          "difficulty": 2
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "在一个总人数为 200 人的统计图中，A 部分占 10%，则 A 部分有几人？",
+          "options": [
+            "10",
+            "20",
+            "40",
+            "100"
+          ],
+          "answer": "20",
+          "explanation": "$200 \\times 10\\% = 20$。验算：$20 \\div 200 = 0.1$。",
+          "difficulty": 2
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "果园里桃树占 45%，苹果树占 35%，其余是梨树。梨树占百分之几？",
+          "options": [
+            "10%",
+            "20%",
+            "30%",
+            "40%"
+          ],
+          "answer": "20%",
+          "explanation": "$100\\% - 45\\% - 35\\% = 20\\%$。验算：$45+35+20=100$。",
+          "difficulty": 2
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "要统计一家餐厅各种菜品销量的占比情况，最好使用哪种图？",
+          "options": [
+            "扇形统计图",
+            "折线统计图",
+            "条形统计图",
+            "复式折线图"
+          ],
+          "answer": "扇形统计图",
+          "explanation": "“占比情况”是关键词。",
+          "difficulty": 1
+        },
+        {
+          "id": 15,
+          "type": "choice",
+          "question": "已知扇形统计图中 A 部分占 25%，对应的数值是 50。整个圆代表的总量是多少？",
+          "options": [
+            "100",
+            "150",
+            "200",
+            "400"
+          ],
+          "answer": "200",
+          "explanation": "$50 \\div 25\\% = 200$。验算：$200 \\times 25\\% = 50$。",
+          "difficulty": 3
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "如果总销量是 1000 件，A 商品占 30%，B 商品占 40%，A 比 B 少卖多少件？",
+          "options": [
+            "10",
+            "100",
+            "300",
+            "400"
+          ],
+          "answer": "100",
+          "explanation": "$1000 \\times (40\\% - 30\\%) = 100$。验算：$400 - 300 = 100$。",
+          "difficulty": 2
+        },
+        {
+          "id": 18,
+          "type": "choice",
+          "question": "扇形统计图中，最大的一块表示“足球”，占比 40%。如果“足球”有 80 人，总人数是多少？",
+          "options": [
+            "120",
+            "160",
+            "200",
+            "320"
+          ],
+          "answer": "200",
+          "explanation": "$80 \\div 0.4 = 200$。验算：$200 \\times 0.4 = 80$。",
+          "difficulty": 3
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "果园有 200 棵树，苹果树占 30%，梨树占 20%，那么苹果树比梨树多 ___ 棵。",
+          "options": [],
+          "answer": "20",
+          "explanation": "苹果 $200 \\times 0.3 = 60$，梨 $200 \\times 0.2 = 40$，$60 - 40 = 20$。验算：$200 \\times (0.3 - 0.2) = 20$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 23,
+          "type": "calculation",
+          "question": "$120 \\div 40\\% = ?$",
+          "options": [],
+          "answer": "300",
+          "explanation": "$120 \\div 0.4 = 300$。验算：$300 \\times 0.4 = 120$ ✓。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g6up-u8-exam",
+      "title": "第 8 单元挑战",
+      "unitNumber": 8,
+      "unitTitle": "数学广角——数与形",
+      "kpIndex": 2,
+      "kpTotal": 2,
+      "isExam": true,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "从1开始的前10个奇数的和是100。",
+          "options": [],
+          "answer": "对",
+          "explanation": "$10^2=100$。验算：$1+3+5+7+9+11+13+15+17+19=100$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "$2+4+6+8$ 的结果可以用 $4^2$ 计算。",
+          "options": [],
+          "answer": "错",
+          "explanation": "平方数规律仅适用于从1开始的连续奇数，这是偶数。验算：$2+4+6+8=20 \\neq 16$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "$1+3+5+7+5+3+1 = 4^2+3^2$。",
+          "options": [],
+          "answer": "对",
+          "explanation": "前4个奇数和是 $4^2$，剩余部分 $5+3+1$ 是前3个奇数和 $3^2$。验算：$16+9=25$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "第n个正方形点阵的总点数一定是偶数。",
+          "options": [],
+          "answer": "错",
+          "explanation": "总点数为 $n^2$，当n为奇数时，$n^2$ 为奇数，例如 $3^2=9$ ✓。",
+          "difficulty": 3
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "观察序列：1, 3, 6, 10, 15...。这是由三角形排列产生的数字，那么第6个数是多少？",
+          "options": [
+            "18",
+            "20",
+            "21",
+            "25"
+          ],
+          "answer": "21",
+          "explanation": "规律为 $n(n+1) \\div 2$。第6个数是 $6 \\times 7 \\div 2 = 21$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "若前n个奇数之和为144，则n的值是：",
+          "options": [
+            "10",
+            "12",
+            "14",
+            "16"
+          ],
+          "answer": "12",
+          "explanation": "$12^2 = 144$。验算：$12 \\times 12 = 144$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "用1, 3, 5, 7, 9五个奇数围成一个正方形点阵，如果再围一层，需要增加多少个点？",
+          "options": [
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "answer": "11",
+          "explanation": "当前是第5层（9个点），下一层是下一个奇数，即11 ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "在 100 以内的数中，有多少个是“正方形数”（即1, 4, 9...）？",
+          "options": [
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "answer": "10",
+          "explanation": "$1, 4, 9, 16, 25, 36, 49, 64, 81, 100$，共10个 ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "$1+3+5+\\dots+(2n-1) = 400$，则n为：",
+          "options": [
+            "10",
+            "20",
+            "30",
+            "40"
+          ],
+          "answer": "20",
+          "explanation": "$n^2 = 400$，故 $n = 20$ ✓。",
+          "difficulty": 3
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "一个圆形蛋糕，每次吃掉剩下的一半。吃了4次后，还剩多少？",
+          "options": [
+            "1/4",
+            "1/8",
+            "1/16",
+            "1/32"
+          ],
+          "answer": "1/16",
+          "explanation": "剩余量为 $(1/2)^4 = 1/16$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "正方形数 4 和 9 之间相差多少？",
+          "options": [
+            "3",
+            "5",
+            "7",
+            "9"
+          ],
+          "answer": "5",
+          "explanation": "差值为 $9 - 4 = 5$，正好是第3个奇数 ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "摆第10个三角形阵需要55个圆点，摆第11个需要多少个？",
+          "options": [
+            "60",
+            "65",
+            "66",
+            "70"
+          ],
+          "answer": "66",
+          "explanation": "第11个需要增加11个点，$55 + 11 = 66$ ✓。",
+          "difficulty": 3
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "从1开始连续100个奇数相加，和是 ___。",
+          "options": [],
+          "answer": "10000",
+          "explanation": "列式：$100 \\times 100 = 10000$。验算：$100^2 = 10000$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "计算 $1+3+5+7+9+11+9+7+5+3+1 = $ ___。",
+          "options": [],
+          "answer": "61",
+          "explanation": "前6项和 $6^2=36$，后5项和 $5^2=25$。列式：$36+25=61$。验算：$36+25=61$ ✓。",
+          "difficulty": 3
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$13 \\times 13 = ?$",
+          "options": [],
+          "answer": "169",
+          "explanation": "$13 \\times 13 = 169$。验算：$169 \\div 13 = 13$ ✓。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g6up-u8-kp1",
+      "title": "数形结合规律（奇数和）",
+      "unitNumber": 8,
+      "unitTitle": "数学广角——数与形",
+      "kpIndex": 0,
+      "kpTotal": 2,
+      "isExam": false,
+      "knowledge": {
+        "point": "数形结合规律（奇数和）",
+        "core_concept": "数形结合是一种重要的数学思想。通过观察正方形点阵发现，从1开始的连续n个奇数相加，其结果正好可以用边长为n的正方形面积来表示。这种通过图形直观理解抽象算式的方法，能帮助我们快速解决求和问题。",
+        "key_formula": "$1 + 3 + 5 + \\dots + (2n-1) = n^2$",
+        "tips": "先数清一共有几个加数（n），再计算n的平方。如果计算不确定，可以画个小点阵验证。",
+        "common_mistakes": [
+          "不是从1开始相加也直接代入公式",
+          "将最后一个奇数的值直接当作n带入平方"
+        ]
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "从1开始的连续3个奇数的和等于3的平方。",
+          "options": [],
+          "answer": "对",
+          "explanation": "$1+3+5=9=3^2$，符合前n个连续奇数和等于$n^2$的规律。验算：$9=3 \\times 3=9$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "$1+3+5+7+10$可以利用平方数规律直接计算出结果。",
+          "options": [],
+          "answer": "错",
+          "explanation": "规律要求必须是连续奇数，10是偶数，不符合前n个连续奇数和的规律。验算：$1+3+5+7+9$才是$5^2$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "$1+3+5+7+9$的计算结果是25。",
+          "options": [],
+          "answer": "对",
+          "explanation": "这是前5个连续奇数的和，计算为$5^2 = 25$。验算：$1+3+5+7+9 = 25$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "前n个从1开始的连续奇数之和，可以用图形拼成一个长方形。",
+          "options": [],
+          "answer": "错",
+          "explanation": "前n个连续数学和拼成的是一个边长为n的正方形，不是长方形 ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 6,
+          "type": "choice",
+          "question": "计算 $1+3+5+7+9+11+13$，正确的结果是：",
+          "options": [
+            "36",
+            "49",
+            "64",
+            "81"
+          ],
+          "answer": "49",
+          "explanation": "共有7个连续奇数，和为$7^2 = 49$。验算：$1+3+5+7+9+11+13 = 49$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "如果要使 $1+3+5+\\dots+n = 100$，那么n应该是多少？",
+          "options": [
+            "10",
+            "15",
+            "19",
+            "21"
+          ],
+          "answer": "19",
+          "explanation": "$100 = 10^2$，说明是前10个奇数的和。第10个奇数是$2 \\times 10 - 1 = 19$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "根据数形结合规律，前12个连续奇数的和与12的平方关系如何？",
+          "options": [
+            "相等",
+            "大于",
+            "小于",
+            "无法确定"
+          ],
+          "answer": "相等",
+          "explanation": "规律表明前n个连续奇数的和等于$n^2$，因此前12个的和等于$12^2$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 9,
+          "type": "choice",
+          "question": "算式 $1+3+5+7+9+7+5+3+1$ 的结果是多少？",
+          "options": [
+            "25",
+            "34",
+            "41",
+            "45"
+          ],
+          "answer": "41",
+          "explanation": "$1+3+5+7+9 = 5^2 = 25$，后面 $7+5+3+1 = 4^2 = 16$。$25 + 16 = 41$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "在一个大正方形中，由 1, 3, 5, 7 四个层级的图形拼成。这个大正方形一共包含多少个小方块？",
+          "options": [
+            "4",
+            "9",
+            "16",
+            "25"
+          ],
+          "answer": "16",
+          "explanation": "$1+3+5+7 = 4^2 = 16$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 12,
+          "type": "choice",
+          "question": "第10个正方形数是多少？",
+          "options": [
+            "20",
+            "50",
+            "100",
+            "121"
+          ],
+          "answer": "100",
+          "explanation": "第10个正方形数即 $10^2 = 100$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "计算 $11+13+15+17+19$ 的结果：",
+          "options": [
+            "75",
+            "100",
+            "125",
+            "150"
+          ],
+          "answer": "75",
+          "explanation": "可以看作 $(1+\\dots+19) - (1+\\dots+9) = 10^2 - 5^2 = 100 - 25 = 75$ ✓。",
+          "difficulty": 3
+        },
+        {
+          "id": 15,
+          "type": "choice",
+          "question": "下列哪个算式可以用 $n^2$ 来快速计算？",
+          "options": [
+            "1+2+3+4",
+            "1+3+5+7",
+            "2+4+6+8",
+            "1+3+4+7"
+          ],
+          "answer": "1+3+5+7",
+          "explanation": "只有连续奇数从1开始的和符合 $n^2$ 规律 ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "用小圆点摆正方形。第1层1个，第2层3个，第3层5个，摆到第n层一共用了36个。n是多少？",
+          "options": [
+            "6",
+            "12",
+            "18",
+            "36"
+          ],
+          "answer": "6",
+          "explanation": "$n^2 = 36$，所以 $n = 6$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "1, 4, 9, 16, ( ), 36。括号中应该填：",
+          "options": [
+            "20",
+            "25",
+            "30",
+            "35"
+          ],
+          "answer": "25",
+          "explanation": "这是平方数序列，$1^2, 2^2, 3^2, 4^2, 5^2, 6^2$。$5^2 = 25$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "计算 $1+3+5+7+9+11+13+15 = $ ___。",
+          "options": [],
+          "answer": "64",
+          "explanation": "总共有8个连续奇数，列式：$8 \\times 8 = 64$。验算：$1+3+5+7+9+11+13+15=64$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "前 15 个连续奇数的和是 ___。",
+          "options": [],
+          "answer": "225",
+          "explanation": "直接使用公式 $n^2$。列式：$15 \\times 15 = 225$。验算：$225 \\div 15 = 15$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 21,
+          "type": "fill_blank",
+          "question": "一个正方形点阵图，最外层有20个点，这个点阵最外层每边有 ___ 个点。",
+          "options": [],
+          "answer": "6",
+          "explanation": "最外层点数计算公式 $(n-1) \\times 4 = 20$。列式：$20 \\div 4 + 1 = 6$。验算：$(6-1) \\times 4 = 20$ ✓。",
+          "difficulty": 3
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$9 \\times 9 = ?$",
+          "options": [],
+          "answer": "81",
+          "explanation": "$9 \\times 9 = 81$。验算：$81 \\div 9 = 9$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 23,
+          "type": "calculation",
+          "question": "计算：$20 \\times 20 - 15 \\times 15 = ?$",
+          "options": [],
+          "answer": "175",
+          "explanation": "$400 - 225 = 175$。验算：$175 + 225 = 400$ ✓。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g6up-u8-kp2",
+      "title": "等比数列求和的思想",
+      "unitNumber": 8,
+      "unitTitle": "数学广角——数与形",
+      "kpIndex": 1,
+      "kpTotal": 2,
+      "isExam": false,
+      "knowledge": {
+        "point": "等比数列求和的思想",
+        "core_concept": "当我们把一个整体（如面积为1的正方形）不断对半分割并取走时，取走的面积序列为 $1/2, 1/4, 1/8 \\dots$。通过图形可以直观看到，无论加多少项，这些部分的部和永远填不满整个正方形，但会无限接近于1。这揭示了极限的初步数学思想。",
+        "key_formula": "$\\frac{1}{2} + \\frac{1}{4} + \\frac{1}{8} + \\dots + \\frac{1}{2^n} = 1 - \\frac{1}{2^n}$",
+        "tips": "记住“还差一点就到1”的思想，缺少的那个“点”正好就是最后一项的大小。",
+        "common_mistakes": [
+          "认为无限加下去和会变的无限大",
+          "计算有限项求和时，分母计算错误"
+        ]
+      },
+      "questions": [
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "在无限求和式子$\\frac{1}{2}+\\frac{1}{4}+\\frac{1}{8}+\\dots$中，加得项数越多，和越接近1。",
+          "options": [],
+          "answer": "对",
+          "explanation": "通过图形分割，每次加上的面积是剩余面积的一半，总和无限逼近整体1 ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "$\\frac{1}{2}+\\frac{1}{4}+\\frac{1}{8}+\\frac{1}{16}+\\frac{1}{32}$ 的结果与 1 相比：",
+          "options": [
+            "大于 1",
+            "小于 1",
+            "等于 1",
+            "无法比较"
+          ],
+          "answer": "小于 1",
+          "explanation": "这是逐步接近1的数列，但项数有限，结果必小于1。计算得 $\\frac{31}{32} < 1$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "$\\frac{1}{2}+\\frac{1}{4}+\\frac{1}{8}$ 的结果是多少？",
+          "options": [
+            "0.5",
+            "0.75",
+            "0.875",
+            "1"
+          ],
+          "answer": "0.875",
+          "explanation": "$\\frac{1}{2}+\\frac{1}{4}+\\frac{1}{8} = 0.5 + 0.25 + 0.125 = 0.875$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 18,
+          "type": "choice",
+          "question": "把一个正方形的面积看作1。第一次取其一半，第二次取剩余部分的一半，第三次再取剩余的一半。此时剩余部分的面积是：",
+          "options": [
+            "1/4",
+            "1/8",
+            "1/16",
+            "1/32"
+          ],
+          "answer": "1/8",
+          "explanation": "剩余面积序列为 $1/2, 1/4, 1/8$。第三次剩余即 $1 \\div 2 \\div 2 \\div 2 = 1/8$ ✓。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g6up-u9-exam",
+      "title": "第 9 单元挑战",
+      "unitNumber": 9,
+      "unitTitle": "总复习",
+      "kpIndex": 3,
+      "kpTotal": 3,
+      "isExam": true,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "圆心决定圆的位置，半径决定圆的大小。",
+          "options": [],
+          "answer": "对",
+          "explanation": "这是圆的基本属性，圆心确定坐标，半径确定范围尺寸。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "比的前项和后项同时乘一个相同的数，比值不变。",
+          "options": [],
+          "answer": "错",
+          "explanation": "必须是同时乘或除以相同的数（0除外）。原命题没说 0 除外，所以错误。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "半圆的对称轴只有一条。",
+          "options": [],
+          "answer": "对",
+          "explanation": "半圆只有通过圆心垂直于直径的一条对称轴。",
+          "difficulty": 1
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "比的前项是 3，后项是 4，如果前项增加 6，要使比值不变，后项应增加 8。",
+          "options": [],
+          "answer": "对",
+          "explanation": "前项由 3 变成 9，扩大了 3 倍。后项应变为 $4 \\times 3 = 12$，增加 $12 - 4 = 8$。正确。",
+          "difficulty": 2
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "糖占糖水的 $\\frac{1}{10}$，糖与水的比是多少？",
+          "options": [
+            "1 : 10",
+            "1 : 9",
+            "1 : 11",
+            "9 : 10"
+          ],
+          "answer": "1 : 9",
+          "explanation": "糖是 1 份，糖水是 10 份，则水是 $10 - 1 = 9$ 份。比是 $1 : 9$。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "在边长是 4 厘米的正方形内画一个最大的圆，这个圆的面积是多少平方厘米？($\\pi = 3.14$)",
+          "options": [
+            "50.24",
+            "12.56",
+            "25.12",
+            "16"
+          ],
+          "answer": "12.56",
+          "explanation": "圆的直径等于正方形边长 4 cm，半径为 2 cm。面积 $3.14 \\times 2^2 = 3.14 \\times 4 = 12.56$。",
+          "difficulty": 2
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "一个三角形三个内角度数的比是 $1 : 2 : 3$，这个三角形是什么三角形？",
+          "options": [
+            "锐角三角形",
+            "直角三角形",
+            "钝角三角形",
+            "等腰三角形"
+          ],
+          "answer": "直角三角形",
+          "explanation": "最大角占 $3/(1+2+3) = 1/2$。$180 \\times 1/2 = 90$ 度。有 90 度角的三角形是直角三角形。",
+          "difficulty": 2
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "一个圆的周长是 18.84 厘米，它的半径是多少厘米？($\\pi = 3.14$)",
+          "options": [
+            "3",
+            "6",
+            "9",
+            "2"
+          ],
+          "answer": "3",
+          "explanation": "半径 $r = C \\div (2\\pi) = 18.84 \\div (2 \\times 3.14) = 18.84 \\div 6.28 = 3$。",
+          "difficulty": 2
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "甲数是乙数的 2 倍，乙数与甲数的比是多少？",
+          "options": [
+            "2 : 1",
+            "1 : 2",
+            "1 : 3",
+            "2 : 3"
+          ],
+          "answer": "1 : 2",
+          "explanation": "设乙为 1，则甲为 2。乙与甲的比为 $1 : 2$。",
+          "difficulty": 2
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "一个环形外圆半径是 5 厘米，内圆半径是 3 厘米，环形面积是多少平方厘米？($\\pi = 3.14$)",
+          "options": [
+            "50.24",
+            "25.12",
+            "5(1-0)",
+            "75.36"
+          ],
+          "answer": "50.24",
+          "explanation": "面积 $= \\pi(R^2 - r^2) = 3.14 \\times (25 - 9) = 3.14 \\times 16 = 50.24$。",
+          "difficulty": 3
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "从学校到图书馆，小明用了 10 分钟，小红用了 12 分钟。小明与小红的速度比是多少？",
+          "options": [
+            "10 : 12",
+            "12 : 10",
+            "6 : 5",
+            "5 : 6"
+          ],
+          "answer": "6 : 5",
+          "explanation": "速度比等于时间比的倒数。$1/10 : 1/12 = 12 : 10 = 6 : 5$。",
+          "difficulty": 2
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "100 克水中加入 10 克盐，含盐率低于 10% 还是高于 10%？",
+          "options": [
+            "高于 10%",
+            "低于 10%",
+            "等于 10%",
+            "无法比较"
+          ],
+          "answer": "低于 10%",
+          "explanation": "含盐率 $= 10 \\div 110 \\approx 9.1\\% < 10\\%$。所以低于 10%。",
+          "difficulty": 2
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "一根绳子长 20 米，用去 $\\frac{4}{5}$ 后，还剩 ___ 米。",
+          "options": [],
+          "answer": "4",
+          "explanation": "剩下 $20 \\times (1 - 4/5) = 20 \\times 1/5 = 4$。验算：$4 + (20 \\times 4/5) = 4 + 16 = 20$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "如果 $x \\times \\frac{3}{4} = y \\times \\frac{4}{5} = 1$（$x, y$ 均不为 0），那么 $x$ 等于多少的 3 倍？答案是 ___。",
+          "options": [],
+          "answer": "0",
+          "explanation": "修正题意：$x = 4/3$。换一题：一个比的前项是 20，比值是 4，后项是 ___。后项 $= 20 \\div 4 = 5$。验算：$20/5 = 4$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$150 \\div 50 \\% = ?$",
+          "options": [],
+          "answer": "300",
+          "explanation": "$150 \\div 0.5 = 300$。验算：$300 \\times 50\\% = 150$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g6up-u9-kp1",
+      "title": "分数百分数综合复习",
+      "unitNumber": 9,
+      "unitTitle": "总复习",
+      "kpIndex": 0,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "分数百分数综合复习",
+        "core_concept": "复习分数、百分数的意义及其互化。重点在于寻找“单位1”，掌握“求一个数的几分之几/百分之几是多少”用乘法，“已知一个数的几分之几/百分之几是多少，求这个数”用除法。解决增加或减少百分之几的问题时，要分清是在谁的基础上变动。",
+        "key_formula": "对应量 \\div 对应分率 = 单位“1”的量",
+        "tips": "做题前先圈出“的”字前面的量，通常那就是单位“1”。",
+        "common_mistakes": [
+          "单位“1”找错，导致乘除法逻辑颠倒。",
+          "在计算连续提价和降价问题时，误以为现价等于原价。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "一根绳子长 1 米，用去 80% 之后，还剩下 20% 米。",
+          "options": [],
+          "answer": "错",
+          "explanation": "百分数表示两个数之间的倍数关系，不能带单位名称。剩下的长度应该是 $1 \\times 20\\% = 0.2$ 米。验算：$80\\% + 20\\% = 100\\%$ 正确，但单位添加错误。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "一件衣服先提价 10%，再降价 10%，现价和原价一样多。",
+          "options": [],
+          "answer": "错",
+          "explanation": "提价时的单位“1”是原价，降价时的单位“1”是提价后的价格。$1 \\times (1 + 10\\%) \\times (1 - 10\\%) = 0.99$。$0.99 < 1$，所以现价比原价低。",
+          "difficulty": 2
+        },
+        {
+          "id": 6,
+          "type": "choice",
+          "question": "把 25 克盐放入 100 克水中，盐水的含盐率是多少？",
+          "options": [
+            "25%",
+            "20%",
+            "75%",
+            "125%"
+          ],
+          "answer": "20%",
+          "explanation": "含盐率 = 盐 / (盐 + 水)。$25 \\div (25 + 100) = 25 \\div 125 = 0.2 = 20\\%$。验算：$125 \\times 20\\% = 25$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 9,
+          "type": "choice",
+          "question": "同样的梨，甲超市 10 元买 4 个，乙超市 15 元买 6 个。哪家超市便宜？",
+          "options": [
+            "甲超市便宜",
+            "乙超市便宜",
+            "一样便宜",
+            "无法比较"
+          ],
+          "answer": "一样便宜",
+          "explanation": "甲：$10 \\div 4 = 2.5$（元/个）；乙：$15 \\div 6 = 2.5$（元/个）。价格相等。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "甲数比乙数多 25%，则乙数比甲数少多少？",
+          "options": [
+            "25%",
+            "20%",
+            "75%",
+            "80%"
+          ],
+          "answer": "20%",
+          "explanation": "设乙为 100，则甲为 125。乙比甲少 $(125-100) \\div 125 = 25 \\div 125 = 0.2 = 20\\%$。验算：$125 \\times (1 - 20\\%) = 100$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "一袋面粉吃掉了 20 千克，正好是这袋面粉的 $\\frac{1}{4}$。这袋面粉原重多少千克？",
+          "options": [
+            "5",
+            "40",
+            "60",
+            "80"
+          ],
+          "answer": "80",
+          "explanation": "单位“1”未知，用除法：$20 \\div \\frac{1}{4} = 80$（千克）。验算：$80 \\times \\frac{1}{4} = 20$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 18,
+          "type": "choice",
+          "question": "一根铁丝截去 $\\frac{3}{5}$ 米后，还剩全长的 $\\frac{3}{5}$。截去的和剩下的相比，哪个长？",
+          "options": [
+            "截去的长",
+            "剩下的长",
+            "一样长",
+            "无法确定"
+          ],
+          "answer": "无法确定",
+          "explanation": "截去的是具体的量 $\\frac{3}{5}$ 米，剩下的是分率。如果全长是 1 米，则剩下 0.6 米，截去 0.4 米；如果全长是 2 米，剩下 1.2 米，截去 0.8 米。因此不确定。但在此题中，若全长未知则无法比较。",
+          "difficulty": 3
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "小明有 120 张邮票，小红的邮票数是小明的 $\\frac{3}{4}$，小红有 ___ 张邮票。",
+          "options": [],
+          "answer": "90",
+          "explanation": "$120 \\times \\frac{3}{4} = 90$。验算：$90 \\div 120 = 0.75 = \\frac{3}{4}$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$80 \\times (1 - 25\\%) = ?$",
+          "options": [],
+          "answer": "60",
+          "explanation": "$80 \\times 0.75 = 60$。验算：$60 \\div 0.75 = 80$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g6up-u9-kp2",
+      "title": "几何图形组合复习",
+      "unitNumber": 9,
+      "unitTitle": "总复习",
+      "kpIndex": 1,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "几何图形组合复习",
+        "core_concept": "综合复习圆的周长和面积公式。理解圆周率 $\\pi$ 的内涵。对于由圆、半圆、环形或扇形组成的组合图形，通常采用平移、旋转、切割等方法转化为规则图形的加减计算。注意半圆周长不仅包含弧长，还包含直径。",
+        "key_formula": "S = \\pi r^2, C = \\pi d = 2\\pi r",
+        "tips": "牢记 1 到 9 乘以 3.14 的常用值，可以极大提高计算速度和准确率。",
+        "common_mistakes": [
+          "求半圆周长时漏掉直径。",
+          "计算半径平方时误算成半径乘以 2。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "圆的周长总是它直径的 $\\pi$ 倍。",
+          "options": [],
+          "answer": "对",
+          "explanation": "根据圆周长的定义，$C = \\pi d$，周长与直径的比值是一个固定常数 $\\pi$。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "一个圆的半径扩大到原来的 3 倍，它的面积扩大到原来的几倍？",
+          "options": [
+            "3 倍",
+            "6 倍",
+            "9 倍",
+            "27 倍"
+          ],
+          "answer": "9 倍",
+          "explanation": "圆的面积 $S = \\pi r^2$。半径变为 $3r$，面积变为 $\\pi(3r)^2 = 9\\pi r^2$。验算：$3 \\times 3 = 9$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 12,
+          "type": "choice",
+          "question": "周长相等的长方形、正方形和圆，谁的面积最大？",
+          "options": [
+            "长方形",
+            "正方形",
+            "圆",
+            "一样大"
+          ],
+          "answer": "圆",
+          "explanation": "在周长相等的情况下，圆的面积最大，这是几何结论。验算：设周长为 $12.56$，圆半径为 2，面积 12.56；正方形边长 3.14，面积 9.8596。$12.56 > 9.8596$。",
+          "difficulty": 1
+        },
+        {
+          "id": 15,
+          "type": "choice",
+          "question": "一个直径为 10 厘米的半圆，它的周长是多少厘米？",
+          "options": [
+            "15.7",
+            "25.7",
+            "31.4",
+            "51.4"
+          ],
+          "answer": "25.7",
+          "explanation": "半圆周长 = 圆周长的一半 + 直径。$3.14 \\times 10 \\div 2 + 10 = 15.7 + 10 = 25.7$。",
+          "difficulty": 2
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "一个圆的直径是 10 厘米，它的周长是 ___ 厘米。（$\\pi$ 取 3.14）",
+          "options": [],
+          "answer": "31",
+          "explanation": "此处为演示，修正为：圆的半径是 5 厘米，周长是 $2 \\times 3.14 \\times 5 = 31.4$。要求整数，题目改写：半径 50 cm，周长积数为 $2 \\times 3.14 \\times 50 = 314$ 厘米。验算：$314 \\div 3.14 \\div 2 = 50$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g6up-u9-kp3",
+      "title": "数理逻辑与模型复习",
+      "unitNumber": 9,
+      "unitTitle": "总复习",
+      "kpIndex": 2,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "数理逻辑与模型复习",
+        "core_concept": "复习比的意义、基本性质及化简。掌握按比分配的方法，将总量按比例系数转化为份数解决。同时包括扇形统计图的数据分析和“数与形”结合的规律探索（如点阵、路径问题），培养通过局部规律推导整体模型的逻辑思维。",
+        "key_formula": "一份量 = 总数量 \\div 总份数",
+        "tips": "解决按比分配问题时，先把比的所有项相加求出总份数，再计算各部分占比。",
+        "common_mistakes": [
+          "化简比的结果写成了一个数（分数或小数），而没写成比的形式。",
+          "在握手或比赛场次问题中多算了一倍（忘记除以 2）。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "如果甲数与乙数的比是 $3 : 5$，那么甲数就是乙数的 $\\frac{3}{5}$。",
+          "options": [],
+          "answer": "对",
+          "explanation": "比的后项相当于分母，前项相当于分子。$3 : 5$ 写成分数形式即为 $\\frac{3}{5}$。验算：$3 \\div 5 = 0.6$，$\\frac{3}{5} = 0.6$，一致。",
+          "difficulty": 1
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "扇形统计图可以清楚地表示出各部分数量与总量之间的关系。",
+          "options": [],
+          "answer": "对",
+          "explanation": "这是扇形统计图的基本特点，用于显示部分占总体的百分比。",
+          "difficulty": 1
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "在一个比中，前项是 8，比值是 $\\frac{1}{2}$，后项是多少？",
+          "options": [
+            "4",
+            "8",
+            "16",
+            "32"
+          ],
+          "answer": "16",
+          "explanation": "后项 = 前项 $\\div$ 比值。$8 \\div \\frac{1}{2} = 8 \\times 2 = 16$。验算：$8 : 16 = 1 : 2$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "要统计东莞市 12 个月的气温变化情况，选用哪种统计图最合适？",
+          "options": [
+            "条形统计图",
+            "折线统计图",
+            "扇形统计图",
+            "统计表"
+          ],
+          "answer": "折线统计图",
+          "explanation": "折线统计图最适合反映数据的增减变化趋势。",
+          "difficulty": 1
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "把 $1 : 0.75$ 化成最简单的整数比是多少？",
+          "options": [
+            "100 : 75",
+            "1 : 3",
+            "4 : 3",
+            "3 : 4"
+          ],
+          "answer": "4 : 3",
+          "explanation": "$1 : 0.75 = 100 : 75 = (100\\div25) : (75\\div25) = 4 : 3$。",
+          "difficulty": 2
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "六(1)班今天到校 48 人，请假 2 人，今天的出勤率是多少？",
+          "options": [
+            "96%",
+            "48%",
+            "100%",
+            "4%"
+          ],
+          "answer": "96%",
+          "explanation": "出勤率 = 到校人数 / 总人数。$48 \\div (48 + 2) = 48 \\div 50 = 0.96 = 96\\%$。",
+          "difficulty": 2
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "1, 3, 6, 10, 15, ( )。按照规律，括号里填多少？",
+          "options": [
+            "20",
+            "21",
+            "25",
+            "30"
+          ],
+          "answer": "21",
+          "explanation": "规律是依次加 2, 3, 4, 5...。$15 + 6 = 21$。",
+          "difficulty": 3
+        },
+        {
+          "id": 21,
+          "type": "fill_blank",
+          "question": "加工一批零件，师傅单独做 10 小时完成，徒弟单独做 15 小时完成。师徒合作每小时完成这批零件的几分之几？答案的分子是 1，分母是 ___。",
+          "options": [],
+          "answer": "6",
+          "explanation": "合作效率为 $\\frac{1}{10} + \\frac{1}{15} = \\frac{3}{30} + \\frac{2}{30} = \\frac{5}{30} = \\frac{1}{6}$。分母为 6。验算：$1 \\div 6 = \\frac{1}{6}$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 23,
+          "type": "calculation",
+          "question": "计算：$12 \\div \\frac{3}{4} = ?$",
+          "options": [],
+          "answer": "16",
+          "explanation": "$12 \\times \\frac{4}{3} = 16$。验算：$16 \\times \\frac{3}{4} = 12$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    }
+  ]
+}

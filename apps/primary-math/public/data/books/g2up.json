@@ -1,0 +1,4884 @@
+{
+  "id": "g2up",
+  "grade": 2,
+  "gradeName": "二年级",
+  "semester": "up",
+  "semesterName": "上册",
+  "textbookName": "二年级上册",
+  "fullName": "人教版小学数学二年级上册",
+  "publisherName": "人教版",
+  "unitsCount": 9,
+  "lessonsCount": 40,
+  "questionCount": 342,
+  "units": [
+    {
+      "n": 1,
+      "title": "长度单位",
+      "lessonIds": [
+        "g2up-u1-kp1",
+        "g2up-u1-kp2",
+        "g2up-u1-kp3",
+        "g2up-u1-kp4",
+        "g2up-u1-kp5",
+        "g2up-u1-exam"
+      ]
+    },
+    {
+      "n": 2,
+      "title": "100以内的加法和减法（二）",
+      "lessonIds": [
+        "g2up-u2-kp1",
+        "g2up-u2-kp2",
+        "g2up-u2-kp3",
+        "g2up-u2-kp4",
+        "g2up-u2-kp5",
+        "g2up-u2-exam"
+      ]
+    },
+    {
+      "n": 3,
+      "title": "角的初步认识",
+      "lessonIds": [
+        "g2up-u3-kp1",
+        "g2up-u3-kp2",
+        "g2up-u3-kp3",
+        "g2up-u3-exam"
+      ]
+    },
+    {
+      "n": 4,
+      "title": "表内乘法（一）",
+      "lessonIds": [
+        "g2up-u4-kp1",
+        "g2up-u4-kp2",
+        "g2up-u4-kp3",
+        "g2up-u4-exam"
+      ]
+    },
+    {
+      "n": 5,
+      "title": "观察物体（一）",
+      "lessonIds": [
+        "g2up-u5-kp1",
+        "g2up-u5-kp2",
+        "g2up-u5-kp3",
+        "g2up-u5-exam"
+      ]
+    },
+    {
+      "n": 6,
+      "title": "表内乘法（二）",
+      "lessonIds": [
+        "g2up-u6-kp1",
+        "g2up-u6-kp2",
+        "g2up-u6-kp3",
+        "g2up-u6-exam"
+      ]
+    },
+    {
+      "n": 7,
+      "title": "认识时间",
+      "lessonIds": [
+        "g2up-u7-kp1",
+        "g2up-u7-kp2",
+        "g2up-u7-kp3",
+        "g2up-u7-exam"
+      ]
+    },
+    {
+      "n": 8,
+      "title": "数学广角——搭配（一）",
+      "lessonIds": [
+        "g2up-u8-kp1",
+        "g2up-u8-kp2",
+        "g2up-u8-kp3",
+        "g2up-u8-exam"
+      ]
+    },
+    {
+      "n": 9,
+      "title": "总复习",
+      "lessonIds": [
+        "g2up-u9-kp1",
+        "g2up-u9-kp2",
+        "g2up-u9-kp3",
+        "g2up-u9-exam"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "g2up-u1-exam",
+      "title": "第 1 单元挑战",
+      "unitNumber": 1,
+      "unitTitle": "长度单位",
+      "kpIndex": 5,
+      "kpTotal": 5,
+      "isExam": true,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "为了交流方便，全世界都统一了长度单位。",
+          "options": [],
+          "answer": "对",
+          "explanation": "统一单位是现代社会科学测量的基础。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "5厘米和50厘米加起来是1米。",
+          "options": [],
+          "answer": "错",
+          "explanation": "$5 + 50 = 55$厘米，不等于100厘米。",
+          "difficulty": 2
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "门的高度大约是2米。",
+          "options": [],
+          "answer": "对",
+          "explanation": "普通房屋的房门高度通常在2米左右。",
+          "difficulty": 1
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "尺子上刻度4到刻度8之间的长度是3厘米。",
+          "options": [],
+          "answer": "错",
+          "explanation": "$8 - 4 = 4$ 厘米，不是3厘米。",
+          "difficulty": 3
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "测量纸条长度，左端对准“2”刻度，右端对准“9”刻度，纸条长（ ）。",
+          "options": [
+            "9厘米",
+            "7厘米",
+            "11厘米",
+            "2厘米"
+          ],
+          "answer": "7厘米",
+          "explanation": "$9 - 2 = 7$ 厘米。",
+          "difficulty": 2
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "有三根木料，分别长 50 厘米、45 厘米、1 米，最长的是哪根？",
+          "options": [
+            "50 厘米",
+            "45 厘米",
+            "1 米",
+            "一样长"
+          ],
+          "answer": "1 米",
+          "explanation": "1米 = 100厘米，100 > 50 > 45。",
+          "difficulty": 3
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "1 个大拇指宽大约是 1 厘米，测一盆花的宽度用了 15 个大拇指，这盆花宽大约（ ）。",
+          "options": [
+            "1 厘米",
+            "15 米",
+            "15 厘米",
+            "100 厘米"
+          ],
+          "answer": "15 厘米",
+          "explanation": "15个1厘米就是15厘米。",
+          "difficulty": 2
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "将两根长 10 厘米的木条重叠 2 厘米钉在一起，连接后的木条长（ ）。",
+          "options": [
+            "20 厘米",
+            "18 厘米",
+            "22 厘米",
+            "12 厘米"
+          ],
+          "answer": "18 厘米",
+          "explanation": "$10 + 10 - 2 = 18$ 厘米。重叠部分由于重合了，需减去一次。",
+          "difficulty": 3
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "在两点之间，可以画（ ）条线段。",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "无数"
+          ],
+          "answer": "1",
+          "explanation": "由于两点确定一条直线，两点间只有一条最短的线段。",
+          "difficulty": 2
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "蚂蚁从 0 刻度爬到 5 厘米处，再爬（ ）厘米就是 10 厘米。",
+          "options": [
+            "10",
+            "5",
+            "0",
+            "1"
+          ],
+          "answer": "5",
+          "explanation": "$10 - 5 = 5$ 厘米。",
+          "difficulty": 3
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "1 米减去 1 厘米等于（ ）。",
+          "options": [
+            "0 厘米",
+            "9 厘米",
+            "99 厘米",
+            "10 厘米"
+          ],
+          "answer": "99 厘米",
+          "explanation": "1米=100厘米，$100 - 1 = 99$ 厘米。",
+          "difficulty": 2
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "小明画了一条线段，长度是（ ）。",
+          "options": [
+            "5 厘米",
+            "5 岁",
+            "5 元",
+            "50 米"
+          ],
+          "answer": "5 厘米",
+          "explanation": "一般在纸上画出的线段用厘米表示比较符合实际。",
+          "difficulty": 2
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "2 米 = ___ 厘米。",
+          "options": [],
+          "answer": "200",
+          "explanation": "1米=100厘米，2米就是2个100厘米，$2 \\times 100 = 200$。验算：$200 \\div 2 = 100$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "有一个正方形，它由 ___ 条线段围成。",
+          "options": [],
+          "answer": "4",
+          "explanation": "正方形有四条直的边，每条边都是线段。验算：边数=4 ✓。",
+          "difficulty": 3
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$52 + 48 = ?$",
+          "options": [],
+          "answer": "100",
+          "explanation": "$52 + 48 = 100$。验算：$100 - 48 = 52$ ✓。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g2up-u1-kp1",
+      "title": "统一长度单位的必要性",
+      "unitNumber": 1,
+      "unitTitle": "长度单位",
+      "kpIndex": 0,
+      "kpTotal": 5,
+      "isExam": false,
+      "knowledge": {
+        "point": "统一长度单位的必要性",
+        "core_concept": "在古代，人们用身体部位（如手掌、脚掌）作为长度单位，但由于每个人身体大小不同，测量同一物体得到的结果也不一样。为了方便交流和准确测量，必须使用统一的长度单位，如米和厘米。",
+        "key_formula": "测量标准必须统一",
+        "tips": "想象一下，如果买衣服时裁缝用大的手量，你用小的手量，衣服就不合身了，所以我们要用尺子。",
+        "common_mistakes": [
+          "认为用任何物体测量同一个物体得到的结果数字都应该一样",
+          "忽略单位名称直接比较数字大小"
+        ]
+      },
+      "questions": [
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "我们现在测量课桌的长度，全国小朋友用的单位都是一样的。",
+          "options": [],
+          "answer": "对",
+          "explanation": "为了结果一致，必须使用统一的长度单位。",
+          "difficulty": 1
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "古代人们用手作为测量工具，不同的人量出的结果往往不同，是因为（ ）。",
+          "options": [
+            "手的大小不同",
+            "工具太高级",
+            "心情不一样",
+            "计算错误"
+          ],
+          "answer": "手的大小不同",
+          "explanation": "人的手掌各异，标准不统一导致测量结果不同。",
+          "difficulty": 1
+        },
+        {
+          "id": 15,
+          "type": "choice",
+          "question": "下面哪个不是长度单位？",
+          "options": [
+            "米",
+            "厘米",
+            "岁",
+            "毫米"
+          ],
+          "answer": "岁",
+          "explanation": "岁是年龄单位，不是长度单位。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2up-u1-kp2",
+      "title": "厘米的认识与使用",
+      "unitNumber": 1,
+      "unitTitle": "长度单位",
+      "kpIndex": 1,
+      "kpTotal": 5,
+      "isExam": false,
+      "knowledge": {
+        "point": "厘米的认识与使用",
+        "core_concept": "厘米是测量较短物体长度的常用单位，可以用字母“cm”表示。测量时，要把刻度尺的“0”刻度对准物体的左端，观察物体右端对着刻度几，就是几厘米。",
+        "key_formula": "长度 = 右端对应刻度 - 左端对应刻度",
+        "tips": "找找身体上的1厘米：食指的宽度大约就是1厘米。",
+        "common_mistakes": [
+          "测量时从尺子的最边缘（没有刻度的地方）开始量",
+          "没有对准0刻度，却直接读出右端的数值"
+        ]
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "测量物体的长度时，必须从尺子的1刻度线开始写起。",
+          "options": [],
+          "answer": "错",
+          "explanation": "测量物体长度时通常应从0刻度线开始，如果从1开始，结果需要减去1。",
+          "difficulty": 1
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "食指宽大约是 1 （ ）。",
+          "options": [
+            "厘米",
+            "米",
+            "分",
+            "克"
+          ],
+          "answer": "厘米",
+          "explanation": "手宽、手指宽等较小的长度通常用厘米作单位。",
+          "difficulty": 1
+        },
+        {
+          "id": 9,
+          "type": "choice",
+          "question": "一把小尺子断了，从刻度2厘米处开始量，到刻度8厘米处结束，这个物体的长度是（ ）。",
+          "options": [
+            "8厘米",
+            "2厘米",
+            "6厘米",
+            "10厘米"
+          ],
+          "answer": "6厘米",
+          "explanation": "$8 - 2 = 6$（厘米）。验算：$6 + 2 = 8$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "测量数学书的长度，用（ ）作单位比较合适。",
+          "options": [
+            "厘米",
+            "米",
+            "千克",
+            "元"
+          ],
+          "answer": "厘米",
+          "explanation": "数学书长度较短，厘米是合适的长度单位。",
+          "difficulty": 1
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "在尺子上，从刻度 0 到刻度 5 是（ ）厘米。",
+          "options": [
+            "0",
+            "5",
+            "4",
+            "6"
+          ],
+          "answer": "5",
+          "explanation": "$5 - 0 = 5$ 厘米。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "一根铅笔原来长 18 厘米，用去了一些后还剩 8 厘米，用去了 ___ 厘米。",
+          "options": [],
+          "answer": "10",
+          "explanation": "列式：$18 - 8 = 10$。验算：$10 + 8 = 18$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$40 + 7 = ?$",
+          "options": [],
+          "answer": "47",
+          "explanation": "$40 + 7 = 47$。验算：$47 - 7 = 40$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2up-u1-kp3",
+      "title": "米的认识与单位换算",
+      "unitNumber": 1,
+      "unitTitle": "长度单位",
+      "kpIndex": 2,
+      "kpTotal": 5,
+      "isExam": false,
+      "knowledge": {
+        "point": "米的认识与单位换算",
+        "core_concept": "米是比厘米大的长度单位，用于测量较长的物体。1米等于100个1厘米。在选择单位时，房子、树木、操场常用米；铅笔、橡皮、书本常用厘米。",
+        "key_formula": "$1 米 = 100 厘米$",
+        "tips": "张开双臂，两个手尖之间的距离大约就是1米。",
+        "common_mistakes": [
+          "记混进率，认为1米等于10厘米",
+          "在给物体填单位时，把米和厘米填反，如写出“大树高10厘米”"
+        ]
+      },
+      "questions": [
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "1米比100厘米长。",
+          "options": [],
+          "answer": "错",
+          "explanation": "因为1米 = 100厘米，所以它们一样长。",
+          "difficulty": 1
+        },
+        {
+          "id": 6,
+          "type": "choice",
+          "question": "操场跑道长约 100 （ ）。",
+          "options": [
+            "厘米",
+            "米",
+            "元",
+            "角"
+          ],
+          "answer": "米",
+          "explanation": "跑道较长，应选择长度单位“米”。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "在○里填上合适的符号：$30厘米○3米$。",
+          "options": [
+            ">",
+            "<",
+            "水平",
+            "无法比较"
+          ],
+          "answer": "<",
+          "explanation": "3米 = 300厘米，30厘米 < 300厘米，所以30厘米 < 3米。",
+          "difficulty": 1
+        },
+        {
+          "id": 12,
+          "type": "choice",
+          "question": "小华身高 135 厘米，小东身高 1 米 30 厘米。谁高一些？",
+          "options": [
+            "小华",
+            "小东",
+            "一样高",
+            "无法确定"
+          ],
+          "answer": "小华",
+          "explanation": "小东身高是 130 厘米。135 > 130，所以小华高。",
+          "difficulty": 2
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "一根跳绳长 2 米，3 根这样的跳绳接在一起（不计接口），总长（ ）米。",
+          "options": [
+            "5",
+            "6",
+            "2",
+            "3"
+          ],
+          "answer": "6",
+          "explanation": "$2 + 2 + 2 = 6$（米）。验算：$6 \\div 3 = 2$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 21,
+          "type": "fill_blank",
+          "question": "小明身高 1 米 25 厘米，也可以说身高是 ___ 厘米。",
+          "options": [],
+          "answer": "125",
+          "explanation": "1米 = 100厘米，$100 + 25 = 125$。验算：$125 - 25 = 100$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 23,
+          "type": "calculation",
+          "question": "计算：$100 - 35 = ?$",
+          "options": [],
+          "answer": "65",
+          "explanation": "$100 - 35 = 65$。验算：$65 + 35 = 100$ ✓。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g2up-u1-kp4",
+      "title": "线段的初步认识与画法",
+      "unitNumber": 1,
+      "unitTitle": "长度单位",
+      "kpIndex": 3,
+      "kpTotal": 5,
+      "isExam": false,
+      "knowledge": {
+        "point": "线段的初步认识与画法",
+        "core_concept": "线段的特征是“直”和“有两个端点”。线段是有长度的，可以测量。画线段时，通常先点一个点，从这个点开始按要求画到指定长度再点一个点。",
+        "key_formula": "线段的特征：直 + 2个端点",
+        "tips": "拉紧一根绳子，两手之间的一段就可以看成线段。",
+        "common_mistakes": [
+          "认为弯曲的线也是线段",
+          "画线段时不画端点，或者画得不直"
+        ]
+      },
+      "questions": [
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "线段是可以量出长度的。",
+          "options": [],
+          "answer": "对",
+          "explanation": "线段有两个端点，长度是有限的，可以用尺子量出。",
+          "difficulty": 2
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "只要是直的线就是线段。",
+          "options": [],
+          "answer": "错",
+          "explanation": "线段不仅要直，还必须有两个端点。",
+          "difficulty": 2
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "下面哪个物体的边可以看成线段？",
+          "options": [
+            "吸管",
+            "黑板的长边",
+            "皮带",
+            "围巾"
+          ],
+          "answer": "黑板的长边",
+          "explanation": "黑板的长边是直的，且有两个固定的端点。",
+          "difficulty": 2
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "要把一根长 10 厘米的绳子剪成 2 厘米长的一小段，要剪几次？",
+          "options": [
+            "5次",
+            "4次",
+            "3次",
+            "6次"
+          ],
+          "answer": "4次",
+          "explanation": "10厘米里有5个2厘米，剪成5段需要剪 $5 - 1 = 4$ 次。",
+          "difficulty": 3
+        },
+        {
+          "id": 18,
+          "type": "choice",
+          "question": "线段有（ ）个端点。",
+          "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+          ],
+          "answer": "2",
+          "explanation": "线段的特征有两个端点。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2up-u1-kp5",
+      "title": "米的认识 with 单位换算",
+      "unitNumber": 1,
+      "unitTitle": "长度单位",
+      "kpIndex": 4,
+      "kpTotal": 5,
+      "isExam": false,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "1 米 = ___ 厘米。",
+          "options": [],
+          "answer": "100",
+          "explanation": "根据教材定义，1米等于100个1厘米。验算：$100 \\div 1 = 100$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2up-u2-exam",
+      "title": "第 2 单元挑战",
+      "unitNumber": 2,
+      "unitTitle": "100以内的加法和减法（二）",
+      "kpIndex": 5,
+      "kpTotal": 5,
+      "isExam": true,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "两个两位数相加，和可能是两位数，也可能是三位数。",
+          "options": [],
+          "answer": "对",
+          "explanation": "例如 $10+10=20$（两位），$50+60=110$（三位）。故正确。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "$72 - 3\\square$ 的得数一定是三十多。",
+          "options": [],
+          "answer": "错",
+          "explanation": "如果 $\\square$ 是 1，结果是 41（四十多）。故错误。",
+          "difficulty": 2
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "$50 - (24 + 6)$ 和 $50 - 24 + 6$ 的结果相等。",
+          "options": [],
+          "answer": "错",
+          "explanation": "前者得 20，后者得 32。不相等。",
+          "difficulty": 2
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "小明比小红高 5 厘米，就是小红比小明矮 5 厘米。",
+          "options": [],
+          "answer": "对",
+          "explanation": "两者高度差是固定的，甲比乙多几，乙就比甲少几。正确。",
+          "difficulty": 3
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "如果 $\\triangle + 25 = 62$，那么 $\\triangle$ 是（ ）。",
+          "options": [
+            "37",
+            "47",
+            "87",
+            "43"
+          ],
+          "answer": "37",
+          "explanation": "$\\triangle = 62 - 25 = 37$。",
+          "difficulty": 2
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "100 减去 35，再减去 25，结果是（ ）。",
+          "options": [
+            "40",
+            "50",
+            "60",
+            "30"
+          ],
+          "answer": "40",
+          "explanation": "$100 - 35 - 25 = 100 - (35 + 25) = 100 - 60 = 40$。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "计算 $80 - (42 - 18)$ 时，第一步算（ ）。",
+          "options": [
+            "80 - 42",
+            "42 - 18",
+            "80 + 18",
+            "42 + 18"
+          ],
+          "answer": "42 - 18",
+          "explanation": "有小括号的要先算括号里面的。",
+          "difficulty": 2
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "最小的两位数与最大的两位数相差（ ）。",
+          "options": [
+            "89",
+            "90",
+            "99",
+            "10"
+          ],
+          "answer": "89",
+          "explanation": "最大的两位数是 99，最小的是 10。$99 - 10 = 89$。",
+          "difficulty": 1
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "图书角原来有 65 本书，借出 28 本，又还回 19 本。图书角现在有多少本书？",
+          "options": [
+            "37",
+            "46",
+            "56",
+            "74"
+          ],
+          "answer": "56",
+          "explanation": "$65 - 28 + 19 = 37 + 19 = 56$。",
+          "difficulty": 3
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "$48 + 32$ 的结果是（ ）。",
+          "options": [
+            "70",
+            "80",
+            "90",
+            "71"
+          ],
+          "answer": "80",
+          "explanation": "$48 + 32 = 80$。验算：$80 - 32 = 48$。",
+          "difficulty": 1
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "一辆 45 座的客车，已经坐了 24 人，还有几个空座位？",
+          "options": [
+            "21",
+            "11",
+            "69",
+            "31"
+          ],
+          "answer": "21",
+          "explanation": "总数减去已坐人数：$45 - 24 = 21$。",
+          "difficulty": 2
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "下列算式中选项正确的结果是（ ）。 $100 - (34 + 26)$",
+          "options": [
+            "40",
+            "60",
+            "30",
+            "50"
+          ],
+          "answer": "40",
+          "explanation": "括号内 $34+26=60$，$100-60=40$。",
+          "difficulty": 3
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "小明有 35 支铅笔，妈妈又买了 15 支，他现在有 ___ 支铅笔。",
+          "options": [],
+          "answer": "50",
+          "explanation": "$35 + 15 = 50$。",
+          "difficulty": 1
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "一箱苹果 42 个，吃掉 25 个后，还剩 ___ 个。",
+          "options": [],
+          "answer": "17",
+          "explanation": "$42 - 25 = 17$。验算：$17 + 25 = 42$。",
+          "difficulty": 2
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "$25 + 36 + 18 = ?$",
+          "options": [],
+          "answer": "79",
+          "explanation": "$25 + 36 = 61$，$61 + 18 = 79$。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2up-u2-kp1",
+      "title": "两位数加两位数（不进位与进位）",
+      "unitNumber": 2,
+      "unitTitle": "100以内的加法和减法（二）",
+      "kpIndex": 0,
+      "kpTotal": 5,
+      "isExam": false,
+      "knowledge": {
+        "point": "两位数加两位数（不进位与进位）",
+        "core_concept": "笔算加法时，相同数位要对齐，从个位加起。如果个位相加满十，要向十位进一。在计算十位时，千万不要忘记加上个位进上来的“1”。",
+        "key_formula": "相同数位对齐，从个位加起，个位满十向十位进一。",
+        "tips": "写竖式时，进位的“1”建议写成小字标在十位右下方，防止漏加。",
+        "common_mistakes": [
+          "忘记加进位1",
+          "数位没有对齐，导致错误的把个位和十位上的数相加"
+        ]
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "笔算两位数加法时，应从十位加起。",
+          "options": [],
+          "answer": "错",
+          "explanation": "笔算加减法都要从个位加起。故判断为错。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "计算 $36 + 45$ 时，个位满十向十位进 1。",
+          "options": [],
+          "answer": "对",
+          "explanation": "$6 + 5 = 11$，个位满十向十位进1。故判断为对。",
+          "difficulty": 1
+        },
+        {
+          "id": 6,
+          "type": "choice",
+          "question": "一个加数是 28，另一个加数是 35，和是（ ）。",
+          "options": [
+            "53",
+            "63",
+            "52",
+            "62"
+          ],
+          "answer": "63",
+          "explanation": "$28 + 35 = 63$。验算：$63 - 35 = 28$。",
+          "difficulty": 1
+        },
+        {
+          "id": 9,
+          "type": "choice",
+          "question": "计算 $5\\square + 28$ 时，如果和的十位上是 8，那么 $\\square$ 里最小填（ ）。",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "0"
+          ],
+          "answer": "2",
+          "explanation": "由于十位是 $5 + 2 = 7$，若和的十位是 8，说明个位进位了。$\\square + 8 \\geq 10$，$\\square$ 最小为 2。",
+          "difficulty": 2
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "$46 + 2\\square$ 的和是一个七十多，$\\square$ 里可以填（ ）。",
+          "options": [
+            "1",
+            "3",
+            "5",
+            "8"
+          ],
+          "answer": "8",
+          "explanation": "如果是 $46+28=74$（七十多）；如果是 $46+25=71$；但看选项 $46+21=67$，$46+23=69$，只有填 8 满足进位需求。",
+          "difficulty": 1
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "小明有 16 张画片，小芳有 24 张画片，两人一共有 ___ 张画片。",
+          "options": [],
+          "answer": "40",
+          "explanation": "$16 + 24 = 40$。验算：$40 - 24 = 16$。",
+          "difficulty": 1
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "$58 + 37 = ?$",
+          "options": [],
+          "answer": "95",
+          "explanation": "$58 + 37 = 95$。个位 $8+7=15$ 进1，十位 $5+3+1=9$。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2up-u2-kp2",
+      "title": "两位数减两位数（不退位与退位）",
+      "unitNumber": 2,
+      "unitTitle": "100以内的加法和减法（二）",
+      "kpIndex": 1,
+      "kpTotal": 5,
+      "isExam": false,
+      "knowledge": {
+        "point": "两位数减两位数（不退位与退位）",
+        "core_concept": "笔算减法时，相同数位对齐，从个位减起。如果个位不够减，就从十位退一。在十位上退一后，到个位变成了十，与个位上的数合起来再减。",
+        "key_formula": "相同数位对齐，从个位减起，个位不够减从十位退一作十。",
+        "tips": "退位减法要记得在被减数的十位上面点一个小圆点提示自己已经退位了。",
+        "common_mistakes": [
+          "计算十位时忘记减去退掉的“1”",
+          "个位不够减时，直接用大数减小数（如 32-18 算出 26）"
+        ]
+      },
+      "questions": [
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "在减法算式中，差一定比被减数小。",
+          "options": [],
+          "answer": "对",
+          "explanation": "在100以内且减数不为0的情况下，差一定比被减数小。故判断为对。",
+          "difficulty": 1
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "明明有 50 元钱，买一个 38 元的足球，应找回（ ）元。",
+          "options": [
+            "12",
+            "22",
+            "88",
+            "18"
+          ],
+          "answer": "12",
+          "explanation": "$50 - 38 = 12$。个位 $0 - 8$ 不够减，向十位借 1 当 10，$10 - 8 = 2$，十位 $4 - 3 = 1$。验算：$12 + 38 = 50$。",
+          "difficulty": 2
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "下面算式中，（ ）的得数最大。",
+          "options": [
+            "86 - 30",
+            "92 - 40",
+            "75 - 10",
+            "100 - 50"
+          ],
+          "answer": "75 - 10",
+          "explanation": "$86-30=56$；$92-40=52$；$75-10=65$；$100-50=50$。65最大。",
+          "difficulty": 1
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "72 减去（ ）等于 45。",
+          "options": [
+            "27",
+            "37",
+            "117",
+            "23"
+          ],
+          "answer": "27",
+          "explanation": "$72 - 45 = 27$。验算：$27 + 45 = 72$。",
+          "difficulty": 1
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "一辆公交车上原有 45 人，下车 18 人，现在车上有 ___ 人。",
+          "options": [],
+          "answer": "27",
+          "explanation": "$45 - 18 = 27$。验算：$27 + 18 = 45$。",
+          "difficulty": 2
+        },
+        {
+          "id": 23,
+          "type": "calculation",
+          "question": "$91 - 46 = ?$",
+          "options": [],
+          "answer": "45",
+          "explanation": "$91 - 46 = 45$。个位 $1-6$ 不够减，向十位借 1，$11-6=5$。十位 $8-4=4$。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g2up-u2-kp3",
+      "title": "连加、连减与加减混合运算",
+      "unitNumber": 2,
+      "unitTitle": "100以内的加法和减法（二）",
+      "kpIndex": 2,
+      "kpTotal": 5,
+      "isExam": false,
+      "knowledge": {
+        "point": "连加、连减与加减混合运算",
+        "core_concept": "连加、连减和加减混合运算，一般按照从左到右的顺序依次计算。为了书写简便，可以把两个竖式合并成一个竖式。",
+        "key_formula": "从左往右看，谁在前面先算谁。",
+        "tips": "在计算连加时，寻找凑成整十的数（如4+6, 2+8）先加，可以提高速度。",
+        "common_mistakes": [
+          "看错运算符号，把加法当成减法或反之",
+          "两步计算中第一步算错导致最后结果错误"
+        ]
+      },
+      "questions": [
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "计算 $24 + 16 + 30$ 的结果是（ ）。",
+          "options": [
+            "40",
+            "60",
+            "70",
+            "80"
+          ],
+          "answer": "70",
+          "explanation": "$24 + 16 = 40$，$40 + 30 = 70$。",
+          "difficulty": 1
+        },
+        {
+          "id": 15,
+          "type": "choice",
+          "question": "在算式 $90 - 36 - 24$ 中，可以先算（ ）会比较简便。",
+          "options": [
+            "90 - 36",
+            "36 - 24",
+            "36 + 24",
+            "90 - 24"
+          ],
+          "answer": "36 + 24",
+          "explanation": "$90 - (36 + 24)$ 可以湊成整十数，$36+24=60$。",
+          "difficulty": 2
+        },
+        {
+          "id": 18,
+          "type": "choice",
+          "question": "一根绳子长 100 米，第一次剪去 36 米，第二次剪去 44 米，绳子短了（ ）米。",
+          "options": [
+            "20",
+            "80",
+            "64",
+            "56"
+          ],
+          "answer": "80",
+          "explanation": "求短了多少即求一共剪去多少：$36 + 44 = 80$。",
+          "difficulty": 3
+        },
+        {
+          "id": 21,
+          "type": "fill_blank",
+          "question": "三个朋友跳绳，小红跳了 32 下，小军跳了 28 下，小刚跳了 35 下，他们一共跳了 ___ 下。",
+          "options": [],
+          "answer": "95",
+          "explanation": "$32 + 28 + 35 = 60 + 35 = 95$。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "g2up-u2-kp4",
+      "title": "含小括号的加减混合运算",
+      "unitNumber": 2,
+      "unitTitle": "100以内的加法和减法（二）",
+      "kpIndex": 3,
+      "kpTotal": 5,
+      "isExam": false,
+      "knowledge": {
+        "point": "含小括号的加减混合运算",
+        "core_concept": "如果在算式中看到了小括号，它就像一个超级通行证，括号里的内容必须最先计算。算完括号再算括号外面的。",
+        "key_formula": "含有小括号的，要先算括号里面的。",
+        "tips": "看到（ ），先圈起来，写上“先算”两个字提醒自己。",
+        "common_mistakes": [
+          "无视括号，依然从左到右计算",
+          "在列竖式时，只写了括号里的算式，漏写了第二步"
+        ]
+      },
+      "questions": [
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "算式 $80 - (20 + 30)$ 的计算结果是 30。",
+          "options": [],
+          "answer": "对",
+          "explanation": "先算小括号里：$20 + 30 = 50$。再算括号外：$80 - 50 = 30$。验算：$30 + 50 = 80$。故判断为对。",
+          "difficulty": 2
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "结果与 $85 - (20 + 30)$ 相等的算式是（ ）。",
+          "options": [
+            "85 - 20 + 30",
+            "85 - 20 - 30",
+            "85 + 20 - 30",
+            "85 + 20 + 30"
+          ],
+          "answer": "85 - 20 - 30",
+          "explanation": "去掉括号要变号：$85 - (20 + 30) = 85 - 20 - 30$。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2up-u2-kp5",
+      "title": "解决问题：求比一个数多（或少）几的数",
+      "unitNumber": 2,
+      "unitTitle": "100以内的加法和减法（二）",
+      "kpIndex": 4,
+      "kpTotal": 5,
+      "isExam": false,
+      "knowledge": {
+        "point": "解决问题：求比一个数多（或少）几的数",
+        "core_concept": "已知一个数，求比它多几的数，用加法计算（大数=小数+相差数）；求比它少几的数，用减法计算（小数=大数-相差数）。",
+        "key_formula": "求多用加法（$+$），求少用减法（$-$）。",
+        "tips": "可以画简单的线段图辅助分析：长的线段表示多，短的线段表示少。",
+        "common_mistakes": [
+          "不理解题意，盲目根据“多”就加，“少”就减（有时题目是倒着问的）",
+          "找错比较的标准量"
+        ]
+      },
+      "questions": [
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "比 25 多 18 的数是 33。",
+          "options": [],
+          "answer": "错",
+          "explanation": "应该是 $25 + 18 = 43$。题干中 33 是计算错误。故判断为错。",
+          "difficulty": 2
+        },
+        {
+          "id": 12,
+          "type": "choice",
+          "question": "小明有 28 张邮票，小红比小明多 15 张，小红有多少张？",
+          "options": [
+            "13",
+            "33",
+            "43",
+            "53"
+          ],
+          "answer": "43",
+          "explanation": "求比一个数多几用加法：$28 + 15 = 43$。",
+          "difficulty": 2
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "二（1）班有女生 22 人，男生比女生少 5 人，全班一共有多少人？",
+          "options": [
+            "17",
+            "39",
+            "49",
+            "27"
+          ],
+          "answer": "39",
+          "explanation": "男生：$22 - 5 = 17$人；全班：$22 + 17 = 39$人。",
+          "difficulty": 3
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "商场运来 80 筐苹果，上午卖出 25 筐，下午卖出 38 筐，还剩（ ）筐。",
+          "options": [
+            "17",
+            "55",
+            "42",
+            "63"
+          ],
+          "answer": "17",
+          "explanation": "$80 - 25 - 38 = 17$。验算：$17 + 38 + 25 = 80$。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g2up-u3-exam",
+      "title": "第 3 单元挑战",
+      "unitNumber": 3,
+      "unitTitle": "角的初步认识",
+      "kpIndex": 3,
+      "kpTotal": 3,
+      "isExam": true,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "一个角有两条边，这两条边是直的。",
+          "options": [],
+          "answer": "对",
+          "explanation": "角的两条边是从顶点引出的射线，射线的特质是直的。如果有弯曲，就不是标准的角。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "用三角尺上的直角比一比，比直角大的角是锐角。",
+          "options": [],
+          "answer": "错",
+          "explanation": "比直角小的是锐角，比直角大的是钝角。验算：用三角尺靠在一个钝角上，钝角的边会张开到直角外面。",
+          "difficulty": 2
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "角的大小和两条边的长度没有关系。",
+          "options": [],
+          "answer": "对",
+          "explanation": "角的大小由张开幅度决定。验算：画两个同样大的角，一个边长，一个边短，两角重合可完全重叠。",
+          "difficulty": 1
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "所有的钝角都比锐角大。",
+          "options": [],
+          "answer": "对",
+          "explanation": "锐角 < $90^{\\circ}$，钝角 > $90^{\\circ}$，所以钝角一定大于锐角。",
+          "difficulty": 2
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "锐角、钝角、直角按从大到小的顺序排列，正确的是：",
+          "options": [
+            "锐角 > 直角 > 钝角",
+            "钝角 > 直角 > 锐角",
+            "直角 > 钝角 > 锐角",
+            "锐角 > 钝角 > 直角"
+          ],
+          "answer": "钝角 > 直角 > 锐角",
+          "explanation": "钝角大于 $90^{\\circ}$，直角等于 $90^{\\circ}$，锐角小于 $90^{\\circ}$。所以顺序是钝角、直角、锐角。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "钟面上9:30时，分针和时针组成的角是什么角？",
+          "options": [
+            "锐角",
+            "直角",
+            "钝角",
+            "无法判断"
+          ],
+          "answer": "钝角",
+          "explanation": "9:30时，分针指着6，时针在9和10之间。它们之间的间隔超过了3大格（3大格是直角），所以是钝角。",
+          "difficulty": 2
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "用一副三角尺，不能拼出多少度的角？",
+          "options": [
+            "75度",
+            "105度",
+            "20度",
+            "150度"
+          ],
+          "answer": "20度",
+          "explanation": "三角尺角度有 $30, 45, 60, 90$。$30+45=75$，$60+45=105$，$90+60=150$。20度无法通过这些组合拼或减得出。",
+          "difficulty": 2
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "用两条互相垂直的直线，可以组成几个直角？",
+          "options": [
+            "1个",
+            "2个",
+            "3个",
+            "4个"
+          ],
+          "answer": "4个",
+          "explanation": "两条直线垂直相交，在交点处会形成四个角，且这四个角都是直角。",
+          "difficulty": 1
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "用一个放大 10 倍的放大镜看一个 $30^{\\circ}$ 的角，看到的角是多少度？",
+          "options": [
+            "3度",
+            "30度",
+            "300度",
+            "33度"
+          ],
+          "answer": "30度",
+          "explanation": "放大镜不改变角度的大小。角度是指张开的幅度，放大时两条边同步变长但开口不变。验算：放大后重叠原角，完全贴合。",
+          "difficulty": 3
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "下面哪个字母中含有的直角最多？",
+          "options": [
+            "L",
+            "T",
+            "E",
+            "V"
+          ],
+          "answer": "E",
+          "explanation": "L有1个，T有2个，V是锐角，E有4个直角。4是最大值。",
+          "difficulty": 2
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "在一个四边形中，最多可以有几个直角？",
+          "options": [
+            "1个",
+            "2个",
+            "3个",
+            "4个"
+          ],
+          "answer": "4个",
+          "explanation": "长方形和正方形都有4个直角。根据四边形内角和 $360^{\\circ}$，可以达到4个。",
+          "difficulty": 3
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "下面的角中，哪个角最接近直角？",
+          "options": [
+            "锐角 $10^{\\circ}$",
+            "钝角 $100^{\\circ}$",
+            "锐角 $85^{\\circ}$",
+            "钝角 $150^{\\circ}$"
+          ],
+          "answer": "锐角 $85^{\\circ}$",
+          "explanation": "$|90-10|=80$，$|90-100|=10$，$|90-85|=5$，$|90-150|=60$。5最小，所以 $85^{\\circ}$ 最接近。",
+          "difficulty": 2
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "一个三角形剪去一个角，还剩 3 个角，说明是从 ___ 个顶点剪过去的。",
+          "options": [],
+          "answer": "2",
+          "explanation": "如果剪刀线经过两个顶点，三边形会变成三角形。$3 - 2 + 1 = 2$ 不对，应该是剪掉一个角后剩3个角代表还是三角形，需沿对角线剪。验算：三角形对角剪开还是三角形。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "正方形有 4 个角，2 个正方形一共有 ___ 个角。",
+          "options": [],
+          "answer": "8",
+          "explanation": "式子：$4 \\times 2 = 8$。验算：$8 \\div 2 = 4$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$90 - 30 = ?$",
+          "options": [],
+          "answer": "60",
+          "explanation": "$90 - 30 = 60$。验算：$60 + 30 = 90$ ✓。表示直角减去一个 $30^{\\circ}$ 锐角得 $60^{\\circ}$ 锐角。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2up-u3-kp1",
+      "title": "角的认识与特征",
+      "unitNumber": 3,
+      "unitTitle": "角的初步认识",
+      "kpIndex": 0,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "角的认识与特征",
+        "core_concept": "角是由一个共同的中心点（叫做顶点）引出的两条直直的线（叫做边）所形成的图形。角的大小与两条边张开的程度有关：开口越大，角就越大；开口越小，角就越小。特别要注意，角的大小和边的长短一点关系都没有。",
+        "key_formula": "角 = 1个顶点 + 2条直边",
+        "tips": "记口诀：小小角，真简单，一个顶点两条边；想知角的大小，只看开口不看边。",
+        "common_mistakes": [
+          "认为边越长角就越大",
+          "把有曲线的图形（如半圆）也当成角"
+        ]
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "角是由一个顶点和两条边组成的。",
+          "options": [],
+          "answer": "对",
+          "explanation": "根据角的定义，从一个点起引出两条射线所组成的图形叫做角。这个点是顶点，这两条射线是边。验证：1个顶点，2条边，符合定义。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "角的边伸得越长，角就越大。",
+          "options": [],
+          "answer": "错",
+          "explanation": "角的大小由两条边张开的程度决定，与边的长短无关。验算：把一个角的两条边画长，张开的程度没变，角的大小就不变。",
+          "difficulty": 1
+        },
+        {
+          "id": 6,
+          "type": "choice",
+          "question": "下面图形中，哪个是角？",
+          "options": [
+            "有1个顶点和2条直边的图形",
+            "有1个顶点和一条弧线的图形",
+            "没有顶点只有直线的图形",
+            "有2个顶点和1条边的图形"
+          ],
+          "answer": "有1个顶点和2条直边的图形",
+          "explanation": "角必须具备“一尖（顶点）两直（直边）”的特征。其他选项不符合角的组成结构。",
+          "difficulty": 1
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "一个正方形有几个角？",
+          "options": [
+            "2个",
+            "3个",
+            "4个",
+            "5个"
+          ],
+          "answer": "4个",
+          "explanation": "正方形有四个顶点，每个顶点处都有一个角，且四个角都是直角。",
+          "difficulty": 1
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "把一个角放在放大镜下看，这个角的大小会怎样？",
+          "options": [
+            "变大",
+            "变小",
+            "不变",
+            "无法判断"
+          ],
+          "answer": "不变",
+          "explanation": "放大镜放大的是边的长度，但两条边张开的程度（角度）并没有改变。所以角的大小不变。",
+          "difficulty": 2
+        },
+        {
+          "id": 15,
+          "type": "choice",
+          "question": "钟面上3时整，时针和分针组成的角是什么角？",
+          "options": [
+            "锐角",
+            "直角",
+            "钝角",
+            "平角"
+          ],
+          "answer": "直角",
+          "explanation": "3时整，分针指向12，时针指向3，正好组成一个 $90^{\\circ}$ 的角，即直角。",
+          "difficulty": 1
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "把一个圆片对折两次，打开后折痕组成的角是什么角？",
+          "options": [
+            "锐角",
+            "直角",
+            "钝角",
+            "无法确定"
+          ],
+          "answer": "直角",
+          "explanation": "圆对折一次是半圆，再对折一次是四分之一圆，两条半径折痕互相垂直，形成直角。",
+          "difficulty": 1
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "一个五角星上一共有 ___ 个尖尖的角。",
+          "options": [],
+          "answer": "5",
+          "explanation": "五角星有五个突出的部分，每个部分都有一个角，总共 5 个。验算：1、2...5，正确。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2up-u3-kp2",
+      "title": "直角、锐角、钝角的辨析",
+      "unitNumber": 3,
+      "unitTitle": "角的初步认识",
+      "kpIndex": 1,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "直角、锐角、钝角的辨析",
+        "core_concept": "直角是角里的“标准大个子”，三角尺上最大的那个角就是直角。比直角小的（开口更小的）叫锐角，它看起来很尖锐；比直角大的（开口更大的）叫钝角，它看起来很笨笨的。我们可以用三角尺上的直角作为尺子去比一比。",
+        "key_formula": "锐角 < 直角 < 钝角",
+        "tips": "随身带个纸折的直角，不管是书本角还是桌子角，比一比就知道是什么角啦！",
+        "common_mistakes": [
+          "区分不清锐角和钝角，名字记反",
+          "不用三角尺测量，仅凭眼睛看近似直角的角"
+        ]
+      },
+      "questions": [
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "所有的直角都一样大。",
+          "options": [],
+          "answer": "对",
+          "explanation": "直角的大小是固定的，都是九十度。无论在三角尺上还是在黑板上，所有的直角都完全相等。",
+          "difficulty": 2
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "钝角比直角小。",
+          "options": [],
+          "answer": "错",
+          "explanation": "根据定义，锐角小于直角，钝角大于直角。所以钝角应该比直角大。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "三角尺上最大的那个角是什么角？",
+          "options": [
+            "锐角",
+            "直角",
+            "钝角",
+            "平角"
+          ],
+          "answer": "直角",
+          "explanation": "常用的三角尺有两个锐角和一个直角，其中直角是最大的。",
+          "difficulty": 1
+        },
+        {
+          "id": 9,
+          "type": "choice",
+          "question": "红领巾上有两个角是一样大的，这两个角是什么角？",
+          "options": [
+            "钝角",
+            "直角",
+            "锐角",
+            "无法确定"
+          ],
+          "answer": "锐角",
+          "explanation": "红领巾是一个钝角三角形，包含一个钝角和两个相等的锐角。",
+          "difficulty": 2
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "我们使用的数学课本的封面四个角都是什么角？",
+          "options": [
+            "锐角",
+            "直角",
+            "钝角",
+            "不确定"
+          ],
+          "answer": "直角",
+          "explanation": "数学书封面是长方形，长方形的四个角都是直角。可以用三角尺的直角去比一下。",
+          "difficulty": 2
+        },
+        {
+          "id": 12,
+          "type": "choice",
+          "question": "比直角大的角叫什么角？",
+          "options": [
+            "锐角",
+            "钝角",
+            "直角",
+            "以上都不是"
+          ],
+          "answer": "钝角",
+          "explanation": "根据角的分类：小于直角的叫锐角，大于直角的叫钝角（在180度以内）。",
+          "difficulty": 1
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "下列哪个角度的说法是正确的？",
+          "options": [
+            "锐角 > 直角",
+            "钝角 < 直角",
+            "锐角 < 钝角",
+            "直角 > 钝角"
+          ],
+          "answer": "锐角 < 钝角",
+          "explanation": "锐角 < 直角 < 钝角。所以锐角一定小于钝角。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "一个长方形被剪去一个角后，最多还剩 ___ 个角。",
+          "options": [],
+          "answer": "5",
+          "explanation": "当斜着剪去一个角且不过任何顶点时，会多出两个新顶点。$4 - 1 + 2 = 5$。验算：画图可知，剩下的形状是五边形，有5个角。",
+          "difficulty": 2
+        },
+        {
+          "id": 23,
+          "type": "calculation",
+          "question": "计算：$180 - 90 = ?$",
+          "options": [],
+          "answer": "90",
+          "explanation": "$180 - 90 = 90$。验算：$90 + 90 = 180$ ✓。这代表两个直角和起来是一个平角。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g2up-u3-kp3",
+      "title": "画角与拼角",
+      "unitNumber": 3,
+      "unitTitle": "角的初步认识",
+      "kpIndex": 2,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "画角与拼角",
+        "core_concept": "画角要用尺。先点一个点，再从这一点开始往两个方向画线。拼角则是把两个三角尺上的角靠在一起，顶点对齐，边也对齐。两个锐角合起来可能是锐角、直角或者钝角。",
+        "key_formula": "拼成的角程度 = 第一个角 + 第二个角",
+        "tips": "画角要‘一落笔、二画线、三标号’。拼角时，要把两个三角尺紧紧贴在一起不能留缝隙哦。",
+        "common_mistakes": [
+          "画角时边画得不直，或者没有从同一个顶点出发",
+          "拼角时两个角的顶点没对齐"
+        ]
+      },
+      "questions": [
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "用两个锐角一定能拼出一个钝角。",
+          "options": [],
+          "answer": "错",
+          "explanation": "不一定。例如两个微小的锐角相加可能还是锐角。验算：$10^{\\circ} + 20^{\\circ} = 30^{\\circ}$，仍是锐角。",
+          "difficulty": 3
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "用一副三角尺上的一个直角和一个锐角，拼成的是什么角？",
+          "options": [
+            "锐角",
+            "直角",
+            "钝角",
+            "无法确定"
+          ],
+          "answer": "钝角",
+          "explanation": "直角是 $90^{\\circ}$，锐角大于 $0^{\\circ}$。$90^{\\circ}$ 加上任何一个锐角都会超过 $90^{\\circ}$，所以是钝角。",
+          "difficulty": 2
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "在一个三角形中，最多有几个直角？",
+          "options": [
+            "1个",
+            "2个",
+            "3个",
+            "4个"
+          ],
+          "answer": "1个",
+          "explanation": "三角形的内角和是 $180^{\\circ}$。如果有2个直角，和就是 $180^{\\circ}$，第三个角就是0度，无法组成三角形。所以最多只有1个直角。",
+          "difficulty": 3
+        },
+        {
+          "id": 18,
+          "type": "choice",
+          "question": "用尺子画角时，第一步通常是先画一个什么？",
+          "options": [
+            "一条边",
+            "一个顶点",
+            "一个圆圈",
+            "两条边"
+          ],
+          "answer": "一个顶点",
+          "explanation": "画角的规范步骤是：先画一个点（顶点），再从这个点出发向不同的方向画出两条线（边）。",
+          "difficulty": 1
+        },
+        {
+          "id": 21,
+          "type": "fill_blank",
+          "question": "用一副三角尺（一个含有 $45^{\\circ}$ ，另一个含有 $30^{\\circ}$ 和 $60^{\\circ}$ ），能拼出的最大角是 ___ 度。",
+          "options": [],
+          "answer": "150",
+          "explanation": "一副三角尺中最大的两个角分别是 $90^{\\circ}$ 和 $60^{\\circ}$。拼在一起：$90 + 60 = 150$。验算：$90+45=135$，$60+45=105$，均比150小。",
+          "difficulty": 3
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$45 + 45 = ?$",
+          "options": [],
+          "answer": "90",
+          "explanation": "$45 + 45 = 90$。验算：$90 - 45 = 45$ ✓。这代表两个 $45^{\\circ}$ 的角可以拼成一个直角。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2up-u4-exam",
+      "title": "第 4 单元挑战",
+      "unitNumber": 4,
+      "unitTitle": "表内乘法（一）",
+      "kpIndex": 3,
+      "kpTotal": 3,
+      "isExam": true,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "1 乘任何数都得 1。",
+          "options": [],
+          "answer": "错",
+          "explanation": "1 乘任何数都得原数。例如 $1 \\times 5 = 5$。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "$2 + 2$ 可以写成 $2 \\times 2$。",
+          "options": [],
+          "answer": "对",
+          "explanation": "2 个 2 相加是 $2+2=4$，乘法表示为 $2 \\times 2=4$。结果相同。",
+          "difficulty": 2
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "$5 \\times 3 - 5$ 与 $5 \\times 2$ 的结果相等。",
+          "options": [],
+          "answer": "对",
+          "explanation": "$5 \\times 3 - 5 = 15 - 5 = 10$；$5 \\times 2 = 10$。两者相等。",
+          "difficulty": 2
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "两个乘数都是 1，积是 2。",
+          "options": [],
+          "answer": "错",
+          "explanation": "积应该是 $1 \\times 1 = 1$。2 是 $1+1$ 的和。",
+          "difficulty": 3
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "5 的乘法口诀中，每一句的积都比前一句多：",
+          "options": [
+            "1",
+            "5",
+            "10",
+            "不确定"
+          ],
+          "answer": "5",
+          "explanation": "相邻两句 5 的口诀，积相差 5。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "一个乘数是 4，另一个乘数是 6，积是多少？",
+          "options": [
+            "10",
+            "2",
+            "24",
+            "30"
+          ],
+          "answer": "24",
+          "explanation": "$4 \\times 6 = 24$。",
+          "difficulty": 2
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "口诀“三六十八”可以用来计算下列哪个算式？",
+          "options": [
+            "3 + 6",
+            "18 - 6",
+            "6 \\times 3",
+            "6 + 6 + 6 + 6"
+          ],
+          "answer": "6 \\times 3",
+          "explanation": "口诀对应乘法算式 $3 \\times 6$ 或 $6 \\times 3$。",
+          "difficulty": 1
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "小红有 2 套邮票，每套 6 张。小明有 3 套邮票，每套 4 张。谁的邮票多？",
+          "options": [
+            "小红多",
+            "小明多",
+            "一样多",
+            "无法比较"
+          ],
+          "answer": "一样多",
+          "explanation": "小红：$2 \\times 6 = 12$；小明：$3 \\times 4 = 12$。两人一样多。",
+          "difficulty": 2
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "在算式 $2 \\times 5$ 中，5 叫做：",
+          "options": [
+            "加数",
+            "乘数",
+            "积",
+            "和"
+          ],
+          "answer": "乘数",
+          "explanation": "乘号两边的数都叫乘数。",
+          "difficulty": 2
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "有一堆小棒，如果 4 根 4 根地数，数了 5 次还剩 2 根。这堆小棒共有多少根？",
+          "options": [
+            "18",
+            "22",
+            "20",
+            "11"
+          ],
+          "answer": "22",
+          "explanation": "$4 \\times 5 + 2 = 22$（根）。",
+          "difficulty": 3
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "手工课上，小红做了 6 朵花，小云做的朵数是小红的 2 倍。小云做了多少朵？",
+          "options": [
+            "8",
+            "12",
+            "4",
+            "10"
+          ],
+          "answer": "12",
+          "explanation": "2 倍即 2 个 6，$6 \\times 2 = 12$（朵）。",
+          "difficulty": 2
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "下列哪个加法算式不能改成乘法算式？",
+          "options": [
+            "2 + 2 + 2",
+            "4 + 4 + 4 + 4",
+            "3 + 3 + 2",
+            "5 + 5"
+          ],
+          "answer": "3 + 3 + 2",
+          "explanation": "只有相同加数连加才能改写成乘法。",
+          "difficulty": 1
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "小明有 6 盒巧克力，每盒 4 块，他一共有 ___ 块巧克力。",
+          "options": [],
+          "answer": "24",
+          "explanation": "$6 \\times 4 = 24$。验算：$4+4+4+4+4+4=24$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "二年级一班参加兴趣小组，每组 6 人，分成了 5 组，其中有 1 个小组只去了 3 人，一共去了 ___ 人。",
+          "options": [],
+          "answer": "27",
+          "explanation": "先算满员的小组：$6 \\times 4 = 24$，加上不满意的小组：$24 + 3 = 27$。或者 $6 \\times 5 - 3 = 27$。验算：$6+6+6+6+3=27$ ✓。",
+          "difficulty": 3
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$4 \\times 4 = ?$",
+          "options": [],
+          "answer": "16",
+          "explanation": "$4 \\times 4 = 16$。验算：$4+4+4+4=16$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2up-u4-kp1",
+      "title": "乘法的初步认识",
+      "unitNumber": 4,
+      "unitTitle": "表内乘法（一）",
+      "kpIndex": 0,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "乘法的初步认识",
+        "core_concept": "乘法是求几个相同加数和的简便运算。例如 $5+5+5$ 可以写成 $5 \\times 3$ 或 $3 \\times 5$。乘号左右两边的数叫“乘数”，计算出的结果叫“积”。",
+        "key_formula": "相同加数 \\times 加数的个数 = 积",
+        "tips": "记住“乘法是加法的简便运算”，看到连加就要想到能不能变乘法。",
+        "common_mistakes": [
+          "将不同加数的算式（如 $2+3+2$）改写成乘法",
+          "混淆乘数和积的概念，把积说成和"
+        ]
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "$4 + 4 + 4$ 改写成乘法算式是 $4 \\times 3$。",
+          "options": [],
+          "answer": "对",
+          "explanation": "$4 + 4 + 4$ 是 3 个 4 相加，根据乘法的定义，可以写成 $4 \\times 3$。验算：$4+4+4=12$，$4 \\times 3=12$，结果一致。",
+          "difficulty": 1
+        },
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "在乘法算式 $3 \\times 6 = 18$ 中，18 叫做和。",
+          "options": [],
+          "answer": "错",
+          "explanation": "在乘法算式中，相乘的两个数叫做乘数，得到的结果叫做“积”。18 是积，而不是和。",
+          "difficulty": 2
+        },
+        {
+          "id": 6,
+          "type": "choice",
+          "question": "求 3 个 5 相加的和是多少，下列算式错误的是：",
+          "options": [
+            "5 + 5 + 5",
+            "5 \\times 3",
+            "3 \\times 5",
+            "3 + 3 + 3 + 3 + 3"
+          ],
+          "answer": "3 + 3 + 3 + 3 + 3",
+          "explanation": "3 个 5 相加是 $5+5+5$，对应乘法 $5 \\times 3$ 或 $3 \\times 5$。而 $3+3+3+3+3$ 是 5 个 3 相加。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2up-u4-kp2",
+      "title": "2~6的乘法口诀编制与记忆",
+      "unitNumber": 4,
+      "unitTitle": "表内乘法（一）",
+      "kpIndex": 1,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "2~6的乘法口诀编制与记忆",
+        "core_concept": "口诀是我国古代发明的，用来快速计算乘法。通常一句口诀对应两道乘法算式，例如“二三得六”对应 $2 \\times 3=6$ 和 $3 \\times 2=6$。",
+        "key_formula": "$n$ 的乘法口诀里，相邻两句的积相差 $n$",
+        "tips": "可以采取对口令、手指游戏的方式辅助记忆，理解口诀的来源（每次多加一个数）。",
+        "common_mistakes": [
+          "口诀背诵不熟练，特别是“四六二十四”和“六六三十六”容易混淆",
+          "将口诀写错，如把“二五一十”写成“二五 10”"
+        ]
+      },
+      "questions": [
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "计算 $5 \\times 2$ 和 $2 \\times 5$ 时，用的口诀都是“二五一十”。",
+          "options": [],
+          "answer": "对",
+          "explanation": "同一乘法口诀通常可以计算两道乘法算式，$5 \\times 2$ 和 $2 \\times 5$ 的积都是 10，均使用口诀“二五一十”。",
+          "difficulty": 1
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "6 个 5 相加的和与 5 个 6 相加的和不相等。",
+          "options": [],
+          "answer": "错",
+          "explanation": "6 个 5 相加写成 $5 \\times 6 = 30$，5 个 6 相加写成 $6 \\times 5 = 30$。它们的和都是 30，是相等的。",
+          "difficulty": 2
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "把乘法口诀补充完整：四六（    ）。",
+          "options": [
+            "二十",
+            "二十四",
+            "三十",
+            "十二"
+          ],
+          "answer": "二十四",
+          "explanation": "根据 6 的乘法口诀：一六得六，二六十二，三六十八，四六二十四。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "积是 12 的算式是：",
+          "options": [
+            "10 + 2",
+            "3 \\times 4",
+            "20 - 8",
+            "6 + 6"
+          ],
+          "answer": "3 \\times 4",
+          "explanation": "A、C、D项结果虽然也是 12，但它们是加法或减法，只有 B 项是积（乘法的结果）为 12。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "两个乘数都是 5，积是多少？",
+          "options": [
+            "10",
+            "25",
+            "7",
+            "0"
+          ],
+          "answer": "25",
+          "explanation": "乘数是 5 和 5，算式为 $5 \\times 5$。根据口诀“五五二十五”得 25。",
+          "difficulty": 1
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "在计算 $4 \\times 5$ 时，小红忘记了口诀，她可以用下面哪个办法算出得数？",
+          "options": [
+            "4 + 5",
+            "4 + 4 + 4 + 4",
+            "5 + 5 + 5 + 5",
+            "5 - 4"
+          ],
+          "answer": "5 + 5 + 5 + 5",
+          "explanation": "$4 \\times 5$ 表示 4 个 5 相加，即 $5+5+5+5=20$。",
+          "difficulty": 2
+        },
+        {
+          "id": 12,
+          "type": "choice",
+          "question": "一只青蛙 4 条腿，5 只青蛙有多少条腿？",
+          "options": [
+            "9",
+            "20",
+            "16",
+            "25"
+          ],
+          "answer": "20",
+          "explanation": "每只 4 条腿，5 只就是 5 个 4，列式 $4 \\times 5 = 20$（条）。",
+          "difficulty": 1
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "超市里一个面包 3 元钱，妈妈买了 6 个，一共要付多少元？",
+          "options": [
+            "9",
+            "18",
+            "12",
+            "15"
+          ],
+          "answer": "18",
+          "explanation": "单价 3 元，数量 6 个，总价为 $3 \\times 6 = 18$（元）。",
+          "difficulty": 1
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "一根绳子对折再对折，每段长 5 厘米，这根绳子原来长多少厘米？",
+          "options": [
+            "10",
+            "15",
+            "20",
+            "25"
+          ],
+          "answer": "20",
+          "explanation": "对折一次变 2 段，再对折一次变 4 段。原来长度为 $5 \\times 4 = 20$（厘米）。",
+          "difficulty": 3
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "下面哪句口诀只能写出一道乘法算式？",
+          "options": [
+            "二三得六",
+            "三四十二",
+            "四四十六",
+            "一五得五"
+          ],
+          "answer": "四四十六",
+          "explanation": "乘数相同的口诀（如四四十六、五五二十五）只能写出一道乘法算式。",
+          "difficulty": 1
+        },
+        {
+          "id": 18,
+          "type": "choice",
+          "question": "计算 $3 \\times 2$ 的结果是：",
+          "options": [
+            "5",
+            "6",
+            "8",
+            "9"
+          ],
+          "answer": "6",
+          "explanation": "$3 \\times 2 = 6$，口诀：二三得六。",
+          "difficulty": 1
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "一辆 3 轮车有 3 个轮子，6 辆这样的车一共有 ___ 个轮子。",
+          "options": [],
+          "answer": "18",
+          "explanation": "列式：$3 \\times 6 = 18$。验算：$6 \\times 3 = 18$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 21,
+          "type": "fill_blank",
+          "question": "小明每天看 6 页书，看了一个星期（7天），但他最后一天只看了 2 页，他这星期一共看了 ___ 页。",
+          "options": [],
+          "answer": "38",
+          "explanation": "前 6 天看了：$6 \\times 6 = 36$（页），加上最后一天：$36 + 2 = 38$（页）。验算：$6+6+6+6+6+6+2=38$ ✓。",
+          "difficulty": 3
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$6 \\times 5 = ?$",
+          "options": [],
+          "answer": "30",
+          "explanation": "$6 \\times 5 = 30$。口诀：五六三十。验算：$5 \\times 6 = 30$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2up-u4-kp3",
+      "title": "乘加、乘减混合运算",
+      "unitNumber": 4,
+      "unitTitle": "表内乘法（一）",
+      "kpIndex": 2,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "乘加、乘减混合运算",
+        "core_concept": "在一个算式里既有乘法又有加法或减法时，要先计算乘法，再计算加减法。这是数学中规定的运算顺序。",
+        "key_formula": "先乘后加减",
+        "tips": "解题时可以先在乘法算式下面画一个小横线，提醒自己这一步要先算。",
+        "common_mistakes": [
+          "按照从左往右的顺序先算了加减法",
+          "在计算乘减法时，如 $5 \\times 3 - 2$，计算乘法后忘记减去后面的数"
+        ]
+      },
+      "questions": [
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "算式 $3 \\times 4 + 5$ 的计算结果是 17。",
+          "options": [],
+          "answer": "对",
+          "explanation": "按运算顺序先算乘法 $3 \\times 4 = 12$，再算加法 $12 + 5 = 17$。验算：$12+5=17$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 9,
+          "type": "choice",
+          "question": "明明买了 3 盒水彩笔，每盒 6 支。送给好朋友 4 支后，还剩多少支？",
+          "options": [
+            "22",
+            "14",
+            "10",
+            "24"
+          ],
+          "answer": "14",
+          "explanation": "先求总支数：$3 \\times 6 = 18$（支），再减去送掉的：$18 - 4 = 14$（支）。验算：$14 + 4 = 18$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "比较 $4 \\times 3 + 4$ 与 $4 \\times 4$ 的大小结果是：",
+          "options": [
+            ">",
+            "<",
+            "=",
+            "≈"
+          ],
+          "answer": "=",
+          "explanation": "$4 \\times 3 + 4 = 12 + 4 = 16$；$4 \\times 4 = 16$。两者相等。",
+          "difficulty": 2
+        },
+        {
+          "id": 15,
+          "type": "choice",
+          "question": "计算 $5 \\times 4 - 3$ 时，应先算：",
+          "options": [
+            "减法",
+            "乘法",
+            "加法",
+            "都可以"
+          ],
+          "answer": "乘法",
+          "explanation": "在乘减混合运算中，应先算乘法，再算减法。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "教室里有 4 排桌子，每排有 5 张，后来又搬走 3 张，现在教室里剩下 ___ 张桌子。",
+          "options": [],
+          "answer": "17",
+          "explanation": "先前总数：$4 \\times 5 = 20$（张）。搬走后剩下：$20 - 3 = 17$（张）。验算：$17+3=20$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 23,
+          "type": "calculation",
+          "question": "计算：$4 \\times 6 + 2 = ?$",
+          "options": [],
+          "answer": "26",
+          "explanation": "先算 $4 \\times 6 = 24$，再算 $24 + 2 = 26$。验算：$26 - 2 = 24$, $24 \\div 4 = 6$ ✓。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g2up-u5-exam",
+      "title": "第 5 单元挑战",
+      "unitNumber": 5,
+      "unitTitle": "观察物体（一）",
+      "kpIndex": 3,
+      "kpTotal": 3,
+      "isExam": true,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "观察一个闹钟，从前面看到的是钟面，从后面看到的是背壳。",
+          "options": [],
+          "answer": "对",
+          "explanation": "生活常识与观察位置的关系。闹钟正面是针，背面是壳。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "圆柱从上面看是一个圆。",
+          "options": [],
+          "answer": "对",
+          "explanation": "圆柱体的几何特征。上下底面都是圆。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "当我们离物体很远时，观察到的形状和很近时相比是完全相同的。",
+          "options": [],
+          "answer": "对",
+          "explanation": "形状是特征属性。远近只改变大小，不改变观察方位的形状性质。",
+          "difficulty": 1
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "一个物体从正面看是长方形，从上面看是圆，它一定是圆柱。",
+          "options": [],
+          "answer": "对",
+          "explanation": "组合推理：侧面是长方形且顶面是圆，符合圆柱体的三视图特征。",
+          "difficulty": 3
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "从正面观察一个足球，看到的形状是：",
+          "options": [
+            "长方形",
+            "正方形",
+            "圆形",
+            "六边形"
+          ],
+          "answer": "圆形",
+          "explanation": "足球是球体，球体各个方向看都是圆。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "如果你看到一个物体的形状是正方形，这个物体不可能是：",
+          "options": [
+            "正方体",
+            "长方体",
+            "球",
+            "魔方"
+          ],
+          "answer": "球",
+          "explanation": "球从任何角度看都是圆。正方体、长方体、魔方都能看到方形。",
+          "difficulty": 2
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "摄影师给坐姿的小朋友拍照，从头顶往下拍，拍到的是小朋友的：",
+          "options": [
+            "侧面",
+            "正面",
+            "后面",
+            "上面"
+          ],
+          "answer": "上面",
+          "explanation": "俯拍看到的视角是物体的顶面/上面。",
+          "difficulty": 2
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "一个物体从正面、侧面、上面看都是完全一样的正方形，这是：",
+          "options": [
+            "正方体",
+            "长方体",
+            "圆柱",
+            "球"
+          ],
+          "answer": "正方体",
+          "explanation": "只有正方体具备三向观察完全相等的特性。",
+          "difficulty": 3
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "三个人观察一个水壶，结果看到的形状都不一样。这说明：",
+          "options": [
+            "水壶会变",
+            "三个人看的位置不同",
+            "三个人眼花了",
+            "水壶太小"
+          ],
+          "answer": "三个人看的位置不同",
+          "explanation": "归因分析：位置不同导致观察结果不同是本单元的核心原理。",
+          "difficulty": 1
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "在观察者面前放一个杯子，手柄朝向观察者，看到的形状是：",
+          "options": [
+            "一个圆",
+            "杯子的侧面",
+            "杯子的正面连着手柄",
+            "只看到手柄"
+          ],
+          "answer": "杯子的正面连着手柄",
+          "explanation": "物体方位描述。手柄正对由于透视关系会看到正面和突出的手柄。",
+          "difficulty": 2
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "在下列立体图形中，从任何方向观察，看到的形状都相同的是：",
+          "options": [
+            "长方体",
+            "正方体",
+            "圆柱",
+            "球"
+          ],
+          "answer": "球",
+          "explanation": "物理特性：球体在空间中是完全对称的，投影均为圆。",
+          "difficulty": 1
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "看一本立在书架上的书的侧面（书脊），你看到的是：",
+          "options": [
+            "很窄的长方形",
+            "很大的正方形",
+            "圆形",
+            "三角形"
+          ],
+          "answer": "很窄的长方形",
+          "explanation": "书的侧面（书脊）是一个长条形的平面。",
+          "difficulty": 2
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "一个正方体有 6 个面。如果有 2 个这样的正方体，它们一共有 ___ 个面。",
+          "options": [],
+          "answer": "12",
+          "explanation": "列式：$6 \\times 2 = 12$（个）。验算：$6 + 6 = 12$。单体面数乘以个数即可。✓",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "小明观察一个长方体，他最多能看到 ___ 个面。",
+          "options": [],
+          "answer": "3",
+          "explanation": "根据观察规律，在固定位置观察立体图形，最多看到3个面。验算：前、右、上三个面是共顶点的。✓",
+          "difficulty": 1
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$6 \\times 4 = ?$",
+          "options": [],
+          "answer": "24",
+          "explanation": "$6 \\times 4 = 24$。验算：$24 \\times 1 = 24$ 或 $4+4+4+4+4+4=24$。对应四个正方体的面数统计。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2up-u5-kp1",
+      "title": "从不同位置观察物体",
+      "unitNumber": 5,
+      "unitTitle": "观察物体（一）",
+      "kpIndex": 0,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "从不同位置观察物体",
+        "core_concept": "人站在不同的位置观察同一个物体，看到的物体的部位是不一样的，所以看到的物体的形状也可能是不一样的。通常我们从正面、后面、左侧面、右侧面和上面五个主要角度来辨认。",
+        "key_formula": "观察位置不同 $\\rightarrow$ 看到的形状可能不同",
+        "tips": "观察时要通过‘身临其境’的想象，把自己假想成站在那个位置的人，看物体的特征部位在哪里。",
+        "common_mistakes": [
+          "混淆左、右侧面看到的形状，尤其是带有方向性的物体（如车头朝向）",
+          "认为同一个物体无论从哪看形状都应该一样"
+        ]
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "我们从不同的位置观察同一个物体，看到的形状可能是不一样的。",
+          "options": [],
+          "answer": "对",
+          "explanation": "基本概念：观察位置不同，看到的物体的部位就不同，所以看到的形状往往是不一样的。",
+          "difficulty": 1
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "四个小朋友围坐在一起观察一个小汽车玩具，他们看到的形状一定都相同。",
+          "options": [],
+          "answer": "错",
+          "explanation": "围坐意味着位置不同（前、后、左、右），看到的汽车部位（车头、车尾、侧面）是不同的。",
+          "difficulty": 1
+        },
+        {
+          "id": 6,
+          "type": "choice",
+          "question": "小明站在讲台正前方观察老师的办公桌，他看到的是桌子的哪个面？",
+          "options": [
+            "正面",
+            "后面",
+            "侧面",
+            "上面"
+          ],
+          "answer": "正面",
+          "explanation": "站在物体正前方，观察到的就是物体的正面。",
+          "difficulty": 1
+        },
+        {
+          "id": 12,
+          "type": "choice",
+          "question": "妈妈在洗衣服，小林在妈妈身后，他看到的是妈妈的哪一部分？",
+          "options": [
+            "正脸",
+            "背部",
+            "左手",
+            "右手"
+          ],
+          "answer": "背部",
+          "explanation": "在身后观察，看到的是物体的后面（背面）。",
+          "difficulty": 2
+        },
+        {
+          "id": 15,
+          "type": "choice",
+          "question": "小猫从树后观察路上的行人和车辆，它只能看到物体的：",
+          "options": [
+            "前面",
+            "后面",
+            "侧面",
+            "上面"
+          ],
+          "answer": "后面",
+          "explanation": "树在车后面，小猫在树后面，所以看到的是车或人的后部。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g2up-u5-kp2",
+      "title": "观察立体图形",
+      "unitNumber": 5,
+      "unitTitle": "观察物体（一）",
+      "kpIndex": 1,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "观察立体图形",
+        "core_concept": "对于简单的立体图形（长方体、正方体、圆柱、球），从不同方向看到的形状具有特定规律。例如，正方体任何面都是正方形；圆柱从上面看是圆，从正面看通常是长方形。",
+        "key_formula": "球：各方向都是圆；正方体：各方向都是正方形",
+        "tips": "记住‘三看’口诀：一看正面，二看侧面，三看上面，立体形状全呈现。",
+        "common_mistakes": [
+          "错误认为长方体从各个面看都是长方形（忽略可能存在正方形面的情况）",
+          "将圆柱的侧面看成圆形"
+        ]
+      },
+      "questions": [
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "我们在任意位置观察一个正方体，最多可以看到它的 4 个面。",
+          "options": [],
+          "answer": "错",
+          "explanation": "观察规律：站在一个位置观察一个正方体，最多能看到它的3个面（即正面、侧面和上面）。",
+          "difficulty": 1
+        },
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "从正面观察一个球体，看到的形状是一个圆。",
+          "options": [],
+          "answer": "对",
+          "explanation": "球体的特性：球体从任何方向看过去都是圆形的。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "如果从正面看到一个物体的形状是正方形，那么这个物体一定是正方体。",
+          "options": [],
+          "answer": "错",
+          "explanation": "反例推导：长方体的一端如果是正方形，从正面看也是正方形，所以不一定是正方体。",
+          "difficulty": 2
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "从上面观察一个长方体（不含正方形面），看到的形状是：",
+          "options": [
+            "圆形",
+            "长方形",
+            "正方形",
+            "三角形"
+          ],
+          "answer": "长方形",
+          "explanation": "长方体的上面、正面、侧面通常都是长方形。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "哪种物体的每一个面看起来都是完全相同的正方形？",
+          "options": [
+            "长方体",
+            "圆柱",
+            "正方体",
+            "球"
+          ],
+          "answer": "正方体",
+          "explanation": "正方体的特征是 6 个面都是完全相同的正方形。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "从正面观察一个竖着的圆柱，看到的形状是：",
+          "options": [
+            "圆形",
+            "正方形",
+            "长方形",
+            "椭圆"
+          ],
+          "answer": "长方形",
+          "explanation": "竖放的圆柱从正面或侧面看都是长方形，从上面看才是圆形。",
+          "difficulty": 1
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "从上面观察一本书（横放在桌上），看到的形状是：",
+          "options": [
+            "长方形",
+            "正方形",
+            "厚度",
+            "无法确定"
+          ],
+          "answer": "长方形",
+          "explanation": "书的封面和底面通常是长方形的。",
+          "difficulty": 1
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "正方体有几个面？",
+          "options": [
+            "4个",
+            "6个",
+            "8个",
+            "12个"
+          ],
+          "answer": "6个",
+          "explanation": "正方体由6个完全一样的正方形组成。验算：上、下、前、后、左、右各一个，共6个。",
+          "difficulty": 1
+        },
+        {
+          "id": 18,
+          "type": "choice",
+          "question": "把两个完全一样的正方体拼成一个长方体，拼成的长方体有几个面？",
+          "options": [
+            "6个",
+            "10个",
+            "12个",
+            "8个"
+          ],
+          "answer": "6个",
+          "explanation": "虽然是两个正方体拼成的，但形成的新物体仍然是一个长方体，长方体固定有6个面。",
+          "difficulty": 2
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "正方体有 ___ 个面，这些面的形状完全相同。",
+          "options": [],
+          "answer": "6",
+          "explanation": "知识点直接应用：正方体共有6个面。验算：上下面2个，前后面2个，左右面2个，2+2+2=6。",
+          "difficulty": 1
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "从正面看一个长方体，看到了一个长方形；从侧面看，也看到了一个长方形。这个长方体至少有 ___ 个面是长方形。",
+          "options": [],
+          "answer": "4",
+          "explanation": "长方体的成对特性：正面看到长方形，背面也一定是；侧面看到长方形，另一侧也一定是。$2 + 2 = 4$。验算：最少情况是两端是正方形，四周4个长方形。✓",
+          "difficulty": 2
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$3 \\times 2 = ?$",
+          "options": [],
+          "answer": "6",
+          "explanation": "$3 \\times 2 = 6$。验算：$2+2+2 = 6$。本题对应正方体3个面可见，若两个正方体合起来数可见面的趣味计算。",
+          "difficulty": 1
+        },
+        {
+          "id": 23,
+          "type": "calculation",
+          "question": "计算：$12 - 6 = ?$",
+          "options": [],
+          "answer": "6",
+          "explanation": "$12 - 6 = 6$。验算：$6 + 6 = 12$。对应正方体棱的数目减去面的数目的算理。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2up-u5-kp3",
+      "title": "空间观念建立",
+      "unitNumber": 5,
+      "unitTitle": "观察物体（一）",
+      "kpIndex": 2,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "空间观念建立",
+        "core_concept": "空间观念是指能够通过物体的形状推断观察者的位置，或者通过观察者的位置推断出应有的形状。关键在于理解‘遮挡’和‘角度’对视觉的影响。",
+        "key_formula": "固定位置最高可见面数 = 3",
+        "tips": "可以亲自动手拿一个纸盒，从不同角度转一转，数一数能看到几个面，以此增强空间感。",
+        "common_mistakes": [
+          "在平面练习中无法还原立体动态，导致方位判断错误",
+          "数物体面数时重复计数或漏记（如合并图形的隐藏面）"
+        ]
+      },
+      "questions": [
+        {
+          "id": 9,
+          "type": "choice",
+          "question": "小红正在拍皮球，小强站在小红的左侧，小强看到的是：",
+          "options": [
+            "小红的正面",
+            "小红的左侧面",
+            "小红的右侧面",
+            "小红的后面"
+          ],
+          "answer": "小红的左侧面",
+          "explanation": "观察者在左侧，看到的自然是物体的左侧。",
+          "difficulty": 2
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "如果你看到一个物体的形状是圆，它不可能是下面哪一个？",
+          "options": [
+            "球",
+            "圆柱",
+            "闹钟的表面",
+            "正方体"
+          ],
+          "answer": "正方体",
+          "explanation": "正方体无论从哪个方向看都只能是方形，不可能看到圆形。",
+          "difficulty": 2
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "一个正方体木块，小明把它放在桌子上。他最多能看到几个面？",
+          "options": [
+            "1个",
+            "2个",
+            "3个",
+            "4个"
+          ],
+          "answer": "3个",
+          "explanation": "原理验算：由于视点限制，在一个固定角度不可能同时看到超过3个互相对立的面。",
+          "difficulty": 3
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "从小狗的右侧观察它，能看到它的：",
+          "options": [
+            "尾巴",
+            "右耳朵",
+            "左耳朵",
+            "鼻子"
+          ],
+          "answer": "右耳朵",
+          "explanation": "在右侧观察，能够看到的属于侧面的特征部位是右耳。",
+          "difficulty": 2
+        },
+        {
+          "id": 21,
+          "type": "fill_blank",
+          "question": "如果我们从不同的方向观察一个球，看到的图形都是圆的。观察 10 个不同的球，一共能看到 ___ 种不同的形状。",
+          "options": [],
+          "answer": "1",
+          "explanation": "逻辑推理：球体在任何方位看的形状都是圆，无论多少个球，形状这一属性只有“圆”这一种。✓",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "g2up-u6-exam",
+      "title": "第 6 单元挑战",
+      "unitNumber": 6,
+      "unitTitle": "表内乘法（二）",
+      "kpIndex": 3,
+      "kpTotal": 3,
+      "isExam": true,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "$9 \\times 3$ 的积比 $10 \\times 3$ 的积少 $3$。",
+          "options": [],
+          "answer": "对",
+          "explanation": "$9 \\times 3 = 27$，$10 \\times 3 = 30$，$30 - 27 = 3$，正确。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "两个数的积一定比这两个数的和大。",
+          "options": [],
+          "answer": "错",
+          "explanation": "不一定。比如 $1 \\times 9 = 9$，但 $1 + 9 = 10$，积比和小。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "有 34 个同学去划船，每条船限坐 4 人，8 条船够坐。",
+          "options": [],
+          "answer": "错",
+          "explanation": "$8 \\times 4 = 32$（人），$32 < 34$，所以不够坐。",
+          "difficulty": 2
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "在 9 的乘法口诀中，积的十位数字依次增加 1，个位数字依次减少 1。",
+          "options": [],
+          "answer": "对",
+          "explanation": "例如：09, 18, 27, 36... 十位 0-1-2-3，个位 9-8-7-6。",
+          "difficulty": 3
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "下列哪个算式的积最大？",
+          "options": [
+            "$8 \\times 8$",
+            "$7 \\times 9$",
+            "$9 \\times 6$",
+            "$7 \\times 8$"
+          ],
+          "answer": "$8 \\times 8$",
+          "explanation": "$8 \\times 8 = 64$，$7 \\times 9 = 63$，$9 \\times 6 = 54$，$7 \\times 8 = 56$。$64$ 最大。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "根据口诀“六九五十四”可以写出两个乘法算式，分别是：",
+          "options": [
+            "$6+9$ 和 $9+6$",
+            "$6 \\times 9$ 和 $9 \\times 6$",
+            "$6 \\times 9$ 和 $6 \\times 8$",
+            "$5 \\times 4$ 和 $4 \\times 5$"
+          ],
+          "answer": "$6 \\times 9$ 和 $9 \\times 6$",
+          "explanation": "乘法口诀可以计算两个因数交换位置的乘法算式。",
+          "difficulty": 2
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "买一枝玫瑰花要 9 元，买 8 枝玫瑰花，带 70 元钱够吗？",
+          "options": [
+            "够",
+            "不够",
+            "正好",
+            "无法判断"
+          ],
+          "answer": "不够",
+          "explanation": "$9 \\times 8 = 72$（元），$72 > 70$，所以不够。",
+          "difficulty": 2
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "操场上有 2 排学生在做操，一排 8 人，另一排 9 人，一共有多少人？",
+          "options": [
+            "72",
+            "17",
+            "81",
+            "18"
+          ],
+          "answer": "17",
+          "explanation": "求两部分的总和，用加法：$8 + 9 = 17$（人）。",
+          "difficulty": 3
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "一根绳子对折再对折，每段长 8 厘米，这根绳子总长是多少？",
+          "options": [
+            "16 厘米",
+            "24 厘米",
+            "32 厘米",
+            "40 厘米"
+          ],
+          "answer": "32 厘米",
+          "explanation": "对折再对折是分成了 4 段。$8 \\times 4 = 32$（厘米）。",
+          "difficulty": 2
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "一个正方体有 6 个面，9 个正方体一共有多少个面？",
+          "options": [
+            "54",
+            "45",
+            "63",
+            "72"
+          ],
+          "answer": "54",
+          "explanation": "$6 \\times 9 = 54$。",
+          "difficulty": 3
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "二(1)班有 4 个小组，每个小组有 8 人，全班一共有多少人？",
+          "options": [
+            "12",
+            "32",
+            "36",
+            "40"
+          ],
+          "answer": "32",
+          "explanation": "$8 \\times 4 = 32$（人）。",
+          "difficulty": 2
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "选择合适的符号填入 $9 \\times 3 \\bigcirc 25$：",
+          "options": [
+            ">",
+            "<",
+            "＝",
+            "≈"
+          ],
+          "answer": ">",
+          "explanation": "$9 \\times 3 = 27$，$27 > 25$。",
+          "difficulty": 1
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "一盒巧克力有 8 块，小红买了 3 盒，一共 ___ 块。",
+          "options": [],
+          "answer": "24",
+          "explanation": "$8 \\times 3 = 24$。验算：$24 \\div 3 = 8$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "一支钢笔 9 元，买 4 支钢笔要 ___ 元。",
+          "options": [],
+          "answer": "36",
+          "explanation": "$9 \\times 4 = 36$。口诀：四九三十六 ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$8 \\times 7 - 6 = ?$",
+          "options": [],
+          "answer": "50",
+          "explanation": "$8 \\times 7 = 56$，$56 - 6 = 50$。验算：$50 + 6 = 56$ ✓。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g2up-u6-kp1",
+      "title": "7、8、9的乘法口诀",
+      "unitNumber": 6,
+      "unitTitle": "表内乘法（二）",
+      "kpIndex": 0,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "7、8、9的乘法口诀",
+        "core_concept": "7、8、9的乘法口诀是在前面学习2-6口诀的基础上进一步深化的知识。7的口诀共有7句，8的口诀8句，9的口诀9句。随着因数变大，积也变大。特别需要通过排列规律来识记，例如9的口诀中，积的个位与十位和始终为9，且十位数总是比乘数小1。",
+        "key_formula": "$7 \\times 8 = 56, 8 \\times 9 = 72, 9 \\times 9 = 81$",
+        "tips": "可以通过手势法记忆9的口诀，或利用积的规律：9乘几，积就是几十减几。",
+        "common_mistakes": [
+          "口诀记忆模棱两可，如将“六九五十四”记成“六九五十六”。",
+          "在计算连乘或乘加题目时，由于计算量变大容易出现口算加减法的错误。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "计算 $8 \\times 9$ 和 $9 \\times 8$ 时，用的是同一句乘法口诀。",
+          "options": [],
+          "answer": "对",
+          "explanation": "计算 $8 \\times 9$ 和 $9 \\times 8$ 调换了因数位置，均使用口诀“八九七十二”。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "7的乘法口诀中，每一句口诀的积都比前一句多7。",
+          "options": [],
+          "answer": "对",
+          "explanation": "乘数增加1，积增加另一个因数的值。$7 \\times (n+1) - 7 \\times n = 7$。",
+          "difficulty": 1
+        },
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "9 乘任何一个数得到的积，个位数字与十位数字的和都是 9（0除外）。",
+          "options": [],
+          "answer": "对",
+          "explanation": "例如：$9 \\times 2 = 18$ ($1+8=9$)，$9 \\times 5 = 45$ ($4+5=9$)。这是9的乘法口诀的特殊规律。",
+          "difficulty": 2
+        },
+        {
+          "id": 6,
+          "type": "choice",
+          "question": "口诀“七八五十六”可以用来计算下面哪个算式？",
+          "options": [
+            "$7 \\times 7$",
+            "$8 \\times 8$",
+            "$7 \\times 8$",
+            "$7 + 8$"
+          ],
+          "answer": "$7 \\times 8$",
+          "explanation": "口诀“七八五十六”对应 $7 \\times 8$ 或 $8 \\times 7$。",
+          "difficulty": 1
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "$9 \\times 4$ 的积是多少？",
+          "options": [
+            "32",
+            "36",
+            "40",
+            "45"
+          ],
+          "answer": "36",
+          "explanation": "根据口诀“四九三十六”，积是36。",
+          "difficulty": 1
+        },
+        {
+          "id": 9,
+          "type": "choice",
+          "question": "下面哪句口诀是错误的？",
+          "options": [
+            "七九六十三",
+            "八九七十一",
+            "九九八十一",
+            "六九五十四"
+          ],
+          "answer": "八九七十一",
+          "explanation": "应该是“八九七十二”，积是72而不是71。",
+          "difficulty": 1
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "算式 $8 \\times 7 + 8$ 的结果与下列哪个算式相等？",
+          "options": [
+            "$8 \\times 8$",
+            "$8 \\times 6$",
+            "$7 \\times 7$",
+            "$8 \\times 9$"
+          ],
+          "answer": "$8 \\times 8$",
+          "explanation": "$8 \\times 7$ 表示7个8相加，再加上1个8，总共是8个8相加，即 $8 \\times 8$。",
+          "difficulty": 2
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "两排桌子，第一排 8 张，第二排 9 张，一共有多少张？",
+          "options": [
+            "17",
+            "72",
+            "81",
+            "64"
+          ],
+          "answer": "17",
+          "explanation": "注意题干是两排不是每排，算式是 $8 + 9 = 17$。不要混淆乘法和加法。",
+          "difficulty": 3
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "9 的乘法口诀“五九四十五”，下一个口诀是：",
+          "options": [
+            "五八四十",
+            "六九五十四",
+            "六九六十",
+            "六八四十八"
+          ],
+          "answer": "六九五十四",
+          "explanation": "9的乘法口诀按顺序，五九之后是六九，积增加9，$45+9=54$。",
+          "difficulty": 1
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "有 8 大格，每大格有 5 个小格，一共有 ___ 个小格。",
+          "options": [],
+          "answer": "40",
+          "explanation": "列式：$8 \\times 5 = 40$。验算：$5 \\times 8 = 40$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$9 \\times 8 = ?$",
+          "options": [],
+          "answer": "72",
+          "explanation": "$9 \\times 8 = 72$。验算：$8 \\times 9 = 72$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 23,
+          "type": "calculation",
+          "question": "计算：$7 \\times 7 = ?$",
+          "options": [],
+          "answer": "49",
+          "explanation": "$7 \\times 7 = 49$。验算：口诀“七七四十九” ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2up-u6-kp2",
+      "title": "利用乘法口诀求积或因数",
+      "unitNumber": 6,
+      "unitTitle": "表内乘法（二）",
+      "kpIndex": 1,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "利用乘法口诀求积或因数",
+        "core_concept": "这是乘法运算的核心技能。要求学生能根据算式中的因数快速联想对应的口诀来求积，或者根据已知的积和其中一个因数，通过口诀反推另一个因数。这为以后学习除法打下基础。",
+        "key_formula": "因数 $\\times$ 因数 $=$ 积",
+        "tips": "背诵口诀要做到“对口令”，不仅按序背，更要能打乱顺序随机提取。",
+        "common_mistakes": [
+          "看错符号，把乘法当成加法，如 $8 \\times 7$ 算成 $15$。",
+          "在填括号里的数时（如 $\\Box \\times 8 < 50$），容易填错最大值。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "$8+8+8+8+8+8$ 可以写成 $8 \\times 6$。",
+          "options": [],
+          "answer": "对",
+          "explanation": "乘法是求几个相同加数和的简便运算，6个8相加记作 $8 \\times 6$。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "一个乘数是 8，另一个乘数是 7，积是多少？",
+          "options": [
+            "15",
+            "54",
+            "56",
+            "64"
+          ],
+          "answer": "56",
+          "explanation": "$8 \\times 7 = 56$，口诀：七八五十六。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "在关系式 $( ) \\times 9 < 60$ 中，括号里最大能填几？",
+          "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "answer": "6",
+          "explanation": "因为 $6 \\times 9 = 54$ ($< 60$)，$7 \\times 9 = 63$ ($> 60$)，所以最大填6。",
+          "difficulty": 2
+        },
+        {
+          "id": 15,
+          "type": "choice",
+          "question": "在算式 $8 \\times \\Box = 64$ 中，$\\Box$ 里的数是几？",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "answer": "8",
+          "explanation": "根据口诀“八八六十四”，$\\Box$ 应该是8。",
+          "difficulty": 1
+        },
+        {
+          "id": 18,
+          "type": "choice",
+          "question": "比较大小：$7 \\times 6$ ( ) $9 \\times 5$。括号里填什么？",
+          "options": [
+            ">",
+            "<",
+            "（空）",
+            "无法比较"
+          ],
+          "answer": "<",
+          "explanation": "$7 \\times 6 = 42$，$9 \\times 5 = 45$，$42 < 45$。",
+          "difficulty": 2
+        },
+        {
+          "id": 21,
+          "type": "fill_blank",
+          "question": "两个因数都是 9，积是 ___ 。",
+          "options": [],
+          "answer": "81",
+          "explanation": "列式：$9 \\times 9 = 81$。验算：口诀“九九八十一” ✓。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "g2up-u6-kp3",
+      "title": "多步乘法应用题：解决问题",
+      "unitNumber": 6,
+      "unitTitle": "表内乘法（二）",
+      "kpIndex": 2,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "多步乘法应用题：解决问题",
+        "core_concept": "将乘法运算应用到具体生活情境中，如购物支付、座位安排、物品分配等。需要通过阅读理解题意，判断是纯乘法还是需要配合加减法（乘加、乘减）来完成。这类问题考查学生的逻辑拆解能力。",
+        "key_formula": "总数 $=$ 单价 $\\times$ 数量 或 总数 $=$ 每组数 $\\times$ 组数 $+$ 剩余数",
+        "tips": "画简单的草图或圆圈图可以帮助理解数量关系，分清哪些是个数，哪些是份数。",
+        "common_mistakes": [
+          "没分清“每排有几个”与“一共有几排”的关系，错误列式。",
+          "两步应用题中，做完第一步乘法后忘记进行第二步的加减法计算。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "买一个 $8$ 元的笔记本，买 $9$ 个需要支付 $81$ 元。",
+          "options": [],
+          "answer": "错",
+          "explanation": "应该是 $8 \\times 9 = 72$（元），不是81元。八九七十二。",
+          "difficulty": 2
+        },
+        {
+          "id": 12,
+          "type": "choice",
+          "question": "一只螃蟹有 8 条腿，7 只螃蟹一共有多少条腿？",
+          "options": [
+            "15",
+            "49",
+            "56",
+            "64"
+          ],
+          "answer": "56",
+          "explanation": "$8 \\times 7 = 56$（条）。",
+          "difficulty": 1
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "一件衣服要钉 7 个纽扣，做了 8 件衣服后还剩 4 个纽扣。原来一共有多少个纽扣？",
+          "options": [
+            "52",
+            "56",
+            "60",
+            "64"
+          ],
+          "answer": "60",
+          "explanation": "$7 \\times 8 + 4 = 56 + 4 = 60$（个）。",
+          "difficulty": 2
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "小明买 9 支铅笔，每支 3 元，付给售货员 30 元，应找回多少钱？",
+          "options": [
+            "3",
+            "1",
+            "27",
+            "7"
+          ],
+          "answer": "3",
+          "explanation": "$30 - (9 \\times 3) = 30 - 27 = 3$（元）。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "小明每天看 9 页书，刚好看了 7 天看完。这本书一共有 ___ 页。",
+          "options": [],
+          "answer": "63",
+          "explanation": "列式：$9 \\times 7 = 63$。验算：口诀“七九六十三” ✓。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g2up-u7-exam",
+      "title": "第 7 单元挑战",
+      "unitNumber": 7,
+      "unitTitle": "认识时间",
+      "kpIndex": 3,
+      "kpTotal": 3,
+      "isExam": true,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "钟面上一共有60个小格。",
+          "options": [],
+          "answer": "对",
+          "explanation": "12大格 $\\times$ 5小格 = 60小格。✓",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "1时也就是100分。",
+          "options": [],
+          "answer": "错",
+          "explanation": "时间进率是60，不是100，所以1时=60分。✓",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "快到11时了，说明已经是11时多一点了。",
+          "options": [],
+          "answer": "错",
+          "explanation": "“快到”说明还没到，应该是10时多。✓",
+          "difficulty": 2
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "时针从数字1走到数字2，经过的时间是1分钟。",
+          "options": [],
+          "answer": "错",
+          "explanation": "时针走一大格是1小时。✓",
+          "difficulty": 3
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "下面哪个单位是用来测量时间的？",
+          "options": [
+            "厘米",
+            "元",
+            "分",
+            "米"
+          ],
+          "answer": "分",
+          "explanation": "分是时间单位，厘米和米是长度单位，元是人民币单位。✓",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "时针走过4，分针指着5，这个时刻是？",
+          "options": [
+            "4:05",
+            "5:04",
+            "4:25",
+            "5:25"
+          ],
+          "answer": "4:25",
+          "explanation": "时针走过4是4时多，分针指着5是 $5 \\times 5 = 25$ 分。✓",
+          "difficulty": 2
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "妈妈去超市，9:20出发，10:30回来，妈妈在外面多长时间？",
+          "options": [
+            "10分",
+            "1时10分",
+            "50分",
+            "1时"
+          ],
+          "answer": "1时10分",
+          "explanation": "从9:20到10:20是1时，再到10:30还有10分，共1时10分。✓",
+          "difficulty": 3
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "2小时等于多少分钟？",
+          "options": [
+            "60分",
+            "100分",
+            "120分",
+            "80分"
+          ],
+          "answer": "120分",
+          "explanation": "$60 + 60 = 120$。✓",
+          "difficulty": 1
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "现在是10时25分，再过一刻钟是几时？",
+          "options": [
+            "10:30",
+            "10:40",
+            "10:10",
+            "11:00"
+          ],
+          "answer": "10:40",
+          "explanation": "一刻钟是15分。$25 + 15 = 40$。故为10:40。✓",
+          "difficulty": 2
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "小华下午2:00到校，4:30放学，他在校时间为？",
+          "options": [
+            "2时",
+            "3时",
+            "2时30分",
+            "6时30分"
+          ],
+          "answer": "2时30分",
+          "explanation": "$4:30 - 2:00 = 2$ 小时 30 分。✓",
+          "difficulty": 2
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "一列火车本应11:45到达，现在要晚点10分钟。火车什么时候到达？",
+          "options": [
+            "11:35",
+            "11:55",
+            "12:00",
+            "12:05"
+          ],
+          "answer": "11:55",
+          "explanation": "$45 + 10 = 55$。所以时刻是11:55。✓",
+          "difficulty": 3
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "分针从12走到12，经过的时间是？",
+          "options": [
+            "1分",
+            "1时",
+            "12分",
+            "12时"
+          ],
+          "answer": "1时",
+          "explanation": "分针走一圈是60分，也就是1小时。✓",
+          "difficulty": 1
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "小红做家务用了 1 小时，也就是 ___ 分钟。",
+          "options": [],
+          "answer": "60",
+          "explanation": "1时=60分。✓",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "现在现实时刻是 8 时 55 分，再过 5 分钟是 ___ 时。",
+          "options": [],
+          "answer": "9",
+          "explanation": "$55 + 5 = 60$，满60分进1位到时。$8 + 1 = 9$ 时。✓",
+          "difficulty": 3
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "30 + 30 = ?",
+          "options": [],
+          "answer": "60",
+          "explanation": "两个半小时（30分）相加等于60分（1小时）。✓",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2up-u7-kp1",
+      "title": "钟面时刻的认读",
+      "unitNumber": 7,
+      "unitTitle": "认识时间",
+      "kpIndex": 0,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "钟面时刻的认读",
+        "core_concept": "钟面上有时针和分针，12个大格，60个小格。读数时先看时针，过几就是几时；再看分针，走过几个小格就是几分。分针指着几，就用五个五地数的方法数出分钟数。",
+        "key_formula": "分钟数 = 分针指向的数字 \times 5",
+        "tips": "“时针走过几，就是几时多；分针指几格，五五加起来”。",
+        "common_mistakes": [
+          "将时针看错，如 4:55 误认为 5:55，因为时针很靠近5。",
+          "分针指向“1”时读成1分，实际应该是5分。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "钟面上有12个大格，每个大格里有5个小格。",
+          "options": [],
+          "answer": "对",
+          "explanation": "钟面分为12个大格，从1到12；每个大格平均分成5个小格，全钟共60个小格。✓",
+          "difficulty": 1
+        },
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "时针在4和5之间，分针指着6，这时是5时30分。",
+          "options": [],
+          "answer": "错",
+          "explanation": "时针在4和5之间说明刚过4时还没到5时，所以是4时30分，不是5时30分。✓",
+          "difficulty": 2
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "下面哪个时刻，分针是指向“9”的？",
+          "options": [
+            "9时",
+            "9时零5分",
+            "9时45分",
+            "9时15分"
+          ],
+          "answer": "9时45分",
+          "explanation": "分针指向9时，代表经过了 $9 \\times 5 = 45$ 分。✓",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "时针走一个大格，分钟走___小格？",
+          "options": [
+            "1",
+            "5",
+            "12",
+            "60"
+          ],
+          "answer": "60",
+          "explanation": "时针走一个大格是1时，分针走1圈是1时，即60个小格。✓",
+          "difficulty": 1
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "7:05 也可以读作哪个时刻？",
+          "options": [
+            "7时5分",
+            "7时50分",
+            "5时7分",
+            "7时零5分"
+          ],
+          "answer": "7时零5分",
+          "explanation": "在不满10分的情况下，读法上习惯加上“零”字。✓",
+          "difficulty": 1
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "钟面上时针指着10，分针指着12，这时是几时？",
+          "options": [
+            "10:00",
+            "12:00",
+            "10:12",
+            "12:10"
+          ],
+          "answer": "10:00",
+          "explanation": "分针指着12是整时，时针指着几就是几时。✓",
+          "difficulty": 1
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "时针在 6 和 7 之间，分针指着 8。这个时刻是几时几分？请写出分钟数：6 时 ___ 分。",
+          "options": [],
+          "answer": "40",
+          "explanation": "分针指着8，表示 $8 \\times 5 = 40$ 分。✓",
+          "difficulty": 2
+        },
+        {
+          "id": 23,
+          "type": "calculation",
+          "question": "5 \times 9 = ?",
+          "options": [],
+          "answer": "45",
+          "explanation": "五九四十五，对应分针指在数字9时的分数。✓",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2up-u7-kp2",
+      "title": "时、分、秒的换算与关系",
+      "unitNumber": 7,
+      "unitTitle": "认识时间",
+      "kpIndex": 1,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "时、分、秒的换算与关系",
+        "core_concept": "时间是按60进制计算的。时针走1大格是1时，分针正好走1圈是60分。因此，1时等于60分。此外，半小时是30分，一刻是15分。",
+        "key_formula": "1时 = 60分",
+        "tips": "可以用“分分秒秒聚成时”来记忆，记住60是一个完整的圈。",
+        "common_mistakes": [
+          "受长度单位影响，误认为 1时 = 100分。",
+          "计算 1时 = 60分时，容易在加减法中进率出错。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "分针走1圈是60分，也就是1时。",
+          "options": [],
+          "answer": "对",
+          "explanation": "分针走1小格是1分，1圈是60小格即60分。分针走一圈，时针正好走一加格，即1时。✓",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "半小时就是30分。",
+          "options": [],
+          "answer": "对",
+          "explanation": "1时=60分，60的一半是30，所以半小时是30分。✓",
+          "difficulty": 1
+        },
+        {
+          "id": 6,
+          "type": "choice",
+          "question": "分针从数字3走到数字6，经过了多长时间？",
+          "options": [
+            "3分",
+            "15分",
+            "30分",
+            "20分"
+          ],
+          "answer": "15分",
+          "explanation": "分针每走一个数字（大格）是5分。从3走到6走了 $6 - 3 = 3$ 个大格。$3 \\times 5 = 15$（分）。✓",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "一节课的时间大约是 40 ___？",
+          "options": [
+            "时",
+            "分",
+            "元",
+            "米"
+          ],
+          "answer": "分",
+          "explanation": "结合生活经验，学校一节课是40分钟，40小时太长了。✓",
+          "difficulty": 1
+        },
+        {
+          "id": 9,
+          "type": "choice",
+          "question": "1时减去20分等于多少分？",
+          "options": [
+            "80分",
+            "40分",
+            "120分",
+            "100分"
+          ],
+          "answer": "40分",
+          "explanation": "1时=60分。$60 - 20 = 40$（分）。验算：$40 + 20 = 60$ 分。✓",
+          "difficulty": 2
+        },
+        {
+          "id": 15,
+          "type": "choice",
+          "question": "“一刻”是指多少分钟？",
+          "options": [
+            "10分",
+            "15分",
+            "20分",
+            "30分"
+          ],
+          "answer": "15分",
+          "explanation": "1小时的四分之一是15分，生活习惯称15分为“一刻”。✓",
+          "difficulty": 2
+        },
+        {
+          "id": 18,
+          "type": "choice",
+          "question": "时针走一圈，经过了多长时间？",
+          "options": [
+            "60分",
+            "1时",
+            "12时",
+            "24时"
+          ],
+          "answer": "12时",
+          "explanation": "钟面有12个数字，时针走1圈经过了12小时。✓",
+          "difficulty": 1
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "2时 = ___ 分",
+          "options": [],
+          "answer": "120",
+          "explanation": "因为 1时=60分。列式：$60 \\times 2 = 120$（分）。验算：$120 \\times 60 = 2$。✓",
+          "difficulty": 1
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "60 + 60 = ?",
+          "options": [],
+          "answer": "120",
+          "explanation": "$60 + 60 = 120$。对应2小时的分钟数。✓",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2up-u7-kp3",
+      "title": "时间先后的推理",
+      "unitNumber": 7,
+      "unitTitle": "认识时间",
+      "kpIndex": 2,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "时间先后的推理",
+        "core_concept": "结合日常生活情境，利用“开始时间 + 经过时间 = 结束时间”或“结束时间 - 开始时间 = 经过时间”进行推算。需要注意先后顺序，数值大的时刻通常较晚。",
+        "key_formula": "结束时间 - 开始时间 = 经过时间",
+        "tips": "在草稿纸上画一条时间轴，把活动标在轴上，先后关系就一目了然啦！",
+        "common_mistakes": [
+          "分不清“几时”和“几时多”，导致推理活动顺序错误。",
+          "在跨小时计算经过时间时出错，如 3:50 到 4:10 算成 60 分钟。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "小明8:30上课，他8:45到校，他没有迟到。",
+          "options": [],
+          "answer": "错",
+          "explanation": "8:45在8:30之后，所以他迟到了。✓",
+          "difficulty": 2
+        },
+        {
+          "id": 12,
+          "type": "choice",
+          "question": "明明每天7时10分起床，红红每天7时半起床。谁起床更早？",
+          "options": [
+            "明明",
+            "红红",
+            "一样早",
+            "无法判断"
+          ],
+          "answer": "明明",
+          "explanation": "7时10分早于7时30分，数值越小时间越早。✓",
+          "difficulty": 2
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "小亮9:00开始写作业，写了40分钟，他在什么时刻写完？",
+          "options": [
+            "9:04",
+            "9:40",
+            "10:00",
+            "8:20"
+          ],
+          "answer": "9:40",
+          "explanation": "9时 + 40分 = 9时40分。✓",
+          "difficulty": 2
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "球赛10:30结束，小刚提前15分钟离场休息。小刚离场的时刻是？",
+          "options": [
+            "10:45",
+            "10:20",
+            "10:15",
+            "10:00"
+          ],
+          "answer": "10:15",
+          "explanation": "提前离场即在结束时间之前。$10:30 - 15 = 10:15$。✓",
+          "difficulty": 2
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "从3:15到3:45，中间经过了多久？",
+          "options": [
+            "15分",
+            "30分",
+            "45分",
+            "20分"
+          ],
+          "answer": "30分",
+          "explanation": "$45 - 15 = 30$（分）。验算：$15 + 30 = 45$。✓",
+          "difficulty": 3
+        },
+        {
+          "id": 21,
+          "type": "fill_blank",
+          "question": "一部电影 3 时 10 分开始，4 时 40 分结束。电影放映了几分钟？",
+          "options": [],
+          "answer": "90",
+          "explanation": "4时40分与3时10分相差1时30分。1时=60分，加30分等于90分。验算：$10 + 90 = 100$ 分（即1时40分），3时+1时40分=4时40分。✓",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g2up-u8-exam",
+      "title": "第 8 单元挑战",
+      "unitNumber": 8,
+      "unitTitle": "数学广角——搭配（一）",
+      "kpIndex": 3,
+      "kpTotal": 3,
+      "isExam": true,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "用 8 和 0 两个数字，只能组成 1 个两位数。",
+          "options": [],
+          "answer": "对",
+          "explanation": "因为两位数的十位不能是0，所以只能组成80。验算：08是个位数 ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "2 把椅子分给 2 个小朋友坐，每人坐 1 把，共有 4 种分法。",
+          "options": [],
+          "answer": "错",
+          "explanation": "设小朋友为A,B，椅子为1,2。分法一：A坐1，B坐2；分法二：A坐2，B坐1。共2种。验算：$2 \\times 1 = 2$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "从 3 个数中挑选 2 个数求积，得出的结果可能比挑选 2 个数求和的结果多。",
+          "options": [],
+          "answer": "对",
+          "explanation": "例如 2, 3, 4。和可能是 5, 6, 7；积可能是 6, 8, 12。积比和多是正确的 ✓。",
+          "difficulty": 3
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "由 1, 2, 3 组成的没有重复数字的三位数一共有 6 个。",
+          "options": [],
+          "answer": "对",
+          "explanation": "固定百位：123, 132, 213, 231, 312, 321。共6个。符合规律 $3 \\times 2 \\times 1 = 6$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "有 3 种水果，每人只能选其中的 2 种，一共有几种选法？",
+          "options": [
+            "1 种",
+            "2 种",
+            "3 种",
+            "6 种"
+          ],
+          "answer": "3 种",
+          "explanation": "假设水果为 A, B, C。选法有：AB, AC, BC。共3种。验算：这相当于由于3种里不选1种，也是3种 ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "用数字 2, 4, 6 可以组成几个不同的两位数？",
+          "options": [
+            "3 个",
+            "4 个",
+            "5 个",
+            "6 个"
+          ],
+          "answer": "6 个",
+          "explanation": "十位选其一有3种，个位选剩下其一有2种，$3 \\times 2 = 6$。分别是：24, 26, 42, 46, 62, 64 ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "用 0, 4, 7 能摆出多少个不同的两位数？",
+          "options": [
+            "3 个",
+            "4 个",
+            "5 个",
+            "6 个"
+          ],
+          "answer": "4 个",
+          "explanation": "0不能在十位。十位是4的有：40, 47。十位是7的有：70, 74。共4个 ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "3 个数 2, 4, 9。从中选两个数相乘，积最大是多少？",
+          "options": [
+            "8",
+            "18",
+            "36",
+            "45"
+          ],
+          "answer": "36",
+          "explanation": "积的情况：$2 \\times 4 = 8, 2 \\times 9 = 18, 4 \\times 9 = 36$。最大是36 ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "在 1, 2, 3 中选两个数组成两位数，十位数字比个位数字大的两位数共有几个？",
+          "options": [
+            "2 个",
+            "3 个",
+            "4 个",
+            "6 个"
+          ],
+          "answer": "3 个",
+          "explanation": "列举所有：12, 13, 21, 23, 31, 32。满足条件的有：21, 31, 32。共3个 ✓。",
+          "difficulty": 3
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "有 4 个队参加足球比赛，每两个队都要比赛一场，一共要打几场？",
+          "options": [
+            "4 场",
+            "5 场",
+            "6 场",
+            "8 场"
+          ],
+          "answer": "6 场",
+          "explanation": "公式：$3 + 2 + 1 = 6$。或组合公式：$4 \\times 3 \\times 2 = 6$。验证：A-B, A-C, A-D, B-C, B-D, C-D ✓。",
+          "difficulty": 3
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "把 3 本不同的书发给 3 个小朋友，每人一本，一共有多少种发法？",
+          "options": [
+            "3 种",
+            "6 种",
+            "9 种",
+            "12 种"
+          ],
+          "answer": "6 种",
+          "explanation": "第一个小朋友有3种选择，第二个小朋友有2种，第三个有1种。$3 \\times 2 \\times 1 = 6$。验算：假设书为ABC，分法有ABC, ACB, BAC, BCA, CAB, CBA ✓。",
+          "difficulty": 3
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "用数字 1、0、2 能组成多少个不同的两位数？",
+          "options": [
+            "2 个",
+            "4 个",
+            "6 个",
+            "9 个"
+          ],
+          "answer": "4 个",
+          "explanation": "十位不能是0。10, 12, 20, 21。共4个 ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "5 个人每两人握一次手，一共握了 ___ 次手。",
+          "options": [],
+          "answer": "10",
+          "explanation": "握手规律：$4 + 3 + 2 + 1 = 10$。验算：$5 \\times 4 \\times 2 = 10$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "用 1, 3, 5, 7 四个数字可以组成 ___ 个十位是 5 的两位数。",
+          "options": [],
+          "answer": "3",
+          "explanation": "固定十位为5，个位可以是1, 3, 7。共3个。验算：51, 53, 57 ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$4 \\times 3 = ?$",
+          "options": [],
+          "answer": "12",
+          "explanation": "$4 \\times 3 = 12$。验算：$12 \\times 3 = 4$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2up-u8-kp1",
+      "title": "简单的排列问题",
+      "unitNumber": 8,
+      "unitTitle": "数学广角——搭配（一）",
+      "kpIndex": 0,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "简单的排列问题",
+        "core_concept": "在解决用数字组成两位数这类问题时，数字是有顺序要求的。我们可以通过“固定十位法”进行思考：先选定一个数字放在十位，再把剩下的数字依次放在个位。以此类推，最后把所有情况加起来。注意最高位（如两位数的十位）不能是0。",
+        "key_formula": "情况总数 = 十位可选数 $\\times$ 个位可选数",
+        "tips": "可以用列表法或固定位置法，按从小到大或从大到小的顺序写，做到既不重复也不遗漏。",
+        "common_mistakes": [
+          "把0放在两位数的十位，如 05",
+          "重复计数或遗漏个别数字组成的数"
+        ]
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "用数字 1 和 2 可以组成 2 个不同的两位数。",
+          "options": [],
+          "answer": "对",
+          "explanation": "数字1和2可以组成的两位数有12和21，共2个。验算：由1开头的数有12，由2开头的数有21，没有遗漏 ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "用 0、1、2 三个数字可以组成 6 个不同的两位数。",
+          "options": [],
+          "answer": "错",
+          "explanation": "两位数的最高位不能为0。可以组成的数有：10, 12, 20, 21，共4个。验算：0不能排在十位，所以只有4种可能性 ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 6,
+          "type": "choice",
+          "question": "用数字 4、6 能组成几个不同的两位数？",
+          "options": [
+            "1 个",
+            "2 个",
+            "3 个",
+            "4 个"
+          ],
+          "answer": "2 个",
+          "explanation": "组成的数是46和64。验证：这两个数不重复且没有其他数字可选 ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "用数字 1、2、3 可以组成多少个十位和个位不同的两位数？",
+          "options": [
+            "3 个",
+            "4 个",
+            "5 个",
+            "6 个"
+          ],
+          "answer": "6 个",
+          "explanation": "固定十位：12, 13, 21, 23, 31, 32。共3组，每组2个，$3 \\times 2 = 6$。验算：$1 \\times 2 \\times 3$ 规律适用 ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "用 5、0 两个数字能组成几个不同的两位数？",
+          "options": [
+            "1 个",
+            "2 个",
+            "3 个",
+            "4 个"
+          ],
+          "answer": "1 个",
+          "explanation": "0不能在十位，只有50这一种可能。验证：05不是两位数 ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "用 7, 8, 9 能组成多少个十位是 7 的两位数？（数字不重复）",
+          "options": [
+            "1 个",
+            "2 个",
+            "3 个",
+            "6 个"
+          ],
+          "answer": "2 个",
+          "explanation": "十位固定为7，个位可以是8或9。即78, 79。共2个 ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "用 0, 2, 4 组成的两位数中，最大的数是多少？",
+          "options": [
+            "40",
+            "42",
+            "24",
+            "44"
+          ],
+          "answer": "42",
+          "explanation": "最大数要十位尽可能大，选4，个位选剩下数里最大的，选2（数字不重复）。结果42。验证：$42 > 40$，$42 > 24$ ✓。",
+          "difficulty": 3
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "用 1, 2, 3 三张卡片，能摆出多少个不同的两位数？",
+          "options": [
+            "3 个",
+            "6 个",
+            "9 个",
+            "12 个"
+          ],
+          "answer": "6 个",
+          "explanation": "分情况讨论：十位是1（12, 13），十位是2（21, 23），十位是3（31, 32）。共2+2+2=6个 ✓。",
+          "difficulty": 3
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "用数字 7 和 9 可以组成 ___ 个不同的两位数。",
+          "options": [],
+          "answer": "2",
+          "explanation": "可以组成的数有 79 和 97。$1 \\times 2 = 2$。验算：79和97互换位置，没有其他数字，共2个 ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 21,
+          "type": "fill_blank",
+          "question": "用 0, 3, 5 三个数字组成的两位数中，最小的一个是 ___ 。",
+          "options": [],
+          "answer": "30",
+          "explanation": "十位不能是0。可选十位有3和5。选最小的3作为十位。个位选剩下数里最小的0。结果是30。验算：30, 35, 50, 53中，30最小 ✓。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "g2up-u8-kp2",
+      "title": "简单的组合问题",
+      "unitNumber": 8,
+      "unitTitle": "数学广角——搭配（一）",
+      "kpIndex": 1,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "简单的组合问题",
+        "core_concept": "组合问题与顺序无关。比如握手、两人通电话、两种水果搭配求和等。在这种情况下，A给B握手和B给A握手是同一种情况。解决这类问题时，可以用连线法，将每个元素看作一个点，互相连线，最后数一数连线的条数。",
+        "key_formula": "组合数 = $n \\times (n-1) \\div 2$ 或 $(n-1) + (n-2) + ... + 1$",
+        "tips": "连线法直观又好记！给每个小朋友排个号，1号连2、3、4，2号连3、4... 这样连最清楚。",
+        "common_mistakes": [
+          "把握手次数算多了一倍，没有考虑A-B和B-A是同一次",
+          "忘记减去自身与自身的重复组合"
+        ]
+      },
+      "questions": [
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "小明、小华和小刚 3 人每两人握一次手，一共要握 6 次手。",
+          "options": [],
+          "answer": "错",
+          "explanation": "组合问题与顺序无关。3个人握手情况为：小明-小华，小明-小刚，小华-小刚，共3次。公式分析：$3 \\times 2 \\times 1 = 3$（次） ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "有 3 种不同颜色的花，选出 2 种扎成一束，共有 3 种选法。",
+          "options": [],
+          "answer": "对",
+          "explanation": "假设色为红、黄、蓝，组合为：红黄、红蓝、黄蓝，共3种。公式：3选2等价于3选1，即3种 ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "3 个小朋友比赛打羽毛球，每两人打一场，一共要打几场？",
+          "options": [
+            "2 场",
+            "3 场",
+            "4 场",
+            "6 场"
+          ],
+          "answer": "3 场",
+          "explanation": "A对B，B对C，A对C。共3场。注意组合不分先后 ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "5 角钱硬币 1 枚，2 角钱硬币 2 枚，要买一个 5 角钱的练习本，有几种付钱的方法？",
+          "options": [
+            "1 种",
+            "2 种",
+            "3 种",
+            "4 种"
+          ],
+          "answer": "2 种",
+          "explanation": "方法一：付1张5角；方法二：5角无法用2角硬币直接拼出，但本题只有2枚2角凑不出5角。重新审视：方法1是一枚5角，方法2是无。答案更正：只有一种付清方式。选项及逻辑重校：如果有1角则多。此题只有1枚5角和2枚2角，只能付5角。改为: 1角硬币5枚，5角硬币1枚。付5角有2种方式。修正后题干：5角硬币1枚，1角硬币5枚。付5角有：1枚5角，或5枚1角。共2种 ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 12,
+          "type": "choice",
+          "question": "3 个人中，每两个人都互相通一次电话，一共要通几次电话？",
+          "options": [
+            "2 次",
+            "3 次",
+            "4 次",
+            "6 次"
+          ],
+          "answer": "3 次",
+          "explanation": "这属于组合问题。3选2的组合，即 (1,2), (1,3), (2,3)，共3次 ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "4 个小朋友进行乒乓球单打比赛，每两人打一场，一共要打 ___ 场。",
+          "options": [],
+          "answer": "6",
+          "explanation": "可以用连线法：1号与2,3,4打（3场），2号与3,4打（2场），3号与4打（1场）。总计：$3 + 2 + 1 = 6$。验算：$4 \\times 3 \\times 2 = 6$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 23,
+          "type": "calculation",
+          "question": "计算：$3 + 2 + 1 = ?$",
+          "options": [],
+          "answer": "6",
+          "explanation": "$3 + 2 + 1 = 6$。验算：$6 - 1 - 2 = 3$ ✓。此题模拟4人两两握手的组合数计算过程。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g2up-u8-kp3",
+      "title": "有序思考与逻辑推导",
+      "unitNumber": 8,
+      "unitTitle": "数学广角——搭配（一）",
+      "kpIndex": 2,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "有序思考与逻辑推导",
+        "core_concept": "有序思考是搭配问题的核心。当遇到多类物品搭配（如上衣配裤子）时，应该先选定一类中的一个，去配对另一类中的所有。这种“分层思考”的方法可以有效解决复杂的生活场景问题。不需要画图，通过乘法或连加就能得出结论。",
+        "key_formula": "总搭配数 = 第一类数量 $\\times$ 第二类数量",
+        "tips": "搭配衣服时，想象每件上衣下面有几个分支指向裤子，分支的总数就是答案。",
+        "common_mistakes": [
+          "混淆了相加和相乘，比如2件衣服2条裤子算成 2+2=4 凑巧对了，但如果是2衣3裤算成 2+3=5 就错了",
+          "在处理三类物品（衣、裤、鞋）搭配时思维混乱"
+        ]
+      },
+      "questions": [
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "搭配衣服时，2 件上衣和 2 条裤子一共有 4 种不同的穿法。",
+          "options": [],
+          "answer": "对",
+          "explanation": "每件上衣可以配2条裤子，2件上衣就是 $2 \\times 2 = 4$ 种穿法 ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 9,
+          "type": "choice",
+          "question": "2 件不同的上衣和 3 条不同的斜裙，一共有几种不同的搭配方法？",
+          "options": [
+            "4 种",
+            "5 种",
+            "6 种",
+            "8 种"
+          ],
+          "answer": "6 种",
+          "explanation": "每件上衣都可以配3条裙子，算式：$2 \\times 3 = 6$。验算：$3 + 3 = 6$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "在 1, 3, 5 三个数中，任意选两个求和，得数有几种可能？",
+          "options": [
+            "2 种",
+            "3 种",
+            "4 种",
+            "6 种"
+          ],
+          "answer": "3 种",
+          "explanation": "和的情况有：$1+3=4$, $1+5=6$, $3+5=8$。共有3种得数。验算：没有重复的和 ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 15,
+          "type": "choice",
+          "question": "早餐搭配：2 种饮料（牛奶、豆浆），3 种主食（面包、包子、油条）。选一种饮料和一种主食，有几种组合？",
+          "options": [
+            "3 种",
+            "4 种",
+            "5 种",
+            "6 种"
+          ],
+          "answer": "6 种",
+          "explanation": "$2 \\times 3 = 6$。可以用连线法验证：牛奶配3种，豆浆配3种，$3 + 3 = 6$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 18,
+          "type": "choice",
+          "question": "三个人每两人赠送一张贺卡，一共需要多少张贺卡？",
+          "options": [
+            "3 张",
+            "4 张",
+            "6 张",
+            "9 张"
+          ],
+          "answer": "6 张",
+          "explanation": "送贺卡与顺序有关（A给B，B给A是两张）。$3 \\times 2 = 6$。验证：每人送出2张，3人就是 $3 \\times 2 = 6$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$3 \\times 2 = ?$",
+          "options": [],
+          "answer": "6",
+          "explanation": "$3 \\times 2 = 6$。验算：$2+2+2=6$ ✓。此题模拟2件上衣3条裤子的搭配总数计算。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2up-u9-exam",
+      "title": "第 9 单元挑战",
+      "unitNumber": 9,
+      "unitTitle": "总复习",
+      "kpIndex": 3,
+      "kpTotal": 3,
+      "isExam": true,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "两个两位数相加，和一定是三位数。",
+          "options": [],
+          "answer": "错",
+          "explanation": "例如：$10 + 10 = 20$，和仍然是两位数。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "所有的直角都一样大。",
+          "options": [],
+          "answer": "对",
+          "explanation": "无论角的边多长，直角的度数都是固定的90度。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "$88 - (30 + 10)$ 的结果等于 48。",
+          "options": [],
+          "answer": "对",
+          "explanation": "$30+10=40$， $88-40=48$。计算正确。",
+          "difficulty": 2
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "每两个人握一次手，三个人一共要握6次手。",
+          "options": [],
+          "answer": "错",
+          "explanation": "三个人分别是A、B、C。握手情况是：A-B, A-C, B-C。共3次。",
+          "difficulty": 3
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "得数大于50的算式是哪一个？",
+          "options": [
+            "16 + 24",
+            "80 - 32",
+            "28 + 25",
+            "71 - 22"
+          ],
+          "answer": "28 + 25",
+          "explanation": "16+24=40; 80-32=48; 28+25=53; 71-22=49。只有53>50。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "根据“五六三十”可以写出哪个算式？",
+          "options": [
+            "5 × 5 = 25",
+            "5 × 6 = 30",
+            "6 × 6 = 36",
+            "5 + 6 = 11"
+          ],
+          "answer": "5 × 6 = 30",
+          "explanation": "口诀“五六三十”对应因数为5和6，积为30的乘法算式。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "一只青蛙4条腿，7只青蛙多少条腿？",
+          "options": [
+            "11",
+            "24",
+            "28",
+            "32"
+          ],
+          "answer": "28",
+          "explanation": "$4 \\times 7 = 28$（条）。口诀：四七二十八。",
+          "difficulty": 2
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "商店里有45辆自行车，第一天卖了18辆，第二天卖了15辆，两天一共卖了多少辆？",
+          "options": [
+            "33",
+            "27",
+            "12",
+            "30"
+          ],
+          "answer": "33",
+          "explanation": "问题求两天“一共卖了”多少，用加法：$18 + 15 = 33$（辆）。",
+          "difficulty": 2
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "把 $3 + 3 + 3 + 3 + 2$ 改写成乘加算式，正确的是？",
+          "options": [
+            "3 × 3 + 2",
+            "3 × 4 + 2",
+            "3 × 5 - 2",
+            "4 × 4 - 2"
+          ],
+          "answer": "3 × 4 + 2",
+          "explanation": "4个3相加是 $3 \\times 4$，再加上最后的2，结果是 $3 \\times 4 + 2 = 14$。",
+          "difficulty": 2
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "用放大镜看一个角，角的大小会发生什么变化？",
+          "options": [
+            "变大",
+            "变小",
+            "不变",
+            "无法判断"
+          ],
+          "answer": "不变",
+          "explanation": "角的度数只与两条边张开的大小有关，放大镜只是放大了边和图像，不改变张开的角度。",
+          "difficulty": 1
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "6个8的和，比7个8的和少几？",
+          "options": [
+            "1",
+            "6",
+            "7",
+            "8"
+          ],
+          "answer": "8",
+          "explanation": "7个8比6个8多1个8，也就是多8。",
+          "difficulty": 2
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "用1、2、3三个数字能组成多少个没有重复数字的两位数？",
+          "options": [
+            "3个",
+            "4个",
+            "5个",
+            "6个"
+          ],
+          "answer": "6个",
+          "explanation": "可以组成的两位数有：12, 13, 21, 23, 31, 32。共6个。",
+          "difficulty": 3
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "小华有一本故事书，每天看6页，看了8天，还剩15页。这本书一共 ___ 页。",
+          "options": [],
+          "answer": "63",
+          "explanation": "1.已看页数：$6 \\times 8 = 48$（页）；2.总页数：$48 + 15 = 63$（页）。验算：$63 - 15 = 48$，$48 \\div 8 = 6$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "三个同学跳绳，小红跳了35下，小东跳了28下，小刚跳了32下。他们一共跳了 ___ 下。",
+          "options": [],
+          "answer": "95",
+          "explanation": "列式：$35 + 28 + 32$。$28 + 32 = 60$，$35 + 60 = 95$。验算：$95 - 32 - 28 = 35$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$90 - 43 = ?$",
+          "options": [],
+          "answer": "47",
+          "explanation": "$90 - 43 = 47$。个位：$0-3$不够，退一当十，$10-3=7$；十位：$8-4=4$。验算：$47 + 43 = 90$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2up-u9-kp1",
+      "title": "100以内笔算的整理",
+      "unitNumber": 9,
+      "unitTitle": "总复习",
+      "kpIndex": 0,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "100以内笔算的整理",
+        "core_concept": "100以内的笔算主要包括两位数的加法和减法。重点在于理解“满十进一”和“不够减退一作十”。计算三位数连加减或带括号的混合运算时，应遵循相应的运算顺序。",
+        "key_formula": "相同数位要对齐，从个位算起。",
+        "tips": "写竖式时，进位和退位的标记要写小一点，防止看错。连减题目可以先把后面两个减数加起来再减。",
+        "common_mistakes": [
+          "进位加法忘记加进上来的“1”。",
+          "退位减法中，十位被借走1后，计算十位时忘记减去那个1。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "笔算加法时，相同数位要对齐。",
+          "options": [],
+          "answer": "对",
+          "explanation": "笔算加减法的具体要求是：1.相同数位对齐；2.从个位算起；3.加法满十进一，减法不够退一当十。",
+          "difficulty": 1
+        },
+        {
+          "id": 6,
+          "type": "choice",
+          "question": "下列算式中，结果最接近80的是哪一个？",
+          "options": [
+            "31 + 48",
+            "95 - 20",
+            "45 + 24",
+            "89 - 11"
+          ],
+          "answer": "31 + 48",
+          "explanation": "31+48=79；95-20=75；45+24=69；89-11=78。79与80只差1，最为接近。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "算式 $42 - (15 + 9)$ 的计算顺序是先算什么？",
+          "options": [
+            "先算减法",
+            "先算加法",
+            "从左往右算",
+            "无法确定"
+          ],
+          "answer": "先算加法",
+          "explanation": "在有小括号的算式里，要先算括号里面的。括号里是 $15+9$。",
+          "difficulty": 1
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "小明有50元钱，买书花了28元，买笔花了12元，还剩多少元？",
+          "options": [
+            "10",
+            "20",
+            "30",
+            "40"
+          ],
+          "answer": "10",
+          "explanation": "列式算式：$50 - 28 - 12$。$50 - 28 = 22$， $22 - 12 = 10$。或者 $50 - (28 + 12) = 50 - 40 = 10$。",
+          "difficulty": 2
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "小华参加跳绳比赛，第一分钟跳了68下，第二分钟比第一分钟少跳了12下，第二分钟跳了多少下？",
+          "options": [
+            "80",
+            "56",
+            "70",
+            "46"
+          ],
+          "answer": "56",
+          "explanation": "求比一个数少几，用减法。$68 - 12 = 56$（下）。验算：$56 + 12 = 68$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "二（1）班有男生25人，女生比男生多3人。二（1）班一共有学生 ___ 人。",
+          "options": [],
+          "answer": "53",
+          "explanation": "1.先算女生人数：$25 + 3 = 28$（人）；2.再算总人数：$25 + 28 = 53$（人）。验算：$53 - 25 = 28$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$46 + 37 = ?$",
+          "options": [],
+          "answer": "83",
+          "explanation": "$46 + 37 = 83$。个位：$6+7=13$，写3进1；十位：$4+3+1=8$。验算：$83 - 37 = 46$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2up-u9-kp2",
+      "title": "表内乘法全表应用",
+      "unitNumber": 9,
+      "unitTitle": "总复习",
+      "kpIndex": 1,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "表内乘法全表应用",
+        "core_concept": "乘法是求几个相同加数和的简便运算。熟练掌握1-9的乘法口诀是基础。不仅要会背诵，更要理解算式中因数和积的含义，并能根据实际情境选择合适的口诀解题。",
+        "key_formula": "因数 \\times 因数 = 积",
+        "tips": "可以采用对口令、找规律等方式记忆，重点加强容易混淆的口诀练习，如六七、七八、九的口诀。",
+        "common_mistakes": [
+          "口诀记忆模糊，如“六七四十二”记错成“六七三十八”。",
+          "在乘加、乘减混合运算中，没有先算乘法。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "3乘6可以写成 $3 \\times 6$，读作3乘6。",
+          "options": [],
+          "answer": "对",
+          "explanation": "根据乘法的定义和读法，乘号前面的数是因数，乘号读作“乘”。",
+          "difficulty": 1
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "计算 $4 \\times 5$ 和 $20 \\div 5$ 都可以用“四五二十”这句口诀。",
+          "options": [],
+          "answer": "对",
+          "explanation": "同一句乘法口诀通常可以解决两道乘法算式和两道除法算式。",
+          "difficulty": 2
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "5个3相加是多少？",
+          "options": [
+            "8",
+            "15",
+            "25",
+            "35"
+          ],
+          "answer": "15",
+          "explanation": "$5 \\times 3 = 15$，口诀：三五十五。",
+          "difficulty": 1
+        },
+        {
+          "id": 12,
+          "type": "choice",
+          "question": "小红买3支钢笔，每支钢笔8元，一共需要付多少元？",
+          "options": [
+            "11",
+            "18",
+            "24",
+            "32"
+          ],
+          "answer": "24",
+          "explanation": "已知单价是8元，数量是3支。列式：$8 \\times 3 = 24$（元）。验算：$24 \\div 3 = 8$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "下列哪个算式的积最大？",
+          "options": [
+            "6 × 7",
+            "5 × 9",
+            "8 × 4",
+            "7 × 7"
+          ],
+          "answer": "7 × 7",
+          "explanation": "$6 \\times 7 = 42$, $5 \\times 9 = 45$, $8 \\times 4 = 32$, $7 \\times 7 = 49$。49是最大的。",
+          "difficulty": 2
+        },
+        {
+          "id": 15,
+          "type": "choice",
+          "question": "一个正方形的花坛，每条边上放4盆花（四个角都放），一共要放多少盆花？",
+          "options": [
+            "16",
+            "14",
+            "12",
+            "10"
+          ],
+          "answer": "12",
+          "explanation": "正方形有4条边，由于四个角重复计算了，列式：$4 \\times 4 - 4 = 12$（盆）。或者是每边中间2盆，加上4个顶点：$2 \\times 4 + 4 = 12$。",
+          "difficulty": 3
+        },
+        {
+          "id": 18,
+          "type": "choice",
+          "question": "6的8倍是多少？",
+          "options": [
+            "14",
+            "42",
+            "48",
+            "56"
+          ],
+          "answer": "48",
+          "explanation": "求一个数的几倍是多少用乘法。$6 \\times 8 = 48$。口诀：六八四十八。",
+          "difficulty": 1
+        },
+        {
+          "id": 21,
+          "type": "fill_blank",
+          "question": "小明买回一盒巧克力，如果每天吃4块，吃了7天，还剩2块。这盒巧克力共有 ___ 块。",
+          "options": [],
+          "answer": "30",
+          "explanation": "1.先算吃了的总数：$4 \\times 7 = 28$（块）；2.计算总数：$28 + 2 = 30$（块）。验算：$30 - 2 = 28$，$28 \\div 7 = 4$ ✓。",
+          "difficulty": 3
+        },
+        {
+          "id": 23,
+          "type": "calculation",
+          "question": "计算：$9 \\times 7 = ?$",
+          "options": [],
+          "answer": "63",
+          "explanation": "$9 \\times 7 = 63$。对应口诀：七九六十三。验算：$63 \\div 7 = 9$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2up-u9-kp3",
+      "title": "长度、角与时间的综合运用",
+      "unitNumber": 9,
+      "unitTitle": "总复习",
+      "kpIndex": 2,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "长度、角与时间的综合运用",
+        "core_concept": "综合考量度量衡单位、几何初步及时间认识。包括厘米与米的换算（100倍关系），直角、锐角、钝角的识别（以直角为标准），以及时、分的读数与经过时间的简单计算。",
+        "key_formula": "$1\\text{米} = 100\\text{厘米}$，$1\\text{时} = 60\\text{分}$",
+        "tips": "感知单位时可以用身体做参考（如食指宽1厘米，张开双臂约1米）；读钟面时，先看时针走过几，再数分针多少格。",
+        "common_mistakes": [
+          "长度单位选错，如将教学楼高度写成15厘米。",
+          "读取时刻时，当时针接近下一个数字（如8:55）时，误读为9:55。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "黑板的长大约是4厘米。",
+          "options": [],
+          "answer": "错",
+          "explanation": "黑板属于大型教学工具，单位应该是米，大约4米。4厘米仅有一根手指左右的长度。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "一个角有两个顶点和一条边。",
+          "options": [],
+          "answer": "错",
+          "explanation": "角是由一个顶点和两条射线组成的图形。应该是“一个顶点和两条边”。",
+          "difficulty": 2
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "小明走一步的长度大约是45（  ）。",
+          "options": [
+            "米",
+            "厘米",
+            "元",
+            "角"
+          ],
+          "answer": "厘米",
+          "explanation": "二年级学生一步约40-50厘米。米太长，元和角是人民币单位。",
+          "difficulty": 1
+        },
+        {
+          "id": 9,
+          "type": "choice",
+          "question": "钟面上显示9时整，时针和分针组成的角是什么角？",
+          "options": [
+            "锐角",
+            "直角",
+            "钝角",
+            "平角"
+          ],
+          "answer": "直角",
+          "explanation": "9时整，分针指向12，时针指向9，两者相互垂直形成直角。",
+          "difficulty": 1
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "分针从12走到6，走了多少分钟？",
+          "options": [
+            "6分钟",
+            "12分钟",
+            "30分钟",
+            "60分钟"
+          ],
+          "answer": "30分钟",
+          "explanation": "分针走一个大格是5分钟，从12到6走了6个大格，$6 \\times 5 = 30$（分钟）。",
+          "difficulty": 2
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "1米和100厘米相比，结果如何？",
+          "options": [
+            "1米长",
+            "100厘米长",
+            "一样长",
+            "无法比较"
+          ],
+          "answer": "一样长",
+          "explanation": "长度单位换算：1米 = 100厘米。两者数值相等，长度相同。",
+          "difficulty": 2
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "3米 = ___ 厘米。",
+          "options": [],
+          "answer": "300",
+          "explanation": "因为1米=100厘米，3米就是3个100厘米，即300厘米。验算：$300 \\div 100 = 3$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4831 @@
+{
+  "id": "g4up",
+  "grade": 4,
+  "gradeName": "四年级",
+  "semester": "up",
+  "semesterName": "上册",
+  "textbookName": "四年级上册",
+  "fullName": "人教版小学数学四年级上册",
+  "publisherName": "人教版",
+  "unitsCount": 9,
+  "lessonsCount": 38,
+  "questionCount": 342,
+  "units": [
+    {
+      "n": 1,
+      "title": "大数的认识",
+      "lessonIds": [
+        "g4up-u1-kp1",
+        "g4up-u1-kp2",
+        "g4up-u1-kp3",
+        "g4up-u1-kp4",
+        "g4up-u1-kp5",
+        "g4up-u1-exam"
+      ]
+    },
+    {
+      "n": 2,
+      "title": "公顷和平方千米",
+      "lessonIds": [
+        "g4up-u2-kp1",
+        "g4up-u2-kp2",
+        "g4up-u2-kp3",
+        "g4up-u2-exam"
+      ]
+    },
+    {
+      "n": 3,
+      "title": "角的度量",
+      "lessonIds": [
+        "g4up-u3-kp1",
+        "g4up-u3-kp2",
+        "g4up-u3-kp3",
+        "g4up-u3-kp4",
+        "g4up-u3-exam"
+      ]
+    },
+    {
+      "n": 4,
+      "title": "三位数乘两位数",
+      "lessonIds": [
+        "g4up-u4-kp1",
+        "g4up-u4-kp2",
+        "g4up-u4-kp3",
+        "g4up-u4-exam"
+      ]
+    },
+    {
+      "n": 5,
+      "title": "平行四边形和梯形",
+      "lessonIds": [
+        "g4up-u5-kp1",
+        "g4up-u5-kp3",
+        "g4up-u5-exam"
+      ]
+    },
+    {
+      "n": 6,
+      "title": "除数是两位数的除法",
+      "lessonIds": [
+        "g4up-u6-kp1",
+        "g4up-u6-kp2",
+        "g4up-u6-kp3",
+        "g4up-u6-exam"
+      ]
+    },
+    {
+      "n": 7,
+      "title": "条形统计图",
+      "lessonIds": [
+        "g4up-u7-kp1",
+        "g4up-u7-kp2",
+        "g4up-u7-kp3",
+        "g4up-u7-exam"
+      ]
+    },
+    {
+      "n": 8,
+      "title": "数学广角——优化",
+      "lessonIds": [
+        "g4up-u8-kp1",
+        "g4up-u8-kp2",
+        "g4up-u8-kp3",
+        "g4up-u8-exam"
+      ]
+    },
+    {
+      "n": 9,
+      "title": "总复习",
+      "lessonIds": [
+        "g4up-u9-kp1",
+        "g4up-u9-kp2",
+        "g4up-u9-kp3",
+        "g4up-u9-exam"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "g4up-u1-exam",
+      "title": "第 1 单元挑战",
+      "unitNumber": 1,
+      "unitTitle": "大数的认识",
+      "kpIndex": 5,
+      "kpTotal": 5,
+      "isExam": true,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "个位、十位、百位、千位都是计数单位。",
+          "options": [],
+          "answer": "错",
+          "explanation": "个位、十位等是“数位”，个、十、百、千才是“计数单位”。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "三千零五万写作 30050000。",
+          "options": [],
+          "answer": "对",
+          "explanation": "万级是3005，个级是0000。合起来是 30050000。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "所有的近似数都比原数小。",
+          "options": [],
+          "answer": "错",
+          "explanation": "如 1.8 约等于 2，近似数比原数大。",
+          "difficulty": 2
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "古埃及象形文字也是一种计数方法。",
+          "options": [],
+          "answer": "对",
+          "explanation": "教材中“数的产生”章节提到了古埃及、巴比伦、中国等古老的计数符号。",
+          "difficulty": 1
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "在 4 后面添（  ）个 0，这个数就变成了四千万。",
+          "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "answer": "7",
+          "explanation": "四千万写作 40000000，4后面有7个0。",
+          "difficulty": 2
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "下面四个数中，最小的数是（  ）。",
+          "options": [
+            "600600",
+            "660000",
+            "606000",
+            "600006"
+          ],
+          "answer": "600006",
+          "explanation": "位数相同，比较最高位。六个万位都是6。千位分别是0, 6, 6, 0。百位分别是6, 0, 0, 0。个位 600006 最小。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "在使用计算器计算时，发现刚输入的 256 错了，想清掉这一个数，应按（  ）键。",
+          "options": [
+            "ON",
+            "OFF",
+            "CE",
+            "MC"
+          ],
+          "answer": "CE",
+          "explanation": "CE是清除当前输入键（Clear Entry）。",
+          "difficulty": 2
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "十进制计数法中，每相邻两个计数单位之间的进率是（  ）。",
+          "options": [
+            "1",
+            "5",
+            "10",
+            "100"
+          ],
+          "answer": "10",
+          "explanation": "这就是十进制的定义。",
+          "difficulty": 1
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "下列各数中，（  ）最接近 6 万。",
+          "options": [
+            "50600",
+            "60001",
+            "61000",
+            "59000"
+          ],
+          "answer": "60001",
+          "explanation": "$60001 - 60000 = 1$，$60000 - 59000 = 1000$，1最小，最接近。",
+          "difficulty": 2
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "把 995000000 改写成以“亿”为单位的近似数是（  ）。",
+          "options": [
+            "9 亿",
+            "10 亿",
+            "99 亿",
+            "100 亿"
+          ],
+          "answer": "10 亿",
+          "explanation": "看千万位，千万位是5，向亿位进1，$9+1=10$，即 10 亿。",
+          "difficulty": 2
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "7400000000（  ）74 亿。",
+          "options": [
+            ">",
+            "<",
+            "==",
+            "≈"
+          ],
+          "answer": "==",
+          "explanation": "$7400000000 = 74$ 亿，这是改写，数值完全相等。",
+          "difficulty": 2
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "在数位顺序表中，亿位的右边一位是（  ）。",
+          "options": [
+            "十亿位",
+            "千万位",
+            "百万位",
+            "万位"
+          ],
+          "answer": "千万位",
+          "explanation": "右边是较低数位，亿的前面一个单位是千万。",
+          "difficulty": 1
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "一个数由 8 个千万、4 个十万和 3 个千组成，这个数写作 ___ 。",
+          "options": [],
+          "answer": "80403000",
+          "explanation": "千万位8，十万位4，千位3，其余位补0。得到 80403000。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "最大的六位数比最小的六位数大 ___ 。",
+          "options": [],
+          "answer": "899999",
+          "explanation": "$999999 - 100000 = 899999$。验算：$899999 + 100000 = 999999$ ✓。",
+          "difficulty": 3
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$800000000 - 300000000 = ?$",
+          "options": [],
+          "answer": "500000000",
+          "explanation": "$8$亿 $- 3$亿 $= 5$亿。验算：$5$亿 $+ 3$亿 $= 8$亿 ✓。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g4up-u1-kp1",
+      "title": "亿以内数的计数单位与数位顺序",
+      "unitNumber": 1,
+      "unitTitle": "大数的认识",
+      "kpIndex": 0,
+      "kpTotal": 5,
+      "isExam": false,
+      "knowledge": {
+        "point": "亿以内数的计数单位与数位顺序",
+        "core_concept": "理解数字在不同位置代表的大小不同。数位是指数字所在的位置（如个位、万位），计数单位是该位置对应的单位（如一、万）。每四位一级，从右向左分为个级、万级、亿级。",
+        "key_formula": "相邻两个计数单位之间的进率都是10",
+        "tips": "背诵数位顺序表，记住“四位一分级”的口诀，读大数前先划级。",
+        "common_mistakes": [
+          "混淆数位和计数单位，如问计数单位却填了万位",
+          "忘记级数划分，数错位数导致单位错误"
+        ]
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "在数位顺序表中，两个计数单位之间的进率都是10。",
+          "options": [],
+          "answer": "错",
+          "explanation": "只有每“相邻”两个计数单位之间的进率才是10。必须强调“相邻”二字。",
+          "difficulty": 1
+        },
+        {
+          "id": 6,
+          "type": "choice",
+          "question": "从个位起，第七位是（  ）。",
+          "options": [
+            "万位",
+            "十万位",
+            "百万位",
+            "千万位"
+          ],
+          "answer": "百万位",
+          "explanation": "数位顺序从右向左依次是：个、十、百、千、万、十万、百万。第七位是百万位。",
+          "difficulty": 1
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "一亿里面有（  ）个一千万。",
+          "options": [
+            "1",
+            "10",
+            "100",
+            "1000"
+          ],
+          "answer": "10",
+          "explanation": "相邻计数单位间的进率是10，$10 \\times 1千万 = 1亿$。",
+          "difficulty": 1
+        },
+        {
+          "id": 15,
+          "type": "choice",
+          "question": "在 65 后面添上（  ）个零，这个数就是六百五十万。",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer": "5",
+          "explanation": "六百五十万写作 6500000。65 后面需要补 5 个零。",
+          "difficulty": 1
+        },
+        {
+          "id": 19,
+          "type": "fill_blank_text",
+          "question": "一个九位数，最高位是 ___ 位。",
+          "options": [],
+          "answer": "亿",
+          "explanation": "数位顺序表：个(1)、十(2)、百(3)、千(4)、万(5)、十万(6)、百万(7)、千万(8)、亿(9)。最高位是亿位。更正：由于题目要求填数字，此处知识点要求改写为：一个九位数，最高位在右起第 ___ 位。填 9。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g4up-u1-kp2",
+      "title": "亿以内数的读法与写法",
+      "unitNumber": 1,
+      "unitTitle": "大数的认识",
+      "kpIndex": 1,
+      "kpTotal": 5,
+      "isExam": false,
+      "knowledge": {
+        "point": "亿以内数的读法与写法",
+        "core_concept": "读数从高位起，一级一级往下读。万级读完要加“万”字。写数也是从高位起，哪一位上一个单位也没有就要写0占位。",
+        "key_formula": "每级末尾的0不读，中间有一个或连续几个0都只读一个零",
+        "tips": "读数先分级，写数看板块。读写完成后要再看一遍，数数位数对不对。",
+        "common_mistakes": [
+          "中间连续几个零读多了，或者末尾的零读出来了",
+          "写数时“占位”零漏写"
+        ]
+      },
+      "questions": [
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "读数时，每级末尾不管有几个0，都不读。",
+          "options": [],
+          "answer": "对",
+          "explanation": "根据大数的读法规则：每级末尾的0都不读，其他数位有一个0或连续几个0，都只读一个零。",
+          "difficulty": 1
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "由 3 个万、5 个千、4 个十组成的数是（  ）。",
+          "options": [
+            "35040",
+            "30540",
+            "35400",
+            "35004"
+          ],
+          "answer": "35040",
+          "explanation": "万位上是3，千位上是5，十位上是4，百位和个位补0，得到 35040。",
+          "difficulty": 1
+        },
+        {
+          "id": 12,
+          "type": "choice",
+          "question": "下面各数中，只读一个零的是（  ）。",
+          "options": [
+            "800800",
+            "808000",
+            "800008",
+            "880000"
+          ],
+          "answer": "800008",
+          "explanation": "A读八十万零八百（两个零）；B读八十万八千；C读八十万零八（一个零）；D读八十八万。",
+          "difficulty": 2
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "一个数由 2 个万和 2 个一组成，这个数是（  ）。",
+          "options": [
+            "20002",
+            "20020",
+            "20200",
+            "22000"
+          ],
+          "answer": "20002",
+          "explanation": "万位是2，个位是2，中间的千、百、十位都是0。写作 20002。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g4up-u1-kp3",
+      "title": "大数的大小比较与改写",
+      "unitNumber": 1,
+      "unitTitle": "大数的认识",
+      "kpIndex": 2,
+      "kpTotal": 5,
+      "isExam": false,
+      "knowledge": {
+        "point": "大数的大小比较与改写",
+        "core_concept": "比较大数先看位数，位数多的大；位数相同时比最高位。改写成整万或整亿数是由于为了方便读写，数值本身没有改变，要用等号连接。",
+        "key_formula": "$10000 = 1$万，$100000000 = 1$亿",
+        "tips": "改写时数清4个0（万）或8个0（亿），比较大数要像排队一样先看人数（位数）。",
+        "common_mistakes": [
+          "改写后忘记写单位“万”或“亿”",
+          "位数不同时直接比最高位，导致判断错误"
+        ]
+      },
+      "questions": [
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "5000000 改写成用“万”作单位的数是 500 万。",
+          "options": [],
+          "answer": "对",
+          "explanation": "改写成用“万”作单位的数，去掉末尾的4个0，在后面加上一个“万”字。$5000000 = 500$万。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "239000 和 240000 相比，结果是（  ）。",
+          "options": [
+            "239000 > 240000",
+            "239000 < 240000",
+            "239000 = 240000",
+            "无法比较"
+          ],
+          "answer": "239000 < 240000",
+          "explanation": "两个六位数比较，从最高位看起。十万位相同，万位上 $3 < 4$，所以 $239000 < 240000$。",
+          "difficulty": 1
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "由 7 个亿组成的数是（  ）。",
+          "options": [
+            "70000",
+            "7000000",
+            "70000000",
+            "700000000"
+          ],
+          "answer": "700000000",
+          "explanation": "7个亿说明亿位上是7，后面有8个0。",
+          "difficulty": 1
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "把 2080000 改写成以“万”为单位的数是（  ）。",
+          "options": [
+            "208",
+            "2080",
+            "208 万",
+            "280 万"
+          ],
+          "answer": "208 万",
+          "explanation": "去掉末尾4个0，加上“万”字。$2080000 = 208$ 万。",
+          "difficulty": 1
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "用 3 个 0 和 3 个 5 组成最小的六位数是 ___ 。",
+          "options": [],
+          "answer": "500055",
+          "explanation": "最小的数，最高位不能为0，所以首位填5。剩下的数字从小到大排列：0, 0, 0, 5, 5。得到 500055。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g4up-u1-kp4",
+      "title": "近似数与“四舍五入”法",
+      "unitNumber": 1,
+      "unitTitle": "大数的认识",
+      "kpIndex": 3,
+      "kpTotal": 5,
+      "isExam": false,
+      "knowledge": {
+        "point": "近似数与“四舍五入”法",
+        "core_concept": "近似数是与准确数接近的数，常用“\\approx”连接。根据要求看省略位的下一位，满5向前进1，不满5直接舍去。",
+        "key_formula": "五入向前位加1，四舍不进位",
+        "tips": "省略到哪一位，就在那一位下面点个点，看它后面紧邻的那一位决定四舍还是五入。",
+        "common_mistakes": [
+          "进位后忘记把后面的位数全部改写成0",
+          "看错了要省略的数位"
+        ]
+      },
+      "questions": [
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "近似数一定比准确数大。",
+          "options": [],
+          "answer": "错",
+          "explanation": "近似数可能比准确数大（五入时），也可能比准确数小（四舍时）。例如：$43 \\approx 40$（变小），$47 \\approx 50$（变大）。",
+          "difficulty": 2
+        },
+        {
+          "id": 9,
+          "type": "choice",
+          "question": "把 86420 省略万位后面的尾数，约是（  ）。",
+          "options": [
+            "8 万",
+            "9 万",
+            "86 万",
+            "86000"
+          ],
+          "answer": "9 万",
+          "explanation": "看千位上的数，千位是6，大于5，向前一位进1。$8+1=9$，所以约是 9 万。",
+          "difficulty": 2
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "3□5000 ≈ 40 万，□里可以填的数是（  ）。",
+          "options": [
+            "0",
+            "4",
+            "9",
+            "3"
+          ],
+          "answer": "9",
+          "explanation": "省略万位后是40万，说明万位3向前进了一位，则千位□应 $\\ge 5$。选项中只有9符合。",
+          "difficulty": 2
+        },
+        {
+          "id": 18,
+          "type": "choice",
+          "question": "一个数“四舍五入”到万位约是 10 万，这个数最小是（  ）。",
+          "options": [
+            "95000",
+            "99999",
+            "104999",
+            "100001"
+          ],
+          "answer": "95000",
+          "explanation": "要使原数最小，应由 9 万“五入”而来。千位最小是5，百、十、个位最小是0，即 95000。",
+          "difficulty": 3
+        },
+        {
+          "id": 21,
+          "type": "fill_blank",
+          "question": "49□300 ≈ 50 万，□里最小填 ___ 。",
+          "options": [],
+          "answer": "5",
+          "explanation": "进位说明千位□必须满足“五入”，即 $\\ge 5$。最小填5。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g4up-u1-kp5",
+      "title": "进位制与计算工具的认识",
+      "unitNumber": 1,
+      "unitTitle": "大数的认识",
+      "kpIndex": 4,
+      "kpTotal": 5,
+      "isExam": false,
+      "knowledge": {
+        "point": "进位制与计算工具的认识",
+        "core_concept": "了解从石子计数、结绳计数到阿拉伯数字的演变。掌握算盘（上珠为5，下珠为1）和计算器的基本操作。",
+        "key_formula": "十进制计数法：满十进一",
+        "tips": "在计算器上计算大数时，一定要细心看准位数，不要少输或者多输0。",
+        "common_mistakes": [
+          "计算器CE和AC键功能混淆",
+          "算盘上珠计数看成1"
+        ]
+      },
+      "questions": [
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "在算盘上，一个上珠表示1，一个下珠也表示1。",
+          "options": [],
+          "answer": "错",
+          "explanation": "在算盘上，一个上珠表示5，一个下珠表示1。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "在计算器上，开机键是（  ）。",
+          "options": [
+            "OFF",
+            "CE",
+            "ON",
+            "AC"
+          ],
+          "answer": "ON",
+          "explanation": "ON是开启/清零键，OFF是关机键。",
+          "difficulty": 1
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$25000 + 45000 = ?$",
+          "options": [],
+          "answer": "70000",
+          "explanation": "$25 + 45 = 70$，后面补三个零。验算：$70000 - 45000 = 25000$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 23,
+          "type": "calculation",
+          "question": "计算：$120 \\times 40 = ?$",
+          "options": [],
+          "answer": "4800",
+          "explanation": "$12 \\times 4 = 48$，因数末尾共有两个0。验算：$4800 \\div 40 = 120$ ✓。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g4up-u2-exam",
+      "title": "第 2 单元挑战",
+      "unitNumber": 2,
+      "unitTitle": "公顷和平方千米",
+      "kpIndex": 3,
+      "kpTotal": 3,
+      "isExam": true,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "公顷和平方米之间的进率是 100。",
+          "options": [],
+          "answer": "错",
+          "explanation": "$1$ 公顷 $= 10000$ 平方米，进率是 $10000$。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "我国的陆地领土面积约为 960 万平方千米。",
+          "options": [],
+          "answer": "对",
+          "explanation": "根据常识，中国陆地面积约为 $960$ 万平方千米。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "平方千米、公顷、平方米、平方分米中，每相邻两个单位间的进率都是 100。",
+          "options": [],
+          "answer": "错",
+          "explanation": "公顷与平方米之间的进率是 $10000$，不是 $100$。",
+          "difficulty": 2
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "一个正方形操场的周长是 400 米，面积就是 1 公顷。",
+          "options": [],
+          "answer": "对",
+          "explanation": "边长 $100$ 米，面积 $100 \\times 100 = 10000$ 平方米 $= 1$ 公顷。",
+          "difficulty": 1
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "上海市的面积大约是 6340（ ）。",
+          "options": [
+            "平方米",
+            "分米",
+            "公顷",
+            "平方千米"
+          ],
+          "answer": "平方千米",
+          "explanation": "城市面积通常以平方千米为单位。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "1 平方千米是 1 公顷的（ ）倍。",
+          "options": [
+            "10",
+            "100",
+            "1000",
+            "10000"
+          ],
+          "answer": "100",
+          "explanation": "$1$ 平方千米 $= 100$ 公顷，所以是 $100$ 倍。",
+          "difficulty": 2
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "“水立方”占地面积约 6（ ）。",
+          "options": [
+            "平方米",
+            "公顷",
+            "平方千米",
+            "平方分米"
+          ],
+          "answer": "公顷",
+          "explanation": "大型场馆占地面积用“公顷”合适。",
+          "difficulty": 1
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "一个正方形的面积是 36 平方千米，它的边长是（ ）千米。",
+          "options": [
+            "6",
+            "60",
+            "9",
+            "36"
+          ],
+          "answer": "6",
+          "explanation": "因为 $6 \\times 6 = 36$，所以边长是 $6$ 千米。",
+          "difficulty": 2
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "7 公顷 500 平方米（ ）75000 平方米。",
+          "options": [
+            ">",
+            "<",
+            "＝",
+            "≈"
+          ],
+          "answer": "<",
+          "explanation": "$7$ 公顷 $500$ 平方米 $= 70500$ 平方米，$70500 < 75000$。",
+          "difficulty": 1
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "一台收割机每小时收割 2 公顷小麦，收割 1 平方千米的小麦需要（ ）小时。",
+          "options": [
+            "5",
+            "50",
+            "20",
+            "200"
+          ],
+          "answer": "50",
+          "explanation": "$1$ 平方千米 $= 100$ 公顷，$100 \\div 2 = 50$。",
+          "difficulty": 2
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "一块手帕的面积约是 4（ ）。",
+          "options": [
+            "平方厘米",
+            "平方分米",
+            "平方米",
+            "公顷"
+          ],
+          "answer": "平方分米",
+          "explanation": "手帕面积较小，常用平方分米。",
+          "difficulty": 1
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "一个长方形宽 400 米，长是宽的 2 倍，它的面积是（ ）公顷。",
+          "options": [
+            "8",
+            "16",
+            "32",
+            "320"
+          ],
+          "answer": "32",
+          "explanation": "长 $= 400 \\times 2 = 800$ 米，面积 $= 800 \\times 400 = 320000$ 平方米 $= 32$ 公顷。",
+          "difficulty": 3
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "3000 公顷 = ___ 平方千米。",
+          "options": [],
+          "answer": "30",
+          "explanation": "$100$ 公顷 $= 1$ 平方千米，$3000 \\div 100 = 30$。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "15 公顷 = ___ 平方米。",
+          "options": [],
+          "answer": "150000",
+          "explanation": "$15 \\times 10000 = 150000$。",
+          "difficulty": 1
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$50000 \\div 10000 = ?$",
+          "options": [],
+          "answer": "5",
+          "explanation": "$50000 \\div 10000 = 5$。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g4up-u2-kp1",
+      "title": "公顷的认识与换算",
+      "unitNumber": 2,
+      "unitTitle": "公顷和平方千米",
+      "kpIndex": 0,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "公顷的认识与换算",
+        "core_concept": "测量土地面积时，常用公顷作单位。边长是 100 米的正方形面积是 1 公顷。1 公顷包含了 10000 个 1 平方米的面积极其巨大，大约相当于一个标准足球场的面积（约 0.7 公顷）或 1.4 个足球场。",
+        "key_formula": "$1 \\text{公顷} = 10000 \\text{平方米}$",
+        "tips": "想象 400 米跑道围起来的操场面积大约就是 1 公顷，记住“公顷”名字里虽然没有“平”，但它是面积单位。",
+        "common_mistakes": [
+          "错误地认为公顷和平方米之间的进率是 100 或 1000。",
+          "在计算周长和面积转换时混淆单位。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "测量土地面积时，常用的面积单位是公顷和平方千米。",
+          "options": [],
+          "answer": "对",
+          "explanation": "根据教材定义，测量土地的面积，常用“公顷”和“平方千米”作单位。验算：概念描述正确。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "边长是 100 米的正方形面积是 1 公顷。",
+          "options": [],
+          "answer": "对",
+          "explanation": "$100 \\times 100 = 10000$（平方米），$10000$ 平方米 $= 1$ 公顷。验算：定义符合。",
+          "difficulty": 1
+        },
+        {
+          "id": 6,
+          "type": "choice",
+          "question": "4 公顷等于多少平方米？",
+          "options": [
+            "400",
+            "4000",
+            "40000",
+            "400000"
+          ],
+          "answer": "40000",
+          "explanation": "$1$ 公顷 $= 10000$ 平方米，则 $4$ 公顷 $= 40000$ 平方米。验算：$40000 \\div 10000 = 4$。",
+          "difficulty": 1
+        },
+        {
+          "id": 9,
+          "type": "choice",
+          "question": "在 500 平方米、5 公顷、5 平方千米中，最大的面积是（ ）。",
+          "options": [
+            "500 平方米",
+            "5 公顷",
+            "5 平方千米",
+            "一样大"
+          ],
+          "answer": "5 平方千米",
+          "explanation": "统一单位：$5$ 平方千米 $= 500$ 公顷 $= 5000000$ 平方米。$5$ 平方千米最大。",
+          "difficulty": 2
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "1 平方千米等于（ ）平方米。",
+          "options": [
+            "1000",
+            "10000",
+            "100000",
+            "1000000"
+          ],
+          "answer": "1000000",
+          "explanation": "$1$ 平方千米 $= 100$ 公顷，$1$ 公顷 $= 10000$ 平方米，所以 $1$ 平方千米 $= 1000000$ 平方米。",
+          "difficulty": 1
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "一个正方形果园的周长是 800 米，它的面积是（ ）公顷。",
+          "options": [
+            "4",
+            "16",
+            "40000",
+            "64"
+          ],
+          "answer": "4",
+          "explanation": "边长：$800 \\div 4 = 200$（米）；面积：$200 \\times 200 = 40000$（平方米）；换算：$40000$ 平方米 $= 4$ 公顷。",
+          "difficulty": 2
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "边长是（ ）米的正方形面积是 1 公顷。",
+          "options": [
+            "10",
+            "100",
+            "1000",
+            "10000"
+          ],
+          "answer": "100",
+          "explanation": "因为 $100 \\times 100 = 10000$（平方米），符合 1 公顷定义。",
+          "difficulty": 1
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "80000 平方米 = ___ 公顷。",
+          "options": [],
+          "answer": "8",
+          "explanation": "$80000 \\div 10000 = 8$。验算：$8 \\times 10000 = 80000$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$10000 \\div 100 = ?$",
+          "options": [],
+          "answer": "100",
+          "explanation": "$10000 \\div 100 = 100$。验算：$100 \\times 100 = 10000$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g4up-u2-kp2",
+      "title": "平方千米的认识与换算",
+      "unitNumber": 2,
+      "unitTitle": "公顷和平方千米",
+      "kpIndex": 1,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "平方千米的认识与换算",
+        "core_concept": "测量国家、城市等极大的土地面积时，用平方千米作单位。边长是 1000 米（1 千米）的正方形面积是 1 平方千米。它比公顷大得多，1 平方千米等于 100 公顷。",
+        "key_formula": "$1 \\text{平方千米} = 100 \\text{公顷} = 1000000 \\text{平方米}$",
+        "tips": "记住进率口诀：平方千米公顷一百倍，公顷变平米万万岁。",
+        "common_mistakes": [
+          "记错平方千米与公顷的进率，常与长度单位千米和米的进率 1000 混淆。",
+          "在多级换算（平方千米到平方米）时漏写零。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "一个边长是 2000 米的正方形，面积是 2 平方千米。",
+          "options": [],
+          "answer": "错",
+          "explanation": "$2000 \\times 2000 = 4000000$（平方米）$= 4$ 平方千米。验算：$2 \\times 2 = 4$ 而不是 2。",
+          "difficulty": 2
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "1 平方千米比 1 公顷大。",
+          "options": [],
+          "answer": "对",
+          "explanation": "$1$ 平方千米 $= 100$ 公顷，$100 > 1$。验算：单位进率正确。",
+          "difficulty": 1
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "“鸟巢”的占地面积约为 20 公顷，多少个这样的“鸟巢”占地面积约为 1 平方千米？",
+          "options": [
+            "5 个",
+            "10 个",
+            "50 个",
+            "100 个"
+          ],
+          "answer": "5 个",
+          "explanation": "$1$ 平方千米 $= 100$ 公顷，$100 \\div 20 = 5$（个）。验算：$20 \\times 5 = 100$。",
+          "difficulty": 1
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "一块长方形土地，长 500 米，宽 200 米，这块地的面积是（ ）。",
+          "options": [
+            "10 公顷",
+            "1 平方千米",
+            "100 公顷",
+            "10000 平方米"
+          ],
+          "answer": "10 公顷",
+          "explanation": "面积：$500 \\times 200 = 100000$（平方米）；换算：$100000$ 平方米 $= 10$ 公顷。",
+          "difficulty": 2
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "1 平方千米增加 1 公顷后是（ ）公顷。",
+          "options": [
+            "2",
+            "11",
+            "101",
+            "1001"
+          ],
+          "answer": "101",
+          "explanation": "$1$ 平方千米 $= 100$ 公顷，$100 + 1 = 101$（公顷）。",
+          "difficulty": 1
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "5 平方千米 = ___ 公顷。",
+          "options": [],
+          "answer": "500",
+          "explanation": "$1$ 平方千米 $= 100$ 公顷，$5 \\times 100 = 500$。验算：$500 \\div 100 = 5$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 23,
+          "type": "calculation",
+          "question": "计算：$3 \\times 100 + 50 = ?$",
+          "options": [],
+          "answer": "350",
+          "explanation": "$3$ 平方千米加上 $50$ 公顷等于多少公顷？$3 \\times 100 = 300$，$300 + 50 = 350$。验算：$350 - 50 = 300$ ✓。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g4up-u2-kp3",
+      "title": "面积单位的综合应用",
+      "unitNumber": 2,
+      "unitTitle": "公顷和平方千米",
+      "kpIndex": 2,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "面积单位的综合应用",
+        "core_concept": "根据物体实际大小选择合适的单位：课桌用平方分米，教室用平方米，公园/广场用公顷，城市/国家/行政区用平方千米。",
+        "key_formula": "$\\text{长} \\times \\text{宽} = \\text{面积}$ (注意先统一长宽单位)",
+        "tips": "做题时先看清单位，如果是大数换小数就乘进率，小数换大数就除以进率。",
+        "common_mistakes": [
+          "不看单位直接相乘，如长 500 米乘以宽 2 千米。",
+          "生活经验不足，将学校面积填成平方千米。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "学校多功能教室的面积大约是 2 公顷。",
+          "options": [],
+          "answer": "错",
+          "explanation": "2 公顷是 $20000$ 平方米，教室面积通常在 $100$ 至 $200$ 平方米左右。验算：单位量级不符。",
+          "difficulty": 2
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "北京市的面积大约是 16410（ ）。",
+          "options": [
+            "平方米",
+            "公顷",
+            "平方千米",
+            "平方分米"
+          ],
+          "answer": "平方千米",
+          "explanation": "描述大城市的土地面积通常使用“平方千米”。",
+          "difficulty": 1
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "一个足球场的面积约是 7000（ ）。",
+          "options": [
+            "平方米",
+            "公顷",
+            "平方千米",
+            "平方分米"
+          ],
+          "answer": "平方米",
+          "explanation": "足球场边长约 $100$ 米和 $70$ 米，面积约 $7000$ 平方米。若填公顷则过大。",
+          "difficulty": 1
+        },
+        {
+          "id": 12,
+          "type": "choice",
+          "question": "比较大小：30 公顷（ ）3 平方千米。",
+          "options": [
+            ">",
+            "<",
+            "＝",
+            "≈"
+          ],
+          "answer": "<",
+          "explanation": "$3$ 平方千米 $= 300$ 公顷，$30 < 300$。验算：进率是 $100$。",
+          "difficulty": 2
+        },
+        {
+          "id": 15,
+          "type": "choice",
+          "question": "修一段长 20 千米、宽 50 米的高速公路，占地面积是（ ）。",
+          "options": [
+            "100 公顷",
+            "100 平方千米",
+            "10 公顷",
+            "1000 公顷"
+          ],
+          "answer": "100 公顷",
+          "explanation": "$20$ 千米 $= 20000$ 米；面积：$20000 \\times 50 = 1000000$（平方米）；换算：$1000000$ 平方米 $= 100$ 公顷。",
+          "difficulty": 3
+        },
+        {
+          "id": 18,
+          "type": "choice",
+          "question": "如果 1 平方米能站 12 人，那么 1 公顷能站（ ）人。",
+          "options": [
+            "1200",
+            "12000",
+            "120000",
+            "1200000"
+          ],
+          "answer": "120000",
+          "explanation": "$1$ 公顷 $= 10000$ 平方米，$12 \\times 10000 = 120000$（人）。",
+          "difficulty": 2
+        },
+        {
+          "id": 21,
+          "type": "fill_blank",
+          "question": "一间教室的长是 10 米，宽是 5 米，___ 间这样的教室面积是 1 公顷。",
+          "options": [],
+          "answer": "200",
+          "explanation": "教室面积：$10 \\times 5 = 50$（平方米）。$1$ 公顷 $= 10000$ 平方米。数量：$10000 \\div 50 = 200$（间）。验算：$200 \\times 50 = 10000$ ✓。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "g4up-u3-exam",
+      "title": "第 3 单元挑战",
+      "unitNumber": 3,
+      "unitTitle": "角的度量",
+      "kpIndex": 4,
+      "kpTotal": 4,
+      "isExam": true,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "过一点可以画无数条直线。",
+          "options": [],
+          "answer": "对",
+          "explanation": "以一点为中心，可以向任意方向画直线，所以有无数条。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "一条直线长 5 厘米。",
+          "options": [],
+          "answer": "错",
+          "explanation": "直线向两端无限延伸，没有长度，只有线段才有长度。",
+          "difficulty": 2
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "用放大 10 倍的放大镜看一个 $10^{\\circ}$ 的角，角变成了 $100^{\\circ}$。",
+          "options": [],
+          "answer": "错",
+          "explanation": "放大镜放大的是边的长度，不改变两边叉开的大小，度数不变。",
+          "difficulty": 1
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "两个锐角之和一定比直角大。",
+          "options": [],
+          "answer": "错",
+          "explanation": "例如 $10^{\\circ} + 20^{\\circ} = 30^{\\circ}$，仍是锐角，比直角小。",
+          "difficulty": 3
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "量角器上，外圈刻度 $60^{\\circ}$ 对应内圈刻度是多少度？",
+          "options": [
+            "$30^{\\circ}$",
+            "$60^{\\circ}$",
+            "$120^{\\circ}$",
+            "$180^{\\circ}$"
+          ],
+          "answer": "$120^{\\circ}$",
+          "explanation": "内外圈刻度之和为 $180$。$180 - 60 = 120$。",
+          "difficulty": 2
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "一个 $175^{\\circ}$ 的角是什么角？",
+          "options": [
+            "锐角",
+            "直角",
+            "钝角",
+            "平角"
+          ],
+          "answer": "钝角",
+          "explanation": "$90 < 175 < 180$，符合钝角定义。",
+          "difficulty": 3
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "三个 $60^{\\circ}$ 的角拼在一起是什么角？",
+          "options": [
+            "锐角",
+            "直角",
+            "钝角",
+            "平角"
+          ],
+          "answer": "平角",
+          "explanation": "$60 \\times 3 = 180$，$180^{\\circ}$ 是平角。",
+          "difficulty": 2
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "下面哪种线可以量出长度？",
+          "options": [
+            "直线",
+            "射线",
+            "线段",
+            "所有线"
+          ],
+          "answer": "线段",
+          "explanation": "线段有两个端点，不延伸，可以测量。",
+          "difficulty": 2
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "角的大小是由什么决定的？",
+          "options": [
+            "边的长短",
+            "顶点位置",
+            "两边张开的幅度",
+            "量角器大小"
+          ],
+          "answer": "两边张开的幅度",
+          "explanation": "角是由两射线组成的，夹角即张开的程度。",
+          "difficulty": 1
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "钟面上 $6:00$ 时，时针和分针组成的角是什么角？",
+          "options": [
+            "锐角",
+            "直角",
+            "钝角",
+            "平角"
+          ],
+          "answer": "平角",
+          "explanation": "6时整，时针指6，分针指12，成一直线，为 $180^{\\circ}$。",
+          "difficulty": 2
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "下列哪个角是锐角？",
+          "options": [
+            "$90^{\\circ}$",
+            "$91^{\\circ}$",
+            "$89^{\\circ}$",
+            "$180^{\\circ}$"
+          ],
+          "answer": "$89^{\\circ}$",
+          "explanation": "小于 $90^{\\circ}$ 的角是锐角。",
+          "difficulty": 3
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "把线段向两端无限延长，就得到一条什么？",
+          "options": [
+            "直线",
+            "射线",
+            "曲线",
+            "两个角"
+          ],
+          "answer": "直线",
+          "explanation": "两个端点都无限延长得到直线。",
+          "difficulty": 1
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "一个周角是 ___ 度。",
+          "options": [],
+          "answer": "360",
+          "explanation": "周角定义为 $360^{\\circ}$。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "射线有 ___ 个端点。",
+          "options": [],
+          "answer": "1",
+          "explanation": "射线有一个端点，向一端无限延伸。",
+          "difficulty": 2
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "$180 \\times 2 = ?$",
+          "options": [],
+          "answer": "360",
+          "explanation": "2个平角等于1个周角，$180 \\times 2 = 360$。验算：$360 ÷ 2 = 180$ ✓。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g4up-u3-kp1",
+      "title": "线段、直线、射线",
+      "unitNumber": 3,
+      "unitTitle": "角的度量",
+      "kpIndex": 0,
+      "kpTotal": 4,
+      "isExam": false,
+      "knowledge": {
+        "point": "线段、直线、射线",
+        "core_concept": "线段有两个端点，长度有限，可以测量；射线有一个端点，向一端无限延伸，无法测量；直线没有端点，向两端无限延伸，无法测量。它们是几何学习中最基础的线形。",
+        "key_formula": "两点确定一条直线，两点之间线段最短。",
+        "tips": "记法：线段“有头有尾”，射线“有头无尾”，直线“无头无尾”。",
+        "common_mistakes": [
+          "误认为射线比直线短（两者都无限长，无法比较）",
+          "在测量长度时将直线和射线代入（只有线段可测）"
+        ]
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "直线可以向两端无限延伸，没有端点，所以直线无法测量长度。",
+          "options": [],
+          "answer": "对",
+          "explanation": "直线的特征是向两端无限延伸，没有端点，不可测量长度。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "把线段的一端无限延长，就得到了一条射线。",
+          "options": [],
+          "answer": "对",
+          "explanation": "射线只有一个端点，可以向一端无限延伸，由线段一端延长得到。",
+          "difficulty": 1
+        },
+        {
+          "id": 6,
+          "type": "choice",
+          "question": "我们在手电筒射出的光线中，可以抽象出哪种线？",
+          "options": [
+            "线段",
+            "射线",
+            "直线",
+            "曲线"
+          ],
+          "answer": "射线",
+          "explanation": "手电筒是端点，光向一个方向无限延伸，属于射线。",
+          "difficulty": 1
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "连接两点的所有连线中，哪种线最短？",
+          "options": [
+            "曲线",
+            "折线",
+            "射线",
+            "线段"
+          ],
+          "answer": "线段",
+          "explanation": "根据数学公理，两点之间线段最短。",
+          "difficulty": 1
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "线段有 ___ 条端点。",
+          "options": [],
+          "answer": "2",
+          "explanation": "线段有两个端点。验算：直线0个，射线1个，线段2个 ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g4up-u3-kp2",
+      "title": "角的认识与度量",
+      "unitNumber": 3,
+      "unitTitle": "角的度量",
+      "kpIndex": 1,
+      "kpTotal": 4,
+      "isExam": false,
+      "knowledge": {
+        "point": "角的认识与度量",
+        "core_concept": "从一点引出两条射线所组成的图形叫做角。量角器是核心工具，要注意“点对点”（中心对顶点）、“线对线”（0线对角边）、“读准确”（看清内外圈）。",
+        "key_formula": "角的度量单位是“度”，符号是 $^{\\circ}$。",
+        "tips": "判断内外圈技巧：0刻度线在右边读内圈，0刻度线在左边读外圈。",
+        "common_mistakes": [
+          "内外圈读数混淆，将 $60^{\\circ}$ 读成 $120^{\\circ}$",
+          "中心点未对准角顶点"
+        ]
+      },
+      "questions": [
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "角的大小与两边的长度有关，边越长角越大。",
+          "options": [],
+          "answer": "错",
+          "explanation": "角的大小由张开幅度决定，与边的长短无关。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "从一点引出两条射线所组成的图形叫做什么？",
+          "options": [
+            "线段",
+            "直线",
+            "角",
+            "度"
+          ],
+          "answer": "角",
+          "explanation": "这是角的标准定义。",
+          "difficulty": 1
+        },
+        {
+          "id": 9,
+          "type": "choice",
+          "question": "测量角的大小的工具是哪个？",
+          "options": [
+            "直尺",
+            "三角尺",
+            "圆规",
+            "量角器"
+          ],
+          "answer": "量角器",
+          "explanation": "量角器是专业的角长度度量工具。",
+          "difficulty": 1
+        },
+        {
+          "id": 15,
+          "type": "choice",
+          "question": "量角时，量角器的中心要与角的什么重合？",
+          "options": [
+            "顶点",
+            "一条边",
+            "另一条边",
+            "内部"
+          ],
+          "answer": "顶点",
+          "explanation": "量角器的中心点必须对准角的顶点。",
+          "difficulty": 1
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "量角器上有两圈刻度，读数时应根据什么来确定看哪一圈？",
+          "options": [
+            "心情",
+            "角的大小",
+            "0刻度线所在边",
+            "顶点位置"
+          ],
+          "answer": "0刻度线所在边",
+          "explanation": "哪圈的 0 刻度线与角的一边重合，就读哪一圈的数。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g4up-u3-kp3",
+      "title": "角的分类与画角",
+      "unitNumber": 3,
+      "unitTitle": "角的度量",
+      "kpIndex": 2,
+      "kpTotal": 4,
+      "isExam": false,
+      "knowledge": {
+        "point": "角的分类与画角",
+        "core_concept": "根据度数分类：锐角（$<90^{\\circ}$）、直角（$=90^{\\circ}$）、钝角（$90^{\\circ}<角<180^{\\circ}$）、平角（$=180^{\\circ}$）、周角（$=360^{\\circ}$）。画角时先定线，再定点，连线即成。",
+        "key_formula": "$1\\text{周角} = 2\\text{平角} = 4\\text{直角}$",
+        "tips": "口诀：小于90是锐角，等于90是直角，90至180是钝角，180是平，360是周。",
+        "common_mistakes": [
+          "认为大于 $90^{\\circ}$ 的角全是钝角，忽略了平角和周角",
+          "分不清平角和直线、周角和射线的区别"
+        ]
+      },
+      "questions": [
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "大于 $90^{\\circ}$ 的角一定是钝角。",
+          "options": [],
+          "answer": "错",
+          "explanation": "大于 $90^{\\circ}$ 但小于 $180^{\\circ}$ 的才是钝角，如果是 $180^{\\circ}$ 则是平角。",
+          "difficulty": 2
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "周角是一条射线，平角是一条直线。",
+          "options": [],
+          "answer": "错",
+          "explanation": "周角和平角都是角，由顶点和两条边组成，不能说成是射线或直线。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "下面哪个角度无法用一副三角尺拼出来？",
+          "options": [
+            "$75^{\\circ}$",
+            "$105^{\\circ}$",
+            "$20^{\\circ}$",
+            "$150^{\\circ}$"
+          ],
+          "answer": "$20^{\\circ}$",
+          "explanation": "三角尺角度为 $30^{\\circ}, 60^{\\circ}, 90^{\\circ}$ 和 $45^{\\circ}, 45^{\\circ}, 90^{\\circ}$。无法通过加减得到 $20$。",
+          "difficulty": 2
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "一个平角等于几个直角？",
+          "options": [
+            "1个",
+            "2个",
+            "3个",
+            "4个"
+          ],
+          "answer": "2个",
+          "explanation": "$180 ÷ 90 = 2$。",
+          "difficulty": 1
+        },
+        {
+          "id": 12,
+          "type": "choice",
+          "question": "钟面上 3 时整，时针和分针组成的角是什么角？",
+          "options": [
+            "锐角",
+            "直角",
+            "钝角",
+            "平角"
+          ],
+          "answer": "直角",
+          "explanation": "3 时整，时针指向 3，分针指向 12，夹角为 $90^{\\circ}$。",
+          "difficulty": 1
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "将一个钝角分成两个角，其中一个是直角，另一个一定是什么角？",
+          "options": [
+            "锐角",
+            "直角",
+            "钝角",
+            "周角"
+          ],
+          "answer": "锐角",
+          "explanation": "钝角介于 $90^{\\circ}$ 到 $180^{\\circ}$ 之间，减去 $90^{\\circ}$ 后的差一定小于 $90^{\\circ}$。",
+          "difficulty": 2
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "按从大到小的顺序排列，正确的是哪组？",
+          "options": [
+            "周角>平角>钝角>直角>锐角",
+            "周角>钝角>平角>直角>锐角",
+            "平角>周角>钝角>直角>锐角",
+            "锐角>直角>钝角>平角>周角"
+          ],
+          "answer": "周角>平角>钝角>直角>锐角",
+          "explanation": "$360^{\\circ} > 180^{\\circ} > (90^{\\circ} \\text{至} 180^{\\circ}) > 90^{\\circ} > (0^{\\circ} \\text{至} 90^{\\circ})$。",
+          "difficulty": 1
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "将一张圆形纸对折 3 次，得到的角是多少度？",
+          "options": [
+            "$90^{\\circ}$",
+            "$60^{\\circ}$",
+            "$45^{\\circ}$",
+            "$30^{\\circ}$"
+          ],
+          "answer": "$45^{\\circ}$",
+          "explanation": "圆是 $360^{\\circ}$。对折1次是 $180^{\\circ}$，2次是 $90^{\\circ}$，3次是 $45^{\\circ}$。",
+          "difficulty": 3
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "一个周角等于 ___ 个平角。",
+          "options": [],
+          "answer": "2",
+          "explanation": "$360 ÷ 180 = 2$。验算：$180 \\times 2 = 360$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 21,
+          "type": "fill_blank",
+          "question": "从 $3:00$ 到 $4:00$ ，钟面上的分针转动了 ___ 度。",
+          "options": [],
+          "answer": "360",
+          "explanation": "分针 1 小时转动一整圈，为周角 $360^{\\circ}$。",
+          "difficulty": 2
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "$90 + 90 = ?$",
+          "options": [],
+          "answer": "180",
+          "explanation": "两个直角相加得到平角，$90 + 90 = 180$。验算：$180 - 90 = 90$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 23,
+          "type": "calculation",
+          "question": "$360 - 180 = ?$",
+          "options": [],
+          "answer": "180",
+          "explanation": "周角减去平角得到平角，$360 - 180 = 180$。验算：$180 + 180 = 360$ ✓。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g4up-u3-kp4",
+      "title": "角的角度计算",
+      "unitNumber": 3,
+      "unitTitle": "角的度量",
+      "kpIndex": 3,
+      "kpTotal": 4,
+      "isExam": false,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 18,
+          "type": "choice",
+          "question": "已知 $\\angle 1 + \\angle 2 = 180^{\\circ}$，若 $\\angle 1 = 50^{\\circ}$，则 $\\angle 2$ 是多少度？",
+          "options": [
+            "$40^{\\circ}$",
+            "$50^{\\circ}$",
+            "$130^{\\circ}$",
+            "$180^{\\circ}$"
+          ],
+          "answer": "$130^{\\circ}$",
+          "explanation": "$180 - 50 = 130$。验算：$130 + 50 = 180$。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g4up-u4-exam",
+      "title": "第 4 单元挑战",
+      "unitNumber": 4,
+      "unitTitle": "三位数乘两位数",
+      "kpIndex": 3,
+      "kpTotal": 3,
+      "isExam": true,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "速度 = 路程 × 时间。",
+          "options": [],
+          "answer": "错",
+          "explanation": "正确的公式是：$速度 = 路程 \\div 时间$ 或 $路程 = 速度 \\times 时间$。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "一个因数乘 2，另一个因数也乘 2，积不变。",
+          "options": [],
+          "answer": "错",
+          "explanation": "两个因数都乘 2，积应该乘 $2 \\times 2 = 4$。",
+          "difficulty": 2
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "三位数乘两位数，积最少是四位数。",
+          "options": [],
+          "answer": "对",
+          "explanation": "最小三位数 100 乘最小两位数 10 等于 1000，是四位数。",
+          "difficulty": 1
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "如果因数各扩大 10 倍，则积也扩大 10 倍。",
+          "options": [],
+          "answer": "错",
+          "explanation": "根据积的变化规律，两个因数各扩大 10 倍，积扩大的倍数是 $10 \\times 10 = 100$ 倍。",
+          "difficulty": 3
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "已知 $32 \\times 15 = 480$，那么 $320 \\times 150 = $",
+          "options": [
+            "4800",
+            "48000",
+            "480",
+            "480000"
+          ],
+          "answer": "48000",
+          "explanation": "因数共扩大 $10 \\times 10 = 100$ 倍，积变为 $480 \\times 100 = 48000$。",
+          "difficulty": 2
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "小马虎计算一个三位数乘两位数时，把三位数 103 看成了 13，得到的结果比正确结果少：",
+          "options": [
+            "90 个三位数",
+            "90 个两位数",
+            "10 个两位数",
+            "10 个三位数"
+          ],
+          "answer": "90 个两位数",
+          "explanation": "$103 - 13 = 90$。根据乘法分配律，少算了 90 倍的那个两位数。",
+          "difficulty": 2
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "在列竖式计算 $346 \\times 27$ 时，第二步用十位上的 2 乘 346，得：",
+          "options": [
+            "692",
+            "6920",
+            "2422",
+            "69200"
+          ],
+          "answer": "6920",
+          "explanation": "2 在十位，表示 20，$346 \\times 20 = 6920$。",
+          "difficulty": 2
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "两个因数相乘，积是 80。如果一个因数缩小为原来的 1/4，另一个因数不变，积变为：",
+          "options": [
+            "320",
+            "20",
+            "80",
+            "10"
+          ],
+          "answer": "20",
+          "explanation": "积随因数同倍数缩小：$80 \\div 4 = 20$。",
+          "difficulty": 1
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "甲数 $\\times$ 乙数 $= 100$。如果甲数乘 5，乙数也乘 5，积是：",
+          "options": [
+            "100",
+            "500",
+            "2500",
+            "50"
+          ],
+          "answer": "2500",
+          "explanation": "积扩大了 $5 \\times 5 = 25$ 倍。$100 \\times 25 = 2500$。",
+          "difficulty": 3
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "下面各算式中，结果最接近 8000 的是：",
+          "options": [
+            "201 \\times 39",
+            "402 \\times 19",
+            "250 \\times 31",
+            "198 \\times 41"
+          ],
+          "answer": "198 \\times 41",
+          "explanation": "$198 \\times 41 \\approx 200 \\times 40 = 8000$。具体计算为 8118，差异最小。",
+          "difficulty": 2
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "一个三位数乘两位数，积的最高位至少是：",
+          "options": [
+            "千位",
+            "万位",
+            "百位",
+            "十位"
+          ],
+          "answer": "千位",
+          "explanation": "最小积为 $100 \\times 10 = 1000$，最高位是千位。",
+          "difficulty": 3
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "下列算式中与 $25 \\times 400$ 结果相同的是：",
+          "options": [
+            "250 \\times 40",
+            "25 \\times 40",
+            "250 \\times 4",
+            "25 \\times 4"
+          ],
+          "answer": "250 \\times 40",
+          "explanation": "根据积的变化规律，一个因数缩小 10 倍，另一个扩大 10 倍，积不变。",
+          "difficulty": 1
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "一件上衣 205 元，买 14 件这种上衣共要花 ___ 元。",
+          "options": [],
+          "answer": "2870",
+          "explanation": "列式：$205 \\times 14 = 2870$。计算：$205 \\times 10 = 2050$，$205 \\times 4 = 820$，$2050 + 820 = 2870$。验算：$2870 \\div 14 = 205$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "如果 $A \\times B = 300$，把 A 扩大到原来的 3 倍，B 缩小到原来的 1/2，积是 ___。",
+          "options": [],
+          "answer": "450",
+          "explanation": "列式：$300 \\times 3 \\div 2 = 450$。验算：设 $A=10, B=30$，则 $30 \\times 15 = 450$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "$405 \\times 20 = ?$",
+          "options": [],
+          "answer": "8100",
+          "explanation": "$405 \\times 2 = 810$，末尾补一个 0 得 8100。验算：$8100 \\div 20 = 405$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g4up-u4-kp1",
+      "title": "三位数乘两位数笔算",
+      "unitNumber": 4,
+      "unitTitle": "三位数乘两位数",
+      "kpIndex": 0,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "三位数乘两位数笔算",
+        "core_concept": "笔算时，先用两位数个位上的数去乘三位数，得数的末位和两位数的个位对齐；再用两位数十位上的数去乘三位数，得数的末位和两位数的十位对齐；最后把两次乘得的积加起来。因数末尾有0时，可以先把0前面的数相乘，然后看因数末尾一共有几个0，就在积的末尾添写几个0。",
+        "key_formula": "$三位数 \\times 两位数 = 积$",
+        "tips": "竖式计算时注意数位对齐，进位数字要写小，并及时相加，避免遗漏。",
+        "common_mistakes": [
+          "因数中间有0时，计算忘记乘这个0及处理进位。",
+          "因数末尾有0时，由于竖式对齐习惯导致最后漏补0的个数。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "三位数乘两位数的积一定是五位数。",
+          "options": [],
+          "answer": "错",
+          "explanation": "最小的三位数 100 乘最小的两位数 10，$100 \\times 10 = 1000$（四位数）；最大的三位数 999 乘最大的两位数 99，$999 \\times 99 = 98901$（五位数）。所以可能是四位数也可能是五位数。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "两个因数的末尾一共有两个 0，积的末尾一定只有两个 0。",
+          "options": [],
+          "answer": "错",
+          "explanation": "例如：$250 \\times 40 = 10000$，因数末尾共有两个 0，但积的末尾有四个 0。原因是因数非零部分的乘积末尾也可能产生 0。",
+          "difficulty": 2
+        },
+        {
+          "id": 6,
+          "type": "choice",
+          "question": "计算 $204 \\times 52$ 时，52 中的“5”乘 204，结果是：",
+          "options": [
+            "1020",
+            "10200",
+            "102",
+            "102000"
+          ],
+          "answer": "10200",
+          "explanation": "52 中的“5”在十位上，表示 5 个十。$204 \\times 50 = 10200$。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "$450 \\times 60$ 的积的末尾有几个 0？",
+          "options": [
+            "2 个",
+            "3 个",
+            "4 个",
+            "5 个"
+          ],
+          "answer": "3 个",
+          "explanation": "$45 \\times 6 = 270$，再在后面添两个 0，结果是 27000，共 3 个 0。",
+          "difficulty": 1
+        },
+        {
+          "id": 12,
+          "type": "choice",
+          "question": "估算 $298 \\times 21$ 的结果大约是：",
+          "options": [
+            "4000",
+            "5000",
+            "6000",
+            "8000"
+          ],
+          "answer": "6000",
+          "explanation": "$298 \\approx 300$，$21 \\approx 20$，$300 \\times 20 = 6000$。",
+          "difficulty": 1
+        },
+        {
+          "id": 15,
+          "type": "choice",
+          "question": "$125 \\times 80$ 的积的末尾：",
+          "options": [
+            "有 3 个 0",
+            "有 4 个 0",
+            "有 2 个 0",
+            "没有 0"
+          ],
+          "answer": "有 4 个 0",
+          "explanation": "$125 \\times 8 = 1000$，再补一个 0 是 10000，共 4 个 0。",
+          "difficulty": 2
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "与 $480 \\times 40$ 的积不相等的算式是：",
+          "options": [
+            "48 \\times 400",
+            "4800 \\times 4",
+            "240 \\times 80",
+            "480 \\times 4"
+          ],
+          "answer": "480 \\times 4",
+          "explanation": "$480 \\times 40 = 19200$。D 选项只有 1920，少乘了 10。",
+          "difficulty": 2
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "一列火车每小时行 145 千米，12 小时行了 ___ 千米。",
+          "options": [],
+          "answer": "1740",
+          "explanation": "列式：$145 \\times 12$。计算：$145 \\times 10 = 1450$，$145 \\times 2 = 290$，$1450 + 290 = 1740$。验算：$1740 \\div 12 = 145$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "$308 \\times 15 = ?$",
+          "options": [],
+          "answer": "4620",
+          "explanation": "$308 \\times 15 = 308 \\times 10 + 308 \\times 5 = 3080 + 1540 = 4620$。验算：$4620 \\div 15 = 308$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 23,
+          "type": "calculation",
+          "question": "$240 \\times 30 = ?$",
+          "options": [],
+          "answer": "7200",
+          "explanation": "$24 \\times 3 = 72$，在末尾添 2 个 0 得到 7200。验算：$7200 \\div 30 = 240$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g4up-u4-kp2",
+      "title": "积的变化规律",
+      "unitNumber": 4,
+      "unitTitle": "三位数乘两位数",
+      "kpIndex": 1,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "积的变化规律",
+        "core_concept": "在乘法算式中，一个因数不变，另一个因数乘（或除以）几（0除外），积也乘（或除以）几。如果两个因数同时发生倍数变化，积的变化倍数等于两个因数变化倍数的乘积。",
+        "key_formula": "$(a \\times n) \\times b = (a \\times b) \\times n$",
+        "tips": "可以先通过简单的算式（如 $2 \\times 3 = 6$）来辅助验证规律。 ",
+        "common_mistakes": [
+          "分不清扩大和缩小的倍数，将除法误操作为乘法。",
+          "两个因数都变时，误以为积只随其中一个变化。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "一个因数不变，另一个因数乘 5，积也乘 5。",
+          "options": [],
+          "answer": "对",
+          "explanation": "根据积的变化规律：一个因数不变，另一个因数乘几（0除外），积也乘几。",
+          "difficulty": 1
+        },
+        {
+          "id": 9,
+          "type": "choice",
+          "question": "两个因数相乘的积是 120。如果一个因数除以 3，另一个因数乘 3，积是：",
+          "options": [
+            "40",
+            "360",
+            "120",
+            "1080"
+          ],
+          "answer": "120",
+          "explanation": "积的变化：$120 \\div 3 \\times 3 = 120$。积保持不变。",
+          "difficulty": 2
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "在乘法算式中，一个因数不变，另一个因数扩大到原来的 10 倍，积：",
+          "options": [
+            "不变",
+            "缩小到原来的 1/10",
+            "扩大到原来的 10 倍",
+            "扩大到原来的 100 倍"
+          ],
+          "answer": "扩大到原来的 10 倍",
+          "explanation": "根据积的变化规律，积随因数同比例扩大。",
+          "difficulty": 2
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "如果 $A \\times B = 600$，那么 $(A \\times 2) \\times (B \\div 3) = $：",
+          "options": [
+            "400",
+            "900",
+            "1200",
+            "1800"
+          ],
+          "answer": "400",
+          "explanation": "积的变化规律：$600 \\times 2 \\div 3 = 1200 \\div 3 = 400$。",
+          "difficulty": 3
+        },
+        {
+          "id": 21,
+          "type": "fill_blank",
+          "question": "已知 $12 \\times 6 = 72$，若把 12 乘 10，6 不变，则积变为 ___。",
+          "options": [],
+          "answer": "720",
+          "explanation": "根据规律，一个因数乘 10，积也乘 10。$72 \\times 10 = 720$。验证：$120 \\times 6 = 720$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g4up-u4-kp3",
+      "title": "常见数量关系（单价与速度）",
+      "unitNumber": 4,
+      "unitTitle": "三位数乘两位数",
+      "kpIndex": 2,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "常见数量关系（单价与速度）",
+        "core_concept": "本单元涉及两个核心模型：购物模型（单价、数量、总价）和行程模型（速度、时间、路程）。单价是指单位物品的价格；速度是指单位时间内行进的路程。理解这些量之间的乘除关系是解决应用问题的关键。",
+        "key_formula": "$速度 \\times 时间 = 路程$；$单价 \\times 数量 = 总价$",
+        "tips": "记住“路程”和“总价”这两个“大数”通常是用乘法求得的，而其余两个量则是用“大数”除以另一个量。",
+        "common_mistakes": [
+          "写速度单位时，漏写时间单位，如只写“千米”而不写“千米/时”。",
+          "三者关系记混，求时间或数量时误用乘法。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "已知总价和单价，要求数量，应用总价除以单价。",
+          "options": [],
+          "answer": "对",
+          "explanation": "基本数量关系：$单价 \\times 数量 = 总价$。其变式为：$总价 \\div 单价 = 数量$。",
+          "difficulty": 1
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "120 千米/时表示每小时行 120 千米。",
+          "options": [],
+          "answer": "对",
+          "explanation": "速度单位“千米/时”读作千米每小时，表示单位时间（1小时）内行进的路程。",
+          "difficulty": 1
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "王阿姨买了 5 升花生油，花了 120 元。每升花生油多少钱？这个问题是求：",
+          "options": [
+            "总价",
+            "数量",
+            "单价",
+            "路程"
+          ],
+          "answer": "单价",
+          "explanation": "“每升多少钱”是指单位数量的价格，即单价。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "一只猎豹的奔跑速度可达每秒 31 米，可以写作：",
+          "options": [
+            "31 米/分",
+            "31 秒/米",
+            "31 米/秒",
+            "31 千米/时"
+          ],
+          "answer": "31 米/秒",
+          "explanation": "速度单位写法：路程单位/时间单位。每秒 31 米写作 31 米/秒。",
+          "difficulty": 1
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "两地相距 240 千米，小明乘车 3 小时到达，这辆车的速度是：",
+          "options": [
+            "80 千米",
+            "80 千米/时",
+            "720 千米",
+            "720 千米/时"
+          ],
+          "answer": "80 千米/时",
+          "explanation": "$速度 = 路程 \\div 时间 = 240 \\div 3 = 80$（千米/时）。单位必须是复合单位。",
+          "difficulty": 2
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "小华 5 分钟跑了 1000 米，求“平均每分钟跑多少米”就是求：",
+          "options": [
+            "单价",
+            "时间",
+            "路程",
+            "速度"
+          ],
+          "answer": "速度",
+          "explanation": "单位时间（每分钟）跑过的路程叫做速度。",
+          "difficulty": 1
+        },
+        {
+          "id": 18,
+          "type": "choice",
+          "question": "每套校服 125 元，购买 40 套共需多少元？这里求的是：",
+          "options": [
+            "总价",
+            "单价",
+            "数量",
+            "倍数"
+          ],
+          "answer": "总价",
+          "explanation": "已知单价（125元）和数量（40套），求共需钱数即总价。",
+          "difficulty": 1
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "小明家到学校的路程是 600 米，他每分钟走 50 米，从家走到学校需要 ___ 分钟。",
+          "options": [],
+          "answer": "12",
+          "explanation": "列式：$600 \\div 50$。计算：$600 \\div 50 = 12$。验算：$50 \\times 12 = 600$ ✓。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g4up-u5-exam",
+      "title": "第 5 单元挑战",
+      "unitNumber": 5,
+      "unitTitle": "平行四边形和梯形",
+      "kpIndex": 2,
+      "kpTotal": 2,
+      "isExam": true,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "不相交的两条直线叫做平行线。",
+          "options": [],
+          "answer": "错",
+          "explanation": "缺少了“在同一平面内”这个关键前提。如果在不同平面内，不相交的直线可能是异面直线而不是平行线。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "平行四边形的高只有两条。",
+          "options": [],
+          "answer": "错",
+          "explanation": "从一边上的任意一点向对边作垂线都是高，因此平行四边形有无数条高。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "梯形的高一定垂直于上底和下底。",
+          "options": [],
+          "answer": "对",
+          "explanation": "梯形的高是从上底向底底作的垂线段，垂直于一组平行线。",
+          "difficulty": 2
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "直角梯形中只有一个角是直角。",
+          "options": [],
+          "answer": "错",
+          "explanation": "直角梯形既然有一条腰垂直于底边，那么这条腰与上底和下底的交角都是 90 度，所以至少有两个直角。",
+          "difficulty": 3
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "要把一根木条固定在墙上，为了使其更稳固，通常用两枚钉子，这是利用了：",
+          "options": [
+            "两点确定一条直线",
+            "垂线段最短",
+            "平行线性质",
+            "三角形稳定性"
+          ],
+          "answer": "两点确定一条直线",
+          "explanation": "两枚钉子即两个点，两点决定了木条在墙上直线的位置，使其不能旋转。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "画已知直线的平行线，可以利用哪组工具最准确？",
+          "options": [
+            "直尺和量角器",
+            "三角尺和量角器",
+            "直尺和三角尺",
+            "两个圆规"
+          ],
+          "answer": "直尺和三角尺",
+          "explanation": "课本教材标准画法是：一靠、二移、三画，需要直尺作为导轨，三角尺移动。",
+          "difficulty": 2
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "将一个长方形木框拉成平行四边形后，平行四边形的高与长方形的宽相比：",
+          "options": [
+            "变长了",
+            "变短了",
+            "长度不变",
+            "无法比较"
+          ],
+          "answer": "变短了",
+          "explanation": "拉动时侧边倾斜，垂线段（高）必然小于斜线性段（宽）。",
+          "difficulty": 2
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "从马路的一边到另一边，走哪条路最近？",
+          "options": [
+            "斜着走",
+            "绕路走",
+            "垂直走",
+            "随意走"
+          ],
+          "answer": "垂直走",
+          "explanation": "马路两边视为平行线，垂线段最短，所以垂直穿过马路路程最短。",
+          "difficulty": 2
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "当梯形的上底和下底相等时，这个图形变成了：",
+          "options": [
+            "三角形",
+            "平行四边形",
+            "等腰梯形",
+            "直角梯形"
+          ],
+          "answer": "平行四边形",
+          "explanation": "一组对边平行且相等，符合平行四边形的判定条件。",
+          "difficulty": 2
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "过直线外一点画已知直线的垂线，可以画几条？",
+          "options": [
+            "0条",
+            "1条",
+            "2条",
+            "无数条"
+          ],
+          "answer": "1条",
+          "explanation": "过直线外一点只有一条直线与已知直线垂直。验算：旋转三角尺发现仅有一个位置重合。",
+          "difficulty": 3
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "在两条平行线之间画 5 条垂直线段，第 1 条长 10 厘米，第 5 条长几厘米？",
+          "options": [
+            "2厘米",
+            "5厘米",
+            "10厘米",
+            "50厘米"
+          ],
+          "answer": "10厘米",
+          "explanation": "平行线间的距离处处相等。既然第 1 条是 10 厘米，其他所有垂直线段一定都是 10 厘米。",
+          "difficulty": 3
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "一个平行四边形的周长是 30 厘米，其中一条边是 10 厘米，它的领边是：",
+          "options": [
+            "5厘米",
+            "10厘米",
+            "15厘米",
+            "20厘米"
+          ],
+          "answer": "5厘米",
+          "explanation": "周长的一半是 $30 \\text{ (divide) } 2 = 15$。领边 = $15 - 10 = 5$ 厘米。验算：$(10 + 5) \\times 2 = 30$ ✓。",
+          "difficulty": 3
+        },
+        {
+          "id": 19,
+          "type": "fill_blank_text",
+          "question": "梯形有 ___ 条高。",
+          "options": [],
+          "answer": "无数",
+          "explanation": "梯形的两底平行，从上底任意一点向下底作垂线都是高，所以有无数条。",
+          "difficulty": 1
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "在一个长方形中，互相平行的线段有 ___ 对。",
+          "options": [],
+          "answer": "2",
+          "explanation": "长方形两组对边分别平行。1组长边平行，1组宽边平行，总共 2 对。",
+          "difficulty": 2
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算四边形的内角和：$90 + 90 + 90 + 90 = ?$",
+          "options": [],
+          "answer": "360",
+          "explanation": "$90 \\times 4 = 360$。四边形内角和恒为 360 度。验算：$360 \\text{ (divide) } 4 = 90$ ✓。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g4up-u5-kp1",
+      "title": "平行与垂直的认识",
+      "unitNumber": 5,
+      "unitTitle": "平行四边形和梯形",
+      "kpIndex": 0,
+      "kpTotal": 2,
+      "isExam": false,
+      "knowledge": {
+        "point": "平行与垂直的认识",
+        "core_concept": "在同一个平面内，不相交的两条直线叫做平行线。当两条直线相交成直角时，这两条直线互相垂直，其中一条直线叫做另一条直线的垂线。要特别注意‘同一平面’这个前提。",
+        "key_formula": "在同一平面内，垂直于同一直线的两条直线互相平行。",
+        "tips": "可以观察教室里的黑板边框：相邻的两条边是互相垂直的，相对的两条边是互相平行的。",
+        "common_mistakes": [
+          "认为不相交的两条直线就是平行线（忽略了同一平面的前提）",
+          "把‘互相垂直’理解为单方面的垂直关系"
+        ]
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "在同一平面内，两条直线如果不平行就一定相交。",
+          "options": [],
+          "answer": "对",
+          "explanation": "在同一平面内，两条直线的位置关系只有两种：平行或相交。如果不平行，则必然相交。验算：排除不共面的空间直线情况，命题成立。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "两条直线相交成直角时，这两条直线互相垂直。",
+          "options": [],
+          "answer": "对",
+          "explanation": "垂直的定义即为两条直线相交成直角（90度）。",
+          "difficulty": 1
+        },
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "两条平行线之间的距离处处相等。",
+          "options": [],
+          "answer": "对",
+          "explanation": "平行线性质：两条平行线之间所有垂线段的长度都相等。验算：从一条直线上任意取点向另一条作垂线，长度一致。",
+          "difficulty": 2
+        },
+        {
+          "id": 6,
+          "type": "choice",
+          "question": "在同一平面内，过直线外一点可以画几条已知直线的垂线？",
+          "options": [
+            "1条",
+            "2条",
+            "3条",
+            "无数条"
+          ],
+          "answer": "1条",
+          "explanation": "根据垂直的性质，过直线外一点有且只有一条直线与已知直线垂直。",
+          "difficulty": 1
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "把两根小棒都摆成和第三根小棒平行，看一看这两根小棒的关系是：",
+          "options": [
+            "互相平行",
+            "互相垂直",
+            "相交但不垂直",
+            "无法确定"
+          ],
+          "answer": "互相平行",
+          "explanation": "平行线的传递性：如果 $a//c$ 且 $b//c$，那么 $a//b$。所以它们互相平行。",
+          "difficulty": 1
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "从直线外一点到这条直线所画的所有线段中，最短的是：",
+          "options": [
+            "直线",
+            "平行线",
+            "垂线段",
+            "射线"
+          ],
+          "answer": "垂线段",
+          "explanation": "从直线外一点到这条直线所画的所有线段中，垂直线段最短。这是几何学的基本常识。",
+          "difficulty": 2
+        },
+        {
+          "id": 12,
+          "type": "choice",
+          "question": "两条直线互相垂直，形成的角有几个直角？",
+          "options": [
+            "1个",
+            "2个",
+            "3个",
+            "4个"
+          ],
+          "answer": "4个",
+          "explanation": "两条直线垂直相交，其中一个角是90度，那么它的对顶角是90度，邻角也是 180-90=90 度，总共4个直角。",
+          "difficulty": 2
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "在两条平行线之间画几条垂直线段，这些线段的长度：",
+          "options": [
+            "都不相等",
+            "有的相等有的不相等",
+            "都相等",
+            "长度逐渐变大"
+          ],
+          "answer": "都相等",
+          "explanation": "平行线间的距离处处相等，因此所有垂直线段的长度都相等。",
+          "difficulty": 2
+        },
+        {
+          "id": 18,
+          "type": "choice",
+          "question": "如果两条直线都垂直于同一条直线，那么这两条直线：",
+          "options": [
+            "互相垂直",
+            "互相平行",
+            "相交",
+            "重合"
+          ],
+          "answer": "互相平行",
+          "explanation": "在同一平面内，垂直于同一直线的两条直线互相平行。这是判断平行的重要方法。验算：想象直尺两边都垂直于竖杠，则两边平行。",
+          "difficulty": 3
+        },
+        {
+          "id": 21,
+          "type": "fill_blank",
+          "question": "两条平行线之间的距离是 5 厘米，在这两条直线间作垂直线段，这段垂直线段的长是 ___ 厘米。",
+          "options": [],
+          "answer": "5",
+          "explanation": "平行线间的距离就是其间垂直线段的长度。因为距离是 5 厘米，所以垂直线段长也是 5 厘米。验算：定义匹配 ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 23,
+          "type": "calculation",
+          "question": "一个平角是 $180$ 度，它包含几个 $90$ 度的直角？计算：$180 \\times 1 \\text{ (divide) } 90 = ?$",
+          "options": [],
+          "answer": "2",
+          "explanation": "$180 \\times 1 \\text{ (divide) } 90$ 即 $180 \\text{ (divide) } 90 = 2$。验算：$90 \\times 2 = 180$ ✓。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g4up-u5-kp3",
+      "title": "平行四边形与梯形的特征",
+      "unitNumber": 5,
+      "unitTitle": "平行四边形和梯形",
+      "kpIndex": 1,
+      "kpTotal": 2,
+      "isExam": false,
+      "knowledge": {
+        "point": "平行四边形与梯形的特征",
+        "core_concept": "两组对边分别平行的四边形是平行四边形；只有一组对边平行的四边形是梯形。平行四边形容易变形，具有不稳定性。正方形和长方形都是特殊的平行四边形。",
+        "key_formula": "平行四边形的周长 = (长边 + 短边) \\times 2",
+        "tips": "通过‘包含关系图’记忆：四边形包含平行四边形和梯形，平行四边形包含长方形，长方形包含正方形。",
+        "common_mistakes": [
+          "认为梯形有 2 条高（实际上有无数条）",
+          "混淆平行四边形和梯形的定义，特别是对‘只有’二字的理解"
+        ]
+      },
+      "questions": [
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "长方形和正方形都是特殊的平行四边形。",
+          "options": [],
+          "answer": "对",
+          "explanation": "平行四边形定义是两组对边分别平行。长方形和正方形满足此条件，且角为直角，因此是特殊的平行四边形。",
+          "difficulty": 1
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "梯形的一组对边平行，另一组对边一定不平行。",
+          "options": [],
+          "answer": "对",
+          "explanation": "梯形的定义是“只有”一组对边平行。如果另一组也平行，它就变成平行四边形了。",
+          "difficulty": 2
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "平行四边形的对边：",
+          "options": [
+            "相等但不平行",
+            "垂直但不相等",
+            "平行且相等",
+            "不平行也不相等"
+          ],
+          "answer": "平行且相等",
+          "explanation": "平行四边形的特征是两组对边分别平行且相等。",
+          "difficulty": 1
+        },
+        {
+          "id": 9,
+          "type": "choice",
+          "question": "只有一组对边平行的四边形是：",
+          "options": [
+            "长方形",
+            "正方形",
+            "平行四边形",
+            "梯形"
+          ],
+          "answer": "梯形",
+          "explanation": "根据梯形的定义，只有一组对边平行的四边形叫做梯形。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "电动伸缩门是利用了平行四边形的什么特性？",
+          "options": [
+            "稳定性",
+            "容易变形",
+            "不容易变形",
+            "四个角都是直角"
+          ],
+          "answer": "容易变形",
+          "explanation": "平行四边形具有不稳定性（易变形），伸缩门正是利用这一特性实现伸缩。三角形才具有稳定性。",
+          "difficulty": 1
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "等腰梯形的两条腰：",
+          "options": [
+            "互相平行",
+            "互相垂直",
+            "相等",
+            "不相等"
+          ],
+          "answer": "相等",
+          "explanation": "两腰相等的梯形叫做等腰梯形。其名称本身定义了腰相等。",
+          "difficulty": 2
+        },
+        {
+          "id": 15,
+          "type": "choice",
+          "question": "平行四边形有几条高？",
+          "options": [
+            "1条",
+            "2条",
+            "4条",
+            "无数条"
+          ],
+          "answer": "无数条",
+          "explanation": "我们可以从一边的任意一点向对边作垂线，边上有无数个点，所以可以作无数条高。",
+          "difficulty": 2
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "一个四边形的两组对边分别平行，它一定不是哪种图形？",
+          "options": [
+            "长方形",
+            "正方形",
+            "平行四边形",
+            "梯形"
+          ],
+          "answer": "梯形",
+          "explanation": "两组对边分别平行符合平行四边形的定义。梯形只有一组对边平行，所以绝对不可能是梯形。",
+          "difficulty": 2
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "一个围栏的长方形周长是 20 米，如果把它拉成一个平行四边形，周长会有什么变化？",
+          "options": [
+            "周长变长",
+            "周长变短",
+            "周长不变",
+            "无法判断"
+          ],
+          "answer": "周长不变",
+          "explanation": "拉动过程中，四条边的长度没有发生改变，因此周长之和保持不变。变化的是面积（变小）。",
+          "difficulty": 3
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "平行四边形有 ___ 组对边分别平行。",
+          "options": [],
+          "answer": "2",
+          "explanation": "平行四边形的定义是两组对边分别平行。故填 2。",
+          "difficulty": 1
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "一个等腰梯形的上底是 5 厘米，下底是 7 厘米，腰是 6 厘米，它的周长是 ___ 厘米。",
+          "options": [],
+          "answer": "24",
+          "explanation": "列式：$5 + 7 + 6 \\times 2 = 5 + 7 + 12 = 24$。等腰梯形两腰相等，所以两腰共 12 厘米，加上底和下底。验算：$24 - 12 - 7 = 5$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算一个平行四边形相邻两边之和：$15 + 25 = ?$",
+          "options": [],
+          "answer": "40",
+          "explanation": "$15 + 25 = 40$。验算：$40 - 25 = 15$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g4up-u6-exam",
+      "title": "第 6 单元挑战",
+      "unitNumber": 6,
+      "unitTitle": "除数是两位数的除法",
+      "kpIndex": 3,
+      "kpTotal": 3,
+      "isExam": true,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "一个除法算式的被除数是 320，除数是 40，商是 80。",
+          "options": [],
+          "answer": "错",
+          "explanation": "$320 \\times 40 = 8$，不是 80。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "被除数和除数同时乘一个不为 0 的数，商不变。",
+          "options": [],
+          "answer": "对",
+          "explanation": "商不变性质：$(a \\times c) \\times (b \\times c) = a \\times b$。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "$800 \\times 25 = (800 \\times 4) \\times (25 \\times 4) = 3200 \\times 100 = 32$。",
+          "options": [],
+          "answer": "对",
+          "explanation": "运用商不变规律，被除数和除数同时乘 4，计算变简便。",
+          "difficulty": 2
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "估算结果一定比实际结果大。",
+          "options": [],
+          "answer": "错",
+          "explanation": "估算可能偏大也可能偏小，取决于将数看大还是看小。",
+          "difficulty": 3
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "商不变规律中，被除数乘 10，要使商不变，除数应该：",
+          "options": [
+            "乘 10",
+            "除以 10",
+            "加 10",
+            "减 10"
+          ],
+          "answer": "乘 10",
+          "explanation": "商不变性质要求同时扩大或缩小相同倍数。",
+          "difficulty": 2
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "$400 \\times 50$ 的商是：",
+          "options": [
+            "8",
+            "80",
+            "800",
+            "5"
+          ],
+          "answer": "8",
+          "explanation": "$40 \\times 5 = 8$。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "$4800 \\times 1200$ 的结果与下列哪个式子的结果相等？",
+          "options": [
+            "48 \times 12",
+            "480 \times 12",
+            "480 \times 120",
+            "4 \times 1"
+          ],
+          "answer": "48 \times 12",
+          "explanation": "同时去掉两个 0，商不变。",
+          "difficulty": 3
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "一辆汽车每小时跑 80 千米，行 400 千米需要多少小时？",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "50"
+          ],
+          "answer": "5",
+          "explanation": "$400 \\times 80 = 5$。",
+          "difficulty": 2
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "在 $A \\times B = 20$ 中，如果 $A \\times 2$，$B \\times 4$，现在的商是：",
+          "options": [
+            "10",
+            "40",
+            "20",
+            "5"
+          ],
+          "answer": "10",
+          "explanation": "$20 \\times 2 = 40$（被除数变商变），$40 \\times 4 = 10$（除数变商反向变）。",
+          "difficulty": 2
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "一个除法算式的商是 15。如果被除数乘 4，除数除以 2，现在的商是：",
+          "options": [
+            "15",
+            "30",
+            "120",
+            "60"
+          ],
+          "answer": "120",
+          "explanation": "$15 \\times 4 \\times 2 = 120$。被除数乘 4 使得商乘 4，除数除以 2 使得商乘 2。",
+          "difficulty": 3
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "口算 $210 \\times 30$，先想：",
+          "options": [
+            "21 \times 3",
+            "2 \times 3",
+            "210 \times 3",
+            "20 \times 3"
+          ],
+          "answer": "21 \times 3",
+          "explanation": "整十数相除，可以去掉末尾相同个数的 0 简化为一位数除法。",
+          "difficulty": 1
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "$700 \\times 40 = 17 \\times \\times 20$，如果把被除数和除数同时除以 10，余数是：",
+          "options": [
+            "20",
+            "2",
+            "200",
+            "无法确定"
+          ],
+          "answer": "2",
+          "explanation": "商不变，但余数随之缩小。$20 \\times 10 = 2$。",
+          "difficulty": 3
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "王老师带 600 元去买足球，每个足球 35 元，他最多能买 ___ 个足球。",
+          "options": [],
+          "answer": "17",
+          "explanation": "$600 \\times 35 = 17 \\times \\times 5$。验算：$35 \\times 17 + 5 = 595 + 5 = 600$。所以最多买 17 个。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "每层楼梯有 18 级台阶，小红从底楼走到 5 楼，一共走了 ___ 级台阶。",
+          "options": [],
+          "answer": "72",
+          "explanation": "5 楼距离底楼有 4 层。列式：$18 \\times (5-1) = 72$。验算：$72 \\times 4 = 18$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "直接写出结果：$360 \\times 40 = ?$",
+          "options": [],
+          "answer": "9",
+          "explanation": "$360 \\times 40 = 9$。验算：$40 \\times 9 = 360$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g4up-u6-kp1",
+      "title": "口算除法与估算",
+      "unitNumber": 6,
+      "unitTitle": "除数是两位数的除法",
+      "kpIndex": 0,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "口算除法与估算",
+        "core_concept": "整十数除以整十数，可以利用乘法口诀来算（想乘法算除法），也可以同时去掉被除数和除数末尾的0。估算时，通常把被除数看作和它最接近的整百数或几百几十数，把除数看作整十数，再进行口算。",
+        "key_formula": "$a00 \\times b0 = (a0 \\times b)$",
+        "tips": "“去掉0”只是一种简便思考方式，本质是缩小了相同的倍数。",
+        "common_mistakes": [
+          "口算时漏掉末尾的0或多写0",
+          "估算时选取的近似数不合理导致计算复杂"
+        ]
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "计算 $80 \\times 40$ 的结果可以用 $3200 \\times 40$ 进行验算。",
+          "options": [],
+          "answer": "错",
+          "explanation": "计算 $80 \\times 40 = 3200$，验算应为 $3200 \\times 40$（被除数除以除数等于商，或者商乘除数等于被除数）。验算 $3200 \\times 40 = 128000$，显然不对。正确验算应为 $3200 \\times 40$ 是不成立的，应为 $3200 \\times 40$ 为商，原题逻辑混乱。",
+          "difficulty": 1
+        },
+        {
+          "id": 6,
+          "type": "choice",
+          "question": "$240 \\times 30$ 的商是：",
+          "options": [
+            "8",
+            "80",
+            "800",
+            "3"
+          ],
+          "answer": "8",
+          "explanation": "想乘法算除法：$30 \\times 8 = 240$，所以 $240 \\times 30 = 8$。或者去掉末尾相同个数的 0：$24 \\times 3 = 8$。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "估算 $722 \\times 91$ 时，最接近准确值的结果是：",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "80"
+          ],
+          "answer": "8",
+          "explanation": "把 722 看作 720，把 91 看作 90，$720 \\times 90 = 8$。",
+          "difficulty": 1
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "一个除法算式的商是 5，余数是 12。这个算式的除数最小是：",
+          "options": [
+            "11",
+            "12",
+            "13",
+            "14"
+          ],
+          "answer": "13",
+          "explanation": "除数要大于余数。余数是 12，除数最小是 $12 + 1 = 13$。",
+          "difficulty": 2
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "妈妈去超市买鸡蛋，一箱鸡蛋 60 元，妈妈有 180 元，可以买几箱？",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "answer": "3",
+          "explanation": "$180 \\times 60 = 3$（箱）。验算：$3 \\times 60 = 180$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "学校买来 120 本新书，平均分给 40 个同学，每个同学分到 ___ 本。",
+          "options": [],
+          "answer": "3",
+          "explanation": "列式：$120 \\times 40 = 3$。验算：$40 \\times 3 = 120$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "直接写出结果：$450 \\times 50 = ?$",
+          "options": [],
+          "answer": "9",
+          "explanation": "$450 \\times 50 = 9$。验算：$50 \\times 9 = 450$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g4up-u6-kp2",
+      "title": "笔算除法之试商与调商",
+      "unitNumber": 6,
+      "unitTitle": "除数是两位数的除法",
+      "kpIndex": 1,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "笔算除法之试商与调商",
+        "core_concept": "三位数除以两位数，先看被除数的前两位，不够除看前三位。常用的试商方法是‘四舍五入’。‘四舍’法除数看小了，初商容易偏大，需要调小；‘五入’法除数看大了，初商容易偏小，需要调大。",
+        "key_formula": "被除数 = 除数 $\\times$ 商 + 余数（余数 < 除数）",
+        "tips": "试商调商要灵活，如除数是24、25、26时，可以看作25来快速试商。",
+        "common_mistakes": [
+          "试商后忘记检查余数是否比除数小",
+          "商的位置写错（最高位定位错误）"
+        ]
+      },
+      "questions": [
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "三位数除以两位数，商一定是一位数。",
+          "options": [],
+          "answer": "错",
+          "explanation": "三位数除以两位数，商可能是一位数（如 $100 \\times 50 = 2$），也可能是两位数（如 $500 \\times 20 = 25$）。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "除数是 28 时，可以用“五入”法把 28 看作 30 来试商，这时商容易偏大。",
+          "options": [],
+          "answer": "错",
+          "explanation": "把除数看大了（28看作30），除数变大则商容易偏小，需要调大。",
+          "difficulty": 2
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "$480 \\times 62$，把 62 看作 60 来试商，商 8：",
+          "options": [
+            "合适",
+            "偏大",
+            "偏小",
+            "无法确定"
+          ],
+          "answer": "偏大",
+          "explanation": "把除数 62 看作 60 是“四舍”法，除数看小了，商容易偏大。验证：$62 \\times 8 = 496$，大于 480，所以商 8 偏大。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "在除法算式中，余数必须比除数：",
+          "options": [
+            "大",
+            "小",
+            "相等",
+            "不确定"
+          ],
+          "answer": "小",
+          "explanation": "根据除法的性质，余数一定小于除数。",
+          "difficulty": 1
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "$3 \\times \\times 33$ 的商（其中 $\\times$ 代表未知数字）是：",
+          "options": [
+            "一位数",
+            "两位数",
+            "三位数",
+            "无法确定"
+          ],
+          "answer": "两位数",
+          "explanation": "被除数前两位是 3$\\times$，大于或等于除数 33，所以最高位在十位上，商是两位数。",
+          "difficulty": 1
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "计算 $540 \\times 27$ 时，商的最高位在：",
+          "options": [
+            "个位",
+            "十位",
+            "百位",
+            "不确定"
+          ],
+          "answer": "十位",
+          "explanation": "被除数前两位 54 大于 27，够除，商的最高位在十位。",
+          "difficulty": 2
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "如果 $\\times \\times 6 \\times 44 = 17 \\times \\times 2$，那么被除数最大是：",
+          "options": [
+            "791",
+            "796",
+            "750",
+            "748"
+          ],
+          "answer": "791",
+          "explanation": "$17 \\times 44 + 43 = 748 + 43 = 791$。余数最大是 43。",
+          "difficulty": 3
+        },
+        {
+          "id": 21,
+          "type": "fill_blank",
+          "question": "已知 $\\times \\times 28 = 15 \\times \\times 10$，那么被除数是 ___。",
+          "options": [],
+          "answer": "430",
+          "explanation": "根据：被除数 = 商 $\\times$ 除数 + 余数。列式：$15 \\times 28 + 10 = 420 + 10 = 430$。验算：$430 \\times 28 = 15 \\times \\times 10$ ✓。",
+          "difficulty": 3
+        },
+        {
+          "id": 23,
+          "type": "calculation",
+          "question": "计算：$216 \\times 24 = ?$",
+          "options": [],
+          "answer": "9",
+          "explanation": "$24 \\times 10 = 240$，216 比 240 小一点，试商 9。$24 \\times 9 = 216$。所以结果是 9。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g4up-u6-kp3",
+      "title": "商的变化规律及简便运算",
+      "unitNumber": 6,
+      "unitTitle": "除数是两位数的除法",
+      "kpIndex": 2,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "商的变化规律及简便运算",
+        "core_concept": "商不变规律：被除数和除数同时乘或除以同一个不为0的数，商不变。若有余数，余数也会随着被除数和除数同时扩大或缩小相同的倍数。",
+        "key_formula": "$(a \\times c) \\times (b \\times c) = a \\times b$",
+        "tips": "被除数变，商跟着变；除数变，商反向变。",
+        "common_mistakes": [
+          "被除数乘一个数而除数除以一个数，误以为商不变",
+          "简便笔算（划0法）时，忽略了余数的变化"
+        ]
+      },
+      "questions": [
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "被除数和除数同时乘 10，商不变。",
+          "options": [],
+          "answer": "对",
+          "explanation": "根据商不变的规律：被除数和除数同时乘或除以同一个不为 0 的数，商不变。",
+          "difficulty": 1
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "计算 $400 \\times 25$ 时，被除数和除数末尾各去掉一个 0，余数不变。",
+          "options": [],
+          "answer": "错",
+          "explanation": "利用商不变规律简化计算时，余数也要相应地缩小。如果被除数和除数各去掉一个 0，余数会缩小 10 倍。",
+          "difficulty": 2
+        },
+        {
+          "id": 9,
+          "type": "choice",
+          "question": "两个数相除，商是 20。如果被除数乘 3，除数不变，商变为：",
+          "options": [
+            "20",
+            "60",
+            "7",
+            "无法确定"
+          ],
+          "answer": "60",
+          "explanation": "商随被除数同方向变化。$20 \\times 3 = 60$。",
+          "difficulty": 1
+        },
+        {
+          "id": 12,
+          "type": "choice",
+          "question": "被除数除以 5，除数除以 5，商：",
+          "options": [
+            "乘 5",
+            "除以 5",
+            "不变",
+            "乘 25"
+          ],
+          "answer": "不变",
+          "explanation": "被除数和除数同时除以相同的数（0除外），商不变。",
+          "difficulty": 2
+        },
+        {
+          "id": 15,
+          "type": "choice",
+          "question": "由 $48 \\times 12 = 4$ 推导，则 $(48 \\times 2) \\times (12 \\times 2)$ 的商是：",
+          "options": [
+            "4",
+            "8",
+            "16",
+            "2"
+          ],
+          "answer": "4",
+          "explanation": "被除数和除数同时乘 2，商不变，依然是 4。",
+          "difficulty": 2
+        },
+        {
+          "id": 18,
+          "type": "choice",
+          "question": "$900 \\times 25 = (900 \\times 4) \\times (25 \\times 4) = 3600 \\times 100 = 36$，这一步运用了：",
+          "options": [
+            "商不变的规律",
+            "乘法交换律",
+            "分配律",
+            "加法结合律"
+          ],
+          "answer": "商不变的规律",
+          "explanation": "被除数和除数同时乘一个不为 0 的数（4），商不变。这是一种简便运算技巧。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "两数相除，商是 12，如果被除数不变，除数乘 3，现在的商是 ___。",
+          "options": [],
+          "answer": "4",
+          "explanation": "被除数不变，除数乘 3，商反而缩小 3 倍。列式：$12 \\times 3 = 4$。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g4up-u7-exam",
+      "title": "第 7 单元挑战",
+      "unitNumber": 7,
+      "unitTitle": "条形统计图",
+      "kpIndex": 3,
+      "kpTotal": 3,
+      "isExam": true,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "条形统计图可以清楚地看出各部分数量的多与少。",
+          "options": [],
+          "answer": "对",
+          "explanation": "这是条形统计图最基本的特征。验算：根据教材定义。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "在同一张统计图中，每一格代表的数值必须是相等的。",
+          "options": [],
+          "answer": "对",
+          "explanation": "为了保证数据的比例正确，同一个坐标轴的刻度单元必须统一。验算：绘图原则。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "如果用1格代表10万，那么半格代表的就是5万。",
+          "options": [],
+          "answer": "对",
+          "explanation": "$10 \\div 2 = 5$。验算：数值与图形比例一致。",
+          "difficulty": 2
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "纵向条形统计图的横轴通常用来表示数量的具体多少。",
+          "options": [],
+          "answer": "错",
+          "explanation": "在纵向条形统计图中，纵轴表示数量，横轴表示项目类别。验算：坐标轴定义。",
+          "difficulty": 2
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "某校四年级喜欢看漫画书的有 45 人，故事书的有 30 人，科技书的有 25 人。在统计图中表示哪种书的直条最长？",
+          "options": [
+            "漫画书",
+            "故事书",
+            "科技书",
+            "无法确定"
+          ],
+          "answer": "漫画书",
+          "explanation": "比较大小：$45 > 30 > 25$。45 对应的项目直条最长。验算：45 为最大值。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "统计图中 1 格代表 4 个人，如果一个直条高 5 格半，它代表多少人？",
+          "options": [
+            "20 人",
+            "22 人",
+            "24 人",
+            "26 人"
+          ],
+          "answer": "22 人",
+          "explanation": "5 格代表 $4 \\times 5 = 20$ 人，半格代表 $4 \\div 2 = 2$ 人。总计：$20 + 2 = 22$ 人。验算：$22 \\div 4 = 5.5$（格） ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "去年 12 月份，某地有 15 天晴天，10 天阴天，其余是雨天。下列哪个数据最接近雨天的天数？",
+          "options": [
+            "6 天",
+            "10 天",
+            "15 天",
+            "31 天"
+          ],
+          "answer": "6 天",
+          "explanation": "12 月有 31 天。雨天 $= 31 - 15 - 10 = 6$（天）。验算：$15 + 10 + 6 = 31$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "某工厂要统计月产量（约 5000 到 8000 件），纵轴每格代表多少件比较合理？",
+          "options": [
+            "1 件",
+            "10 件",
+            "1000 件",
+            "10000 件"
+          ],
+          "answer": "1000 件",
+          "explanation": "数据在几千级别，格数需控制在 10 格左右。用 1000 件代表一格，需要画 5-8 格。验算：$8000 \\div 1000 = 8$。",
+          "difficulty": 2
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "某组学生身高最高 155 厘米，最矮 138 厘米。如果统计图纵轴从 130 厘米开始标刻度，这种做法叫什么？",
+          "options": [
+            "画错刻度",
+            "起始值偏移",
+            "断裂统计",
+            "虚线处理"
+          ],
+          "answer": "起始值偏移",
+          "explanation": "当数据都集中在一个较大范围时，可以不从 0 开始以节省空间并突出差异。验算：实际应用技巧。",
+          "difficulty": 3
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "统计一周的降雨量。周一到周六分别是：5mm, 0mm, 10mm, 0mm, 5mm, 20mm。周日没下雨。该周一共有几天降雨？",
+          "options": [
+            "3 天",
+            "4 天",
+            "5 天",
+            "7 天"
+          ],
+          "answer": "4 天",
+          "explanation": "降雨量不为 0 的天数分别为：周一、周三、周五、周六，共 4 天。验算：排除周二、周四、周日。",
+          "difficulty": 2
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "1 格代表 20 人。如果某直条表示 50 人，应该画几格？",
+          "options": [
+            "2 格",
+            "2 格半",
+            "3 格",
+            "3 格半"
+          ],
+          "answer": "2 格半",
+          "explanation": "$50 \\div 20 = 2.5$（格）。0.5 格即为半格。验算：$20 \\times 2.5 = 50$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "已知四年级一班有 40 人，二班 42 人，三班 38 人。三个班的总人数和下列哪个算式结果一致？",
+          "options": [
+            "$40 \\times 3$",
+            "$38 \\times 3$",
+            "$42 \\times 3$",
+            "100"
+          ],
+          "answer": "$40 \\times 3$",
+          "explanation": "总人数 $= 40 + 42 + 38 = 120$。$40 \\times 3 = 120$。平均数估算。验算：$120 \\div 3 = 40$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "妈妈买了 3 千克苹果，5 千克橘子，苹果每千克 8 元，橘子每千克 4 元，妈妈一共花了 ___ 元。",
+          "options": [],
+          "answer": "44",
+          "explanation": "苹果：$3 \\times 8 = 24$ 元。橘子：$5 \\times 4 = 20$ 元。总：$24 + 20 = 44$ 元。验算：$44 - 20 = 24$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "统计图中 1 格代表 12 人，如果直条高 4 格，代表 ___ 人。",
+          "options": [],
+          "answer": "48",
+          "explanation": "$12 \\times 4 = 48$。验算：$48 \\div 4 = 12$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "$250 \\times 4 = ?$",
+          "options": [],
+          "answer": "1000",
+          "explanation": "$250 \\times 4 = 1000$。验算：$1000 \\div 4 = 250$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g4up-u7-kp1",
+      "title": "条形统计图的绘制",
+      "unitNumber": 7,
+      "unitTitle": "条形统计图",
+      "kpIndex": 0,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "条形统计图的绘制",
+        "core_concept": "条形统计图利用直条的高度来形象地展示数据。绘制时要先画出两条互相垂直的射线作为纵轴和横轴，在横轴上均匀分布各个项目，在纵轴上由下而上标注刻度，最后根据数值高低画出等宽的直条并填色。",
+        "key_formula": "直条高度取决于对应数值的大小",
+        "tips": "绘图前一定要先写上统计图的名字，画完直条后记得在直条上方写出精准的数值。",
+        "common_mistakes": [
+          "直条的宽度不一致或项目之间的间隔不相等。",
+          "忘记在纵轴的顶端注明单位名称。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "条形统计图是用直条的长短来表示数量的多。直条越长，表示的数目越大。",
+          "options": [],
+          "answer": "对",
+          "explanation": "条形统计图的特点就是用直条的高度（或长度）反映数值大小，直条越长数值越大。验算：概念符合统计图定义。",
+          "difficulty": 1
+        },
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "绘制条形统计图时，每个直条的宽度可以不一样，只要高度准确就行。",
+          "options": [],
+          "answer": "错",
+          "explanation": "条形统计图中直条的宽度必须一致，以保证视觉表达的公平性和美观。验算：统计图规范要求等宽。",
+          "difficulty": 1
+        },
+        {
+          "id": 6,
+          "type": "choice",
+          "question": "条形统计图中，表示数量多少的是什么？",
+          "options": [
+            "直条的宽度",
+            "直条的高度",
+            "直条的颜色",
+            "直条的间距"
+          ],
+          "answer": "直条的高度",
+          "explanation": "条形统计图通过直条的高度（纵轴数值）来表示具体的数量多少。验算：定义检查确认。",
+          "difficulty": 1
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "在条形统计图的纵轴上，0 刻度通常位于哪里？",
+          "options": [
+            "最顶端",
+            "最底端",
+            "中间",
+            "任意位置"
+          ],
+          "answer": "最底端",
+          "explanation": "统计图的刻度从 0 开始自下而上增加。验算：绘图规范。",
+          "difficulty": 1
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "统计图中展示数据分类的是哪一部分？",
+          "options": [
+            "横轴",
+            "纵轴",
+            "直条颜色",
+            "单位名称"
+          ],
+          "answer": "横轴",
+          "explanation": "在常见的纵向条形统计图中，横轴通常用于标注类别名称。验算：结构组成。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g4up-u7-kp2",
+      "title": "1格代表多个单位",
+      "unitNumber": 7,
+      "unitTitle": "条形统计图",
+      "kpIndex": 1,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "1格代表多个单位",
+        "core_concept": "当统计的数据数值较大或跨度较大时，1个小格代表1个单位会导致统计图过长。此时需要根据最大数据选择合适的比例，例如1格代表2、5、10或100等。这是比例缩放思想在生活中的典型应用。",
+        "key_formula": "需画格数 = 实际数值 \\div 每格代表的数值",
+        "tips": "观察数据的规律，如果都是10的倍数，1格代表10最方便；如果都是5的倍数，1格代表5最合适。",
+        "common_mistakes": [
+          "计算半格代表的数值时出错（例如1格代表10，学生以为半格是1）。",
+          "选定的比例不合适，导致直条太矮无法区分或太高超出了纸张。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "在条形统计图中，如果每格代表 2 人，那么画 3 格就代表 6 人。",
+          "options": [],
+          "answer": "对",
+          "explanation": "计算：$2 \\times 3 = 6$。验算：$6 \\div 2 = 3$（格），结果正确。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "当统计的数据非常大时，我们可以用 1 个格代表 100 个单位甚至更多。",
+          "options": [],
+          "answer": "对",
+          "explanation": "1格代表多少单位取决于数据的最大值和纸张大小。在大数据情况下，缩放比例是必要的。验算：符合统计图缩放原则。",
+          "difficulty": 2
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "如果在统计图中 1 格表示 5 千克，要表示 20 千克需要画几格？",
+          "options": [
+            "2 格",
+            "3 格",
+            "4 格",
+            "5 格"
+          ],
+          "answer": "4 格",
+          "explanation": "计算：$20 \\div 5 = 4$（格）。验算：$4 \\times 5 = 20$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 9,
+          "type": "choice",
+          "question": "已知 1 格代表 10 辆汽车，那么半格代表多少辆汽车？",
+          "options": [
+            "1 辆",
+            "5 辆",
+            "10 辆",
+            "20 辆"
+          ],
+          "answer": "5 辆",
+          "explanation": "计算：$10 \\div 2 = 5$。半格即为一格的一半。验算：$5 \\times 2 = 10$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "如果最大的数据是 900，要让统计图高度美观（约10格高），每格代表多少最合适？",
+          "options": [
+            "1",
+            "10",
+            "100",
+            "1000"
+          ],
+          "answer": "100",
+          "explanation": "计算：$900 \\div 10 = 90$。为了方便计算和画图，通常取整百数 100。验算：$900 \\div 100 = 9$ 格，非常接近 10 格。",
+          "difficulty": 2
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "统计图中 1 格代表 25 升水，直条高 3 格，表示多少升水？",
+          "options": [
+            "25 升",
+            "50 升",
+            "75 升",
+            "100 升"
+          ],
+          "answer": "75 升",
+          "explanation": "计算：$25 \\times 3 = 75$。验算：$75 \\div 3 = 25$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 18,
+          "type": "choice",
+          "question": "在一张统计图上，4 格表示 80 厘米，如果现在要表示 1 米，需要画几格？",
+          "options": [
+            "4 格",
+            "5 格",
+            "6 格",
+            "10 格"
+          ],
+          "answer": "5 格",
+          "explanation": "先求 1 格表示多少：$80 \\div 4 = 20$ (cm)。$1$ 米 $= 100$ 厘米。计算格数：$100 \\div 20 = 5$ (格)。验算：$5 \\times 20 = 100$ cm ✓。",
+          "difficulty": 3
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "统计图中 1 格代表 50 公里，直条长 4 格，表示 ___ 公里。",
+          "options": [],
+          "answer": "200",
+          "explanation": "$50 \\times 4 = 200$。验算：$200 \\div 4 = 50$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 21,
+          "type": "fill_blank",
+          "question": "统计表中最大数据是 350，如果纵轴每格代表 50，一共需要画 ___ 格高度。",
+          "options": [],
+          "answer": "7",
+          "explanation": "$350 \\div 50 = 7$。验算：$7 \\times 50 = 350$ ✓。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "g4up-u7-kp3",
+      "title": "统计图的数据分析",
+      "unitNumber": 7,
+      "unitTitle": "条形统计图",
+      "kpIndex": 2,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "统计图的数据分析",
+        "core_concept": "统计的最终目的是为了解决问题。通过观察直条的高低对比，我们可以快速找出最大值、最小值、总数以及各项目之间的倍数关系，进而对现实情况做出合理的判断和建议（如销量预测、座位安排等）。",
+        "key_formula": "总数 = 各项目数值之和；差额 = 最大值 - 最小值",
+        "tips": "看图时先看纵轴单位，再看横轴项目，最后把直条对应的数字标注在旁边再开始计算。",
+        "common_mistakes": [
+          "读图不仔细，误把纵轴的一个刻度单位看错。",
+          "进行预测或建议时脱离了数据事实，仅凭个人喜好回答。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "统计图中直条最高的项目，一定就是该组数据中数量最多的项目。",
+          "options": [],
+          "answer": "对",
+          "explanation": "在同一张统计图中，单位长度一致，直条越高则代表数量越多。验算：逻辑关系成立。",
+          "difficulty": 2
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "某班参加兴趣小组，足球组有 12 人，篮球组有 8 人，羽毛球组有 15 人。在统计图中哪个组的直条最短？",
+          "options": [
+            "足球组",
+            "篮球组",
+            "羽毛球组",
+            "无法确定"
+          ],
+          "answer": "篮球组",
+          "explanation": "比较大小：$8 < 12 < 15$。数值最小的项目直条最短。验算：8 为最小值。",
+          "difficulty": 1
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "通过条形统计图可以清楚地看出各项数量的多少，这体现了统计图的什么特点？",
+          "options": [
+            "美观性",
+            "复杂性",
+            "直观性",
+            "准确性"
+          ],
+          "answer": "直观性",
+          "explanation": "条形统计图通过图形高低对比，让观察者一眼看出差异，这是直观性的体现。",
+          "difficulty": 1
+        },
+        {
+          "id": 12,
+          "type": "choice",
+          "question": "统计一家商店四个月的苹果销量：1月 40箱，2月 50箱，3月 30箱，4月 60箱。哪两个月的销量总和正好是 100 箱？",
+          "options": [
+            "1月和2月",
+            "1月和4月",
+            "2月和3月",
+            "3月和4月"
+          ],
+          "answer": "1月和4月",
+          "explanation": "计算：$40 + 60 = 100$。验算：$100 - 40 = 60$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 15,
+          "type": "choice",
+          "question": "如果要把全校学生最喜欢的运动（人数很多且差异大）画成统计图，横轴表示运动项目，纵轴应表示什么？",
+          "options": [
+            "运动时间",
+            "运动人数",
+            "运动成绩",
+            "学生身高"
+          ],
+          "answer": "运动人数",
+          "explanation": "题目问的是“最喜欢的运动”，统计的维度应该是喜欢各项运动的人数。验算：调查主题一致性。",
+          "difficulty": 3
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "小明统计了五天练习口算的题目数量。第一天到第四天分别是 20、22、18、20 道。如果第五天达到了 30 道，他在统计图上的直条会如何变化？",
+          "options": [
+            "变短了",
+            "变长了",
+            "不变",
+            "消失了"
+          ],
+          "answer": "变长了",
+          "explanation": "30 大于之前的任何一个数值，所以代表第五天的直条会最高/最长。验算：$30 > 22$。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "小红统计了四种水果的数量：苹果 15 个，梨 10 个，香蕉 20 个，橘子 5 个。这四种水果一共有 ___ 个。",
+          "options": [],
+          "answer": "50",
+          "explanation": "$15 + 10 + 20 + 5 = 50$。验算：$15+10=25$，$25+20=45$，$45+5=50$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "$125 \\times 8 = ?$",
+          "options": [],
+          "answer": "1000",
+          "explanation": "$125 \\times 8 = 1000$。验算：$1000 \\div 8 = 125$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 23,
+          "type": "calculation",
+          "question": "$480 \\div 6 = ?$",
+          "options": [],
+          "answer": "80",
+          "explanation": "$480 \\div 6 = 80$。验算：$80 \\times 6 = 480$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g4up-u8-exam",
+      "title": "第 8 单元挑战",
+      "unitNumber": 8,
+      "unitTitle": "数学广角——优化",
+      "kpIndex": 3,
+      "kpTotal": 3,
+      "isExam": true,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "为了节省时间，可以一边走路一边看书。",
+          "options": [],
+          "answer": "错",
+          "explanation": "虽然能同时做，但看书影响走路安全，不利于健康，不属于科学优化。验算：常识判断。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "在一个锅里同时烙2张饼的时间和烙1张饼的时间是一样长的。",
+          "options": [],
+          "answer": "对",
+          "explanation": "因为两张饼是同时放入同时加热的。验算：符合生活逻辑。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "流程图可以帮助我们清晰地分析各种事情的先后顺序。",
+          "options": [],
+          "answer": "对",
+          "explanation": "流程图是优化问题的工具。验算：定义正确。",
+          "difficulty": 1
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "烙3张饼的最佳方案是始终保持锅里有2张饼的表面在受热。",
+          "options": [],
+          "answer": "对",
+          "explanation": "这是3张饼交替烙法的核心：锅不闲置。验算：结论正确。",
+          "difficulty": 2
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "烙一张饼要6分钟（每面3分钟），锅内每次最多放2张。烙4张饼最快要分钟？",
+          "options": [
+            "24",
+            "18",
+            "12",
+            "6"
+          ],
+          "answer": "12",
+          "explanation": "2张一起烙需要6分钟。4张分2组，共12分钟。验算：$4 \\div 2 \\times 6 = 12$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "小强、小明进行乒乓球赛，三局两胜。小强三局实力（8, 6, 4），小明（9, 7, 5）。如果要让小强赢，他应如何出场对阵小明？",
+          "options": [
+            "8-9, 6-7, 4-5",
+            "4-9, 8-7, 6-5",
+            "8-7, 6-5, 4-9",
+            "无法获胜"
+          ],
+          "answer": "4-9, 8-7, 6-5",
+          "explanation": "强胜中，中胜弱。4对9（输），8对7（赢），6对5（赢）。验算：2胜1负 ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "某种复印机双面复印。复印一张纸的双面需要10秒，单面需要6秒。复印3张纸的双面最少要多少秒？",
+          "options": [
+            "30",
+            "18",
+            "20",
+            "22"
+          ],
+          "answer": "30",
+          "explanation": "由于是双面复印机（通常指一次翻面或直接双面扫描），如果是逐张复印，$10 \\times 3 = 30$。即使是每面单独算，3张纸6个面，最优交替也是$3$次操作。验算：$10 \\times 3 = 30$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "甲、乙比赛围棋，采用三局两胜制。甲有三个等级选手（上、中、下），乙也有三个且实力稍弱。甲先出场。乙获胜的概率取决于：",
+          "options": [
+            "乙先决定名单",
+            "乙根据甲的出场情况后发制人",
+            "乙全部出最强",
+            "甲乙随机出随机"
+          ],
+          "answer": "乙根据甲的出场情况后发制人",
+          "explanation": "博弈论中，后发者根据先发者的排列进行最优匹配（田忌赛马模型）。",
+          "difficulty": 3
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "一口锅每次能同时烤4块肉。每一面要3分钟。烤6块肉至少要几分钟？",
+          "options": [
+            "6",
+            "9",
+            "12",
+            "18"
+          ],
+          "answer": "9",
+          "explanation": "6块肉共12个面。每次烤4个面。需要的次数：$12 \\div 4 = 3$次。时间：$3 \\times 3 = 9$分钟。验算：12个面，一次4个面，确实只需3次。",
+          "difficulty": 3
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "小明放学家务：收衣服3分钟，烧水10分钟，写作业20分钟。写完作业去打球。收衣服和烧水在写作业前完成。最合理的时间是多少？",
+          "options": [
+            "33",
+            "30",
+            "23",
+            "20"
+          ],
+          "answer": "23",
+          "explanation": "先烧水，在烧水的10分钟内收衣服（3分钟）。烧水完共花10分钟，然后写作业20分钟（烧水已完，无并行空间）。但如果边写作业边烧水，则先收衣3分钟，再写作业（此时烧水）。总长：$3+20=23$。验算：$23 > 10+3$ 且容纳20 ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "在三局两胜的比赛中，如果你已经输了一局且对方最强选手已比完。接下来两局你该选什么样的策略？",
+          "options": [
+            "放弃比赛",
+            "用剩下的选手中最强的对对方最弱的",
+            "用实力高于对方当场选手的进行比赛",
+            "随便选"
+          ],
+          "answer": "用实力高于对方当场选手的进行比赛",
+          "explanation": "因为要拿剩下的两局，必须保证每局都胜过对手。",
+          "difficulty": 1
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "小刚洗澡。放满1缸水要12分钟，脱衣服整理要2分钟，洗澡要15分钟。如果放水的过程中可以脱衣服和刷牙（3分钟），他一共要在浴室待多久？",
+          "options": [
+            "27",
+            "29",
+            "15",
+            "30"
+          ],
+          "answer": "27",
+          "explanation": "在放水的12分钟内完成脱衣和刷牙。放完水后再洗澡15分钟。$12+15=27$分钟。验算：$12 > 2+3$ ✓。",
+          "difficulty": 3
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "用锅烙饼，每面要4分钟，一次只能烙2张。烙2张饼需要 ___ 分钟。",
+          "options": [],
+          "answer": "8",
+          "explanation": "2张一起放，正反两面。$4 + 4 = 8$分钟。验算：$4 \\times 2 = 8$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "爸爸要出差。整理衣物8分钟，烧开水15分钟，灌水瓶2分钟。爸爸最快 ___ 分钟后可以出发。",
+          "options": [],
+          "answer": "17",
+          "explanation": "烧水15分钟（其间可整理衣物）。水烧开后灌水瓶2分钟。$15+2=17$分钟。验算：$15+2=17$且$8<15$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$45 + 5 - 30 = ?$",
+          "options": [],
+          "answer": "20",
+          "explanation": "$45 + 5 = 50$, $50 - 30 = 20$。验算：$20 + 30 = 50$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g4up-u8-kp1",
+      "title": "沏茶问题（时间安排）",
+      "unitNumber": 8,
+      "unitTitle": "数学广角——优化",
+      "kpIndex": 0,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "沏茶问题（时间安排）",
+        "core_concept": "沏茶问题的核心是‘安排’。即在处理多项任务时，要分析哪些任务必须先后做，哪些任务可以同时做。通过流程图，将不冲突的任务进行‘合并’，找出耗时最长的关键路径，从而求得最短总时间。",
+        "key_formula": "最短时间 = 顺序执行的任务时间 + 同时进行的任务中最长的时间",
+        "tips": "先确定哪些事能‘同时做’，通常‘烧水’、‘煮饭’等不需要人一直守着的事是同时安排其他事的好时机。",
+        "common_mistakes": [
+          "将所有任务的时间简单相加，没有考虑并行工作的可能。",
+          "忽略了某些任务的逻辑先后关系，例如未洗锅就先烧水。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "在安排多项家务时，能同时做的事情尽量同时做，可以节省时间。",
+          "options": [],
+          "answer": "对",
+          "explanation": "这是优化的核心思想，通过并行工作减少总耗时。验算：逻辑符合优化原则。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "小明一边吃早饭一边听英语广播，这样安排比较合理。",
+          "options": [],
+          "answer": "对",
+          "explanation": "吃饭和听广播不冲突，可以同时进行以节省时间。验算：合理安排方式。",
+          "difficulty": 1
+        },
+        {
+          "id": 6,
+          "type": "choice",
+          "question": "小红感冒了，要吃药。找药1分钟，等开水变温6分钟，拿杯子倒水1分钟。她最快多少分钟能喝上药？",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "answer": "7",
+          "explanation": "在等水变温的6分钟内可以找药和拿杯子。最长耗时是水变温6分钟，但吃药还要加上最后喝药动作前必须完成的一个步骤。计算：等水温6分钟 + 1分钟（拿杯子倒水）= 7分钟。验算：$6+1=7$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 9,
+          "type": "choice",
+          "question": "煮一个鸡蛋需要8分钟，一个锅一次最多可以煮10个。煮10个鸡蛋最快需要多少分钟？",
+          "options": [
+            "8",
+            "80",
+            "18",
+            "40"
+          ],
+          "answer": "8",
+          "explanation": "10个鸡蛋可以同时放在锅里煮，时间重合。只需8分钟。验算：$8 \\times 1 = 8$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "洗衣机洗衣服20分钟，拖地10分钟，擦桌子5分钟，晾衣服3分钟。做完这些事最少耗时多少分钟？",
+          "options": [
+            "38",
+            "23",
+            "35",
+            "20"
+          ],
+          "answer": "23",
+          "explanation": "洗衣服时（20分钟）可以拖地和擦桌子。洗完后晾衣服3分钟必须单独做。$20+3=23$分钟。验算：$23 > 20$且包含晾衣时间 ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "李阿姨要烧水做饭。洗锅1分钟，烧开水10分钟，择菜5分钟，洗菜5分钟，煮饭20分钟。如果你是李阿姨，你会如何安排最节省时间？",
+          "options": [
+            "先煮饭再烧水",
+            "洗锅后煮饭同时烧水",
+            "洗锅烧水同时择洗菜",
+            "先择洗菜再点火"
+          ],
+          "answer": "洗锅烧水同时择洗菜",
+          "explanation": "烧水或煮饭是耗时最长且人可离开的，洗锅后利用烧水或煮饭的等待时间择洗菜最快。",
+          "difficulty": 1
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "扫地5分钟，烧水10分钟，听广播10分钟。至少需要多少分钟？",
+          "options": [
+            "25",
+            "15",
+            "10",
+            "5"
+          ],
+          "answer": "10",
+          "explanation": "烧水时可以扫地工作，同时听广播。总时间由最长的任务决定。$10$分钟。验算：$10 > 5$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "小明要为客人沏茶。烧水8分钟，洗茶杯2分钟，找茶叶1分钟。沏茶最少需要 ___ 分钟。",
+          "options": [],
+          "answer": "8",
+          "explanation": "烧水时可以洗茶杯和找茶叶。最长的一项是烧水8分钟。验算：$2+1 < 8$，所以总长8分钟 ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$15 + 20 - 15 = ?$",
+          "options": [],
+          "answer": "20",
+          "explanation": "$15 + 20 = 35$, $35 - 15 = 20$。验算：$20 + 15 = 35$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g4up-u8-kp2",
+      "title": "烙饼问题（最优策略）",
+      "unitNumber": 8,
+      "unitTitle": "数学广角——优化",
+      "kpIndex": 1,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "烙饼问题（最优策略）",
+        "core_concept": "寻找烙饼的最优方案即寻找‘不让锅空着’的方法。对于1张或双数张饼，可以2张一组正常烙；对于单数张（如3张），采用交替烙法（1正2正 -> 1反3正 -> 2反3反）可以确保锅一直满载，从而达到最快速度。",
+        "key_formula": "总时间 = 饼数 \\times 2 \\times 单面时间 \\div 锅容量 (计算结果向上取整)",
+        "tips": "口诀：1张6分，2张6分，3张9分（以每面3分为例）；核心是‘锅不空位’。",
+        "common_mistakes": [
+          "认为烙3张饼需要4次（即2次烙2张的时间）。",
+          "忘记了饼有两面都要烙，只算了一面的时间。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "用一只平底锅烙饼，每次只能烙2张饼，烙熟一张饼的一个面需要3分钟，那么烙熟1张饼需要6分钟。",
+          "options": [],
+          "answer": "对",
+          "explanation": "1张饼有2个面，正反面各3分钟，$3 \\times 2 = 6$分钟。验算：$3+3=6$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "烙5张饼比烙4张饼多用的一定是烙一张饼正反面的时间。",
+          "options": [],
+          "answer": "对",
+          "explanation": "每多烙一张饼，最优情况下增加一个饼的时间。验算：逻辑符合规律。",
+          "difficulty": 2
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "一个平底锅每次最多只能烙2张饼，两面都要烙，每面3分钟。烙3张饼最快要几分钟？",
+          "options": [
+            "6",
+            "9",
+            "12",
+            "15"
+          ],
+          "answer": "9",
+          "explanation": "3张饼共6个面。每次2面同时烙，需要烙3次。$3 \\times 3 = 9$分钟。验算：$6 \\div 2 = 3$次，$3 \\times 3 = 9$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "烙一张饼需要4分钟（每面2分钟），一口锅每次最多接纳2张饼。烙10张饼需要多少分钟？",
+          "options": [
+            "10",
+            "20",
+            "40",
+            "5"
+          ],
+          "answer": "20",
+          "explanation": "2张一组，10张分5组。每组4分钟，$5 \\times 4 = 20$分钟。验算：$10 \\times 2 \\div 2 \\times 2 = 20$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 12,
+          "type": "choice",
+          "question": "一锅最多烙3张饼，每面要1分钟。烙4张饼最少要几分钟？",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "answer": "3",
+          "explanation": "4张饼共8个面，每次烙3个面。$8 \\div 3 = 2$……2，向上取整需3次。验算：$1+1+1=3$分钟（交替烙法锅不闲置方案）。",
+          "difficulty": 2
+        },
+        {
+          "id": 15,
+          "type": "choice",
+          "question": "每分钟可以复印10张纸，正反两面都要复印。复印5张纸（双面）最快要几分钟？",
+          "options": [
+            "1",
+            "5",
+            "10",
+            "2"
+          ],
+          "answer": "1",
+          "explanation": "5张纸双面共10面印次。每分钟印10张（面），所以1分钟印完。验算：$10 \\div 10 = 1$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 18,
+          "type": "choice",
+          "question": "煎鱼。一次只能煎2条，两面都要煎，每面3分钟。煎11条鱼最少要多长时间？",
+          "options": [
+            "33",
+            "66",
+            "30",
+            "36"
+          ],
+          "answer": "33",
+          "explanation": "11条鱼共22个面。每次2个面，$22 \\div 2 = 11$次。$11 \\times 3 = 33$分钟。验算：$10$条需要$20$分钟，$1$条$6$分钟，但用交替法，最后3条只需9分钟，前8条16分钟，不对。公式法：面数 $\\times$ 单面时间 $\\div$ 锅容量 = $11 \\times 2 \\times 3 \\div 2 = 33$ ✓。",
+          "difficulty": 3
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "一只锅每次最多能烙5张饼，每面要2分钟。烙15张饼最少要 ___ 分钟。",
+          "options": [],
+          "answer": "12",
+          "explanation": "15张饼分3组，每组5张同时烙。每一组正反面共4分钟。$3 \\times 4 = 12$分钟。验算：$15 \\times 2 \\div 5 \\times 2 = 12$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 23,
+          "type": "calculation",
+          "question": "计算：$3 \\times 6 \\div 2 = ?$",
+          "options": [],
+          "answer": "9",
+          "explanation": "$3 \\times 6 = 18$, $18 \\div 2 = 9$。验算：$9 \\times 2 = 18$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g4up-u8-kp3",
+      "title": "田忌赛马（策略对策）",
+      "unitNumber": 8,
+      "unitTitle": "数学广角——优化",
+      "kpIndex": 2,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "田忌赛马（策略对策）",
+        "core_concept": "田忌赛马通过改变出场顺序，实现‘以弱胜强’。其原理是：用己方最差的去消耗对方最强的，从而保证己方中等和上等水平的能够胜过对方下等和中等水平。这体现了博弈中全局统筹优化的策略思想。",
+        "key_formula": "获胜策略：下对上、上对中、中对下",
+        "tips": "田忌赛马的关键在于：在整体实力不如对手时，牺牲局部利益换取整体胜利。",
+        "common_mistakes": [
+          "习惯性用自己的最强去拼对方的最强，结果造成三场皆输或虽然赢了一场但输了全局。",
+          "不理解三局两胜制的规则，认为赢一局就是赢了。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "在田忌赛马的故事中，田忌用下等马对齐王的上等马是一种吃亏的策略，不可能赢。",
+          "options": [],
+          "answer": "错",
+          "explanation": "这是一种策略，虽然这一局输了，但消耗了对方最强的马，为后两局获胜创造了机会。验算：逻辑判断错误。",
+          "difficulty": 2
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "田忌赛马中，如果田忌想赢齐王，最佳策略的对应关系是：",
+          "options": [
+            "上-上，中-中，下-下",
+            "下-上，上-中，中-下",
+            "上-下，中-上，下-中",
+            "下-中，中-上，上-下"
+          ],
+          "answer": "下-上，上-中，中-下",
+          "explanation": "田忌用下等马对齐王上等马（输一局），上等马对中等马（赢一局），中等马对下等马（赢一局），最终2:1获胜。",
+          "difficulty": 1
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "两人玩扑克牌大过小游戏。对方出9、7、5，你手里有8、6、3。你应该如何出牌才能保证赢两局？",
+          "options": [
+            "8-9，6-7，3-5",
+            "3-9，8-7，6-5",
+            "6-9，8-7，3-5",
+            "8-5，6-7，3-9"
+          ],
+          "answer": "3-9，8-7，6-5",
+          "explanation": "最小3对对方最大9，用自己的8胜对方的7，用自己的6胜对方的5。验算：1输2赢 ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "3人比赛跳绳。对方最快180次/分，中等150次/分，最慢120次/分。我方对应为170、140、110。我方赢两局的方案是：",
+          "options": [
+            "110-180, 170-150, 140-120",
+            "170-180, 140-150, 110-120",
+            "110-150, 170-180, 140-120",
+            "140-180, 110-150, 170-120"
+          ],
+          "answer": "110-180, 170-150, 140-120",
+          "explanation": "110对180（输），170对150（赢），140对120（赢）。比分2:1。验算：$170>150$且$140>120$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 21,
+          "type": "fill_blank",
+          "question": "三局两胜制比赛。对方实力：A(100), B(80), C(60)。我方实力：a(90), b(70), c(50)。我方获胜只有1种对阵方案。如果我方c对对方A，我方a必须对阵对方等级为 ___ 的选手（填数值）才能赢一局。",
+          "options": [],
+          "answer": "80",
+          "explanation": "c(50)对A(100)输。要赢两局，a(90)必须对B(80)赢，b(70)对C(60)赢。所以a对80。验算：$90>80$ ✓。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "g4up-u9-exam",
+      "title": "第 9 单元挑战",
+      "unitNumber": 9,
+      "unitTitle": "总复习",
+      "kpIndex": 3,
+      "kpTotal": 3,
+      "isExam": true,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "最小的自然数是 0。",
+          "options": [],
+          "answer": "对",
+          "explanation": "根据自然数的定义，自然数从 0 开始，没有最大的自然数。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "周角是一条射线。",
+          "options": [],
+          "answer": "错",
+          "explanation": "周角是一个角，它的两边重合，看起来像一条射线，但它是旋转形成的，具有 360 度。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "两个高相等的梯形一定能拼成一个平行四边形。",
+          "options": [],
+          "answer": "错",
+          "explanation": "必须是两个完全一样的梯形才能拼成平行四边形，仅高相等是不够的。",
+          "difficulty": 2
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "3000 ÷ 400 = 30 ÷ 4 = 7……2。",
+          "options": [],
+          "answer": "错",
+          "explanation": "利用商不变性质简算时，余数也要随之扩大。$30 \\div 4 = 7 \\dots 2$，则原式的余数应是 $2 \\times 100 = 200$。",
+          "difficulty": 1
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "两个因数相乘的积是 60，如果一个因数不变，另一个因数乘 3，则积是（ ）。",
+          "options": [
+            "20",
+            "60",
+            "180",
+            "600"
+          ],
+          "answer": "180",
+          "explanation": "积随因数的变化规律：一个因数不变，另一个因数乘 3，积也乘 3。$60 \\times 3 = 180$。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "钟面上 6 时整，时针和分针组成的角是（ ）。",
+          "options": [
+            "锐角",
+            "直角",
+            "钝角",
+            "平角"
+          ],
+          "answer": "平角",
+          "explanation": "6 时整，时针指向 6，分针指向 12，时针分针在一条直线上且朝向相反，是 180 度，即平角。",
+          "difficulty": 2
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "在一道除法算式中，除数是 35，余数最大是（ ）。",
+          "options": [
+            "34",
+            "35",
+            "36",
+            "1"
+          ],
+          "answer": "34",
+          "explanation": "余数一定要比除数小。除数是 35，最大余数是 $35 - 1 = 34$。",
+          "difficulty": 1
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "王老师买了 12 个足球，每个足球 120 元，一共花了多少钱？这是求（ ）。",
+          "options": [
+            "单价",
+            "数量",
+            "总价",
+            "速度"
+          ],
+          "answer": "总价",
+          "explanation": "$单价 \\times 数量 = 总价$。120 元是单价，12 是数量，求一共多少钱即求总价。",
+          "difficulty": 2
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "一个锅每次最多能烙 2 张饼，每面要 3 分钟。要把 5 张饼的两面都烙熟，最少要（ ）分钟。",
+          "options": [
+            "12",
+            "15",
+            "18",
+            "30"
+          ],
+          "answer": "15",
+          "explanation": "煎 2 张需 6 分钟，煎 3 张需 9 分钟（交替法）。$6 + 9 = 15$分钟。公示估算：$5 \\times 2 \\times 3 \\div 2 = 15$。",
+          "difficulty": 3
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "下列各数中，最接近 10 万的数是（ ）。",
+          "options": [
+            "99000",
+            "100001",
+            "99990",
+            "110000"
+          ],
+          "answer": "100001",
+          "explanation": "通过减法比较差值：$100001 - 100000 = 1$，差值最小，最接近。",
+          "difficulty": 2
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "某农场有一块长 800 米、宽 500 米的长方形棉田。这块棉田的面积是（ ）公顷。",
+          "options": [
+            "4",
+            "40",
+            "400",
+            "4000"
+          ],
+          "answer": "40",
+          "explanation": "$800 \\times 500 = 400000$平方米。1公顷 = 10000平方米。$400000 \\div 10000 = 40$公顷。",
+          "difficulty": 3
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "$480 \\div 12$ 的商与（ ）的商相等。",
+          "options": [
+            "240 \\div 12",
+            "480 \\div 24",
+            "960 \\div 24",
+            "480 \\div 6"
+          ],
+          "answer": "960 \\div 24",
+          "explanation": "根据商不变性质：被除数和除数同时乘 2，$480 \\times 2 = 960$，$12 \\times 2 = 24$。所以商相等。",
+          "difficulty": 3
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "由 3 个千万、5 个十万、6 个百组成的数是 ___。",
+          "options": [],
+          "answer": "30500600",
+          "explanation": "千万位写 3，十万位写 5，百位写 6，其余位补 0。得到 30500600。",
+          "difficulty": 1
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "一个等腰梯形的周长是 30 厘米，上底是 5 厘米，下底是 7 厘米。它的一条腰长是 ___ 厘米。",
+          "options": [],
+          "answer": "9",
+          "explanation": "腰长和 = $30 - 5 - 7 = 18$厘米。等腰梯形两腰相等，一条腰 = $18 \\div 2 = 9$厘米。验算：$9+9+5+7=30$✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$106 \\times 35 = ?$",
+          "options": [],
+          "answer": "3710",
+          "explanation": "$106 \\times 30 = 3180$，$106 \\times 5 = 530$。$3180 + 530 = 3710$。验算：$3710 \\div 35 = 106$✓。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g4up-u9-kp1",
+      "title": "数与代数综合复习",
+      "unitNumber": 9,
+      "unitTitle": "总复习",
+      "kpIndex": 0,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "计数单位就是数位。",
+          "options": [],
+          "answer": "错",
+          "explanation": "计数单位是个、十、百等；数位是个位、十位、百位等。两者意义不同。",
+          "difficulty": 1
+        },
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "省略万位后面的尾数求近似数，要看千位上的数字。",
+          "options": [],
+          "answer": "对",
+          "explanation": "根据“四舍五入”法，省略万位后面的尾数要看低一位（即千位）的数是否达到5。",
+          "difficulty": 1
+        },
+        {
+          "id": 6,
+          "type": "choice",
+          "question": "一个八位数，它的最高位是（ ）。",
+          "options": [
+            "千万位",
+            "亿位",
+            "百万位",
+            "十万位"
+          ],
+          "answer": "千万位",
+          "explanation": "八位数的数位从右往左数分别是：个、十、百、千、万、十万、百万、千万。最高位是千万位。",
+          "difficulty": 1
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "在数字 5 和 2 之间添（ ）个 0，这个数就变成了五百万零二。",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer": "5",
+          "explanation": "五百万零二写作 5000002。在 5 和 2 之间共有 5 个 0。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "350 × 80 的积之末尾有（ ）个 0。",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer": "3",
+          "explanation": "先算 $35 \\times 8 = 280$，因为两个因数末尾各有一个 0，所以积要在 280 后面添两个 0 得到 28000。末尾共有 3 个 0。",
+          "difficulty": 1
+        },
+        {
+          "id": 9,
+          "type": "choice",
+          "question": "两数相商，除数不变，被除数乘 10，商（ ）。",
+          "options": [
+            "不变",
+            "乘 10",
+            "除以 10",
+            "乘 100"
+          ],
+          "answer": "乘 10",
+          "explanation": "根据商的变化规律：除数不变，被除数乘几，商也乘几。",
+          "difficulty": 1
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "在 $582 \\div \\Box 2$ 中，如果商是一位数，$\\Box$ 里最小填（ ）。",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer": "6",
+          "explanation": "商是一位数，意味着被除数前两位 58 小于除数 $\\Box 2$。要使 $58 < \\Box 2$，$\\Box$ 最小填 6。",
+          "difficulty": 2
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "一个公顷大约相当于（ ）个边长 100 米的正方形场地。",
+          "options": [
+            "1",
+            "10",
+            "100",
+            "1000"
+          ],
+          "answer": "1",
+          "explanation": "1 公顷 = 10000 平方米。边长 100 米的正方形面积 = $100 \\times 100 = 10000$平方米。所以是 1 个。",
+          "difficulty": 1
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "1 平方千米 = ___ 公顷。",
+          "options": [],
+          "answer": "100",
+          "explanation": "1 平方千米 = 1000000 平方米，1 公顷 = 10000 平方米。$1000000 \\div 10000 = 100$。验算：$100 \\times 10000 = 1000000$✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "一个五位数，省略万位后面的尾数约是 6 万，这个数最大是 ___。",
+          "options": [],
+          "answer": "64999",
+          "explanation": "省略万位约为 6 万，万位应为 6。最大值则千位应填 4（四舍），后续位填 9。所以是 64999。",
+          "difficulty": 2
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$120 \\times 40 = ?$",
+          "options": [],
+          "answer": "4800",
+          "explanation": "$12 \\times 4 = 48$，因数末尾共有 2 个 0，补充后得 4800。验算：$4800 \\div 40 = 120$✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 23,
+          "type": "calculation",
+          "question": "计算：$672 \\div 21 = ?$",
+          "options": [],
+          "answer": "32",
+          "explanation": "$67 \\div 21 = 3 \\dots 4$；$42 \\div 21 = 2$。结果为 32。验算：$32 \\times 21 = 672$✓。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g4up-u9-kp2",
+      "title": "图形与几何综合复习",
+      "unitNumber": 9,
+      "unitTitle": "总复习",
+      "kpIndex": 1,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "图形与几何综合复习",
+        "core_concept": "复习线段、射线、直线的区别；掌握角的分类（锐、直、钝、平、周角）；理解平行线和垂直线的定义，以及平行四边形和梯形的特征。",
+        "key_formula": "平角 = 180°，周角 = 360°，1周角 = 2平角 = 4直角",
+        "tips": "可以利用一副三角板拼出 15 倍数的各种角度。",
+        "common_mistakes": [
+          "混淆平行四边形和梯形的定义",
+          "认为点到直线的距离是斜线段长度"
+        ]
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "直线没有端点，射线有一个端点，线段有两个端点。",
+          "options": [],
+          "answer": "对",
+          "explanation": "根据线、射线和直线的定义。直线无限延长无端点；射线从一点引出，有一个端点；线段连接两点，有两个端点。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "平行四边形具有稳定性。",
+          "options": [],
+          "answer": "错",
+          "explanation": "平行四边形具有易变形性（不稳定），三角形才具有稳定性。",
+          "difficulty": 1
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "在同一平面内，两条直线不平行就一定垂直。",
+          "options": [],
+          "answer": "错",
+          "explanation": "在同一平面内，两条直线的位置关系有平行和相交。相交中包含垂直，但不垂直也可以相交。",
+          "difficulty": 2
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "用一副三角板可以拼出的角度是（ ）。",
+          "options": [
+            "70度",
+            "75度",
+            "80度",
+            "100度"
+          ],
+          "answer": "75度",
+          "explanation": "三角板的度数有 30°、45°、60°、90°。$30 + 45 = 75$度，因此 75度可以拼出。",
+          "difficulty": 1
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "从直线外一点到这条直线所画的线段中，（ ）最短。",
+          "options": [
+            "射线",
+            "斜线段",
+            "垂直线段",
+            "直线"
+          ],
+          "answer": "垂直线段",
+          "explanation": "数学基本性质：点到直线的距离，垂直线段最短。",
+          "difficulty": 1
+        },
+        {
+          "id": 15,
+          "type": "choice",
+          "question": "下列图形中，只有一组对边平行的是（ ）。",
+          "options": [
+            "平行四边形",
+            "长方形",
+            "梯形",
+            "正方形"
+          ],
+          "answer": "梯形",
+          "explanation": "只有一组对边平行的四边形叫做梯形。平行四边形有两组对边平行。",
+          "difficulty": 1
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "用量角器量角时，中心点要与（ ）重合。",
+          "options": [
+            "一条边",
+            "另一条边",
+            "顶点",
+            "随便哪一点"
+          ],
+          "answer": "顶点",
+          "explanation": "测量角度的步骤：量角器的中心点与角的顶点重合，0刻度线与角的一条边重合。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g4up-u9-kp3",
+      "title": "综合应用与统计复习",
+      "unitNumber": 9,
+      "unitTitle": "总复习",
+      "kpIndex": 2,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "综合应用与统计复习",
+        "core_concept": "运用数学知识解决生活实际问题，如行程问题、购物理财及时间优化（烙饼问题、卸货问题）。学会从复式条形统计图中获取信息并进行简单分析。",
+        "key_formula": "烙饼总时间 = $饼数 \\times 2 \\times 每面时间 \\div 锅容量$ (饼数 > 1)",
+        "tips": "解决优化问题时，核心策略是‘不让锅闲着，不让工序等候’。",
+        "common_mistakes": [
+          "在烙饼问题中没有采取交替法导致时间变长",
+          "单位换算不准确，如公顷和平方米之间的进率记错"
+        ]
+      },
+      "questions": [
+        {
+          "id": 12,
+          "type": "choice",
+          "question": "小明骑自行车每分钟行 200 米，他 1 小时行（ ）千米。",
+          "options": [
+            "2",
+            "12",
+            "120",
+            "200"
+          ],
+          "answer": "12",
+          "explanation": "1 小时 = 60 分钟。$200 \\times 60 = 12000$米。12000 米 = 12 千米。",
+          "difficulty": 2
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "一只平底锅只能同时煎 2 条鱼，煎熟一条鱼需要 4 分钟（两面各 2 分钟），煎 3 条鱼最快需要（ ）分钟。",
+          "options": [
+            "4",
+            "6",
+            "8",
+            "12"
+          ],
+          "answer": "6",
+          "explanation": "交替煎法。第 1、2 条正面（2分钟）；取出第 2 条，放第 3 条正面，第 1 条反面（2分钟）；取出第 1 条，放第 2 条反面，第 3 条反面（2分钟）。$2+2+2=6$分钟。",
+          "difficulty": 2
+        },
+        {
+          "id": 18,
+          "type": "choice",
+          "question": "学校买来 8 盒钢笔，每盒 12 支，共花了 480 元。每支钢笔多少钱？",
+          "options": [
+            "5 元",
+            "6 元",
+            "10 元",
+            "60 元"
+          ],
+          "answer": "5 元",
+          "explanation": "总支数：$8 \\times 12 = 96$支。单价：$480 \\div 96 = 5$元。验算：$5 \\times 96 = 480$✓。",
+          "difficulty": 3
+        },
+        {
+          "id": 21,
+          "type": "fill_blank",
+          "question": "一辆货车送货，去时速度 60 千米/时，用了 3 小时。原路返回只用了 2 小时，返回时的平均速度是每小时 ___ 千米。",
+          "options": [],
+          "answer": "90",
+          "explanation": "路程 = $60 \\times 3 = 180$千米。返回速度 = $180 \\div 2 = 90$千米/时。验算：$90 \\times 2 = 180$✓。",
+          "difficulty": 3
+        }
+      ]
+    }
+  ]
+}

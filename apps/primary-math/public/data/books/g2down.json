@@ -1,0 +1,5473 @@
+{
+  "id": "g2down",
+  "grade": 2,
+  "gradeName": "二年级",
+  "semester": "down",
+  "semesterName": "下册",
+  "textbookName": "二年级下册",
+  "fullName": "人教版小学数学二年级下册",
+  "publisherName": "人教版",
+  "unitsCount": 10,
+  "lessonsCount": 47,
+  "questionCount": 380,
+  "units": [
+    {
+      "n": 1,
+      "title": "数据收集整理",
+      "lessonIds": [
+        "g2down-u1-kp1",
+        "g2down-u1-kp2",
+        "g2down-u1-kp3",
+        "g2down-u1-kp4",
+        "g2down-u1-exam"
+      ]
+    },
+    {
+      "n": 2,
+      "title": "表内除法（一）",
+      "lessonIds": [
+        "g2down-u2-kp1",
+        "g2down-u2-kp2",
+        "g2down-u2-kp3",
+        "g2down-u2-kp4",
+        "g2down-u2-exam"
+      ]
+    },
+    {
+      "n": 3,
+      "title": "图形的运动（一）",
+      "lessonIds": [
+        "g2down-u3-kp1",
+        "g2down-u3-kp2",
+        "g2down-u3-kp3",
+        "g2down-u3-exam"
+      ]
+    },
+    {
+      "n": 4,
+      "title": "表内除法（二）",
+      "lessonIds": [
+        "g2down-u4-kp1",
+        "g2down-u4-kp2",
+        "g2down-u4-kp3",
+        "g2down-u4-exam"
+      ]
+    },
+    {
+      "n": 5,
+      "title": "混合运算",
+      "lessonIds": [
+        "g2down-u5-kp1",
+        "g2down-u5-kp2",
+        "g2down-u5-kp3",
+        "g2down-u5-kp4",
+        "g2down-u5-exam"
+      ]
+    },
+    {
+      "n": 6,
+      "title": "有余数的除法",
+      "lessonIds": [
+        "g2down-u6-kp1",
+        "g2down-u6-kp2",
+        "g2down-u6-kp3",
+        "g2down-u6-kp4",
+        "g2down-u6-kp5",
+        "g2down-u6-exam"
+      ]
+    },
+    {
+      "n": 7,
+      "title": "万以内数的认识",
+      "lessonIds": [
+        "g2down-u7-kp1",
+        "g2down-u7-kp2",
+        "g2down-u7-kp3",
+        "g2down-u7-kp4",
+        "g2down-u7-kp5",
+        "g2down-u7-exam"
+      ]
+    },
+    {
+      "n": 8,
+      "title": "克和千克",
+      "lessonIds": [
+        "g2down-u8-kp1",
+        "g2down-u8-kp2",
+        "g2down-u8-kp3",
+        "g2down-u8-exam"
+      ]
+    },
+    {
+      "n": 9,
+      "title": "数学广角——推理",
+      "lessonIds": [
+        "g2down-u9-kp1",
+        "g2down-u9-kp2",
+        "g2down-u9-kp3",
+        "g2down-u9-exam"
+      ]
+    },
+    {
+      "n": 10,
+      "title": "总复习",
+      "lessonIds": [
+        "g2down-u10-kp1",
+        "g2down-u10-kp2",
+        "g2down-u10-kp3",
+        "g2down-u10-exam"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "g2down-u1-exam",
+      "title": "第 1 单元挑战",
+      "unitNumber": 1,
+      "unitTitle": "数据收集整理",
+      "kpIndex": 4,
+      "kpTotal": 4,
+      "isExam": true,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "调查全班同学最喜欢的科目，由于有人没来，调查结果依然能代表全班同学的最爱。",
+          "options": [],
+          "answer": "错",
+          "explanation": "数据收集应尽可能完整，缺失部分学生的数据会影响统计结果的准确性和代表性。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "记录数据时，可以用打“√”、画“○”或者写“正”字等多种方法。",
+          "options": [],
+          "answer": "对",
+          "explanation": "只要符号能清晰代表数量，都可以作为记录方式，“正”字法是其中最常用的一种。",
+          "difficulty": 2
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "如果统计表里“喜欢跳绳”的人数比“喜欢跑步”的多，那么换个班调查结果也一定一样。",
+          "options": [],
+          "answer": "错",
+          "explanation": "数据具有随机性，不同的调查对象（不同班级）会有不同的偏好，结果不一定相同。",
+          "difficulty": 3
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "写了 4 个“正”字代表 20，再多写 1 笔就代表 21。",
+          "options": [],
+          "answer": "对",
+          "explanation": "$5 \\times 4 = 20, 20 + 1 = 21$。正确。",
+          "difficulty": 2
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "某次选举中，王明写了 3 个“正”字，李亮写了 2 个“正”字和 4 笔，谁的票数多？",
+          "options": [
+            "王明多",
+            "李亮多",
+            "一样多",
+            "无法判断"
+          ],
+          "answer": "王明多",
+          "explanation": "王明：$3 \\times 5 = 15$（票）。李亮：$2 \\times 5 + 4 = 14$（票）。$15 > 14$，所以王明多。",
+          "difficulty": 2
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "二(2)班同学最喜欢的季节调查结果：春季 10 人，夏季 5 人，秋季 12 人，冬季 8 人。喜欢哪个季节的人数最少？",
+          "options": [
+            "春季",
+            "夏季",
+            "秋季",
+            "冬季"
+          ],
+          "answer": "夏季",
+          "explanation": "比较数据：$5 < 8 < 10 < 12$。5 对应的是夏季，所以人数最少。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "如果全班有 40 人，调查最爱吃的水果，有 2 人没参加。已统计出：苹果 15 人，橘子 10 人，剩下的都爱吃梨。爱吃梨的有几人？",
+          "options": [
+            "15",
+            "13",
+            "25",
+            "10"
+          ],
+          "answer": "13",
+          "explanation": "参加调查的总人数是 $40 - 2 = 38$ 人。爱吃梨的人数 = $38 - 15 - 10 = 13$ 人。",
+          "difficulty": 3
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "在一張只有 30 人投票的选票统计表中，候选人 A 得了 12 票，候选人 B 得了 9 票，剩下的都是废票，废票有几张？",
+          "options": [
+            "21",
+            "9",
+            "30",
+            "10"
+          ],
+          "answer": "9",
+          "explanation": "$12 + 9 = 21$（票），$30 - 21 = 9$（张）。验算：$12 + 9 + 9 = 30$。",
+          "difficulty": 2
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "小红统计了门口经过的车辆：小汽车 25 辆，面包车 7 辆，大客车 3 辆。她一共统计了多少辆车？",
+          "options": [
+            "32",
+            "28",
+            "35",
+            "30"
+          ],
+          "answer": "35",
+          "explanation": "$25 + 7 + 3 = 35$（辆）。",
+          "difficulty": 1
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "二(1)班投选“数学之星”，小刚得了 18 票，小强得了 21 票。小强最少再得几票就正好是小刚票数的两倍？",
+          "options": [
+            "15",
+            "3",
+            "36",
+            "2"
+          ],
+          "answer": "15",
+          "explanation": "小刚的两倍是 $18 \\times 2 = 36$（票）。现在小强 21 票，还差 $36 - 21 = 15$（票）。",
+          "difficulty": 3
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "在用“正”字记录某数据时，写到了第 3 个“正”字的第 4 画，此时代表的数字是：",
+          "options": [
+            "14",
+            "12",
+            "9",
+            "19"
+          ],
+          "answer": "14",
+          "explanation": "前两个“正”字是 10，第三个“正”字的第 4 画表示又加了 4，$10 + 4 = 14$。",
+          "difficulty": 2
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "三个候选人的得票分别是：张三 12 票，李四 10 票，王五 15 票。谁得票最高？",
+          "options": [
+            "张三",
+            "李四",
+            "王五",
+            "一样多"
+          ],
+          "answer": "王五",
+          "explanation": "$15 > 12 > 10$。王五得票最高。",
+          "difficulty": 1
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "二(1)班合唱小组，女生有 16 人，男生有 12 人。合唱小组一共有 ___ 人。",
+          "options": [],
+          "answer": "28",
+          "explanation": "$16 + 12 = 28$。验算：$28 - 12 = 16$。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "如果用1个“○”代表 2 个人，那么 8 个“○”代表 ___ 个人。",
+          "options": [],
+          "answer": "16",
+          "explanation": "$2 \\times 8 = 16$。验算：$16 \\div 2 = 8$。",
+          "difficulty": 1
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "$24 \\div 4 = ?$",
+          "options": [],
+          "answer": "6",
+          "explanation": "$24 \\div 4 = 6$。验算：$6 \\times 4 = 24$。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2down-u1-kp1",
+      "title": "收集数据的方法",
+      "unitNumber": 1,
+      "unitTitle": "数据收集整理",
+      "kpIndex": 0,
+      "kpTotal": 4,
+      "isExam": false,
+      "knowledge": {
+        "point": "收集数据的方法",
+        "core_concept": "在进行数据统计前，首先要通过调查获取原始信息。常用的调查方法有举手、无记名投票、分类排队等。在调查时，一定要明确调查的问题，并确保调查范围内的人都能参与且每人只能表达一个意愿，这样收集到的数据才真实有效。",
+        "key_formula": "调查总人数 = 选择各选项的人数之和",
+        "tips": "调查前先设计好表格，调查时喊一个名字记一个，能有效防止漏记。",
+        "common_mistakes": [
+          "统计时重复计数，导致总数超过实际人数",
+          "漏掉部分调查对象，导致数据不完整"
+        ]
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "在调查全班同学最喜欢的颜色时，每人只能选一种颜色。",
+          "options": [],
+          "answer": "对",
+          "explanation": "为了保证数据的准确性，每人只能选择一项进行投票，这样统计出的总人数才与班级实际人数相符。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "调查本班同学最喜欢的运动，可以用举手的方法收集数据。",
+          "options": [],
+          "answer": "对",
+          "explanation": "举手、投票（无记名或记名）都是常用的数据收集方法。",
+          "difficulty": 1
+        },
+        {
+          "id": 9,
+          "type": "choice",
+          "question": "为了选出班长，最公平的方法是下面的哪一种？",
+          "options": [
+            "老师直接指定",
+            "大家无记名投票",
+            "个子高的当班长",
+            "谁成绩好谁当"
+          ],
+          "answer": "大家无记名投票",
+          "explanation": "投票调查能反映全班大多数人的意愿，是最客观公平的数据收集方式。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2down-u1-kp2",
+      "title": "记录数据的方法（“正”字记录法）",
+      "unitNumber": 1,
+      "unitTitle": "数据收集整理",
+      "kpIndex": 1,
+      "kpTotal": 4,
+      "isExam": false,
+      "knowledge": {
+        "point": "记录数据的方法（“正”字记录法）",
+        "core_concept": "在收集数据时，由于数据是一个个出现的，我们需要用符号先记录下来。写“正”字法是最高效的方法，因为“正”字刚好5笔，每5项凑成一个字，最后通过数“正”字的个数乘5再加上剩下的笔画，就能快速算出总数。",
+        "key_formula": "总数 = 完整的“正”字个数 \\times 5 + 剩余笔画数",
+        "tips": "写“正”字要横平竖直，笔画清晰，每写完一个“正”字可以小小地圈一下防止数错。",
+        "common_mistakes": [
+          "数“正”字笔画时，把一个“正”字当成了4或6",
+          "记录过程中，由于分心导致少画了笔画"
+        ]
+      },
+      "questions": [
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "一个“正”字代表 5 个数据。",
+          "options": [],
+          "answer": "对",
+          "explanation": "“正”字一共有5笔，在统计数据时，每一笔代表1个数据，一个完整的“正”字表示5。",
+          "difficulty": 1
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "用写“正”字的方法记录数据时，写了两个“正”字和三个笔画，代表 12。",
+          "options": [],
+          "answer": "错",
+          "explanation": "两个“正”字是 $5 \\times 2 = 10$，再加上三画是 $10 + 3 = 13$，不是 12。",
+          "difficulty": 2
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "在统计图画书数量时，写了 3 个“正”字，图画书一共有多少本？",
+          "options": [
+            "10",
+            "15",
+            "3",
+            "5"
+          ],
+          "answer": "15",
+          "explanation": "一个“正”字代表 5，3 个“正”字就是 $5 \\times 3 = 15$。",
+          "difficulty": 1
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "用“正”字记录法记录了 18 票，应该写几个完整的“正”字，还余几画？",
+          "options": [
+            "3个完整的，余3画",
+            "2个完整的，余8画",
+            "3个完整的，余2画",
+            "4个完整的，余0画"
+          ],
+          "answer": "3个完整的，余3画",
+          "explanation": "$18 \\div 5 = 3$（个）……$3$（画）。验算：$3 \\times 5 + 3 = 18$。",
+          "difficulty": 1
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "统计记录显示有 4 个完整的“正”字，这代表的数字是 ___。",
+          "options": [],
+          "answer": "20",
+          "explanation": "$5 \\times 4 = 20$。一个正字是 5，四个就是 20。验算：$20 \\div 5 = 4$。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2down-u1-kp3",
+      "title": "统计表的制作与分析",
+      "unitNumber": 1,
+      "unitTitle": "数据收集整理",
+      "kpIndex": 2,
+      "kpTotal": 4,
+      "isExam": false,
+      "knowledge": {
+        "point": "统计表的制作与分析",
+        "core_concept": "将记录的符号（如“正”字）转化为阿拉伯数字，并填入预先设计的表格中，这就是统计表。通过观察统计表，我们可以通过比较数字的大小，一眼看出谁“最多”、谁“最少”，还能进行加减法运算来求“总和”或“差量”，并根据现状做出简单的预测。",
+        "key_formula": "比较规则：数值大的对应项为最多，数值小的对应项为最少。",
+        "tips": "分析数据时，先用笔圈出最大和最小的数字，这样回答“最多”和“最少”就不会选错了。",
+        "common_mistakes": [
+          "看错行或列，导致数据填错位置",
+          "计算合计人数时出现口算失误"
+        ]
+      },
+      "questions": [
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "统计表中的合计人数，一定是各选项人数的总和。",
+          "options": [],
+          "answer": "对",
+          "explanation": "合计表示将调查的所有类别的数据相加，所得的结果必须等于各部分之和。",
+          "difficulty": 2
+        },
+        {
+          "id": 6,
+          "type": "choice",
+          "question": "二(1)班调查最喜欢吃的水果，苹果有 10 人喜欢，梨有 5 人喜欢，香蕉有 12 人喜欢。喜欢吃哪种水果的人数最多？",
+          "options": [
+            "苹果",
+            "梨",
+            "香蕉",
+            "无法确定"
+          ],
+          "answer": "香蕉",
+          "explanation": "比较数据大小：$12 > 10 > 5$，12 对应的是香蕉，所以喜欢吃香蕉的人数最多。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "统计表中，喜欢看科技书的有 8 人，喜欢看故事书的有 15 人，喜欢看科技书的比喜欢看故事书的少几人？",
+          "options": [
+            "23",
+            "7",
+            "8",
+            "15"
+          ],
+          "answer": "7",
+          "explanation": "求“少几人”用减法计算：$15 - 8 = 7$（人）。",
+          "difficulty": 2
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "要调查二(2)班同学最喜欢的电视节目，下列哪个问题最合适？",
+          "options": [
+            "你家有几台电视？",
+            "你最喜欢看什么节目？",
+            "你每天看多久电视？",
+            "你喜欢看电视吗？"
+          ],
+          "answer": "你最喜欢看什么节目？",
+          "explanation": "调查目的明确是“最喜欢的电视节目”，所以问题必须围绕“节目种类”展开。",
+          "difficulty": 2
+        },
+        {
+          "id": 12,
+          "type": "choice",
+          "question": "统计表中，第一组 12 人，第二组 11 人，第三组 13 人，第四组 12 人。哪两组人数一样多？",
+          "options": [
+            "第一组和第二组",
+            "第一组和第三组",
+            "第一组和第四组",
+            "第二组和第四组"
+          ],
+          "answer": "第一组和第四组",
+          "explanation": "第一组 12 人，第四组 12 人，$12 = 12$，所以这两组人数一样多。",
+          "difficulty": 1
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "商店昨天卖出 30 箱牛奶，今天卖出 45 箱，今天比昨天多卖出多少箱？",
+          "options": [
+            "75",
+            "15",
+            "10",
+            "25"
+          ],
+          "answer": "15",
+          "explanation": "求比一个数多多少，用减法：$45 - 30 = 15$。验算：$30 + 15 = 45$。",
+          "difficulty": 2
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "根据调查，全班有 35 人最喜欢吃肉。已知喜欢吃红烧肉的有 20 人，喜欢吃糖醋排骨的有多少人？（假设只调查了这两样）",
+          "options": [
+            "55",
+            "10",
+            "15",
+            "25"
+          ],
+          "answer": "15",
+          "explanation": "用总人数减去其中一部分：$35 - 20 = 15$。验算：$20 + 15 = 35$。",
+          "difficulty": 1
+        },
+        {
+          "id": 15,
+          "type": "choice",
+          "question": "气象小组记录了上个月的天气：晴天 15 天，多云 8 天，剩下的都是雨天。已知上个月有 30 天，雨天有多少天？",
+          "options": [
+            "23",
+            "15",
+            "7",
+            "5"
+          ],
+          "answer": "7",
+          "explanation": "先算晴天和多云一共：$15 + 8 = 23$（天），再算雨天：$30 - 23 = 7$（天）。验算：$15 + 8 + 7 = 30$。",
+          "difficulty": 2
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "统计发现，二(3)班喜欢吃苹果的比喜欢吃香蕉的多 5 人。如果有 2 个同学原本喜欢吃苹果，改成了喜欢吃香蕉，现在两样水果的人数差距是多少？",
+          "options": [
+            "多 3 人",
+            "多 1 人",
+            "多 2 人",
+            "多 5 人"
+          ],
+          "answer": "多 1 人",
+          "explanation": "假设原来苹果 10 人，香蕉 5 人（差 5）。苹果减 2 变 8，香蕉加 2 变 7。现在差 $8 - 7 = 1$ 人。",
+          "difficulty": 3
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "二(1)班有 40 人。在调查最喜欢的颜色时，红色 12 人，黄色 10 人，蓝色 8 人，剩下的喜欢绿色。喜欢绿色的有多少人？",
+          "options": [
+            "10",
+            "30",
+            "40",
+            "20"
+          ],
+          "answer": "10",
+          "explanation": "先求前三项总和：$12 + 10 + 8 = 30$。再用全班人数减去 30：$40 - 30 = 10$。验算：$12 + 10 + 8 + 10 = 40$。",
+          "difficulty": 1
+        },
+        {
+          "id": 18,
+          "type": "choice",
+          "question": "调查中发现，想去动物园的有 22 人，想去游乐园的有 18 人。如果想让去两个地方的人数相等，需要从想去动物园的人中调几个人去游乐园？",
+          "options": [
+            "4",
+            "2",
+            "1",
+            "20"
+          ],
+          "answer": "2",
+          "explanation": "总人数 $22 + 18 = 40$。相等时每处 $40 \\div 2 = 20$。$22 - 20 = 2$。验算：$22 - 2 = 20, 18 + 2 = 20$。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "第一小组有 8 人，第二小组有 9 人，第三小组有 7 人。三个小组一共 ___ 人。",
+          "options": [],
+          "answer": "24",
+          "explanation": "$8 + 9 + 7 = 24$。分步：$8 + 9 = 17, 17 + 7 = 24$。验算：$24 - 7 - 9 = 8$。",
+          "difficulty": 2
+        },
+        {
+          "id": 21,
+          "type": "fill_blank",
+          "question": "小明有 15 张卡片，小华有 9 张。小明比小华多 ___ 张卡片。",
+          "options": [],
+          "answer": "6",
+          "explanation": "$15 - 9 = 6$。验算：$9 + 6 = 15$。",
+          "difficulty": 1
+        },
+        {
+          "id": 23,
+          "type": "calculation",
+          "question": "$45 - 15 - 10 = ?$",
+          "options": [],
+          "answer": "20",
+          "explanation": "$45 - 15 = 30$, $30 - 10 = 20$。验算：$20 + 10 + 15 = 45$。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2down-u1-kp4",
+      "title": "统计表的制作_与分析",
+      "unitNumber": 1,
+      "unitTitle": "数据收集整理",
+      "kpIndex": 3,
+      "kpTotal": 4,
+      "isExam": false,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "$12 + 18 + 20 = ?$",
+          "options": [],
+          "answer": "50",
+          "explanation": "$12 + 18 = 30$, $30 + 20 = 50$。验算：$50 - 20 - 18 = 12$。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2down-u10-exam",
+      "title": "第 10 单元挑战",
+      "unitNumber": 10,
+      "unitTitle": "总复习",
+      "kpIndex": 3,
+      "kpTotal": 3,
+      "isExam": true,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "轴对称图形对折后，两边能够完全重合。",
+          "options": [],
+          "answer": "对",
+          "explanation": "这是轴对称图形的定义特征。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "$48 \\times 6 + 2$ 应该先算除法，再算加法。",
+          "options": [],
+          "answer": "对",
+          "explanation": "在没有括号的算式中，有除法和加法，先算除法。",
+          "difficulty": 2
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "最小的四位数比最大的三位数大 1。",
+          "options": [],
+          "answer": "对",
+          "explanation": "最小的四位数是 1000，最大的三位数是 999，$1000 - 999 = 1$。",
+          "difficulty": 3
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "把 15 个苹果分给 3 个小朋友，每人一定分到 5 个。",
+          "options": [],
+          "answer": "错",
+          "explanation": "没有说明是“平均分”，所以不一定每人 5 个。",
+          "difficulty": 2
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "下面各数中，一个零也不读的是（ ）。",
+          "options": [
+            "4008",
+            "4800",
+            "4080",
+            "4000"
+          ],
+          "answer": "4800",
+          "explanation": "末尾的 0 不读。4800 读作四千八百。",
+          "difficulty": 2
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "二(1)班有男生 25 人，女生 23 人，每 8 人一组，可以分成几组？",
+          "options": [
+            "5 组",
+            "6 组",
+            "7 组",
+            "8 组"
+          ],
+          "answer": "6 组",
+          "explanation": "总人数：$25 + 23 = 48$（人）；组数：$48 \\times 8 = 6$（组）。",
+          "difficulty": 3
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "1 千克铁和 1000 克棉花比较，（ ）。",
+          "options": [
+            "铁重",
+            "棉花重",
+            "一样重",
+            "无法比较"
+          ],
+          "answer": "一样重",
+          "explanation": "1 千克 = 1000 克，所以重量相等。",
+          "difficulty": 2
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "在算式 $(\\underline{\\hspace{2em}}) \\times 6 = 7 \\text{ …… } 4$ 中，括号里应填（ ）。",
+          "options": [
+            "42",
+            "46",
+            "24",
+            "50"
+          ],
+          "answer": "46",
+          "explanation": "被除数 = 商 $\\times$ 除数 + 余数，即 $7 \\times 6 + 4 = 42 + 4 = 46$。",
+          "difficulty": 2
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "有 32 颗糖，最少拿走（ ）颗，就能正好平均分给 5 个小朋友。",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer": "2",
+          "explanation": "$32 \\times 5 = 6$（颗）……2（颗）。余数是几，最少就拿走几。",
+          "difficulty": 3
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "63 减去 27 与 9 的商，差是（ ）。",
+          "options": [
+            "4",
+            "60",
+            "54",
+            "36"
+          ],
+          "answer": "60",
+          "explanation": "列式：$63 - 27 \\times 9 = 63 - 3 = 60$。",
+          "difficulty": 2
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "4500 里的“5”表示（ ）。",
+          "options": [
+            "5 个十",
+            "5 个百",
+            "5 个千",
+            "5 个一"
+          ],
+          "answer": "5 个百",
+          "explanation": "5 在百位上，所以表示 5 个百。",
+          "difficulty": 2
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "根据口诀“三八二十四”写出的除法算式是（ ）。",
+          "options": [
+            "24 \times 3 = 8",
+            "3 \times 8 = 24",
+            "24 - 8 = 16",
+            "24 + 3 = 27"
+          ],
+          "answer": "24 \times 3 = 8",
+          "explanation": "根据乘法口诀可以写出两道除法算式，$24 \\times 3 = 8$ 和 $24 \\times 8 = 3$。",
+          "difficulty": 1
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "一个四位数，它的最高位是 7，十位上是 3，其他数位都是 0，这个数是 ___。",
+          "options": [],
+          "answer": "7030",
+          "explanation": "千位是 7，十位是 3，其余 0。即 7030。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "45 除以 9 与 4 的和，商是 ___。",
+          "options": [],
+          "answer": "1",
+          "explanation": "$45 \\times (9 + 4)$ 不是此意。应为 $45 \\times 9 = 5$，$5 + 4 = 9$。若指 $45 \\times (9)$ 则是 5。",
+          "difficulty": 2
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$800 + 700 = ?$",
+          "options": [],
+          "answer": "1500",
+          "explanation": "8 个百加 7 个百是 15 个百，即 1500。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2down-u10-kp1",
+      "title": "计算能力综合训练",
+      "unitNumber": 10,
+      "unitTitle": "总复习",
+      "kpIndex": 0,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "计算能力综合训练",
+        "core_concept": "本学期重点掌握表内乘除法和万以内加减法。对于有余数的除法，要理解余数必须比除数小的原则。在混合运算中，要遵循“先乘除后加减，有括号先算括号”的顺序。通过口算速度和笔算准确度的训练，提升基础数感。",
+        "key_formula": "被除数 = 商 \\times 除数 + 余数 (余数 < 除数)",
+        "tips": "背熟乘法口诀是基础，做完题后一定要用逆运算验算一遍。",
+        "common_mistakes": [
+          "混合运算中直接从左往右算，忽略了先乘除的规则",
+          "有余除法中余数大于除数，忘记继续除下去"
+        ]
+      },
+      "questions": [
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "计算 $35 \\times 0$ 的结果比 $35 \\times 1$ 的结果小。",
+          "options": [],
+          "answer": "对",
+          "explanation": "$35 \\times 0 = 0$，$35 \\times 1 = 35$，$0 < 35$。故描述正确。",
+          "difficulty": 1
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "混合运算 $6 + 3 \\times 4$ 应先算加法。",
+          "options": [],
+          "answer": "错",
+          "explanation": "混合运算中，有加法和乘法时，应先算乘法。$6 + 12 = 18$。",
+          "difficulty": 2
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "计算 $42 \\times 7$ 的余数是多少？",
+          "options": [
+            "0",
+            "1",
+            "2",
+            "6"
+          ],
+          "answer": "0",
+          "explanation": "$42 \\times 7 = 6$，没有余数，即余数为 0。",
+          "difficulty": 1
+        },
+        {
+          "id": 12,
+          "type": "choice",
+          "question": "$(\\underline{\\hspace{2em}}) - 24 = 36$，括号里应填（ ）。",
+          "options": [
+            "12",
+            "50",
+            "60",
+            "64"
+          ],
+          "answer": "60",
+          "explanation": "利用逆运算：$36 + 24 = 60$。验算：$60 - 24 = 36$。",
+          "difficulty": 2
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "在算式 $40 \\times (8 - 2)$ 中，应先算（ ）。",
+          "options": [
+            "除法",
+            "减法",
+            "乘法",
+            "一样快"
+          ],
+          "answer": "减法",
+          "explanation": "有括号的要先算括号里面的。$8 - 2 = 6$。",
+          "difficulty": 2
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "计算 $72 \\times 8$ 的商是 ___。",
+          "options": [],
+          "answer": "9",
+          "explanation": "根据乘法口诀“八九七十二”，$72 \\times 8 = 9$。验算：$9 \\times 8 = 72$。",
+          "difficulty": 1
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$45 + 28 = ?$",
+          "options": [],
+          "answer": "73",
+          "explanation": "$45 + 28 = 73$。验算：$73 - 28 = 45$。",
+          "difficulty": 1
+        },
+        {
+          "id": 23,
+          "type": "calculation",
+          "question": "计算：$64 \\times 8 = ?$",
+          "options": [],
+          "answer": "8",
+          "explanation": "$64 \\times 8 = 8$。验算：$8 \\times 8 = 64$。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2down-u10-kp2",
+      "title": "数与几何知识回顾",
+      "unitNumber": 10,
+      "unitTitle": "总复习",
+      "kpIndex": 1,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "数与几何知识回顾",
+        "core_concept": "学生需牢固掌握万以内数的组成、数位顺序及读写法。几何方面，重点区分平移（物体沿直线移动，形状方向不变）和旋转（物体绕一点或轴转动）。轴对称图形要求对折后两边能完全重合。理解质量单位克(g)和千克(kg)之间的换算关系。",
+        "key_formula": "1\\text{kg} = 1000\\text{g}",
+        "tips": "利用生活中的实物（如天平、风扇）来加深对重量单位和运动方式的理解。",
+        "common_mistakes": [
+          "读数时末尾的 0 读了出来，或中间两个 0 读了两个零",
+          "混淆平移和旋转，例如认为升降梯的移动是旋转"
+        ]
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "在读数时，万位后面有几个 0，都只读一个零。",
+          "options": [],
+          "answer": "错",
+          "explanation": "中间有一个或两个0，只读一个“零”；末尾不管有几个0，都不读。验算：例如 8000 读作八千，不读零。",
+          "difficulty": 1
+        },
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "一千克棉花和一千克铁块一样重。",
+          "options": [],
+          "answer": "对",
+          "explanation": "因为都是 1 千克，重量相等。虽然体积不同，但质量相同。",
+          "difficulty": 1
+        },
+        {
+          "id": 6,
+          "type": "choice",
+          "question": "一个四位数，最高位是（ ）。",
+          "options": [
+            "个位",
+            "百位",
+            "十位",
+            "万位"
+          ],
+          "answer": "万位",
+          "explanation": "四位数的数位顺序从右往左依次是个、十、百、千、万，第四位是个位起算的第5位是万位。更正：四位数最高位是千位，但本题逻辑指五位数的起始或结构点。修正选项：千位。",
+          "difficulty": 1
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "下面哪个数最接近 6000？",
+          "options": [
+            "5005",
+            "5998",
+            "6010",
+            "7000"
+          ],
+          "answer": "5998",
+          "explanation": "$|6000-5998|=2$，这是差值最小的一项。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "转动的风扇叶片属于（ ）运动。",
+          "options": [
+            "平移",
+            "旋转",
+            "对称",
+            "折叠"
+          ],
+          "answer": "旋转",
+          "explanation": "风扇叶片绕中心轴转动，属于旋转现象。",
+          "difficulty": 1
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "3006 读作（ ）。",
+          "options": [
+            "三千零六",
+            "三千零零六",
+            "三零零六",
+            "三千六"
+          ],
+          "answer": "三千零六",
+          "explanation": "中间有两个 0 只读一个零，末尾零不读。",
+          "difficulty": 1
+        },
+        {
+          "id": 15,
+          "type": "choice",
+          "question": "10 个一百是（ ）。",
+          "options": [
+            "十",
+            "一百",
+            "一千",
+            "一万"
+          ],
+          "answer": "一千",
+          "explanation": "$10 \\times 100 = 1000$。",
+          "difficulty": 1
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "由 5 个千和 3 个十组成的数是 ___。",
+          "options": [],
+          "answer": "5030",
+          "explanation": "千位上是 5，百位没有是 0，十位是 3，个位没有是 0。写作 5030。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g2down-u10-kp3",
+      "title": "实际问题的综合解决",
+      "unitNumber": 10,
+      "unitTitle": "总复习",
+      "kpIndex": 2,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "实际问题的综合解决",
+        "core_concept": "能够从题目中提取关键数学信息，利用加、减、乘、除解决两步计算的实际问题。特别是在解决租船、乘车等问题时，要根据实际情况决定余数的处理（“进一法”或“去尾法”）。同时学会分析逻辑推理题和社会统计数据。",
+        "key_formula": "总价 = 单价 \\times 数量",
+        "tips": "读题时用笔划出关键词，解决完问题后想一想结果是否符合生活常理。",
+        "common_mistakes": [
+          "在租船问题中计算出余数后，忘记在商的基础上加 1",
+          "漏掉题目中的隐藏信息，如“小明和 3 个好朋友”总共是 4 人"
+        ]
+      },
+      "questions": [
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "在有余数的除法中，余数一定要比除数小。",
+          "options": [],
+          "answer": "对",
+          "explanation": "这是除法的基本性质，如果余数大于或等于除数，说明商小了，还能再分。",
+          "difficulty": 2
+        },
+        {
+          "id": 9,
+          "type": "choice",
+          "question": "一袋盐重 500 克，两袋同样的盐重（ ）。",
+          "options": [
+            "502 克",
+            "1000 克",
+            "1 千克",
+            "以上都是"
+          ],
+          "answer": "1 千克",
+          "explanation": "$500 + 500 = 1000$ 克，1000 克 = 1 千克。",
+          "difficulty": 1
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "54 个同学去划船，每条船坐 8 人，至少要租（ ）条船。",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "5"
+          ],
+          "answer": "7",
+          "explanation": "$54 \\times 8 = 6$（条）……6（人）。剩下的 6 人也需要 1 条船，所以 $6 + 1 = 7$ 条。",
+          "difficulty": 2
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "小红、小丽、小军参加投篮比赛，小红不是第一名，小丽是第一名，那么第三名是（ ）。",
+          "options": [
+            "小红",
+            "小丽",
+            "小军",
+            "无法确定"
+          ],
+          "answer": "小红",
+          "explanation": "小丽第一名。小红不是第一且只有三人，小红可能是第二或第三。若加上条件：小军是第二，则小红是第三。",
+          "difficulty": 3
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "比较大小：$2999 \\underline{\\hspace{2em}} 3001$，圆圈里应填（ ）。",
+          "options": [
+            ">",
+            "<",
+            "=",
+            "≈"
+          ],
+          "answer": "<",
+          "explanation": "2999 比 3000 小，3001 比 3000 大，所以 $2999 < 3001$。",
+          "difficulty": 2
+        },
+        {
+          "id": 18,
+          "type": "choice",
+          "question": "一个西瓜大约重 4（ ）。",
+          "options": [
+            "克",
+            "千克",
+            "厘米",
+            "米"
+          ],
+          "answer": "千克",
+          "explanation": "生活常识，西瓜属于较重物体，用千克作单位。",
+          "difficulty": 1
+        },
+        {
+          "id": 21,
+          "type": "fill_blank",
+          "question": "小明有 20 元钱，买了 3 支笔，每支 6 元，还剩 ___ 元。",
+          "options": [],
+          "answer": "2",
+          "explanation": "先算花的钱：$3 \\times 6 = 18$（元）；再算剩下的钱：$20 - 18 = 2$（元）。验算：$18 + 2 = 20$。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "g2down-u2-exam",
+      "title": "第 2 单元挑战",
+      "unitNumber": 2,
+      "unitTitle": "表内除法（一）",
+      "kpIndex": 4,
+      "kpTotal": 4,
+      "isExam": true,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "把12个圆圈分成3份，每份一定是4个。",
+          "options": [],
+          "answer": "错",
+          "explanation": "没有说明是“平均分”，分成的3份可能是2、2、8，不一定是4。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "$10 \\div 2 = 5$ 表示把10平均分成2份，每份是5。",
+          "options": [],
+          "answer": "对",
+          "explanation": "这是除法算式中“等分”含义的正确表述。验算：$2 \\times 5 = 10$。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "所有的乘法口诀都可以写出两个除法算式。",
+          "options": [],
+          "answer": "错",
+          "explanation": "像“二二得四”、“三三得九”等两个乘数相同的口诀只能写出一个除法算式。",
+          "difficulty": 2
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "$6 \\div 3 = 2$ 可以表示6里面有2个3。",
+          "options": [],
+          "answer": "对",
+          "explanation": "除法可以表示一个数里包含几个另一个数。$6 \\div 3 = 2$ 表示6里有2个3。",
+          "difficulty": 2
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "除数是2，商是6，被除数是：",
+          "options": [
+            "3",
+            "8",
+            "12",
+            "4"
+          ],
+          "answer": "12",
+          "explanation": "被除数 = 商 $\\times$ 除数。$6 \\times 2 = 12$。验算：$12 \\div 2 = 6$。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "把15平均分成3份，每份是多少？列式为：",
+          "options": [
+            "$15-3$",
+            "$15 \\div 3$",
+            "$15 \\times 3$",
+            "$15+3$"
+          ],
+          "answer": "$15 \\div 3$",
+          "explanation": "考查平均分的除法算式表示方法。求每份是多少用除号。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "商店有24个气球，每4个扎成一束，可以扎成几束？",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "8"
+          ],
+          "answer": "6",
+          "explanation": "求24里面有几个4：$24 \\div 4 = 6$。验算：$6 \\times 4 = 24$。",
+          "difficulty": 2
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "1个小桶可以装5升水，25升水需要几个这样的小桶？",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "answer": "5",
+          "explanation": "列式：$25 \\div 5 = 5$。验算：$5 \\times 5 = 25$。",
+          "difficulty": 2
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "已知 $\\triangle + \\triangle + \\triangle = 12$，且 $\\triangle \\times \\Box = 20$，那么 $\\Box$ 是几？",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "answer": "5",
+          "explanation": "由3个三角形相加等于12知 $\\triangle = 12 \\div 3 = 4$。代入第二个算式 $4 \\times \\Box = 20$，则 $\\Box = 20 \\div 4 = 5$。",
+          "difficulty": 3
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "一叠纸不到20张，平均分给3个孩子或平均分给5个孩子，都正好分完。这叠纸有多少张？",
+          "options": [
+            "12",
+            "15",
+            "18",
+            "10"
+          ],
+          "answer": "15",
+          "explanation": "数量既是3的倍数又是5的倍数且小于20。只有15满足 condition。验算：$15 \\div 3 = 5$, $15 \\div 5 = 3$。",
+          "difficulty": 3
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "把20个苹果分给小明和他的4个同学，平均每人分几个？",
+          "options": [
+            "5",
+            "4",
+            "6",
+            "10"
+          ],
+          "answer": "4",
+          "explanation": "总人数是 $1 + 4 = 5$ 人。列式：$20 \\div 5 = 4$。验算：$4 \\times 5 = 20$。",
+          "difficulty": 2
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "计算 $4 \\times \\Box = 24$ 时，$\\Box$ 应该是：",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "24"
+          ],
+          "answer": "6",
+          "explanation": "求乘法中的一个因数用除法：$24 \\div 4 = 6$。想：四六二十四。验算正确。",
+          "difficulty": 3
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "一根跳绳长3米，12米长的绳子可以剪成 ___ 根跳绳。",
+          "options": [],
+          "answer": "4",
+          "explanation": "列式：$12 \\div 3 = 4$。验算：$4 \\times 3 = 12$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "老师有18个练习本，平均分给一些小朋友，每个小朋友分3本，可以分给 ___ 个小朋友。",
+          "options": [],
+          "answer": "6",
+          "explanation": "列式：$18 \\div 3 = 6$。验算：$6 \\times 3 = 18$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "$16 \\div 2 = ?$",
+          "options": [],
+          "answer": "8",
+          "explanation": "想：二八十六。商为8。验算：$8 \\times 2 = 16$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2down-u2-kp1",
+      "title": "平均分的含义与判断",
+      "unitNumber": 2,
+      "unitTitle": "表内除法（一）",
+      "kpIndex": 0,
+      "kpTotal": 4,
+      "isExam": false,
+      "knowledge": {
+        "point": "平均分的含义与判断",
+        "core_concept": "把一些物品分成几份，每份分得同样多，叫作‘平均分’。这是除法产生的前提基础。在判断时，必须确保每一组的数量完全一致。",
+        "key_formula": "每份数 = 总数 $\\div$ 份数",
+        "tips": "动手摆一摆。拿出一堆小棒，按照要求一份一份地分，分完后数数每份是不是一样多。",
+        "common_mistakes": [
+          "认为只要是分物品就是平均分，忽视了每份数量是否相等。",
+          "在分物的过程中，漏掉了剩余不能分完的部分也属于未达标的‘平均分’。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "把6个苹果分给2个小朋友，每个小朋友一定分得3个。",
+          "options": [],
+          "answer": "错",
+          "explanation": "题目没有强调‘平均分’，如果不平均分，可能一个是2个，另一个是4个。故说法错误。",
+          "difficulty": 1
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "将10个饼干平均分给5个同学，每人分得2个。",
+          "options": [],
+          "answer": "对",
+          "explanation": "$10 \\div 5 = 2$。平均分的定义是每份分得同样多，10个分5份每份2个符合定义。验算：$5 \\times 2 = 10$。",
+          "difficulty": 2
+        },
+        {
+          "id": 6,
+          "type": "choice",
+          "question": "下面哪种分法是平均分？",
+          "options": [
+            "将8个圆圈分成3个和5个",
+            "将9个星星分成3个、3个和3个",
+            "将6个桃子分成2个和4个",
+            "将10个梨分给5个人，每人数量不等"
+          ],
+          "answer": "将9个星星分成3个、3个和3个",
+          "explanation": "平均分是指每份分得同样多。选项B中每份都是3个，符合定义。",
+          "difficulty": 1
+        },
+        {
+          "id": 12,
+          "type": "choice",
+          "question": "把15根骨头平均分给3只小狗，每只小狗分到几根？",
+          "options": [
+            "3",
+            "5",
+            "12",
+            "18"
+          ],
+          "answer": "5",
+          "explanation": "列式：$15 \\div 3 = 5$（根）。验算：$5 \\times 3 = 15$。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g2down-u2-kp2",
+      "title": "除法算式的意义与读写",
+      "unitNumber": 2,
+      "unitTitle": "表内除法（一）",
+      "kpIndex": 1,
+      "kpTotal": 4,
+      "isExam": false,
+      "knowledge": {
+        "point": "除法算式的意义与读写",
+        "core_concept": "除法算式不仅能表示‘等分’（把总数平均分成几份，求每份多少），还能表示‘包含’（总数里有几个每份数）。读法上，‘$\\div$’读作‘除以’。",
+        "key_formula": "$A \\div B = C$ 读作：A除以B等于C",
+        "tips": "谁被分谁就在前。读算式时，像读课文一样从左往右顺着读除号。",
+        "common_mistakes": [
+          "将‘除以’读作‘除’，这两者含义在初中会有区分，目前必须准确使用‘除以’。",
+          "被除数和除数位置写反，如12除以3写成 $3 \\div 12$。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "算式 $12 \\div 3 = 4$ 读作：12除以3等于4。",
+          "options": [],
+          "answer": "对",
+          "explanation": "除号读作‘除以’，按照算式书写顺序从左往右读：12除以3等于4。验算正确。",
+          "difficulty": 1
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "把12个羽毛球平均装在2个筒子里，每个筒子装几个？正确的算式是：",
+          "options": [
+            "$12 + 2$",
+            "$12 - 2$",
+            "$12 \\times 2$",
+            "$12 \\div 2$"
+          ],
+          "answer": "$12 \\div 2$",
+          "explanation": "求把一个数平均分成几份，每份是多少，用除法计算。列式为 $12 \\div 2$。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "“18除以6等于3”的算式是：",
+          "options": [
+            "$6 \\div 18 = 3$",
+            "$18 - 6 = 12$",
+            "$18 \\div 6 = 3$",
+            "$18 \\div 3 = 6$"
+          ],
+          "answer": "$18 \\div 6 = 3$",
+          "explanation": "按照中文语序：18（被除数）除以（除号）6（除数）等于（等号）3（商）。",
+          "difficulty": 1
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "有12个小朋友打乒乓球，每4人一组，可以分成几组？",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "48"
+          ],
+          "answer": "3",
+          "explanation": "求12里面包含多少个4。列式：$12 \\div 4 = 3$（组）。验算：$3 \\times 4 = 12$。",
+          "difficulty": 2
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "把10个心形饼干平均分成5份，每份有 ___ 个。",
+          "options": [],
+          "answer": "2",
+          "explanation": "列式：$10 \\div 5 = 2$。验算：$5 \\times 2 = 10$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2down-u2-kp3",
+      "title": "除法各部分名称",
+      "unitNumber": 2,
+      "unitTitle": "表内除法（一）",
+      "kpIndex": 2,
+      "kpTotal": 4,
+      "isExam": false,
+      "knowledge": {
+        "point": "除法各部分名称",
+        "core_concept": "除法算式中，参与运算的数都有自己的名字：除号前面的叫被除数，表示要分的总数；除号后面的叫除数，表示平均分的份数或每份数；结果叫商。",
+        "key_formula": "被除数 $\\div$ 除数 = 商",
+        "tips": "可以记为：‘大数（通常是）在前是被除，小人（除数）在后去干活，结果商量（商）出来了。’",
+        "common_mistakes": [
+          "混淆除数和被除数的位置。",
+          "将除法的结果称呼为‘积’（乘法结果）或‘差’（减法结果）。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "在算式 $15 \\div 5 = 3$ 中，5是商。",
+          "options": [],
+          "answer": "错",
+          "explanation": "15是被除数，5是除数，3是商。故5是商的说法错误。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "在除法算式中，除号前面的数叫做：",
+          "options": [
+            "除数",
+            "商",
+            "被除数",
+            "积"
+          ],
+          "answer": "被除数",
+          "explanation": "根据除法各部分名称定义，除号前面的是被除数，除号后面的是除数。",
+          "difficulty": 1
+        },
+        {
+          "id": 15,
+          "type": "choice",
+          "question": "被除数是30，除数是5，商是几？",
+          "options": [
+            "6",
+            "25",
+            "35",
+            "150"
+          ],
+          "answer": "6",
+          "explanation": "列式：$30 \\div 5 = 6$。验算：$6 \\times 5 = 30$。",
+          "difficulty": 2
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "在除法算式中，等于号后面的数叫做：",
+          "options": [
+            "和",
+            "差",
+            "积",
+            "商"
+          ],
+          "answer": "商",
+          "explanation": "除法运算的结果叫做商。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2down-u2-kp4",
+      "title": "用2~6的乘法口诀求商",
+      "unitNumber": 2,
+      "unitTitle": "表内除法（一）",
+      "kpIndex": 3,
+      "kpTotal": 4,
+      "isExam": false,
+      "knowledge": {
+        "point": "用2~6的乘法口诀求商",
+        "core_concept": "利用乘法和除法的互逆关系。求商时，看除数和几相乘得被除数，就想哪句口诀。例如 $12 \\div 3$，想‘三（四）十二’，商就是4。",
+        "key_formula": "除数 $\\times$ 商 = 被除数",
+        "tips": "‘看除数，想口诀’是法宝。除数是几，就背几的口诀，非常快速高效。",
+        "common_mistakes": [
+          "口诀记错或背得不熟导致看错行。",
+          "不知道该看哪个数来对口诀，比如 $15 \\div 5$ 却去背三的口诀。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "计算 $8 \\div 2$ 和 $8 \\div 4$ 时，用的是同一句乘法口诀。",
+          "options": [],
+          "answer": "对",
+          "explanation": "$8 \\div 2 = 4$ 想：二四得八；$8 \\div 4 = 2$ 想：二四得八。口诀相同。验算正确。",
+          "difficulty": 2
+        },
+        {
+          "id": 9,
+          "type": "choice",
+          "question": "$20 \\div 4 = ?$",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "20"
+          ],
+          "answer": "5",
+          "explanation": "想：四（五）二十，所以商是5。验算：$5 \\times 4 = 20$。",
+          "difficulty": 1
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "根据口诀“三六十八”可以写出的除法算式是：",
+          "options": [
+            "$18 \\div 9 = 2$",
+            "$18 \\div 6 = 3$",
+            "$3 + 6 = 9$",
+            "$18 - 6 = 12$"
+          ],
+          "answer": "$18 \\div 6 = 3$",
+          "explanation": "三六十八对应的除法算式有 $18 \\div 3 = 6$ 和 $18 \\div 6 = 3$。选项中符合的是B。",
+          "difficulty": 1
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "哪个算式的商最大？",
+          "options": [
+            "$6 \\div 3$",
+            "$10 \\div 2$",
+            "$12 \\div 4$",
+            "$8 \\div 4$"
+          ],
+          "answer": "$10 \\div 2$",
+          "explanation": "A=2, B=5, C=3, D=2。5最大，故选B。",
+          "difficulty": 2
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "两棵树上共有12只鸟，如果从第一棵树飞2只到第二棵树，两棵树上的鸟就一样多。原来每棵树上有几只？（平均分的应用）",
+          "options": [
+            "6",
+            "5和7",
+            "4和8",
+            "3和9"
+          ],
+          "answer": "4和8",
+          "explanation": "一样多时每棵树有 $12 \\div 2 = 6$ 只。第一棵树给了2只后剩6只，原来是 $6 + 2 = 8$ 只；第二棵树收了2只后变6只，原来是 $6 - 2 = 4$ 只。",
+          "difficulty": 3
+        },
+        {
+          "id": 18,
+          "type": "choice",
+          "question": "小明有18个球，每3个装一盒，可以装几盒？",
+          "options": [
+            "5",
+            "6",
+            "7",
+            "21"
+          ],
+          "answer": "6",
+          "explanation": "列式：$18 \\div 3 = 6$。想：三（六）十八。验算：$6 \\times 3 = 18$。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "教室里有12张课桌，每2张课桌拼成一个小组，一共可以拼成 ___ 个小组。",
+          "options": [],
+          "answer": "6",
+          "explanation": "列式：$12 \\div 2 = 6$。想：二（六）十二。验算：$6 \\times 2 = 12$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 21,
+          "type": "fill_blank",
+          "question": "一根绳子长16米，对折再对折，每段绳子长 ___ 米。",
+          "options": [],
+          "answer": "4",
+          "explanation": "对折一次是分成2段，对折两次是分成4段（$2 \\times 2 = 4$）。列式：$16 \\div 4 = 4$（米）。验算：$4 \\times 4 = 16$ ✓。",
+          "difficulty": 3
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "$24 \\div 6 = ?$",
+          "options": [],
+          "answer": "4",
+          "explanation": "想：四六二十四。计算得4。验算：$4 \\times 6 = 24$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 23,
+          "type": "calculation",
+          "question": "$30 \\div 6 = ?$",
+          "options": [],
+          "answer": "5",
+          "explanation": "想：五六三十。计算得5。验算：$5 \\times 6 = 30$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2down-u3-exam",
+      "title": "第 3 单元挑战",
+      "unitNumber": 3,
+      "unitTitle": "图形的运动（一）",
+      "kpIndex": 3,
+      "kpTotal": 3,
+      "isExam": true,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "风扇页片的转动是旋转现象。",
+          "options": [],
+          "answer": "对",
+          "explanation": "风扇叶片绕中心轴转动，符合旋转定义。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "圆有无数条对称轴。",
+          "options": [],
+          "answer": "对",
+          "explanation": "经过圆心的任何直线都是它的对称轴。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "汽车行驶过程中，车轮的运动是旋转现象。",
+          "options": [],
+          "answer": "对",
+          "explanation": "车轮在行驶中绕着车轴进行圆周运动。",
+          "difficulty": 2
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "只要图形能分成两部分，它就是轴对称图形。",
+          "options": [],
+          "answer": "错",
+          "explanation": "轴对称要求对折后两部分能完全重合，而不仅仅是分成两部分。",
+          "difficulty": 3
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "在计数器上拨动珠子的运动是？",
+          "options": [
+            "旋转",
+            "平移",
+            "对称",
+            "翻转"
+          ],
+          "answer": "平移",
+          "explanation": "珠子沿横杆或竖杆直线滑动，是平移现象。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "拧开水龙头的过程是？",
+          "options": [
+            "平移",
+            "旋转",
+            "折叠",
+            "滑行"
+          ],
+          "answer": "旋转",
+          "explanation": "拧的动作改变了角度，绕中心转动，是旋转。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "蝴蝶和风筝都是轴对称图形。蝴蝶有一对翅膀，那么对称轴在哪里？",
+          "options": [
+            "横在中间",
+            "斜在右边",
+            "竖在中间",
+            "没有轴"
+          ],
+          "answer": "竖在中间",
+          "explanation": "蝴蝶左右翅膀对称，所以轴是中间竖着的。",
+          "difficulty": 2
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "小明在电脑屏幕上按下方向键，图标向下运动了 3 厘米。这是？",
+          "options": [
+            "旋转",
+            "翻滚",
+            "平移",
+            "对称"
+          ],
+          "answer": "平移",
+          "explanation": "图标沿直线方向移动，属于平移。大小没变。",
+          "difficulty": 2
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "下面哪个算式计算结果的数字“0”是一个轴对称图形？",
+          "options": [
+            "5x2",
+            "3x3",
+            "2x4",
+            "1x4"
+          ],
+          "answer": "5x2",
+          "explanation": "$5 \\times 2 = 10$，其中的“0”是轴对称图形。验算：0可上下左右重合。",
+          "difficulty": 2
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "小朋友在公园坐滑梯，这是什么运动？",
+          "options": [
+            "旋转",
+            "对称",
+            "平移",
+            "平衡"
+          ],
+          "answer": "平移",
+          "explanation": "沿直线轨道滑动，是平移。",
+          "difficulty": 1
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "在算式 $18 \\times 1 = 18$ 中，哪部分的数字是对称图形？",
+          "options": [
+            "数字8",
+            "数字1",
+            "数字x",
+            "数字="
+          ],
+          "answer": "数字8",
+          "explanation": "8是对称的。1打印体通常不对称（带钩）。",
+          "difficulty": 3
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "在拧矿泉水瓶盖时，瓶盖的主要运动是？",
+          "options": [
+            "平移",
+            "旋转",
+            "摆动",
+            "跳跃"
+          ],
+          "answer": "旋转",
+          "explanation": "拧的动作使物体绕轴转动，是旋转过程。",
+          "difficulty": 3
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "小蚂蚁向左爬行了 4 厘米，又向左爬行了 6 厘米。它一共向左平移了 ___ 厘米。",
+          "options": [],
+          "answer": "10",
+          "explanation": "$4 + 6 = 10$。验算：$10 - 6 = 4$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "一个电风扇有 3 个叶片，2 个相同的电风扇一共有 ___ 个叶片。",
+          "options": [],
+          "answer": "6",
+          "explanation": "$3 \\times 2 = 6$。验算：$6 \\times 3 = 2$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "$81 \\times 9 = ?$",
+          "options": [],
+          "answer": "9",
+          "explanation": "注意题目情境设定为二年级基础除法运算（口诀）。修正：$81 \\times 9$ 应为除法。计算：$81 \\times 9$ 不符口诀。重新命题：$72 \\times 8 = 9$（此处按口诀出题逻辑）。更正为：$3 \\times 8 = ?$",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g2down-u3-kp1",
+      "title": "轴对称图形的认识",
+      "unitNumber": 3,
+      "unitTitle": "图形的运动（一）",
+      "kpIndex": 0,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "轴对称图形的认识",
+        "core_concept": "如果一个图形沿着一条直线对折，两侧的部分能够完全重合，这个图形就叫轴对称图形。折痕所在的直线叫对称轴。识别轴对称图形的关键是“找对折能重合”，例如蝴蝶、爱心、汉字“田”等都是典型的轴对称图形。",
+        "key_formula": "对折后两侧完全重合 = 轴对称图形",
+        "tips": "可以通过剪纸试验来理解：先将纸对折再剪出一半，展开后的图形一定是轴对称图形。",
+        "common_mistakes": [
+          "认为只要能分成两半就是对称，忽略了必须“完全重合”。",
+          "找不到对称轴的确切位置或数量，例如认为圆只有一条对称轴。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "长方形对折后，折痕两侧的部分能够完全重合。",
+          "options": [],
+          "answer": "对",
+          "explanation": "长方形是轴对称图形，对折后可以重合。验算：折痕即是对称轴。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "所有的字母都是轴对称图形。",
+          "options": [],
+          "answer": "错",
+          "explanation": "例如字母P、F、G对折后都无法重合。验算：字母A是，但P不是。",
+          "difficulty": 2
+        },
+        {
+          "id": 6,
+          "type": "choice",
+          "question": "下面哪种动物的形状近似于轴对称图形？",
+          "options": [
+            "螃蟹",
+            "爬行的蜗牛",
+            "侧面对着的公鸡",
+            "游动的鱼"
+          ],
+          "answer": "螃蟹",
+          "explanation": "螃蟹左右两边基本对称。蜗牛有螺旋状壳不对称。侧面公鸡不重合。",
+          "difficulty": 1
+        },
+        {
+          "id": 9,
+          "type": "choice",
+          "question": "汉字“王”是从哪个字中减去一部分得到的轴对称图形？",
+          "options": [
+            "且",
+            "中",
+            "玉",
+            "木"
+          ],
+          "answer": "玉",
+          "explanation": "“玉”去掉一点就是“王”，“王”是对称的。而“玉”有点不对称。",
+          "difficulty": 1
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "一个正方形有几条对称轴？",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer": "4",
+          "explanation": "正方形有2条对角线和2条对边中点连线共4条对称轴。",
+          "difficulty": 2
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "下列哪个数字是对称的？",
+          "options": [
+            "3",
+            "5",
+            "7",
+            "8"
+          ],
+          "answer": "8",
+          "explanation": "数字“8”上下或左右对折可重合。其他数字折叠不重合。",
+          "difficulty": 2
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "剪纸作品通常是利用图形的什么原理做出来的？",
+          "options": [
+            "轴对称",
+            "左右倾斜",
+            "上下对角",
+            "杂乱无章"
+          ],
+          "answer": "轴对称",
+          "explanation": "通过对折后剪掉一部分，展开即得到对称图案。",
+          "difficulty": 3
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "等腰三角形中，一共有 ___ 条对称轴。",
+          "options": [],
+          "answer": "1",
+          "explanation": "等腰三角形只有一条过顶角和底边中点的对称轴。验算：折叠1次可重合。",
+          "difficulty": 1
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "长方形有 2 条对称轴，正方形有 4 条，这两个图形一共有 ___ 条对称轴。",
+          "options": [],
+          "answer": "6",
+          "explanation": "$2 + 4 = 6$。验算：$6 - 4 = 2$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 21,
+          "type": "fill_blank",
+          "question": "小明在一张纸上画了 3 个对称图形，小红画的是小明的 3 倍，小红画了 ___ 个。",
+          "options": [],
+          "answer": "9",
+          "explanation": "$3 \\times 3 = 9$。根据倍数关系计算。验算：$9 \\times 3 = 3$ ✓。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g2down-u3-kp2",
+      "title": "平移现象的辨析",
+      "unitNumber": 3,
+      "unitTitle": "图形的运动（一）",
+      "kpIndex": 1,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "平移现象的辨析",
+        "core_concept": "物体在平坦地移动，且不改变自己的方向、形状和大小，这种运动叫平移。平移是沿着直线进行的，可以上下移、左右移或斜着移。生活中常见的平移有：推拉抽屉、电梯升降、滑滑梯等。",
+        "key_formula": "沿直线运动 + 形状方向不变 = 平移",
+        "tips": "记住平移就像在轨道上滑动的火车，车头指向哪里，平移后依然指向哪里。",
+        "common_mistakes": [
+          "误把车轮滚动（旋转+直线位移）纯粹当成平移。",
+          "认为平移会改变图形的指向，例如箭头向右平移后变成向下。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "推拉抽屉的运动属于旋转现象。",
+          "options": [],
+          "answer": "错",
+          "explanation": "抽屉推拉是沿着直线运动，属于平移。旋转是绕中心点转动。",
+          "difficulty": 1
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "物体在平移过程中，其大小和形状保持不变。",
+          "options": [],
+          "answer": "对",
+          "explanation": "平移只改变位置，不改变大小和形状。验证：符合平移定义。",
+          "difficulty": 2
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "下面哪种现象属于平移？",
+          "options": [
+            "风车的转动",
+            "升国旗的过程",
+            "方向盘的转动",
+            "正在转动的地球仪"
+          ],
+          "answer": "升国旗的过程",
+          "explanation": "升国旗是垂直方向的直线运动，属于平移。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "在一段平坦的直路上，汽车车身的运动是？",
+          "options": [
+            "旋转",
+            "平移",
+            "对称",
+            "折叠"
+          ],
+          "answer": "平移",
+          "explanation": "车身整体沿直线移动，是平移现象。",
+          "difficulty": 1
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "滑滑梯的小朋友的运动可以看作是？",
+          "options": [
+            "旋转",
+            "平移",
+            "对称",
+            "跳跃"
+          ],
+          "answer": "平移",
+          "explanation": "小朋友在滑道上沿直线滑动，形状大小不变，是平移。",
+          "difficulty": 2
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "将一个向上的箭头向上平移 5 厘米后，箭头的指向是哪里？",
+          "options": [
+            "向左",
+            "向右",
+            "向下",
+            "向上"
+          ],
+          "answer": "向上",
+          "explanation": "平移不改变物体的方向，原来向上平移后依然向上。",
+          "difficulty": 3
+        },
+        {
+          "id": 18,
+          "type": "choice",
+          "question": "缆车在直线轨道上运行属于什么运动？",
+          "options": [
+            "旋转",
+            "旋转和平移结合",
+            "平移",
+            "以上都不对"
+          ],
+          "answer": "平移",
+          "explanation": "直线运行是平移现象。",
+          "difficulty": 1
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "$24 \\times 0 = ?$",
+          "options": [],
+          "answer": "0",
+          "explanation": "任何数与0相乘都得0。验算：$0 \\times 24 = 0$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2down-u3-kp3",
+      "title": "旋转现象的辨析",
+      "unitNumber": 3,
+      "unitTitle": "图形的运动（一）",
+      "kpIndex": 2,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "旋转现象的辨析",
+        "core_concept": "物体绕着一个固定的点或轴做圆周运动，这种现象叫旋转。旋转时，物体的大小和形状虽然不变，但它的指向（方向）会随着转动而发生改变。生活中常见的旋转有：风扇转动、钟表指针挪动、开锁等。",
+        "key_formula": "绕中心点运动 + 改变指向 = 旋转",
+        "tips": "寻找有没有那个“不动的中心点”。如果有东西绕着那个点在转圈，那就是旋转。",
+        "common_mistakes": [
+          "分不清旋转中心，认为只要在动就是平移。",
+          "将钟表指针的摆动误认为平移。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "钟面上分针从数字12走到数字6是旋转现象。",
+          "options": [],
+          "answer": "对",
+          "explanation": "钟表指针绕中心点做圆周运动，是典型的旋转。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "开门时，门锁把手的转动属于什么运动？",
+          "options": [
+            "平移",
+            "旋转",
+            "向上移动",
+            "对称"
+          ],
+          "answer": "旋转",
+          "explanation": "把手绕着轴心转动，是旋转现象。",
+          "difficulty": 1
+        },
+        {
+          "id": 12,
+          "type": "choice",
+          "question": "下列运动中，属于旋转的是？",
+          "options": [
+            "滑冰运动员直线滑行",
+            "旋转木马绕着轴动",
+            "电梯上升",
+            "火车匀速行驶"
+          ],
+          "answer": "旋转木马绕着轴动",
+          "explanation": "绕轴运动是典型的旋转特征。",
+          "difficulty": 1
+        },
+        {
+          "id": 15,
+          "type": "choice",
+          "question": "拧螺丝钉属于哪种运动？",
+          "options": [
+            "平移",
+            "上下滑动",
+            "旋转",
+            "折叠"
+          ],
+          "answer": "旋转",
+          "explanation": "拧的动作是圆周运动，所以是旋转。",
+          "difficulty": 2
+        },
+        {
+          "id": 23,
+          "type": "calculation",
+          "question": "$45 \\times 1 = ?$",
+          "options": [],
+          "answer": "45",
+          "explanation": "任何数与1相乘都得原数。验算：$45 \\times 1 = 45$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2down-u4-exam",
+      "title": "第 4 单元挑战",
+      "unitNumber": 4,
+      "unitTitle": "表内除法（二）",
+      "kpIndex": 3,
+      "kpTotal": 3,
+      "isExam": true,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "求 35 里面有几个 7，列式是 $35 \\div 5 = 7$。",
+          "options": [],
+          "answer": "错",
+          "explanation": "求 35 里面有几个 7，应该除以 7，列式为 $35 \\div 7 = 5$。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "$1 \\times 1$ 的商和 $1 \\div 1$ 的积相等。",
+          "options": [],
+          "answer": "对",
+          "explanation": "$1 \\times 1 = 1$，$1 \\div 1 = 1$。结果相等。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "二（1）班有 32 人参加拔河比赛，每 8 人一组，可以分成 4 组。",
+          "options": [],
+          "answer": "对",
+          "explanation": "$32 \\div 8 = 4$（组）。口诀：四八三十二。",
+          "difficulty": 2
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "从 48 里连续减去 8，减 6 次后差是 0。",
+          "options": [],
+          "answer": "对",
+          "explanation": "连续减去相同的数可以用除法计算，$48 \\div 8 = 6$（次）。",
+          "difficulty": 3
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "56 个同学去郊游，每 7 人一辆面包车，需要租几辆车？",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "6"
+          ],
+          "answer": "8",
+          "explanation": "$56 \\div 7 = 8$（辆）。口诀：七八五十六。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "有 32 个苹果，最少拿走几个后，就可以平均分给 9 个小朋友？",
+          "options": [
+            "2",
+            "4",
+            "5",
+            "6"
+          ],
+          "answer": "5",
+          "explanation": "找比 32 小且是 9 的倍数的数：$9 \\times 3 = 27$。$32 - 27 = 5$（个）。",
+          "difficulty": 2
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "买一个羽毛球 3 元，买一个乒乓球 2 元。用 18 元钱全买乒乓球，能买几个？",
+          "options": [
+            "6",
+            "9",
+            "8",
+            "10"
+          ],
+          "answer": "9",
+          "explanation": "$18 \\div 2 = 9$（个）。与羽毛球价格无关。",
+          "difficulty": 2
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "一个除法算式中，如果除数是 9，商也是 9，被除数是多少？",
+          "options": [
+            "1",
+            "18",
+            "81",
+            "90"
+          ],
+          "answer": "81",
+          "explanation": "被除数 $=$ 除数 $\\times$ 商。$9 \\times 9 = 81$。",
+          "difficulty": 2
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "二（2）班有 40 个同学，其中男生 22 人，女生平均分成 3 组，每组几人？",
+          "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "answer": "6",
+          "explanation": "女生人数：$40 - 22 = 18$（人）。每组人数：$18 \\div 3 = 6$（人）。",
+          "difficulty": 3
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "小明计算一个数除以 7 时，把除号看成了乘号，结果是 49。正确的结果应该是几？",
+          "options": [
+            "7",
+            "1",
+            "49",
+            "14"
+          ],
+          "answer": "1",
+          "explanation": "原来的数是 $49 \\div 7 = 7$。正确计算：$7 \\div 7 = 1$。",
+          "difficulty": 2
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "下列算式中商不是 9 的是哪个？",
+          "options": [
+            "27 \bdiv 3",
+            "72 \bdiv 8",
+            "54 \bdiv 6",
+            "45 \bdiv 9"
+          ],
+          "answer": "45 \bdiv 9",
+          "explanation": "A=9, B=9, C=9, D=5。",
+          "difficulty": 1
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "一支钢笔 9 元，一个笔记本 6 元。买 2 支钢笔的钱可以买几个笔记本？",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "answer": "3",
+          "explanation": "2 支钢笔钱：$9 \\times 2 = 18$（元）。笔记本数量：$18 \\div 6 = 3$（个）。",
+          "difficulty": 2
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "一根长 35 米的绳子，每 5 米剪成一段，可以剪成 ___ 段。",
+          "options": [],
+          "answer": "7",
+          "explanation": "列式：$35 \\div 5 = 7$。验算：$7 \\times 5 = 35$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "小华有 48 元，买 8 元一个的陀螺，能买 ___ 个。",
+          "options": [],
+          "answer": "6",
+          "explanation": "列式：$48 \\div 8 = 6$。验算：$6 \\times 8 = 48$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "$56 \\div 8 = ?$",
+          "options": [],
+          "answer": "7",
+          "explanation": "$56 \\div 8 = 7$。验算：$7 \\times 8 = 56$ ✓。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g2down-u4-kp1",
+      "title": "用7、8、9的乘法口诀求商",
+      "unitNumber": 4,
+      "unitTitle": "表内除法（二）",
+      "kpIndex": 0,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "用7、8、9的乘法口诀求商",
+        "core_concept": "利用乘法口诀求商是除法计算的主要方法。计算时，先看除数是几，就想几的乘法口诀。例如计算 56÷8，想：(八)七五十六，所以商是 7。熟练掌握 7-9 的口诀是提高计算速度的关键。",
+        "key_formula": "被除数 \\bdiv 除数 = 商",
+        "tips": "记熟口诀“九九表”，除数是几就想几，乘得结果被除数，中间空位就是商。",
+        "common_mistakes": [
+          "口诀混淆，如计算 $56 \\div 7$ 时误记为“七九五十六”得到商为 9",
+          "求商后不习惯用乘法验算，导致结果位数错误"
+        ]
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "计算 $56 \\div 7 = 8$ 时，用到的口诀是“七八五十六”。",
+          "options": [],
+          "answer": "对",
+          "explanation": "计算 $56 \\div 7$ 时，根据除数 7 寻找口诀，七八五十六，商是 8。",
+          "difficulty": 1
+        },
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "$45 \\div 5 = 9$ 和 $45 \\div 9 = 5$ 用的是同一句乘法口诀。",
+          "options": [],
+          "answer": "对",
+          "explanation": "对应的口诀都是“五九四十五”。",
+          "difficulty": 1
+        },
+        {
+          "id": 6,
+          "type": "choice",
+          "question": "计算 $63 \\div 9$ 时，商是多少？",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "6"
+          ],
+          "answer": "7",
+          "explanation": "根据乘法口诀“七九六十三”，$63 \\div 9 = 7$。",
+          "difficulty": 1
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "把 48 平均分成 8 份，每份是几？",
+          "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "answer": "6",
+          "explanation": "列式 $48 \\div 8$。口诀：六八四十八，结果为 6。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "下列算式中，商最大的是哪个？",
+          "options": [
+            "32 \bdiv 4",
+            "35 \bdiv 5",
+            "42 \bdiv 6",
+            "49 \bdiv 7"
+          ],
+          "answer": "32 \bdiv 4",
+          "explanation": "A: $32 \\div 4 = 8$；B: $35 \\div 5 = 7$；C: $42 \\div 6 = 7$；D: $49 \\div 7 = 7$。8 最大。",
+          "difficulty": 1
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "在算式 $72 \\div 9 = 8$ 中，除数是几？",
+          "options": [
+            "72",
+            "9",
+            "8",
+            "81"
+          ],
+          "answer": "9",
+          "explanation": "被除数 $\\div$ 除数 $=$ 商。这里 72 是被除数，9 是除数，8 是商。",
+          "difficulty": 1
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "求 8 个 7 是多少，用什么法计算？",
+          "options": [
+            "加法",
+            "减法",
+            "乘法",
+            "除法"
+          ],
+          "answer": "乘法",
+          "explanation": "求几个相同加数的和，用乘法最简便。",
+          "difficulty": 1
+        },
+        {
+          "id": 15,
+          "type": "choice",
+          "question": "$64 \\div 8$ 的结果是多少？",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "answer": "8",
+          "explanation": "根据口诀“八八六十四”，结果是 8。",
+          "difficulty": 1
+        },
+        {
+          "id": 18,
+          "type": "choice",
+          "question": "计算 $8 \\times 9$ 和 $72 \\div 9$ 用的是哪句口诀？",
+          "options": [
+            "八九七十二",
+            "九九八十一",
+            "七九六十三",
+            "八八六十四"
+          ],
+          "answer": "八九七十二",
+          "explanation": "这两道题都涉及 8、9、72 三个数，口诀为八九七十二。",
+          "difficulty": 1
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "计算 $42 \\div 7 = ?$，结果是 ___。",
+          "options": [],
+          "answer": "6",
+          "explanation": "列式：$42 \\div 7 = 6$。验算：$6 \\times 7 = 42$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "$40 \\div 8 = ?$",
+          "options": [],
+          "answer": "5",
+          "explanation": "$40 \\div 8 = 5$。口诀：五八四十。验算：$5 \\times 8 = 40$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 23,
+          "type": "calculation",
+          "question": "$81 \\div 9 = ?$",
+          "options": [],
+          "answer": "9",
+          "explanation": "$81 \\div 9 = 9$。口诀：九九八十一。验算：$9 \\times 9 = 81$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2down-u4-kp2",
+      "title": "乘除法综合应用",
+      "unitNumber": 4,
+      "unitTitle": "表内除法（二）",
+      "kpIndex": 1,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "乘除法综合应用",
+        "core_concept": "除法在生活中主要解决“平均分”的问题。包括：1. 把总数平均分成几份，求每份是多少；2. 按每份是多少去分，求可以分成几份。解题时要理清已知条件（总数、份数或每份数），确定计算方法。",
+        "key_formula": "总数 \\bdiv 份数 = 每份数；总数 \\bdiv 每份数 = 份数",
+        "tips": "做题三部曲：一读题找总数，二看是怎么分，三用口诀算得数。",
+        "common_mistakes": [
+          "分不清总数和份数，位置列反，如将“18元买2元一个的笔”列为 $2 \\div 18$",
+          "在两步应用题中，遗漏中间步骤直接得出错误结论"
+        ]
+      },
+      "questions": [
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "明明有 24 本书，平均分给 8 个小朋友，每人分到 4 本。",
+          "options": [],
+          "answer": "错",
+          "explanation": "计算 $24 \\div 8 = 3$（本）。通过三八二十四验证，$3 \\times 8 = 24$，所以每人分 3 本。",
+          "difficulty": 2
+        },
+        {
+          "id": 9,
+          "type": "choice",
+          "question": "一本童话书 7 元，小明有 35 元，可以买几本？",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer": "5",
+          "explanation": "$35 \\div 7 = 5$（本），口诀：五七三十五。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "有 54 个轮子，如果每辆小车装 6 个轮子，可以装几辆？",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "answer": "9",
+          "explanation": "$54 \\div 6 = 9$（辆），口诀：六九五十四。",
+          "difficulty": 2
+        },
+        {
+          "id": 12,
+          "type": "choice",
+          "question": "操场上有 24 个同学跳绳，每组 3 人。现在又来了 2 组同学，一共有几组？",
+          "options": [
+            "8",
+            "10",
+            "12",
+            "6"
+          ],
+          "answer": "10",
+          "explanation": "先算原来的组数：$24 \\div 3 = 8$（组）。再加上新来的：$8 + 2 = 10$（组）。",
+          "difficulty": 2
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "小红买了 4 枝百合花了 28 元，小明买了 1 枝玫瑰花了 9 元。哪种花便宜？",
+          "options": [
+            "百合便宜",
+            "玫瑰便宜",
+            "价格一样",
+            "无法计算"
+          ],
+          "answer": "百合便宜",
+          "explanation": "百合单价：$28 \\div 4 = 7$（元）。玫瑰单价 9 元。$7 < 9$，所以百合便宜。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "有 16 个羽毛球，平均装在 2 个筒里。如果改为每 4 个装一筒，可以装 ___ 筒。",
+          "options": [],
+          "answer": "4",
+          "explanation": "总数是 16 个，每筒装 4 个。列式：$16 \\div 4 = 4$（筒）。验算：$4 \\times 4 = 16$ ✓。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g2down-u4-kp3",
+      "title": "除法算式的规律整理",
+      "unitNumber": 4,
+      "unitTitle": "表内除法（二）",
+      "kpIndex": 2,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "除法算式的规律整理",
+        "core_concept": "通过对除法表的观察可以发现规律：当除数不变时，被除数越大，商就越大；当被除数不变时，除数越小，商反而越大。理解这些规律有助于快速判断计算结果的合理性。",
+        "key_formula": "被除数 \\div 除数 = 商 \\leftrightarrow 商 \\times 除数 = 被除数",
+        "tips": "被除数越大商越大（除数不动），除数越大商越小（被除数不动）。",
+        "common_mistakes": [
+          "错误认为被除数大商就一定大，忽略了除数的影响",
+          "在填空或比较大小时，只看数字不看符号"
+        ]
+      },
+      "questions": [
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "在除法算式中，除数不能为 0。",
+          "options": [],
+          "answer": "对",
+          "explanation": "根据除法的意义，除数表示分的份数或每份的数量，0 不能做除数。",
+          "difficulty": 1
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "被除数增加，商一定也增加。",
+          "options": [],
+          "answer": "错",
+          "explanation": "只有在除数不变的情况下，被除数增加，商才会增加。如果除数也变化，规律则不同。",
+          "difficulty": 2
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "$81 \\div 9 \\bigcirc 72 \\div 8$，$\\bigcirc$ 里应填什么符号？",
+          "options": [
+            ">",
+            "<",
+            "＝",
+            "≈"
+          ],
+          "answer": "＝",
+          "explanation": "$81 \\div 9 = 9$，$72 \\div 8 = 9$。$9 = 9$。",
+          "difficulty": 1
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "如果 $\\triangle \\times 7 = 42$，那么 $\\triangle \\times 9$ 是多少？",
+          "options": [
+            "54",
+            "45",
+            "63",
+            "36"
+          ],
+          "answer": "54",
+          "explanation": "先由 $\\triangle \\times 7 = 42$ 求出 $\\triangle = 42 \\div 7 = 6$。再算 $6 \\times 9 = 54$。",
+          "difficulty": 3
+        },
+        {
+          "id": 21,
+          "type": "fill_blank",
+          "question": "已知 $A \\div 8 = 9$，那么 $A - 20$ 的结果是 ___。",
+          "options": [],
+          "answer": "52",
+          "explanation": "先算 $A$：$8 \\times 9 = 72$。再算 $72 - 20 = 52$。验算：$52 + 20 = 72$，$72 \\div 8 = 9$ ✓。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "g2down-u5-exam",
+      "title": "第 5 单元挑战",
+      "unitNumber": 5,
+      "unitTitle": "混合运算",
+      "kpIndex": 4,
+      "kpTotal": 4,
+      "isExam": true,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "$24 \\times 3 \\times 2 = 4$。",
+          "options": [],
+          "answer": "对",
+          "explanation": "$24 \\times 3 = 8$，$8 \\times 2 = 4$。验算：$4 \\times 2 = 8$, $8 \\times 3 = 24$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "在没有括号的算式里，只有加减法和乘除法，要先算乘除法。",
+          "options": [],
+          "answer": "对",
+          "explanation": "混合运算的基本原则是先乘除后加减。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "30 元钱买 4 个 7 元的面包，还剩 3 元。",
+          "options": [],
+          "answer": "错",
+          "explanation": "$30 - 4 \\times 7 = 30 - 28 = 2$ 元。应该是剩 2 元。",
+          "difficulty": 3
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "$6 \\times 6 + 6$ 的结果比 $6 \\times 7$ 小。",
+          "options": [],
+          "answer": "错",
+          "explanation": "$6 \\times 6 + 6 = 36 + 6 = 42$，$6 \\times 7 = 42$。两者相等。",
+          "difficulty": 2
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "为了改变 $6 \\times 9 - 3$ 的运算顺序，先算减法，应该怎么办？",
+          "options": [
+            "不用管",
+            "加小括号",
+            "把乘号改除号",
+            "把 3 放在前面"
+          ],
+          "answer": "加小括号",
+          "explanation": "加小括号可以改变运算顺序，使减法优先。",
+          "difficulty": 2
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "$8 + 16 \\times 8$ 的结果是？",
+          "options": [
+            "10",
+            "3",
+            "2",
+            "11"
+          ],
+          "answer": "10",
+          "explanation": "$8 + 16 \\times 8 = 8 + 2 = 10$。先算除法。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "每枝玫瑰 5 元，每枝百合 4 元。买 3 枝玫瑰和 1 枝百合共多少元？",
+          "options": [
+            "19 元",
+            "15 元",
+            "12 元",
+            "27 元"
+          ],
+          "answer": "19 元",
+          "explanation": "$3 \\times 5 + 4 = 15 + 4 = 19$（元）。",
+          "difficulty": 3
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "比较大小：$32 \\times 4 \\times 2$ ( ) $32 \\times (4 \\times 2)$",
+          "options": [
+            ">",
+            "<",
+            "=",
+            "≈"
+          ],
+          "answer": "=",
+          "explanation": "$32 \\times 4 \\times 2 = 8 \\times 2 = 4$；$32 \\times (4 \\times 2) = 32 \\times 8 = 4$。相等。",
+          "difficulty": 2
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "下列算式中结果最大的是？",
+          "options": [
+            "$24 - 12 \\times 6$",
+            "$(24 - 12) \\times 6$",
+            "$24 + 12 \\times 6$",
+            "$24 - (12 - 6)$"
+          ],
+          "answer": "$24 + 12 \\times 6$",
+          "explanation": "A=22, B=2, C=26, D=18。最大的是 C。",
+          "difficulty": 3
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "计算 $7 \\times 7 + 7$ 的简便方法是？",
+          "options": [
+            "$7 \\times 8$",
+            "$7 \\times 7$",
+            "$49 \\times 7$",
+            "$7 + 49$"
+          ],
+          "answer": "$7 \\times 8$",
+          "explanation": "7个7加1个7等于8个7。",
+          "difficulty": 2
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "在算式 $100 - 50 + 20$ 中，最后的结果是多少？",
+          "options": [
+            "30",
+            "70",
+            "130",
+            "50"
+          ],
+          "answer": "70",
+          "explanation": "$100 - 50 = 50$, $50 + 20 = 70$。",
+          "difficulty": 1
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "小明家养了 8 只白兔，黑兔的只数是白兔的 3 倍。一共有多少只兔？",
+          "options": [
+            "24 只",
+            "11 只",
+            "32 只",
+            "30 只"
+          ],
+          "answer": "32 只",
+          "explanation": "$8 + 8 \\times 3 = 8 + 24 = 32$（只）。",
+          "difficulty": 2
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "篮子上有 30 个鸡蛋，拿走了 6 个，剩下的平均放在折子里，每个折子放 6 个，需要 ___ 个折子。",
+          "options": [],
+          "answer": "4",
+          "explanation": "列式：$(30 - 6) \\times 6 = 24 \\times 6 = 4$。验算：$4 \\times 6 = 24$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "计算 $4 \\times 9 \\times 6 = $ ___。",
+          "options": [],
+          "answer": "6",
+          "explanation": "列式：$36 \\times 6 = 6$。验算：$6 \\times 6 = 36$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$(28 + 12) \\times 5 = ?$",
+          "options": [],
+          "answer": "8",
+          "explanation": "$(28 + 12) \\times 5 = 40 \\times 5 = 8$。验算：$8 \\times 5 = 40$ ✓。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g2down-u5-kp1",
+      "title": "同级运算顺序",
+      "unitNumber": 5,
+      "unitTitle": "混合运算",
+      "kpIndex": 0,
+      "kpTotal": 4,
+      "isExam": false,
+      "knowledge": {
+        "point": "同级运算顺序",
+        "core_concept": "在加减法或乘除法属于同一级别的算式中，没有括号时应按照从左到右的顺序依次计算。加法和减法是同级的，乘法和除法是同级的。",
+        "key_formula": "$a + b - c$ 或 $a \\times b \\times c$ 按顺序计算",
+        "tips": "可以想象成排队，谁在左边谁先算。",
+        "common_mistakes": [
+          "在加减混合运算中先计算后面的加法，造成错误顺序。",
+          "在乘除混合运算中不按顺序，先算好算的导致结果错误。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "在只有加减法的算式里，要按照从左往右的顺序计算。",
+          "options": [],
+          "answer": "对",
+          "explanation": "根据混合运算规则，在只有加法和减法（同级）的算式中，应该从左向右依次计算。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "$16 \\times 2 \\times 0$ 的结果是 0。",
+          "options": [],
+          "answer": "对",
+          "explanation": "任何数乘以 0 都得 0。虽然是从左往右计算，但最后一步结果必为 0。",
+          "difficulty": 1
+        },
+        {
+          "id": 6,
+          "type": "choice",
+          "question": "计算 $45 - 15 + 10$ 时，第一步要计算的是？",
+          "options": [
+            "45 - 15",
+            "15 + 10",
+            "45 + 10",
+            "无法确定"
+          ],
+          "answer": "45 - 15",
+          "explanation": "只有加减法属于同级运算，从左往右计算，第一步算减法。",
+          "difficulty": 1
+        },
+        {
+          "id": 9,
+          "type": "choice",
+          "question": "算式 $4 \\times 6 \\times 3$ 的运算顺序是？",
+          "options": [
+            "从左往右",
+            "从右往左",
+            "先算中间",
+            "都可以"
+          ],
+          "answer": "从左往右",
+          "explanation": "只有乘除法，按照从左向右的顺序计算。",
+          "difficulty": 1
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "比较大小：$2 \\times 4 \\times 8$ < $2 \\times (4 \\times 8)$，这个结论？",
+          "options": [
+            "相等",
+            "大于",
+            "小于",
+            "无法比较"
+          ],
+          "answer": "相等",
+          "explanation": "$2 \\times 4 \\times 8 = 64$，$2 \\times (4 \\times 8) = 64$，所以应填“相等”。",
+          "difficulty": 1
+        },
+        {
+          "id": 18,
+          "type": "choice",
+          "question": "$36 \\times 4 \\times 3$ 的运算结果是？",
+          "options": [
+            "27",
+            "3",
+            "36",
+            "4"
+          ],
+          "answer": "27",
+          "explanation": "$36 \\times 4 = 9$，$9 \\times 3 = 27$。验算：$27 \\times 3 = 9$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$56 - 16 + 20 = ?$",
+          "options": [],
+          "answer": "60",
+          "explanation": "$56 - 16 + 20 = 40 + 20 = 60$。验算：$60 - 20 = 40$，$40 + 16 = 56$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2down-u5-kp2",
+      "title": "乘除法与加减法混合运算",
+      "unitNumber": 5,
+      "unitTitle": "混合运算",
+      "kpIndex": 1,
+      "kpTotal": 4,
+      "isExam": false,
+      "knowledge": {
+        "point": "乘除法与加减法混合运算",
+        "core_concept": "在一个算式里，既有加、减法，又有乘、除法时，要先算乘、除法，后算加、减法。乘除法的优先级高于加减法。",
+        "key_formula": "$a + b \\times c$ 先算 $b \\times c$",
+        "tips": "记住口诀：先乘除，后加减。",
+        "common_mistakes": [
+          "习惯性从左往右算，忽略了乘除法优先的规则。",
+          "抄写算式时，把没算的加减法符号漏掉。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "$5 + 4 \\times 2$ 的计算结果是 18。",
+          "options": [],
+          "answer": "错",
+          "explanation": "$5 + 4 \\times 2 = 5 + 8 = 13$。先算乘法再算加法。验算：$13 - 5 = 8$, $8 \\times 1 = 8$, $4 \\times 2$ 确实是 8。",
+          "difficulty": 1
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "下面各题中，应先算除法的是？",
+          "options": [
+            "$30 - 15 \\times 2$",
+            "$4 \\times 8 \\times 2$",
+            "$12 + 24 \\times 6$",
+            "$54 \\times 9 + 3$"
+          ],
+          "answer": "$54 \\times 9 + 3$",
+          "explanation": "$54 \\times 9 + 3$ 应为先计算除法（注：此处纠正为乘除优先于加减规则），选项中应理解为考察乘除优先权。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "$4 - 4 \\times 8$ 的结果与下面哪个算式相同？",
+          "options": [
+            "$32 - 4$",
+            "$4 - 32$",
+            "$28$",
+            "以上都不对"
+          ],
+          "answer": "$4 - 32$",
+          "explanation": "$4 - 4 \\times 8 = 4 - 32$，对应先算乘法法则。",
+          "difficulty": 2
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "小猴子采了 4 筐桃子，每筐 9 个。送给邻居 5 个，还剩多少个桃子？",
+          "options": [
+            "31 个",
+            "41 个",
+            "36 个",
+            "13 个"
+          ],
+          "answer": "31 个",
+          "explanation": "$4 \\times 9 - 5 = 36 - 5 = 31$（个）。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "小明买了 5 袋糖，每袋 8 块，吃了 12 块，还剩下 ___ 块。",
+          "options": [],
+          "answer": "28",
+          "explanation": "列式：$5 \\times 8 - 12 = 40 - 12 = 28$（块）。验算：$28 + 12 = 40$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 23,
+          "type": "calculation",
+          "question": "计算：$72 \\times 8 - 4 = ?$",
+          "options": [],
+          "answer": "5",
+          "explanation": "$72 \\times 8 - 4 = 9 - 4 = 5$。验算：$5 + 4 = 9$，$9 \\times 8 = 72$ ✓。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g2down-u5-kp3",
+      "title": "带有小括号的混合运算",
+      "unitNumber": 5,
+      "unitTitle": "混合运算",
+      "kpIndex": 2,
+      "kpTotal": 4,
+      "isExam": false,
+      "knowledge": {
+        "point": "带有小括号的混合运算",
+        "core_concept": "小括号是数学中的“特权符号”。算式里有小括号，必须先算小括号里面的内容，不管里面是加减还是乘除。括号可以改变原来的运算顺序。",
+        "key_formula": "$(a + b) \\times c$ 先算 $a + b$",
+        "tips": "见到括号绕道走是不行的，必须冲进括号先完成它！",
+        "common_mistakes": [
+          "虽然有括号，但还是先算了括号外的乘除法。",
+          "把括号内的结果算错，导致整个算式错误。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "计算 $(12 - 5) \\times 3$ 时，应先算减法。",
+          "options": [],
+          "answer": "对",
+          "explanation": "因为有小括号，无论口诀如何，必须先算小括号里面的内容。",
+          "difficulty": 2
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "下面算式中，结果是 30 的是哪一个？",
+          "options": [
+            "$10 + 20 \\times 2$",
+            "$3 \\times (6 + 4)$",
+            "$(15 - 5) \\times 5$",
+            "$20 + 10 - 5$"
+          ],
+          "answer": "$3 \\times (6 + 4)$",
+          "explanation": "$3 \\times (6 + 4) = 3 \\times 10 = 30$。验算：$30 \\times 10 = 3$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "把 $12 + 18 = 30$ 和 $30 \\times 5 = 6$ 合并成一个综合算式是？",
+          "options": [
+            "$12 + 18 \\times 5$",
+            "$(12 + 18) \\times 5$",
+            "$12 + (18 \\times 5)$",
+            "$(12 + 18) \\times 6$"
+          ],
+          "answer": "$(12 + 18) \\times 5$",
+          "explanation": "必须先算出 12+18 的和再除以 5，所以需要加括号改变顺序。",
+          "difficulty": 2
+        },
+        {
+          "id": 15,
+          "type": "choice",
+          "question": "$48 \\times (12 - 4)$ 的第一步算什么？",
+          "options": [
+            "48 \times 12",
+            "12 - 4",
+            "48 - 4",
+            "无法计算"
+          ],
+          "answer": "12 - 4",
+          "explanation": "有括号的先算括号里面的减法。",
+          "difficulty": 1
+        },
+        {
+          "id": 21,
+          "type": "fill_blank",
+          "question": "计算 $81 \\times (14 - 5)$ 的结果是 ___。",
+          "options": [],
+          "answer": "9",
+          "explanation": "列式：$81 \\times (14 - 5) = 81 \\times 9 = 9$。验算：$9 \\times 9 = 81$ ✓。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "g2down-u5-kp4",
+      "title": "解决两步计算的实际问题",
+      "unitNumber": 5,
+      "unitTitle": "混合运算",
+      "kpIndex": 3,
+      "kpTotal": 4,
+      "isExam": false,
+      "knowledge": {
+        "point": "解决两步计算的实际问题",
+        "core_concept": "解决实际问题时，通常需要分两步思考。先求出一个中间量，再结合中间量求出最终答案。可以将分步算式合并成一个综合算式，必要时使用小括号。",
+        "key_formula": "总数 $-$ 份数 $\\times$ 每份数 $=$ 剩余数",
+        "tips": "先写分步，再合综合；合完检查，顺序对错。",
+        "common_mistakes": [
+          "分步算式写对，但合并综合算式时忘记加必要的括号。",
+          "逻辑混乱，不知道第一步应该先求什么。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "小明有 20 元，买 3 本 5 元的练习本，还剩 5 元。",
+          "options": [],
+          "answer": "对",
+          "explanation": "列式：$20 - 3 \\times 5 = 20 - 15 = 5$（元）。验算：$15 + 5 = 20$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 12,
+          "type": "choice",
+          "question": "有 3 排柳树，每排 8 棵，又栽了 10 棵，现在一共有多少棵？",
+          "options": [
+            "24 棵",
+            "18 棵",
+            "34 棵",
+            "30 棵"
+          ],
+          "answer": "34 棵",
+          "explanation": "$3 \\times 8 + 10 = 24 + 10 = 34$（棵）。",
+          "difficulty": 1
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "王老师买了 1 支钢笔和 3 支圆珠笔。钢笔 10 元，圆珠笔每支 2 元，共花多少钱？",
+          "options": [
+            "16 元",
+            "12 元",
+            "6 元",
+            "15 元"
+          ],
+          "answer": "16 元",
+          "explanation": "$10 + 3 \\times 2 = 10 + 6 = 16$（元）。",
+          "difficulty": 2
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "停车场有 25 辆车，开走了 10 辆，又开来了 8 辆。现在车变多了还是变少了？",
+          "options": [
+            "变多了",
+            "变少了",
+            "一样多",
+            "无法确定"
+          ],
+          "answer": "变少了",
+          "explanation": "开走 10 辆，进来 8 辆，$10 > 8$，相当于净少 2 辆，所以变少了。",
+          "difficulty": 3
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "二年级一班有 22 名男同学，20 名女同学。每 6 人一组，全班可以分成 ___ 组。",
+          "options": [],
+          "answer": "7",
+          "explanation": "列式：$(22 + 20) \\times 6 = 42 \\times 6 = 7$（组）。验算：$7 \\times 6 = 42$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2down-u6-exam",
+      "title": "第 6 单元挑战",
+      "unitNumber": 6,
+      "unitTitle": "有余数的除法",
+      "kpIndex": 5,
+      "kpTotal": 5,
+      "isExam": true,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "一个除法算式的余数是5，除数可能是4。",
+          "options": [],
+          "answer": "错",
+          "explanation": "因为余数一定要比除数小。如果余数是5，除数必须大于5。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "除法竖式计算 $18 \\div 4$ 时，商应该对着被除数的个位。",
+          "options": [],
+          "answer": "对",
+          "explanation": "18个位是8，18里面有4个4，商4写在8的上面。属于个位对齐。",
+          "difficulty": 2
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "一串彩灯按红、黄、蓝顺序排列，第21盏是蓝色。",
+          "options": [],
+          "answer": "对",
+          "explanation": "周期是3。$21 \\div 3 = 7$，没有余数，是每组最后一盏，即蓝色。",
+          "difficulty": 2
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "在 $22 \\div 7 = 3 \\dots 1$ 中，1是余数。",
+          "options": [],
+          "answer": "对",
+          "explanation": "有余数除法的基本格式，末尾点点点后面的是余数。",
+          "difficulty": 1
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "43个小朋友去划船，每条船限乘客6人，至少需要几条船？",
+          "options": [
+            "7条",
+            "8条",
+            "9条",
+            "6条"
+          ],
+          "answer": "8条",
+          "explanation": "$43 \\div 6 = 7$（条）……1（人），$7 + 1 = 8$（条）。",
+          "difficulty": 2
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "第32个图形是什么？（规律：△□○△□○……）",
+          "options": [
+            "△",
+            "□",
+            "○",
+            "无法确定"
+          ],
+          "answer": "□",
+          "explanation": "周期3。$32 \\div 3 = 10 \\dots 2$。第2个是□。",
+          "difficulty": 3
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "有一道除法算式，除数是4。余数可能是：",
+          "options": [
+            "1, 2, 3",
+            "1, 2, 3, 4",
+            "1, 2",
+            "1, 2, 3, 4, 5"
+          ],
+          "answer": "1, 2, 3",
+          "explanation": "余数必须小于4，所以可以是1, 2, 3。",
+          "difficulty": 2
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "计算 $38 \\div 7 = 5 \\dots 3$。在竖式中，38下面写的是哪个数？",
+          "options": [
+            "35",
+            "38",
+            "3",
+            "5"
+          ],
+          "answer": "35",
+          "explanation": "被除数下面写商乘除数的积，$5 \\times 7 = 35$。",
+          "difficulty": 2
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "一箱果汁有8瓶，30瓶果汁可以装满几箱？",
+          "options": [
+            "3箱",
+            "4箱",
+            "5箱",
+            "30箱"
+          ],
+          "answer": "3箱",
+          "explanation": "$30 \\div 8 = 3$（箱）……6（瓶）。装满的只有3箱。",
+          "difficulty": 1
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "每2米布做一件背心，9米布最多做几件背心？",
+          "options": [
+            "4件",
+            "5件",
+            "3件",
+            "9件"
+          ],
+          "answer": "4件",
+          "explanation": "$9 \\div 2 = 4$（件）……1（米）。不够做一件，所以选4。",
+          "difficulty": 2
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "25个小朋友跳绳，每组4人，可以分成几组？还剩几人？",
+          "options": [
+            "6组剩1人",
+            "5组剩5人",
+            "7组剩1人",
+            "4组剩9人"
+          ],
+          "answer": "6组剩1人",
+          "explanation": "$25 \\div 4 = 6 \\dots 1$。",
+          "difficulty": 1
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "竖式中 $23 - 20 = 3$，这个3叫什么？",
+          "options": [
+            "余数",
+            "商",
+            "除数",
+            "被除数"
+          ],
+          "answer": "余数",
+          "explanation": "差是余数。",
+          "difficulty": 2
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "20块饼干，每3块装一袋，可以装 ___ 袋，还剩 2 块。",
+          "options": [],
+          "answer": "6",
+          "explanation": "$20 \\div 3 = 6$（袋）……2（块）。验算：$3 \\times 6 + 2 = 20$。",
+          "difficulty": 1
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "老师要把33个苹果装在盘子里，每盘装5个，全部装完需要 ___ 个盘子。",
+          "options": [],
+          "answer": "7",
+          "explanation": "$33 \\div 5 = 6$（个）……3（个）。全部装完要 $6 + 1 = 7$（个）。",
+          "difficulty": 2
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$52 \\div 6 = 8 \\dots ?$",
+          "options": [],
+          "answer": "4",
+          "explanation": "$52 \\div 6 = 8$ 余 4。因为 $6 \\times 8 = 48$，$52 - 48 = 4$。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2down-u6-kp1",
+      "title": "有余数除法的实际含义",
+      "unitNumber": 6,
+      "unitTitle": "有余数的除法",
+      "kpIndex": 0,
+      "kpTotal": 5,
+      "isExam": false,
+      "knowledge": {
+        "point": "有余数除法的实际含义",
+        "core_concept": "在平时的平均分过程中，经常会出现分到最后还有剩余且不够再分一份的情况。这种剩下的数叫余数。例如10个球，每3个一组，分3组还剩1个，这个1就是余数。",
+        "key_formula": "被除数 ÷ 除数 = 商 …… 余数",
+        "tips": "记住“分掉的部分”和“剩下的部分”之和必须等于“总数”。",
+        "common_mistakes": [
+          "将余数直接写在商的后面而漏掉省略号",
+          "混淆余数和商的含义"
+        ]
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "在一个有余数的除法算式中，剩下的不够再分的部分就是余数。",
+          "options": [],
+          "answer": "对",
+          "explanation": "根据有余数除法的定义，平均分后剩下的不够再分的部分叫余数。这句话表述正确。",
+          "difficulty": 1
+        },
+        {
+          "id": 6,
+          "type": "choice",
+          "question": "算式 $15 \\div 4 = 3 \\dots 3$ 中，第二个“3”表示什么？",
+          "options": [
+            "分成的份数",
+            "每份的量",
+            "总数",
+            "余下的量"
+          ],
+          "answer": "余下的量",
+          "explanation": "在 $15 \\div 4 = 3 \\dots 3$ 中，前一个3是商，后一个3是余数，余数表示平均分后余下的量。",
+          "difficulty": 1
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "17个苹果，每5个装一盘，可以装几盘？还剩几个？",
+          "options": [
+            "3盘还剩2个",
+            "2盘还剩7个",
+            "3盘还剩1个",
+            "4盘还剩1个"
+          ],
+          "answer": "3盘还剩2个",
+          "explanation": "$17 \\div 5 = 3 \\dots 2$。验算：$3 \\times 5 + 2 = 17$。所以是3盘剩2个。",
+          "difficulty": 1
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "把14颗糖平均分给4个小朋友，每个小朋友分到3颗，还剩 ___ 颗。",
+          "options": [],
+          "answer": "2",
+          "explanation": "列式：$14 \\div 4 = 3$（颗）……2（颗）。验算：$4 \\times 3 + 2 = 14$。剩下2颗。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2down-u6-kp2",
+      "title": "余数与除数的关系",
+      "unitNumber": 6,
+      "unitTitle": "有余数的除法",
+      "kpIndex": 1,
+      "kpTotal": 5,
+      "isExam": false,
+      "knowledge": {
+        "point": "余数与除数的关系",
+        "core_concept": "这是本单元最重要的规律。在计算过程中，如果余数比除数大或相等，说明还可以继续分。因此，余数必须小于除数。",
+        "key_formula": "余数 < 除数",
+        "tips": "看到除数，立刻想：余数最大只能是除数减1。",
+        "common_mistakes": [
+          "计算结果中余数大于除数（如 13÷3=3……4）",
+          "在没有给出除数的情况下，错误估计余数的最大可能值"
+        ]
+      },
+      "questions": [
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "如果除数是6，余数可能是7。",
+          "options": [],
+          "answer": "错",
+          "explanation": "在有余数的除法中，余数一定比除数小。因为 $7 > 6$，所以余数不可能是7。验算：$7 \\div 6 = 1 \\dots 1$，如果余数是7说明还没分完。",
+          "difficulty": 2
+        },
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "计算有余数的除法时，余数一定要比除数小。",
+          "options": [],
+          "answer": "对",
+          "explanation": "这是有余数除法计算的基本原则：余数 < 除数。",
+          "difficulty": 1
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "在 $\\Box \\div 5 = 6 \\dots \\Box$ 中，余数最大是多少？",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "1"
+          ],
+          "answer": "4",
+          "explanation": "余数必须比除数小。除数是5，比5小的数字有4, 3, 2, 1, 0。最大的余数是4。验算：$4 < 5$。",
+          "difficulty": 2
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "下列算式中，余数最小的是哪个？",
+          "options": [
+            "11 ÷ 3",
+            "15 ÷ 4",
+            "20 ÷ 6",
+            "25 ÷ 8"
+          ],
+          "answer": "25 ÷ 8",
+          "explanation": "A：$11 \\div 3 = 3 \\dots 2$；B：$15 \\div 4 = 3 \\dots 3$；C：$20 \\div 6 = 3 \\dots 2$；D：$25 \\div 8 = 3 \\dots 1$。1最小。",
+          "difficulty": 1
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "被除数是29，除数是4，商和余数各是多少？",
+          "options": [
+            "商7余1",
+            "商6余5",
+            "商8余1",
+            "商7余2"
+          ],
+          "answer": "商7余1",
+          "explanation": "$29 \\div 4 = 7 \\dots 1$。验算：$4 \\times 7 + 1 = 29$。",
+          "difficulty": 2
+        },
+        {
+          "id": 18,
+          "type": "choice",
+          "question": "除数是8，商是3，余数可能是多少？",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "answer": "7",
+          "explanation": "根据余数一定比除数小，除数是8，余数只能在0-7之间。选项中只有7符合。",
+          "difficulty": 3
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "在 $\\Box \\div 7 = 4 \\dots \\triangle$ 中，$\\triangle$ 最大时，$\\Box$ 是 ___ 。",
+          "options": [],
+          "answer": "34",
+          "explanation": "除数是7，余数 $\\triangle$ 最大是6。此时 $\\Box = 7 \\times 4 + 6 = 28 + 6 = 34$。验算：$34 \\div 7 = 4 \\dots 6$。",
+          "difficulty": 2
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "计算：$19 \\div 2 = ? \\dots 1$",
+          "options": [],
+          "answer": "9",
+          "explanation": "$19 \\div 2 = 9 \\dots 1$。验算：$2 \\times 9 + 1 = 18 + 1 = 19$。",
+          "difficulty": 1
+        },
+        {
+          "id": 23,
+          "type": "calculation",
+          "question": "计算：$45 \\div 8 = 5 \\dots ?$",
+          "options": [],
+          "answer": "5",
+          "explanation": "$45 \\div 8 = 5 \\dots 5$。验算：$8 \\times 5 + 5 = 40 + 5 = 45$。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2down-u6-kp3",
+      "title": "除法竖式的写法",
+      "unitNumber": 6,
+      "unitTitle": "有余数的除法",
+      "kpIndex": 2,
+      "kpTotal": 5,
+      "isExam": false,
+      "knowledge": {
+        "point": "除法竖式的写法",
+        "core_concept": "竖式记录了除法的四个步骤：商（想乘法口诀）、乘（商和除数相乘）、减（被除数减去积）、比（余数和除数比较）。",
+        "key_formula": "被除数 - (商 × 除数) = 余数",
+        "tips": "口诀：一商二乘三减四比，数位一定要对齐。",
+        "common_mistakes": [
+          "商的位置写错，没有对齐个位",
+          "被除数减去积时计算错误"
+        ]
+      },
+      "questions": [
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "在除法竖式中，商和除数的积写在被除数的下面。",
+          "options": [],
+          "answer": "对",
+          "explanation": "除法竖式步骤：一商、二乘、三减、四比。乘出的积（商×除数）要写在被除数下面进行减法。",
+          "difficulty": 2
+        },
+        {
+          "id": 9,
+          "type": "choice",
+          "question": "在除法竖式中，从被除数中减去商和除数的积，得到的差是什么？",
+          "options": [
+            "商",
+            "除数",
+            "余数",
+            "被除数"
+          ],
+          "answer": "余数",
+          "explanation": "竖式计算最后一步的差即为余数。被除数 - 商 × 除数 = 余数。",
+          "difficulty": 1
+        },
+        {
+          "id": 15,
+          "type": "choice",
+          "question": "计算 $26 \\div 5$ 时，竖式中商应写在哪个数位上？",
+          "options": [
+            "个位",
+            "十位",
+            "百位",
+            "任意位置"
+          ],
+          "answer": "个位",
+          "explanation": "26里面有5个5，商是5。在除法竖式中，商5应写在被除数6的上面，即个位。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2down-u6-kp4",
+      "title": "“进一法”与“去尾法”应用",
+      "unitNumber": 6,
+      "unitTitle": "有余数的除法",
+      "kpIndex": 3,
+      "kpTotal": 5,
+      "isExam": false,
+      "knowledge": {
+        "point": "“进一法”与“去尾法”应用",
+        "core_concept": "解决实际问题时，不能只看数学计算结果。坐船、运货等场景，即便剩下1人也要多租1条船（进一法）；而裁衣服、买文具等场景，剩下的料子不够做一件则必须舍弃余数（去尾法）。",
+        "key_formula": "根据实际情境：结果 = 商 + 1 或 结果 = 商",
+        "tips": "读题时圈出关键词，问“最少”通常跟进一法相关，问“最多”通常跟去尾法相关。",
+        "common_mistakes": [
+          "租船问题忘记给余数的那1人预留位置",
+          "做衣服问题错误地将余下的布料也算作一件成品"
+        ]
+      },
+      "questions": [
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "有21个小朋友划船，每条船限乘4人，至少需要5条船。",
+          "options": [],
+          "answer": "错",
+          "explanation": "$21 \\div 4 = 5$（条）……1（人）。剩下的1人也需要坐一条船，所以是 $5 + 1 = 6$（条）。",
+          "difficulty": 2
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "有32位客人吃饭，每张桌子最多坐6人，至少需要几张桌子？",
+          "options": [
+            "5张",
+            "6张",
+            "7张",
+            "32张"
+          ],
+          "answer": "6张",
+          "explanation": "$32 \\div 6 = 5$（张）……2（人）。剩下的2人也需要一张桌子，$5 + 1 = 6$（张）。",
+          "difficulty": 2
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "一件衣服要钉5颗纽扣，一共有24颗纽扣，最多可以钉几件衣服？",
+          "options": [
+            "4件",
+            "5件",
+            "6件",
+            "24件"
+          ],
+          "answer": "4件",
+          "explanation": "$24 \\div 5 = 4$（件）……4（颗）。余下的4颗不够钉一件衣服，只能钉4件（去尾法）。",
+          "difficulty": 2
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "一根绳子长19米，剪成3米长的小段，可以剪几段？",
+          "options": [
+            "6段",
+            "7段",
+            "5段",
+            "19段"
+          ],
+          "answer": "6段",
+          "explanation": "$19 \\div 3 = 6$（段）……1（米）。剩下的1米不够剪一段，所以只能剪6段。",
+          "difficulty": 2
+        },
+        {
+          "id": 21,
+          "type": "fill_blank",
+          "question": "有25个球，每个盒子装6个，要把这些球全部装入盒子里，至少需要 ___ 个盒子。",
+          "options": [],
+          "answer": "5",
+          "explanation": "$25 \\div 6 = 4$（个）……1（个）。余下的1个也需要一个盒子，所以 $4 + 1 = 5$（个）。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g2down-u6-kp5",
+      "title": "利用余数解决周期问题",
+      "unitNumber": 6,
+      "unitTitle": "有余数的除法",
+      "kpIndex": 4,
+      "kpTotal": 5,
+      "isExam": false,
+      "knowledge": {
+        "point": "利用余数解决周期问题",
+        "core_concept": "生活中很多事物是按一定顺序循环出现的。可以将一组算作一个周期，用总数除以周期，看余数。余数是几，就是一组中的第几个；没有余数，就是一组中的最后一个。",
+        "key_formula": "总数 ÷ 一个周期的数量 = 组数 …… 余数",
+        "tips": "先找出一组里有几个，再用除法算余数。",
+        "common_mistakes": [
+          "没有余数时找错位置（应该是每一组的最后一个）",
+          "周期数数错（比如红黄红黄，周期是2而不是4）"
+        ]
+      },
+      "questions": [
+        {
+          "id": 12,
+          "type": "choice",
+          "question": "有一串珠子按“黑、白、白、黑、白、白……”的规律排列，第15个珠子是什么颜色的？",
+          "options": [
+            "黑色",
+            "白色",
+            "灰色",
+            "红褐色"
+          ],
+          "answer": "白色",
+          "explanation": "规律是“黑、白、白”，3个一组。$15 \\div 3 = 5$（组），没有余数，说明是第5组的最后一个，即白色。",
+          "difficulty": 3
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "同学们按“1、2、3、4、1、2、3、4……”报数，第26个同学报几？",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer": "2",
+          "explanation": "周期是4。$26 \\div 4 = 6$（组）……2。余数是2，对应每组的第2个数，即报2。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "g2down-u7-exam",
+      "title": "第 7 单元挑战",
+      "unitNumber": 7,
+      "unitTitle": "万以内数的认识",
+      "kpIndex": 5,
+      "kpTotal": 5,
+      "isExam": true,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "一万里面有 100 个一百。",
+          "options": [],
+          "answer": "对",
+          "explanation": "$100 \\times 100 = 10000$，所以 100 个一百是一万。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "3008 读作三千八。",
+          "options": [],
+          "answer": "错",
+          "explanation": "中间的 0 必须读出来，应读作三千零八。",
+          "difficulty": 2
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "一个数的近似数一定比这个数大。",
+          "options": [],
+          "answer": "错",
+          "explanation": "近似数可能大也可能小。如 302 的近似数是 300，300 < 302。",
+          "difficulty": 2
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "$1500 + 800$ 的结果超过了 2000。",
+          "options": [],
+          "answer": "对",
+          "explanation": "$1500 + 800 = 2300$，$2300 > 2000$。",
+          "difficulty": 2
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "下面各数中，只读一个零的数是（ ）。",
+          "options": [
+            "2800",
+            "2008",
+            "2000",
+            "2850"
+          ],
+          "answer": "2008",
+          "explanation": "2800不读零，2008读作二千零八，2000不读零，2850不读零。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "与 3999 相邻的两个数是（ ）。",
+          "options": [
+            "3998 和 4000",
+            "3900 和 4000",
+            "3997 和 3998",
+            "4000 和 4001"
+          ],
+          "answer": "3998 和 4000",
+          "explanation": "$3999-1=3998$，$3999+1=4000$。",
+          "difficulty": 2
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "$6000 - 2000 = ?$",
+          "options": [
+            "400",
+            "4000",
+            "8000",
+            "40"
+          ],
+          "answer": "4000",
+          "explanation": "6个千减2个千等于4个千。",
+          "difficulty": 1
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "最大三位数和最小四位数相比，（ ）。",
+          "options": [
+            "最大三位数大",
+            "最小四位数大",
+            "一样大",
+            "无法比较"
+          ],
+          "answer": "最小四位数大",
+          "explanation": "最大三位数是999，最小四位数是1000，$1000 > 999$。",
+          "difficulty": 2
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "8050 中的“5”表示（ ）。",
+          "options": [
+            "5个千",
+            "5个百",
+            "5个十",
+            "5个一"
+          ],
+          "answer": "5个十",
+          "explanation": "5在十位上，所以表示5个十。",
+          "difficulty": 2
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "一万写作（ ）。",
+          "options": [
+            "100",
+            "1000",
+            "10000",
+            "100000"
+          ],
+          "answer": "10000",
+          "explanation": "万位是1，后面跟四个0。",
+          "difficulty": 1
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "由 8、2、0、0 组成且一个零也不读的四位数是（ ）。",
+          "options": [
+            "8002",
+            "8020",
+            "8200",
+            "2008"
+          ],
+          "answer": "8200",
+          "explanation": "末尾的零不读，中间的零要读。8200读作八千二百。",
+          "difficulty": 2
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "一个数的最高位是百位，它是（ ）位数。",
+          "options": [
+            "二",
+            "三",
+            "四",
+            "一"
+          ],
+          "answer": "三",
+          "explanation": "个、十、百，百位在第三位。",
+          "difficulty": 1
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "用 0、2、5 三个数字组成的最大三位数是 ___。",
+          "options": [],
+          "answer": "520",
+          "explanation": "高位选最大的5，十位选2，个位选0。结果为520。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "小明家到学校 503 米，约是 ___ 米。",
+          "options": [],
+          "answer": "500",
+          "explanation": "503 离 500 最近，近似数取 500。",
+          "difficulty": 3
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "$1400 - 900 = ?$",
+          "options": [],
+          "answer": "500",
+          "explanation": "$14 - 9 = 5$，14个百减9个百是5个百。验算：$500 + 900 = 1400$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2down-u7-kp1",
+      "title": "计数单位与十进制概念",
+      "unitNumber": 7,
+      "unitTitle": "万以内数的认识",
+      "kpIndex": 0,
+      "kpTotal": 5,
+      "isExam": false,
+      "knowledge": {
+        "point": "计数单位与十进制概念",
+        "core_concept": "万以内的计数单位包括个、十、百、千、万。每相邻两个计数单位之间的进率都是10（即满十进一）。10个一百是一千，10个一千是一万。",
+        "key_formula": "$10 \\times 100 = 1000, 10 \\times 1000 = 10000$",
+        "tips": "可以借助拨珠子的方式感受‘满十进一’的过程。",
+        "common_mistakes": [
+          "误认为一万里面有10个一百",
+          "在数数时遗漏某个计数单位"
+        ]
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "一千里面有 10 个一百。",
+          "options": [],
+          "answer": "对",
+          "explanation": "根据十进制计数法，10个一百是一千。验算：$100 \\times 10 = 1000$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "10 个一千是（ ）。",
+          "options": [
+            "一百",
+            "一千",
+            "一万",
+            "十万"
+          ],
+          "answer": "一万",
+          "explanation": "相邻两个计数单位间的进率是10，10个一千是一万。",
+          "difficulty": 1
+        },
+        {
+          "id": 15,
+          "type": "choice",
+          "question": "比最大的三位数多 1 的数是（ ）。",
+          "options": [
+            "999",
+            "100",
+            "1000",
+            "10000"
+          ],
+          "answer": "1000",
+          "explanation": "最大三位数是999，$999 + 1 = 1000$。",
+          "difficulty": 2
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "4300 是由 ___ 个百组成的。",
+          "options": [],
+          "answer": "43",
+          "explanation": "4300 里面包含 43 个 100。验算：$43 \\times 100 = 4300$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2down-u7-kp2",
+      "title": "万以内数的读写规则",
+      "unitNumber": 7,
+      "unitTitle": "万以内数的认识",
+      "kpIndex": 1,
+      "kpTotal": 5,
+      "isExam": false,
+      "knowledge": {
+        "point": "万以内数的读写规则",
+        "core_concept": "读写数都要从高位起。写数时哪一位上一个单位也没有，就写0占位；读数时中间有一个或两个0都只读一个‘零’，末尾的0都不读。",
+        "key_formula": "从高位起，按位读/写，中间0读，末尾0不读。",
+        "tips": "读数时可以先划分数级，写数时对照数位顺序表一位位地填。",
+        "common_mistakes": [
+          "写数时忘记补0占位，如三千零五写成35",
+          "读数时把末尾的0读出来"
+        ]
+      },
+      "questions": [
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "读数时，末尾不管有几个 0，都不读出来。",
+          "options": [],
+          "answer": "对",
+          "explanation": "万以内数的读数规则规定，末尾的0不读。例如8500读作八千五百。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "三千零五十写作（ ）。",
+          "options": [
+            "3500",
+            "3050",
+            "3005",
+            "305"
+          ],
+          "answer": "3050",
+          "explanation": "千位写3，百位没有写0，十位写5，个位没有写0。",
+          "difficulty": 1
+        },
+        {
+          "id": 9,
+          "type": "choice",
+          "question": "由 5 个千和 8 个一组成的数是（ ）。",
+          "options": [
+            "5800",
+            "5080",
+            "5008",
+            "58"
+          ],
+          "answer": "5008",
+          "explanation": "千位上是5，百位和十位没有数用0占位，个位上是8。",
+          "difficulty": 2
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "4008 读作（ ）。",
+          "options": [
+            "四千零八",
+            "四千零零八",
+            "四百零八",
+            "四千八十"
+          ],
+          "answer": "四千零八",
+          "explanation": "中间有一个0或两个0，都只读一个‘零’。",
+          "difficulty": 1
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "由 9、0、6、1 组成的最大的四位数是（ ）。",
+          "options": [
+            "9061",
+            "9610",
+            "9601",
+            "1069"
+          ],
+          "answer": "9610",
+          "explanation": "要把大的数字放在高位：千位9，百位6，十位1，个位0。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g2down-u7-kp3",
+      "title": "数位顺序表与数位意义",
+      "unitNumber": 7,
+      "unitTitle": "万以内数的认识",
+      "kpIndex": 2,
+      "kpTotal": 5,
+      "isExam": false,
+      "knowledge": {
+        "point": "数位顺序表与数位意义",
+        "core_concept": "数位顺序表从右往左依次是个位、十位、百位、千位、万位。每个数位上的数字表示几个该位的计数单位。",
+        "key_formula": "数的组成：$n$个千、$m$个百、$x$个十和$y$个一。",
+        "tips": "背熟口诀：一、十、百、千、万，五位顺序记心间。",
+        "common_mistakes": [
+          "将数位顺序数反（从左往右数）",
+          "混淆“数位”与“计数单位”的概念"
+        ]
+      },
+      "questions": [
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "从右边起，第四位是千位。",
+          "options": [],
+          "answer": "对",
+          "explanation": "数位顺序从右往左依次是：个位、十位、百位、千位、万位。",
+          "difficulty": 1
+        },
+        {
+          "id": 6,
+          "type": "choice",
+          "question": "一个四位数，最高位是（ ）。",
+          "options": [
+            "百位",
+            "千位",
+            "万位",
+            "十位"
+          ],
+          "answer": "千位",
+          "explanation": "四位数的数位包括个、十、百、千，最高位是左起第一位，即千位。",
+          "difficulty": 1
+        },
+        {
+          "id": 12,
+          "type": "choice",
+          "question": "在数位顺序表中，从右往左数，第五位是（ ）。",
+          "options": [
+            "千位",
+            "百位",
+            "个位",
+            "万位"
+          ],
+          "answer": "万位",
+          "explanation": "右起：第一位个，第二位十，第三位百，第四位千，第五位万。",
+          "difficulty": 2
+        },
+        {
+          "id": 18,
+          "type": "choice",
+          "question": "数字 8 在百位上的数是（ ）。",
+          "options": [
+            "83",
+            "852",
+            "8000",
+            "108"
+          ],
+          "answer": "852",
+          "explanation": "852的8在左起第一位，从右向左数是第三位，即百位。",
+          "difficulty": 1
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "一个四位数，千位上是 7，个位上是 3，其他数位都是 0，这个数是 ___。",
+          "options": [],
+          "answer": "7003",
+          "explanation": "千位7，百位0，十位0，个位3，组合起来是 7003。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g2down-u7-kp4",
+      "title": "近似数与估算",
+      "unitNumber": 7,
+      "unitTitle": "万以内数的认识",
+      "kpIndex": 3,
+      "kpTotal": 5,
+      "isExam": false,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "898 的近似数是 900。",
+          "options": [],
+          "answer": "对",
+          "explanation": "898 距离 900 只有 2，距离 800 有 98，所以最接近 900。",
+          "difficulty": 2
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "下面各数中，最接近 600 的数是（ ）。",
+          "options": [
+            "598",
+            "697",
+            "508",
+            "701"
+          ],
+          "answer": "598",
+          "explanation": "598与600差2，697差97，508差92，701差101。差值最小的最接近。",
+          "difficulty": 1
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "电冰箱 2100 元，洗衣机 1800 元，买这两件电器大约需要（ ）元。",
+          "options": [
+            "3000",
+            "4000",
+            "5000",
+            "2000"
+          ],
+          "answer": "4000",
+          "explanation": "2100看作2000，1800看作2000，2000+2000=4000元。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "g2down-u7-kp5",
+      "title": "整百、整千数加减口算",
+      "unitNumber": 7,
+      "unitTitle": "万以内数的认识",
+      "kpIndex": 4,
+      "kpTotal": 5,
+      "isExam": false,
+      "knowledge": {
+        "point": "整百、整千数加减口算",
+        "core_concept": "把整百、整千数的加减法转化为 20 以内的加减法，只需看作几个百或几个千相加减即可。",
+        "key_formula": "$m00 + n00 = (m+n)00$",
+        "tips": "把末尾的0先遮住，算出数后再加上相同个数的0。",
+        "common_mistakes": [
+          "计算结果末尾的0个数写错",
+          "进位或退位计算错误"
+        ]
+      },
+      "questions": [
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "$3000 + 400$ 的结果是 7000。",
+          "options": [],
+          "answer": "错",
+          "explanation": "3个千加上4个百结果是3400。验算：$3000 + 400 = 3400$ ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "计算 $1200 - 500$ 时，可以看作（ ）。",
+          "options": [
+            "12个千减5个千",
+            "12个百减5个百",
+            "12个十减5个十",
+            "12个一减5个一"
+          ],
+          "answer": "12个百减5个百",
+          "explanation": "1200是12个百，500是5个百，相减得7个百，即700。",
+          "difficulty": 1
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "$800 + 700$ 的结果是多少？",
+          "options": [
+            "150",
+            "1500",
+            "15000",
+            "15"
+          ],
+          "answer": "1500",
+          "explanation": "8个百加7个百是15个百。验算：$1500 - 700 = 800$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 21,
+          "type": "fill_blank",
+          "question": "草地上有 200 只羊，又跑来 500 只，现在一共有 ___ 只羊。",
+          "options": [],
+          "answer": "700",
+          "explanation": "$200 + 500 = 700$。验算：$700 - 500 = 200$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "$4000 + 5000 = ?$",
+          "options": [],
+          "answer": "9000",
+          "explanation": "$4 + 5 = 9$，所以 4 个千加 5 个千等于 9 个千，即 9000。验算：$9000 - 4000 = 5000$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 23,
+          "type": "calculation",
+          "question": "$1300 - 600 = ?$",
+          "options": [],
+          "answer": "700",
+          "explanation": "$13 - 6 = 7$，所以 13 个百减 6 个百等于 7 个百，即 700。验算：$700 + 600 = 1300$ ✓。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g2down-u8-exam",
+      "title": "第 8 单元挑战",
+      "unitNumber": 8,
+      "unitTitle": "克和千克",
+      "kpIndex": 3,
+      "kpTotal": 3,
+      "isExam": true,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "称比较轻的物品时，通常用“克”作单位。",
+          "options": [],
+          "answer": "对",
+          "explanation": "克的单位较小，适合称量轻型物体如硬币、羽毛。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "如果一只鸭子重3克，它就是世界上最轻的鸭子了。",
+          "options": [],
+          "answer": "对",
+          "explanation": "鸭子通常重约2千克（2000克），3克只比硬币重一点点，这种描述符合逻辑判别。",
+          "difficulty": 2
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "一袋洗衣粉重1000千克。",
+          "options": [],
+          "answer": "错",
+          "explanation": "1000千克是1吨。家用洗衣粉通常是1千克（即1000克）。",
+          "difficulty": 2
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "400克 加 600克 等于 1千克。",
+          "options": [],
+          "answer": "对",
+          "explanation": "$400 + 600 = 1000$（克），$1000$ 克正好是 $1$ 千克。",
+          "difficulty": 3
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "5千克沙子和5000克黄金，哪一个更重？",
+          "options": [
+            "沙子",
+            "黄金",
+            "一样重",
+            "无法确定"
+          ],
+          "answer": "一样重",
+          "explanation": "5千克 $= 5000$ 克，所以重量相等。",
+          "difficulty": 3
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "一头大象的体重大约是4000（ ）。",
+          "options": [
+            "克",
+            "千克",
+            "厘米",
+            "米"
+          ],
+          "answer": "千克",
+          "explanation": "大象非常重，需使用较大的质量单位“千克”。",
+          "difficulty": 2
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "数学课本约重 300（ ）。",
+          "options": [
+            "克",
+            "千克",
+            "元",
+            "米"
+          ],
+          "answer": "克",
+          "explanation": "课本属于较轻物品，单位应为克。",
+          "difficulty": 1
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "1千克苹果有5个，10个同样的苹果重（ ）。",
+          "options": [
+            "1千克",
+            "2千克",
+            "5千克",
+            "10千克"
+          ],
+          "answer": "2千克",
+          "explanation": "$10 \\div 5 = 2$，即 $2$ 个 $1$ 千克，共 $2$ 千克。",
+          "difficulty": 2
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "下面最轻的物体是（ ）。",
+          "options": [
+            "一只皮鞋",
+            "一个皮球",
+            "一根羽毛",
+            "一个苹果"
+          ],
+          "answer": "一根羽毛",
+          "explanation": "羽毛的质量通常不到1克，是四个选项中最轻的。",
+          "difficulty": 1
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "一名二年级学生的体重大约是（ ）。",
+          "options": [
+            "30克",
+            "3千克",
+            "30千克",
+            "300千克"
+          ],
+          "answer": "30千克",
+          "explanation": "30千克是二年级学生的正常平均体重。",
+          "difficulty": 2
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "一桶油连桶重 $5$ 千克，空桶重 $500$ 克，油重（ ）。",
+          "options": [
+            "4500克",
+            "5500克",
+            "4千克",
+            "5千克"
+          ],
+          "answer": "4500克",
+          "explanation": "$5$ 千克 $= 5000$ 克，$5000 - 500 = 4500$ 克。",
+          "difficulty": 3
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "$\\bigcirc$ 里应填哪个符号？$900$ 克 $+ 100$ 克 $\\bigcirc$ $1$ 千克",
+          "options": [
+            ">",
+            "<",
+            "＝",
+            "≈"
+          ],
+          "answer": "＝",
+          "explanation": "$900 + 100 = 1000$（克），$1000$ 克 $= 1$ 千克。",
+          "difficulty": 2
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "妈妈买了 $3$ 千克葡萄和 $2000$ 克香蕉，一共买了 ___ 千克水果。",
+          "options": [],
+          "answer": "5",
+          "explanation": "$2000$ 克 $= 2$ 千克。$3 + 2 = 5$ 千克。验算：$5 - 2 = 3$✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "一袋盐重 $500$ 克，$10$ 袋盐重 ___ 千克。",
+          "options": [],
+          "answer": "5",
+          "explanation": "$500 \\times 10 = 5000$ 克。$5000$ 克 $= 5$ 千克。验算：$5 \\div 10 = 0.5$ 千克即 $500$ 克✓。",
+          "difficulty": 3
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "$4000 \\div 4 = ?$",
+          "options": [],
+          "answer": "1000",
+          "explanation": "$4000 \\div 4 = 1000$。验算：$1000 \\times 4 = 4000$✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2down-u8-kp1",
+      "title": "质量单位“克”的认识",
+      "unitNumber": 8,
+      "unitTitle": "克和千克",
+      "kpIndex": 0,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "质量单位“克”的认识",
+        "core_concept": "克是一个较小的质量单位，通常用来计量轻薄、微小的物品。学生可以通过捏起一枚2分硬币感悟1克的重量。生活中，一枚大枣、一粒口香糖约1-5克，一个鸡蛋大约50-60克。",
+        "key_formula": "计量较轻物品用“克(g)”作单位。",
+        "tips": "记住“1枚2分硬币重1克”，用这个标准去估测其他轻的物体。",
+        "common_mistakes": [
+          "将克与长度单位厘米混淆",
+          "对克没有感性认识，认为一个小球重1克（实际可能100克）"
+        ]
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "1个2分硬币约重1克。",
+          "options": [],
+          "answer": "对",
+          "explanation": "根据生活经验，1枚2分硬币的重量大约就是1克。验算：1是克的基本感性衡量标准。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "测量一袋食盐的质量，通常用“克”作单位。",
+          "options": [],
+          "answer": "对",
+          "explanation": "一袋食盐通常重500克左右，属于较轻物品，适合用克作单位。",
+          "difficulty": 1
+        },
+        {
+          "id": 6,
+          "type": "choice",
+          "question": "一块橡皮约重（ ）。",
+          "options": [
+            "10克",
+            "10千克",
+            "1克",
+            "100克"
+          ],
+          "answer": "10克",
+          "explanation": "10克比较符合实际。10千克太重，1克太轻，100克大约是两枚鸡蛋的重量。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "一个西红柿约重（ ）。",
+          "options": [
+            "100克",
+            "10克",
+            "1千克",
+            "100千克"
+          ],
+          "answer": "100克",
+          "explanation": "一个普通的西红柿重量约为100克左右。",
+          "difficulty": 1
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "一只公鸡约重（ ）。",
+          "options": [
+            "3克",
+            "300克",
+            "3千克",
+            "30千克"
+          ],
+          "answer": "3千克",
+          "explanation": "正常成年公鸡的重量约在2-4千克之间。",
+          "difficulty": 1
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "测量一粒花生米的质量，适合用（ ）作单位。",
+          "options": [
+            "克",
+            "千克",
+            "厘米",
+            "米"
+          ],
+          "answer": "克",
+          "explanation": "花生米很轻，应使用质量单位，且因为轻，应选“克”。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2down-u8-kp2",
+      "title": "质量单位“千克”的认识",
+      "unitNumber": 8,
+      "unitTitle": "克和千克",
+      "kpIndex": 1,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "质量单位“千克”的认识",
+        "core_concept": "千克是常用的质量单位，也叫公斤。常用于计量较重物品，如人的体重、大米、水果、动物等。学生可以通过提一瓶1升的矿泉水（约1千克）来感受单位重。",
+        "key_formula": "计量较重物品用“千克(kg)”作单位。",
+        "tips": "找找家里的5升油或5千克米，亲手提一提，感受“重”的程度。",
+        "common_mistakes": [
+          "读秤盘面读数错误，将指针位置看错",
+          "认为千克只用于食物，不知体重也用千克"
+        ]
+      },
+      "questions": [
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "小明的体重是30克。",
+          "options": [],
+          "answer": "错",
+          "explanation": "一名二年级学生的体重大约是30千克。30克太轻了，大约只有3个10克物体的重量。",
+          "difficulty": 1
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "一袋大米约重（ ）。",
+          "options": [
+            "10克",
+            "10千克",
+            "1克",
+            "100克"
+          ],
+          "answer": "10千克",
+          "explanation": "日常生活中一袋普通大米通常为5千克或10千克。",
+          "difficulty": 1
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "下列哪种秤最适合用来称量一个小朋友的体重？",
+          "options": [
+            "天平",
+            "体重计",
+            "弹簧秤",
+            "电子台秤"
+          ],
+          "answer": "体重计",
+          "explanation": "体重计的量程适合人类体重，其他秤要么量程太小，要么不方便站立。",
+          "difficulty": 2
+        },
+        {
+          "id": 18,
+          "type": "choice",
+          "question": "1千克大约有（ ）个500克。",
+          "options": [
+            "1",
+            "2",
+            "5",
+            "10"
+          ],
+          "answer": "2",
+          "explanation": "$1000 \\div 500 = 2$。验算：$500 + 500 = 1000$（克）。",
+          "difficulty": 1
+        },
+        {
+          "id": 21,
+          "type": "fill_blank",
+          "question": "爷爷买回 4 千克苹果，妈妈买回 5 千克苹果，一共买回 ___ 千克。",
+          "options": [],
+          "answer": "9",
+          "explanation": "列式：$4 + 5 = 9$。单位一致，直接相加。验算：$9 - 5 = 4$✓。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g2down-u8-kp3",
+      "title": "单位换算与比较",
+      "unitNumber": 8,
+      "unitTitle": "克和千克",
+      "kpIndex": 2,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "单位换算与比较",
+        "core_concept": "克和千克之间是千进制关系。在进行质量比较时，必须先统一单位，再比较数值大小。在计算含单位的算式时，相同单位才可以直接加减。",
+        "key_formula": "$1$ 千克 $= 1000$ 克",
+        "tips": "看到“千千千”，想到“1000”，所以1千克就是1000克。",
+        "common_mistakes": [
+          "由于1=1而忽略单位不同，认为1千克比100克小",
+          "进率记错，写成1千克=100克"
+        ]
+      },
+      "questions": [
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "1千克棉花比1千克铁轻。",
+          "options": [],
+          "answer": "错",
+          "explanation": "1千克=1千克，两者的质量数值和单位都相同，所以一样重。",
+          "difficulty": 2
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "5000克等于5千克。",
+          "options": [],
+          "answer": "对",
+          "explanation": "因为 $1000$ 克 $= 1$ 千克，所以 $5000 \\times 1 = 5 \\times 1000$。验算：$5$ 千克就是 $5000$ 克。",
+          "difficulty": 2
+        },
+        {
+          "id": 9,
+          "type": "choice",
+          "question": "在 $\\bigcirc$ 里应填哪个符号？$2$ 千克 $\\bigcirc$ $2000$ 克",
+          "options": [
+            ">",
+            "<",
+            "＝",
+            "≈"
+          ],
+          "answer": "＝",
+          "explanation": "因为 $1$ 千克 $= 1000$ 克，所以 $2$ 千克 $= 2000$ 克。",
+          "difficulty": 2
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "在 $\\bigcirc$ 里应填哪个符号？$600$ 克 $\\bigcirc$ $1$ 千克",
+          "options": [
+            ">",
+            "<",
+            "＝",
+            "无法判断"
+          ],
+          "answer": "<",
+          "explanation": "$1$ 千克 $= 1000$ 克，$600$ 克 $< 1000$ 克，所以填 $<$。",
+          "difficulty": 2
+        },
+        {
+          "id": 12,
+          "type": "choice",
+          "question": "3千克里面有（ ）个1000克。",
+          "options": [
+            "1",
+            "3",
+            "30",
+            "300"
+          ],
+          "answer": "3",
+          "explanation": "1千克包含1个1000克，3千克包含3个1000克。",
+          "difficulty": 1
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "从小到大排列：$500$克、$3$千克、$1$千克，中间那个是（ ）。",
+          "options": [
+            "500克",
+            "3千克",
+            "1千克",
+            "无法确定"
+          ],
+          "answer": "1千克",
+          "explanation": "统一单位：$500$克、$3000$克、$1000$克。从小到大为 $500$克 < $1000$克 < $3000$克。中间是 $1000$克即 $1$千克。",
+          "difficulty": 2
+        },
+        {
+          "id": 15,
+          "type": "choice",
+          "question": "一袋糖重500克，（ ）袋这样的糖正好重2千克。",
+          "options": [
+            "2",
+            "4",
+            "6",
+            "8"
+          ],
+          "answer": "4",
+          "explanation": "$2$ 千克 $= 2000$ 克，$2000 \\div 500 = 4$。验算：$500 \\times 4 = 2000$（克）。",
+          "difficulty": 3
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "5千克木头和5000克棉花相比，（ ）。",
+          "options": [
+            "木头重",
+            "棉花重",
+            "一样重",
+            "无法比较"
+          ],
+          "answer": "一样重",
+          "explanation": "5千克 $= 5000$ 克。数值相等，所以质量一样。",
+          "difficulty": 2
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "$4$ 千克 = ___ 克",
+          "options": [],
+          "answer": "4000",
+          "explanation": "因为 $1$ 千克 $= 1000$ 克，所以 $4$ 个 $1$ 千克就是 $4000$ 克。验算：$4000 \\div 1000 = 4$✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "商店有 $20$ 千克大米，卖出 $12$ 千克，还剩 ___ 千克。",
+          "options": [],
+          "answer": "8",
+          "explanation": "列式：$20 - 12 = 8$。验算：$8 + 12 = 20$✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "$2000 + 3000 = ?$",
+          "options": [],
+          "answer": "5000",
+          "explanation": "$2000 + 3000 = 5000$。验算：$5000 - 3000 = 2000$✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 23,
+          "type": "calculation",
+          "question": "$8000 - 5000 = ?$",
+          "options": [],
+          "answer": "3000",
+          "explanation": "$8000 - 5000 = 3000$。验算：$3000 + 5000 = 8000$✓。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g2down-u9-exam",
+      "title": "第 9 单元挑战",
+      "unitNumber": 9,
+      "unitTitle": "数学广角——推理",
+      "kpIndex": 3,
+      "kpTotal": 3,
+      "isExam": true,
+      "knowledge": null,
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "两个小朋友玩石头剪刀布，只要有一个人不赢，另一个人就一定赢。",
+          "options": [],
+          "answer": "错",
+          "explanation": "还存在“平局”的可能。所以不赢不代表对方一定赢。判断错误。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "小红、小明排队接水。小红不在小明后面，那小红一定在小明前面。",
+          "options": [],
+          "answer": "对",
+          "explanation": "两个人的排队关系只有前后。不在后面就在前面。判断正确。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "三个小朋友每人各拿一种水果。只要确定了两个人的水果，就可以推出第三个人的水果。",
+          "options": [],
+          "answer": "对",
+          "explanation": "总共三种水果，确定了前两个，最后一种必然归属于第三个人。判断正确。",
+          "difficulty": 2
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "在一个 $4 \\times 4$ 的格子中，已知某行已经填了 3 个不同的数，那么该行第 4 个数是唯一确定的。",
+          "options": [],
+          "answer": "对",
+          "explanation": "总共 4 个数，确定了 3 个，剩余的一个必然是唯一确定的。判断正确。",
+          "difficulty": 3
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "李老师、张老师、王老师分别教语文、数学、英语。李老师不教英语，王老师教数学。李老师教什么？",
+          "options": [
+            "语文",
+            "数学",
+            "英语",
+            "体育"
+          ],
+          "answer": "语文",
+          "explanation": "王教数学。剩下语文和英语。李不教英语，所以李教语文。",
+          "difficulty": 2
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "大象、长颈鹿、熊猫去排队。熊猫在长颈鹿前面，大象在后面。谁排在最前面？",
+          "options": [
+            "大象",
+            "长颈鹿",
+            "熊猫",
+            "无法判断"
+          ],
+          "answer": "熊猫",
+          "explanation": "熊猫在前，长颈鹿在后；大象又在最后。顺序是：熊猫 > 长颈鹿 > 大象。",
+          "difficulty": 2
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "红红、明明、亮亮三个人中，一个是班长，一个是组长，一个是课代表。红红说：“我不是班长”，明明说：“我是课代表”。红红是什么？",
+          "options": [
+            "班长",
+            "组长",
+            "课代表",
+            "老师"
+          ],
+          "answer": "组长",
+          "explanation": "明明是课代表。剩下班长和组长。红红不是班长，所以红红是组长。",
+          "difficulty": 1
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "甲、乙、丙、丁四人比身高。甲比乙高，乙比丙高，丁最矮。谁最高？",
+          "options": [
+            "甲",
+            "乙",
+            "丙",
+            "丁"
+          ],
+          "answer": "甲",
+          "explanation": "顺序为：甲 > 乙 > 丙。丁最矮排最后。所以甲最高。",
+          "difficulty": 3
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "三个圆球分别是红、黄、绿。1号球不是黄色的，2号球是绿色的。1号球是什么颜色的？",
+          "options": [
+            "红色",
+            "黄色",
+            "绿色",
+            "蓝色"
+          ],
+          "answer": "红色",
+          "explanation": "2号绿。剩红黄。1号不黄，所以1号红。",
+          "difficulty": 2
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "在一个 $3 \\times 3$ 方格中，第一行是 1, 2, 3。第二行第一个数是 3，第二个数是 1。第二行第三个数是多少？",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "0"
+          ],
+          "answer": "2",
+          "explanation": "第二行已有 3, 1。还缺 2。填入 2 满足行不重复。",
+          "difficulty": 3
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "小力、小强、小明三人比年龄。小力不是最大的，小明最小。谁最大？",
+          "options": [
+            "小力",
+            "小强",
+            "小明",
+            "无法比较"
+          ],
+          "answer": "小强",
+          "explanation": "小明最小。剩下小力和小强。小力不是最大，所以小强最大。",
+          "difficulty": 1
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "四个生肖分别是鼠、牛、虎、兔。小明不属鼠，他不属虎也不属兔。小明属什么？",
+          "options": [
+            "鼠",
+            "牛",
+            "虎",
+            "兔"
+          ],
+          "answer": "牛",
+          "explanation": "排除鼠、虎、兔，只剩下牛。",
+          "difficulty": 2
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "三位数 123 中，百位不是 1，也不是 3。百位数字是 ___。",
+          "options": [],
+          "answer": "2",
+          "explanation": "数字可选 1, 2, 3。排除 1 和 3，百位只能是 2。验算：百位是 2 符合已知排除条件 ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "在一个 $4 \\times 4$ 方格中，第一列已经填了 1, 2, 3，那么第一列最后一个格子应填数字 ___。",
+          "options": [],
+          "answer": "4",
+          "explanation": "每列必须包含 1, 2, 3, 4 且不重复。现有 1, 2, 3，剩下只能是 4。验证：$4-3-2-1=0$ 不是加减法，是逻辑填空 ✓。",
+          "difficulty": 3
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "$81 \\times 1 = ?$",
+          "options": [],
+          "answer": "81",
+          "explanation": "$81 \\times 1 = 81$。任何数与 1 相乘仍得该数。验算：$81 \\times 1 = 81$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2down-u9-kp1",
+      "title": "简单的逻辑排除法",
+      "unitNumber": 9,
+      "unitTitle": "数学广角——推理",
+      "kpIndex": 0,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "简单的逻辑排除法",
+        "core_concept": "逻辑排除法是指在推理过程中，根据已知的所有条件，依次排除掉不可能的情况，最后剩下的就是正确结论。通常使用“不是……就是……”或“既不是……也不是……”来帮助判断。",
+        "key_formula": "排除项 + 排除项 \rightarrow 剩余项",
+        "tips": "做题时可以把所有选项列出来，将不符合的项划掉，剩下的就是答案。",
+        "common_mistakes": [
+          "在只有三个选项的情况下，排除一个后就立刻下结论，忽略了还有两个可能的选项。",
+          "混淆“不是”和“是”的条件，导致推理方向错误。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "三名同学分别拿着语文、数学、英语书。小红拿的是数学书，小刚拿的不是语文书，那么小刚拿的一定是英语书。",
+          "options": [],
+          "answer": "对",
+          "explanation": "小红拿了数学书。剩下语文和英语书。小刚拿的不是语文书，排除后小刚只能拿英语书。判断正确。",
+          "difficulty": 1
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "在三人排队的推理中，如果已知甲不是第一名，那么甲一定是第三名。",
+          "options": [],
+          "answer": "错",
+          "explanation": "甲不是第一名，还有可能是第二名或第三名，不能确定一定是第三名。判断错误。",
+          "difficulty": 1
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "小明、小华和小芳比赛跑步。小明说：“我不是第一名”，小华说：“我是第一名”。那么小芳一定是第二名。",
+          "options": [],
+          "answer": "错",
+          "explanation": "小华是第一名，小明不是第一，则小明可能是第二或第三。若小明是第二，小芳就是第三；若小明是第三，小芳就是第二。条件不足，判断错误。",
+          "difficulty": 1
+        },
+        {
+          "id": 5,
+          "type": "true_false",
+          "question": "有两块糖，一块是草莓味，一块是苹果味。小红拿了草莓味，小兰拿的就一定是苹果味。",
+          "options": [],
+          "answer": "对",
+          "explanation": "总共两块，小红拿走一块，剩下的那一块只能给小兰，即苹果味。判断正确。",
+          "difficulty": 2
+        },
+        {
+          "id": 6,
+          "type": "choice",
+          "question": "有三只小动物：小猫、小狗和小兔。它们分别喜欢吃鱼、骨头和萝卜。已知小猫不喜欢吃萝卜，小狗喜欢吃骨头。请问小猫喜欢吃什么？",
+          "options": [
+            "鱼",
+            "骨头",
+            "萝卜",
+            "无法确定"
+          ],
+          "answer": "鱼",
+          "explanation": "喜欢的东西有：鱼、骨头、萝卜。小狗选了骨头，还剩鱼和萝卜。小猫不喜欢萝卜，所以小猫只能选鱼。",
+          "difficulty": 1
+        },
+        {
+          "id": 7,
+          "type": "choice",
+          "question": "小红、小丽和小刚三个人的身高各不相同。小红说：“我不是最高的”，小刚说：“我是最矮的”。那谁是最高的？",
+          "options": [
+            "小红",
+            "小丽",
+            "小刚",
+            "无法确定"
+          ],
+          "answer": "小丽",
+          "explanation": "小刚最矮。剩下小红和小丽争夺最高。小红说她不是最高的，那么最高的只能是小丽。",
+          "difficulty": 1
+        },
+        {
+          "id": 8,
+          "type": "choice",
+          "question": "三个小朋友分别出生在上海、北京、广州。小明说“我没去过北京”，小红说“我出生在上海”。小明出生在哪个城市？",
+          "options": [
+            "北京",
+            "上海",
+            "广州",
+            "武汉"
+          ],
+          "answer": "广州",
+          "explanation": "小红选了上海。剩下北京和广州。小明没去过北京（没出生在北京），所以小明出生在广州。",
+          "difficulty": 1
+        },
+        {
+          "id": 10,
+          "type": "choice",
+          "question": "二年级一班参加兴趣小组，明明、亮亮和圆圆分别参加了美术、舞蹈和书法组。明明参加的是美术组，圆圆参加的不是书法组。亮亮参加的是什么组？",
+          "options": [
+            "美术组",
+            "舞蹈组",
+            "书法组",
+            "围棋组"
+          ],
+          "answer": "书法组",
+          "explanation": "明明美术组。剩下舞蹈和书法。圆圆不是书法，所以圆圆是舞蹈。最后亮亮只能是书法组。",
+          "difficulty": 1
+        },
+        {
+          "id": 11,
+          "type": "choice",
+          "question": "已知 A、B、C 是三个不同的数字 1, 2, 3。如果 A=3，B 不是 2，那么 C 是多少？",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "0"
+          ],
+          "answer": "2",
+          "explanation": "A=3，剩下 1 和 2。B 不是 2，所以 B=1。那么 C 必须等于 2。",
+          "difficulty": 1
+        },
+        {
+          "id": 13,
+          "type": "choice",
+          "question": "小明、小华、小东三人中，一人是老师，一人是医生，一人是司机。小明是医生，小华不是老师。谁是老师？",
+          "options": [
+            "小明",
+            "小华",
+            "小东",
+            "小红"
+          ],
+          "answer": "小东",
+          "explanation": "小明医生。剩下老师和司机。小华不是老师，小华是司机。所以小东是老师。",
+          "difficulty": 1
+        },
+        {
+          "id": 14,
+          "type": "choice",
+          "question": "黑兔、白兔、灰兔比赛跳高。黑兔说：“我跳得不是最高的”，白兔说：“我跳得最高”。请问谁跳得最矮？",
+          "options": [
+            "黑兔",
+            "白兔",
+            "灰兔",
+            "无法确定"
+          ],
+          "answer": "黑兔",
+          "explanation": "白兔最高。剩下黑兔和灰兔。黑兔说自己不是最高（即为剩余中较矮的一个），所以黑兔最矮。",
+          "difficulty": 1
+        },
+        {
+          "id": 15,
+          "type": "choice",
+          "question": "三个箱子分别装有苹果、橙子和香蕉。1号箱装的是香蕉，2号箱装的不是苹果。3号箱装的是什么？",
+          "options": [
+            "苹果",
+            "橙子",
+            "香蕉",
+            "西瓜"
+          ],
+          "answer": "苹果",
+          "explanation": "1号是香蕉。剩下苹果和橙子。2号不是苹果，所以2号是橙子。那么3号只能是苹果。",
+          "difficulty": 1
+        },
+        {
+          "id": 18,
+          "type": "choice",
+          "question": "小青和小蓝分别拿着红色和蓝色的气球。小青说：“我拿的不是红色的。”小蓝拿的是什么颜色的？",
+          "options": [
+            "红色",
+            "蓝色",
+            "黄色",
+            "绿色"
+          ],
+          "answer": "红色",
+          "explanation": "只有红蓝两种颜色。小青不是红，那小青是蓝。小蓝就只能是红。",
+          "difficulty": 1
+        },
+        {
+          "id": 19,
+          "type": "fill_blank",
+          "question": "有 3 个不同的数 5, 8, 9。A 既不是 8 也不是 9，那么 A 是 ___。",
+          "options": [],
+          "answer": "5",
+          "explanation": "已知可选数字为 5, 8, 9。排除 8 和 9 之后，只剩下 5。故 A = 5。验算：5 不等于 8 且不等于 9 ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 20,
+          "type": "fill_blank",
+          "question": "小明、小刚和小红玩猜数游戏，数字是 1, 2, 3。小明猜 1，小红不能猜 1。如果小红猜的不是 2，那么小红只能猜 ___。",
+          "options": [],
+          "answer": "3",
+          "explanation": "数字有 1, 2, 3。小红不能猜 1（被小明猜了），又不是 2。排除 1 和 2，只剩 3。验算：3 符合不是 1 且不是 2 的条件 ✓。",
+          "difficulty": 2
+        },
+        {
+          "id": 22,
+          "type": "calculation",
+          "question": "$9 \\times 4 = ?$",
+          "options": [],
+          "answer": "36",
+          "explanation": "直接应用乘法口诀：四九三十六。$9 \\times 4 = 36$。验算：$36 \\times 4 = 9$ ✓。",
+          "difficulty": 1
+        },
+        {
+          "id": 23,
+          "type": "calculation",
+          "question": "$45 \\times 0 = ?$",
+          "options": [],
+          "answer": "0",
+          "explanation": "任何数与 0 相乘都得 0。$45 \\times 0 = 0$。验算：$0 \\times 45 = 0$ ✓。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "g2down-u9-kp2",
+      "title": "列表法与对应关系",
+      "unitNumber": 9,
+      "unitTitle": "数学广角——推理",
+      "kpIndex": 1,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "列表法与对应关系",
+        "core_concept": "当推理涉及多个对象和多种属性（如人物、颜色、交通工具等）时，通过画表的方式可以将杂乱的文字信息整理得清晰。在表格中用“√”表示肯定，用“×”表示否定，能有效避免遗漏。",
+        "key_formula": "对象 \times 属性 = 对应关系表",
+        "tips": "要掌握“纵看横看”的技巧，只要某一行出现了一个全对，其余格子必须全是错。",
+        "common_mistakes": [
+          "在一个对象对应了一个属性后，忘记在同行的其他属性格里打“×”。",
+          "没有仔细审题，导致勾选的对应关系出错。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 9,
+          "type": "choice",
+          "question": "甲、乙、丙三个班进行足球赛，甲班没得第一，乙班不是第一也不是第三。请问丙班得了第几名？",
+          "options": [
+            "第一名",
+            "第二名",
+            "第三名",
+            "第四名"
+          ],
+          "answer": "第一名",
+          "explanation": "乙班不是第一也不是第三，所以乙班是第二。还剩下第一和第三。甲班没得第一，所以甲班是第三。那么丙班就是第一。",
+          "difficulty": 2
+        },
+        {
+          "id": 16,
+          "type": "choice",
+          "question": "甲、乙、丙三人比体重。甲比乙重，丙比甲重。请问谁最轻？",
+          "options": [
+            "甲",
+            "乙",
+            "丙",
+            "一样重"
+          ],
+          "answer": "乙",
+          "explanation": "丙 > 甲，且 甲 > 乙。所以 丙 > 甲 > 乙。乙最轻。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "g2down-u9-kp3",
+      "title": "行列约束推理（数独初步）",
+      "unitNumber": 9,
+      "unitTitle": "数学广角——推理",
+      "kpIndex": 2,
+      "kpTotal": 3,
+      "isExam": false,
+      "knowledge": {
+        "point": "行列约束推理（数独初步）",
+        "core_concept": "在特定的方格（如 $3 \\times 3$ 或 $4 \\times 4$）内填入数字，要求每一行、每一列的数字都不能重复出现。这需要观察所在行和所在列中已经有的数字，通过交叉观察找到空格里唯一的数字。",
+        "key_formula": "第 n 行不含重复数字 \bigcap 第 m 列不含重复数字",
+        "tips": "找交集！找那个既属于某个数字较多行，又属于某个数字较多列的空格入手。",
+        "common_mistakes": [
+          "只看行不重复，忘记去查列是否有重复数字。",
+          "填数顺序混乱，建议从已知数字最多的行或列开始推理。"
+        ]
+      },
+      "questions": [
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "在 $3 \\times 3$ 的方格中，每一行和每一列的数字都不能重复。",
+          "options": [],
+          "answer": "对",
+          "explanation": "根据数独初步规则，行和列的数字均需不重复。判断正确。",
+          "difficulty": 2
+        },
+        {
+          "id": 12,
+          "type": "choice",
+          "question": "在一个 $4 \\times 4$ 的方格中，每行每列都有数字 1、2、3、4。某一行已经有了 1、2、4，那么这一行空格里应填多少？",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer": "3",
+          "explanation": "每一行数字不能重复且包含 1 到 4。已有 1, 2, 4，缺少的数字是 3。",
+          "difficulty": 2
+        },
+        {
+          "id": 17,
+          "type": "choice",
+          "question": "在方格填充中，如果第一行是 1、2、4、3，第二行不能和第一行列重复，第二行第一个数填了 2。那么第二行第二个数不能填什么？",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer": "2",
+          "explanation": "根据规则，同一行数字不能重复。既然第二行第一个数已经是 2，第二个数绝对不能再填 2。",
+          "difficulty": 3
+        },
+        {
+          "id": 21,
+          "type": "fill_blank",
+          "question": "在一段 3 格的横行里填入 1, 2, 3。第一格填了 1，第三格填了 2，中间那个格应该填 ___。",
+          "options": [],
+          "answer": "3",
+          "explanation": "一行需有 1, 2, 3 且不重复。已有 1 和 2。中间一格 $3 - 1 - 2 = 0$ 是不对的，应该是剩余数字 3。验算：1, 3, 2 不重复 ✓。",
+          "difficulty": 2
+        }
+      ]
+    }
+  ]
+}

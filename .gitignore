@@ -1,4 +1,4 @@
-# 依赖
+﻿# 依赖
 node_modules/
 
 # Next.js
@@ -8,10 +8,8 @@ apps/web/public/audio/
 apps/web/public/story-images/
 apps/web/public/textbook-pages/
 apps/web/public/data/
-data/
+/data/
 
-# Server build
-apps/server/dist/
 
 # 全新静态前端产物（由 `npm run build:lite` 重建，3576 个 HTML / 30M）
 apps/lite/dist/
